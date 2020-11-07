@@ -1,4 +1,5 @@
-_site/
-.sass-cache/
-.jekyll-cache/
-.jekyll-metadata
+node_modules
+_site
+__lab
+.DS_Store
+.workinprogress
