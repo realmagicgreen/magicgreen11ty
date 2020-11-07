@@ -1,0 +1,74 @@
+.button_row {
+  padding-top: $space--small;
+  padding-bottom: $space--small;
+  width: 100%;
+  display: block;
+  // this for the book_now button
+  .post & {
+    padding-top: $space;
+    padding-bottom: $space;
+    text-align: center;
+    @include media( "screen", ">bp1Width") {
+      text-align: left;
+    }
+  }
+}
+
+.button {
+  //a
+  display: inline-block;
+  width: auto;
+  line-height: 32px;
+  margin-right: 6px;
+  margin-bottom: $space--small/2;
+  border: 1px solid $black_stroke;
+  border-radius: 4px;
+  color: $black;
+  padding: 0 10px;
+  opacity: 0.9;
+  -webkit-box-shadow: $card_shadow;
+  box-shadow: $card_shadow;
+
+  &:focus,
+  &:hover {
+    opacity: 1;
+    background-color: $button_focus_bg;
+  }
+
+  &:active {
+    background-color: $button_focus_bg;
+    -webkit-transform: translateY(0.25em);
+    transform: translateY(0.25em);
+  }
+
+  .book_now & {
+    background-color: $button_book;
+    color: white;
+  }
+}
+
+
+.input {
+  //a
+  display: inline-block;
+  width: auto;
+  line-height: 32px;
+  margin-right: 6px;
+  margin-bottom: $space--small/2;
+  border: 1px solid $black_stroke;
+  border-radius: 4px;
+  color: $black;
+  padding: 0 10px;
+  opacity: 0.9;
+  -webkit-box-shadow: $card_shadow;
+  box-shadow: $card_shadow;
+
+  &:focus,
+  &:hover {
+
+  }
+
+  &:active {
+
+  }
+}

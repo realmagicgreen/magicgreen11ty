@@ -1,0 +1,70 @@
+---
+
+---
+<!DOCTYPE html>
+<html lang="{% if page.lang %}{{page.lang}}{% else %}{{site.lang}}{% endif %}" prefix="og: http://ogp.me/ns#">
+
+  {% include head.html %}
+
+  <!--layouts/home-->
+  <body class="index {{page.title | slugify}} {% if site.menu %}{{ site.menu }}{% endif %}">
+
+    {% include svg/defs.html %}
+
+    {% include header.html %}
+
+    <div class="bungkus group">
+
+      {% include slideshow_home.html %}
+
+      <div class="container" role="main">
+
+        {% include post_loop_home.html %}
+
+      </div>
+
+    </div>
+
+
+    {% include footer.html %}
+
+    <script>
+      //take care of slideshow using bg images
+      var list = document.querySelectorAll("div[data-src]");
+
+        for (var i = 0; i < list.length; i++) {
+        var url = list[i].getAttribute('data-src');
+        list[i].style.backgroundImage="url('" + url + "')";
+      }
+      //take care of images captions
+      var list = document.querySelectorAll("div[data-caption]");
+
+        for (var i = 0; i < list.length; i++) {
+        var string = list[i].getAttribute('data-caption');
+        list[i].innerHTML+= string ;
+      }
+    </script>
+
+    {% include script_slideshow.html %}
+
+    <script type="text/javascript">
+      var slideshowEl = document.querySelector('.slideshow');
+      Slideshow(slideshowEl, {
+        allowSwipe: true,
+        showIndicators: true,
+        autoplay: true,
+        delay: 12000,
+
+        // infinite loop
+        loopSlides: true,
+        transitionEffect: "slide"
+      });
+    </script>
+
+    {% include script_ext_link.html %}
+
+    {% include script_append_to_copy_action.html %}
+
+  </body>
+
+</html>

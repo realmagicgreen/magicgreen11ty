@@ -1,0 +1,31 @@
+<div class="slideshow_wrap">
+
+  <div class="slideshow">
+
+
+    <div class="slideshow-slide-list">
+
+      {% for post in site.posts %}
+        {% if post.featured %}
+          {% if post.show_in_home_slideshow %}
+            {% unless post.publish=="notyet" %}
+
+            <div class="slideshow-slide">
+              <div class="" data-src="{{ post.image }}">
+                {% if post.home_slideshow_caption %}
+                <div class="caption uppercased" data-caption="{{ post.home_slideshow_caption }}">
+                {% endif %}
+                </div>
+              </div>
+            </div>
+
+            {% endunless %}
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+
+    </div>
+
+  </div>
+
+</div>

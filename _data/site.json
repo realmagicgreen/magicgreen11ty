@@ -1,0 +1,26 @@
+{
+  "now_year": "2020",
+  "title": "Magic Green",
+  "subtitle": "Sustainable and environment-friendly examples from South East Asia and beyond.",
+  "content_is_about": "Going Green",
+  "description": "Magic Green magazine is a showcase of examples, infos and addresses of all stuff green from South East Asia and beyond.",
+  "projectimage": "assets/i/t/fumesyousuck_thumb.png",
+  "keywords": "magazine, natural, nature-friendly, magic-green, sustainable business practises, environment-friendly, renewable-energy, low-impact, Bali, Indonesia, south east Asia, environment-conscious, wise, minimal impact, healthy, water purification techniques, communication platform, green news",
+  "lang": "en",
+  "license": "CC0",
+  "qr": "yes",
+  "url": "https://fumes.junglestar.org",
+  "owner": {
+    "name": "Magic Green",
+    "email": "magicgreen@junglestar.org",
+    "twitter": "",
+    "facebook": "https://web.facebook.com/magicgreen.junglestar.org",
+    "github": "",
+    "instagram": "https://www.instagram.com/realmagicgreen",
+    "google": {
+      "analytics": "UA-16659805-1",
+      "verify": "google32e66f1a5601ec40"
+    }
+  },
+  "version": "6.0.0"
+}

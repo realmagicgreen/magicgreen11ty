@@ -1,0 +1,166 @@
+figure {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  &.post_content_image {
+    margin-top: $space--small;
+    figcaption {
+      text-transform: uppercase;
+      font-size: 80%;
+      margin-bottom: $space--small;
+    }
+  }
+
+}
+
+.figcaption {
+  position: absolute;
+  top: $space--small;
+  right: 0;
+  padding: 0 5px;
+  text-transform: capitalize;
+  -webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+  &.coming-soon {
+    background-color: yellow;
+    color: black;
+  }
+
+  &.new {
+    background-color: $brand_color;
+    color: white;
+  }
+}
+
+.post_grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+
+  > * {
+    display: block;
+    max-width: 100%;
+    @include media("screen", ">bp1Width") {
+      max-width: calc(50% - 10px);
+    }
+    @include media("screen", ">maxWidth") {
+      max-width: calc(33.33% - 10px);
+    }
+  }
+}
+
+.post_text {
+  padding: 0 $space--small;
+  margin-top: $space--small/2;
+  margin-bottom: $space--small;
+}
+
+blockquote {
+  @include media("screen", ">minWidth") {
+    margin-right: 10vw;
+  }
+  @include media("screen", ">bp1Width") {
+    margin-right: 12vw;
+  }
+  @include media("screen", ">maxWidth") {
+    margin-right: 18vw;
+  }
+  p {
+    font-size: 1.25rem;
+    line-height: 1.25;
+    padding-left: $space--small;
+    @include media("screen", ">minWidth") {
+      margin: 0 auto 0 10%;
+      padding-left: $space;
+    }
+
+    em {
+      font-size: 0.75rem;
+      padding-top: $space--small/2;
+      display: block;
+    }
+  }
+}
+
+
+.post_image_group {
+  position: relative;
+  width: 100%;
+  color: $transparent_grey;
+  // category_01: services
+  // category_02: products
+  // category_03: techniques
+  // category_04: solutions
+  // category_05: know
+  // category_06: health
+  // category_07: resources
+  .services & {
+    background-color: $category_01;
+  }
+
+  .products & {
+    background-color: $category_02;
+  }
+
+  .techniques & {
+    background-color: $category_03;
+  }
+
+  .solutions & {
+    background-color: $category_04;
+  }
+
+  .know & {
+    background-color: $category_05;
+  }
+
+  .health & {
+    background-color: $category_06;
+  }
+
+  .resources & {
+    background-color: $category_07;
+  }
+}
+
+.category {
+  height: 26px;
+  line-height: 22px;
+  text-align: right;
+  text-transform: uppercase;
+  font-weight: $semibold_font_weight;
+  padding-left: $space--small;
+  padding-right: $space--small;
+  color: transparentize($black, .25);
+}
+
+.border_top {
+  border-top: 1px solid $transparent_grey;
+}
+
+.border_bottom {
+  border-bottom: 1px solid $transparent_grey;
+}
+
+.post_header {
+  margin-bottom: $space;
+
+  h1,
+  h2,
+  h3 {
+    text-transform: uppercase;
+  }
+}
+
+.post .container {
+  h2,
+  h3 {
+    border-bottom: 1px solid $transparent_grey;
+  }
+}

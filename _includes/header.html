@@ -1,0 +1,20 @@
+<div class="header group ">
+
+  <div class="container">
+
+    <div class="header_block">
+
+      <a class="logo_block group" href="/" title="home">
+        {% if site.show_logo == "show" %}
+          {% include svg/use.html id="icn--logo" class="logo" %}
+        {% endif %}
+        <h1>{{ site.title }}</h1>
+      </a>
+
+      {% include menu_long.html %}
+      
+      {% include script_menu_toggle.html %}
+
+  </div>
+
+</div>

@@ -1,0 +1,45 @@
+<div class="post_image_group">
+
+  <div class="slideshow_wrap">
+    <div class="slideshow">
+      <div class="slideshow-slide-list slideshow-float">
+        <div class="slideshow-slide">
+          <div data-responsive-background-image>
+
+            <figure class="">
+              {% comment %}
+              assign the page image and split at the extension dot
+              {% endcomment %}
+              {% assign f = page.image | split: '.' %}
+              <img src="{{ f[0] | relative_url }}-640.{{ f[1] }}"
+                   srcset="{{ f[0] | relative_url }}-640.{{ f[1] }} 640w,
+                           {{ f[0] | relative_url }}-880.{{ f[1] }} 880w,
+                           {{ f[0] | relative_url }}-1024.{{ f[1] }} 1024w,
+                           {{ f[0] | relative_url }}-1920.{{ f[1] }} 1920w"
+                   sizes="100vw"
+                   alt="{{ page.title }} - {{ page.subtitle }}">
+
+                   <!-- <figcaption>{{ page.title }} - {{ page.subtitle }}</figcaption> -->
+
+             </figure>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {% if page.flag %}
+    <span class="figcaption {{ page.flag | slugify }}">{{ page.flag }}</span>
+  {% endif %}
+  {% if page.publish == "notyet" %}
+    <span class="figcaption coming-soon">coming soon</span>
+  {% endif %}
+
+  {% if page.name != 'About us' %}
+    <div class="category {{ page.category | slugify }}">
+      {{ page.category }}
+    </div>
+  {% endif %}
+
+</div>

@@ -1,0 +1,40 @@
+.speech_bubble {
+  position: relative;
+  display:inline-block;
+  max-width:90%;
+  min-height:1.5em;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: $black solid 1px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background-color: darken($bg_color, 20);
+  &:after  {
+    content: "";
+    position: absolute;
+    left: 0;
+    border-style: solid;
+    border-color: transparent darken($bg_color, 20);
+    display: block;
+    width: 0;
+    z-index: 1;
+    bottom: auto;
+    border-width: 15px 30px 15px 0;
+    top: calc(50% - 15px);
+    left: -28px;
+  }
+  &:before {
+    content: "";
+    position: absolute;
+    border-style: solid;
+    border-color: transparent $black;
+    display: block;
+    width: 0;
+    z-index: 0;
+    left: -30px;
+    top: calc(50% - 15px);
+    bottom: auto;
+    border-width: 15px 30px 15px 0;
+  }
+}

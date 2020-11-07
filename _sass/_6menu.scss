@@ -1,0 +1,31 @@
+.menu {
+  padding: 0;
+  display: block;
+
+  .menu_item {
+    //a
+    cursor: pointer;
+    min-height: 42px;
+    text-transform: capitalize;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0;
+
+    &:hover,
+    &:focus {
+
+    }
+
+    span {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+    }
+  }
+}

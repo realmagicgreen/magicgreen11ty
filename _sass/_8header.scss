@@ -1,0 +1,210 @@
+.header {
+  -webkit-box-shadow: $bottom_shadow;
+  box-shadow: $bottom_shadow;
+  background-color: $black;
+  position: relative;
+  z-index: 10;
+
+  .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: $space/2 $space/2;
+
+    @include media( "screen", ">bp1Width") {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      padding-top: $space/2;
+      padding-bottom: $space/2;
+    }
+  }
+  //when site has a short menu
+  .short_menu & {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+
+    nav {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+    }
+  }
+
+  // site has a long menu
+  .long_menu & {
+    nav {
+      display: none;
+      @include media( "screen", ">minWidth") {
+        display: inherit;
+        padding: $space--small 0;
+      }
+      @include media( "screen", ">bp1Width") {
+        padding: 0;
+      }
+
+      &.show {
+        display: flex;
+        min-width: 100%;
+        padding-top: 1rem;
+        flex-direction: column;
+
+        justify-content: space-around;
+
+        min-height: calc(100vh - 94px);
+        min-width: 100%;
+        padding-top: 6vh;
+        padding-bottom: 6vh;
+        @include media( "screen", ">minWidth") {
+          display: block;
+          min-width: auto;
+          border-bottom: 0 none;
+          padding-bottom: 0;
+        }
+
+        .menu_item {
+          //a
+          border: 1px solid darken($bg_color, 70);
+          margin-left: 20vw;
+          margin-right: 20vw;
+          min-height: 7vh;
+          @include media( "screen", ">minWidth") {
+            border-bottom: 0 none;
+            min-height: auto;
+          }
+          &.active {
+            border: 3px solid $brand_color;
+          }
+        }
+      }
+    }
+  }
+
+  .menu_footer_item {
+    padding-top: $space;
+    text-align: center;
+    color: $brand_color;
+    @include media( "screen", ">minWidth") {
+      display: none;
+    }
+  }
+
+  .menu_toggle_buttom {
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 42px;
+    height: 42px;
+    padding: 11px;
+
+    &:focus,
+    &:hover {}
+    @include media( "screen", ">minWidth") {
+      display: none;
+    }
+
+    .close {
+      display: none;
+    }
+
+    &.menu_is_open {
+      .close {
+        display: block;
+      }
+
+      .open {
+        display: none;
+      }
+    }
+  }
+
+
+  h1 {
+    color: $brand_color;
+    line-height: 1;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 6vw;
+    text-align: left;
+    @include media( "screen", ">minWidth") {
+      font-size: 8vw;
+    }
+    @include media( "screen", ">bp1Width") {
+      margin-right: $space;
+      font-size: 34px;
+    }
+  }
+}
+
+.header_block {
+  @include media( "screen", "<minWidth") {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+.menu_header {
+  .menu_item {
+    //a
+    font-size: .9rem;
+    margin-right: $space--small/4;
+    margin-left: $space--small/4;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-transform: uppercase;
+
+    &.active {
+      .long_menu & {
+        font-weight: $semibold_font_weight;
+        font-size: 120%;
+        @include media( "screen", ">minWidth") {
+          font-size: .9rem;
+          font-weight: $base_font_weight;
+        }
+      }
+    }
+    @include media( "screen", ">minWidth") {
+      -webkit-box-pack: start;
+      -ms-flex-pack: start;
+      justify-content: flex-start;
+      &.active {
+        background-color: transparent;
+      }
+    }
+  }
+
+  span {
+    text-align: center;
+    @include media( "screen", ">minWidth") {
+      text-align: left;
+    }
+  }
+}

@@ -1,0 +1,31 @@
+
+.logo_block {
+  //a
+  color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  margin-bottom: 0;
+  // no underline here
+  border-bottom: 0 none;
+
+  &:hover {
+    border-bottom: 0 none;
+  }
+  @include media( "screen", ">minWidth") {
+    padding-bottom: 0;
+  }
+}
+
+.logo {
+  //svg
+  width: 60px;
+  height: 60px;
+  margin-right: $space--small;
+}

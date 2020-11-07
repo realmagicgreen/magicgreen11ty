@@ -1,0 +1,57 @@
+footer {
+  .email,
+  .facebook,
+  .instagram,
+  .qr  {
+    fill: $brand_color;
+  }
+}
+
+.logo,
+.open,
+.close{
+  fill: $brand_color;
+}
+
+svg {
+  .post_metas & {
+    fill: $transparent_grey;
+    width: $icon_size/3*2;
+    height: $icon_size/3*2;
+    margin-right: 10px;
+  }
+
+  .post_tags & {
+    margin-top: 4px;
+    width: $icon_size/3*2.25;
+    height: $icon_size/3*2.25;
+  }
+
+  .tagcloud_block & {
+    width: $icon_size*1.5;
+    height: $icon_size*1.5;
+    position: relative;
+    top: 13px;
+  }
+
+  .post_page_title & {
+    width: $icon_size;
+    height: $icon_size;
+    position: relative;
+    top: 5px;
+  }
+
+  footer & {
+    width: $icon_size;
+    height: $icon_size;
+    padding-right: 10px;
+
+    &.qr {
+      width: 150px;
+      height: 150px;
+      margin-top: $space/2;
+      margin-right: 0;
+      margin-left: -6px;
+    }
+  }
+}

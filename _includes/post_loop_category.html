@@ -1,0 +1,16 @@
+<!--includes/post_loop_category-->
+{% include post_page_title.html %}
+
+<div class="post_grid">
+{% capture pagecat %}{{ page.category | slugify }}{% endcapture %}
+
+{% for post in site.posts %}
+  {% if post.category contains pagecat %}
+    {% unless post.publish=='notyet' %}
+
+      {% include post_card.html %}
+
+    {% endunless %}
+  {% endif %}
+{% endfor %}
+</div>

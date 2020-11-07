@@ -1,0 +1,14 @@
+[data-responsive-background-image] {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 100%;
+  // padding-bottom: 56.25% /* 16:9 ratio -  1,7777 */
+  //; padding-bottom: 66.25%; /* magic-green photos ratio - 1,4982*/
+  padding-bottom: calc(100vh - 94px); // full height
+}
+
+[data-responsive-background-image] img {
+  display: none;
+}

@@ -1,0 +1,39 @@
+{% if page.name != 'About us' %}
+<h5 class="post_metas">
+
+  <div class="post_meta_block">
+    <div class="post_meta_icon">
+      {% include svg/use.html id="icn--tag" class="icon_tag" %}
+    </div>
+
+    <div class="post_meta_text">
+      {% for tag in page.tags %}
+        <a class="sober_link nowrap" href="/{{ tag }}/">{{ tag }}</a>
+      {% endfor %}
+    </div>
+  </div>
+
+  {% if page.photography %}
+  <div class="post_meta_block">
+    <div class="post_meta_icon">
+      {% include svg/use.html id="icn--photographer" class="icon_photographer" %}
+    </div>
+
+    <div class="post_meta_text nowrap" title="photography by {{ page.photography }}">
+      {{ page.photography }}
+    </div>
+  </div>
+  {% endif %}
+
+  <div class="post_meta_block post_meta_block--last">
+    <div class="post_meta_icon">
+      {% include svg/use.html id="icn--clock" class="icon_clock" %}
+    </div>
+
+    <div class="post_meta_text nowrap">
+      {{ page.date | date_to_string }}
+    </div>
+  </div>
+
+</h5>
+{% endif %}

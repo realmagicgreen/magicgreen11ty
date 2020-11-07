@@ -1,0 +1,38 @@
+---
+
+---
+<!DOCTYPE html>
+<html lang="{% if page.lang %}{{page.lang}}{% else %}{{site.lang}}{% endif %}" prefix="og: http://ogp.me/ns#">
+
+  {% include head.html %}
+
+  <!--layouts/post_grid-->
+  <body class="layout_post_grid index {{page.title | slugify}} {% if site.menu %}{{ site.menu }}{% endif %} grid">
+
+    {% include svg/defs.html %}
+
+    {% include header.html %}
+
+    <div class="bungkus group">
+
+      <div class="container" role="main">
+
+        <div class="post_page_title grid">
+          <h1>{{page.title}}</h1>
+        </div>
+
+        {% include post_grid.html %}
+
+      </div>
+
+    </div>
+
+    {% include footer.html %}
+
+    {% include script_ext_link.html %}
+
+    {% include script_append_to_copy_action.html %}
+
+  </body>
+
+</html>

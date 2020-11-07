@@ -1,0 +1,16 @@
+h1.ad_symbol:after {
+  content: "Ad";
+  font-family: arial, sans-serif;
+  margin-left: 7px;
+  margin-right: 0px;
+  background-color: #fff;
+  border-radius: 3px;
+  color: #006621;
+  display: inline-block;
+  font-size: 11px;
+  border: 1px solid #006621;
+  padding: 1px 3px 0 2px;
+  line-height: 11px;
+  vertical-align: middle;
+  white-space: nowrap;
+}

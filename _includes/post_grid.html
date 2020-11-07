@@ -1,0 +1,31 @@
+<!--includes/post_grid-->
+<div class="post_grid">
+
+{% for post in site.posts %}
+{% unless post.publish=='notyet' %}
+    <a class="card {{ post.category }}" title="{{ post.name }}" href="{{ site.baseurl }}/{{ post.category }}/{{ post.name  | slugify }}/">
+
+      <div class="card_post_image">
+        <figure class="">
+          <img  class="post_thumb" src="{{ site.baseurl }}/assets/p/posts/{{ post.category }}/{{ post.name | slugify }}.jpg" alt="{{ post.name }}" title="{{ post.name }}">
+          <figcaption class="figcaption {% if post.tag %}{{ post.tag | slugify }}{% else %}{% if post.publish=="notyet" %}coming-soon{% endif %}{% endif %}">
+            {% if post.tag %}{{ post.tag }}
+            {% else %}{% if post.publish=="notyet" %}coming soon{% endif %}
+            {% endif %}
+          </figcaption>
+        </figure>
+        <div class="category {{ post.category | slugify }}">
+          {{ post.category }}
+        </div>
+      </div>
+
+      <div class="card_post_text">
+        <h2>{{post.name}}</h2>
+        <h4>{{post.subtitle}}</h4>
+      </div>
+
+    </a>
+{% endunless%}
+{% endfor %}
+
+</div>

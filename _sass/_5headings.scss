@@ -1,0 +1,60 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  font-weight: $base_font_weight;
+  padding-top: $space;
+  padding-bottom: $space/2;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: $heading1;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: $heading2;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: $heading3;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-size: $heading4;
+}
+
+h5 {
+  font-size: $heading5;
+}
+
+.top_padded {
+  padding-top: 140px;
+  @include media("screen", ">minWidth") {
+    padding-top: 115px;
+  }
+}
+
+// adjacent selectors
+h1:not(.minimal_padding),
+p + h1:not(.minimal_padding),
+p + h2:not(.minimal_padding),
+p + h3:not(.minimal_padding) {
+  padding-top: $space;
+  padding-bottom: $space;
+}
+
+h1 + h2:not(.minimal_padding),
+h1 + h3:not(.minimal_padding),
+h2 + h5:not(.minimal_padding),
+h3 + h5:not(.minimal_padding) {
+  padding-top: $space/2;
+  padding-bottom: $space/2;
+}

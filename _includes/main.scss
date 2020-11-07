@@ -1,0 +1,106 @@
+//rok&scroll
+$font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+
+$black: hsl(0,0%,0%);
+$brand_color: hsla(92, 100%, 50%, 1);
+$brand_color_bg: $black;
+
+$link_color: $black;
+$light_text_color: hsla(92, 100%, 28%, 1);
+$bg_color: hsla(92, 100%, 90%, 1); //hsl(0, 0%, 96%);
+
+$grey: hsl(0,0%,45%);
+$grey--light: hsl(0,0%,85%);
+$transparent_grey: transparentize($black, .65);
+
+$underline_link_color: $brand_color;
+
+// category_01: services
+// category_02: products
+// category_03: techniques
+// category_04: solutions
+// category_05: know
+// category_06: health
+// category_07: resources
+
+$category_01: hsla(40, 80%, 75%, 1); //services rgba(242, 208, 140, 1)
+$category_02: hsla(60, 80%, 65%, 1); //products rgba(237, 237, 94, 1)
+$category_03: hsla(90, 80%, 75%, 1); //techniques rgba(191, 242, 140,1)
+$category_04: hsla(110, 80%, 70%, 1); //solutions rgba(138, 240, 117, 1)
+$category_05: hsla(110, 60%, 50%, 1); //know rgba(77, 204, 51, 1)
+$category_06: hsla(200, 80%, 70%, 1); //health rgba(117, 199, 240, 1)
+$category_07: hsla(200, 80%, 30%, 1); //resources rgba(15, 97, 138, 1)
+
+$space: 2rem;
+$space--small: 1rem;
+
+//fonts
+$base_font_size--tiny: 17px;
+$base_font-size--min: 18px;
+$base_font_size--bp1: 19px;
+$base_font_size--max: 20px;
+
+$base_line_height: 1.4446;
+
+$base_font_weight: 400;
+$semibold_font_weight: 600;
+
+$heading1: 1.7rem;
+$heading2: $heading1/10*8;
+$heading3: $heading1/10*7;
+$heading4: $heading1/10*6.5;
+$heading5: $heading1/10*5.5;
+
+//all svg icons are square:
+$icon_size: 30px;
+
+//shadows
+$top_shadow: 0px -2px 5px 0 rgba($black,0.12), 0px -4px 10px 0 rgba($black,0.24);
+$bottom_shadow: 0px 4px 10px 0 rgba($black,0.24);
+$card_shadow: 1px 1px 2px 0px rgba($black,0.12), 2px 2px 3px 0px rgba($black,0.24);
+$card_shadow--hover: 4px 4px 8px 0px rgba($black,0.12), 8px 8px 8px 0px rgba($black,0.24);
+
+$transition_shadow: box-shadow 0.2s ease;
+
+// buttons
+$black_stroke: hsl(0,0%,0%);
+$button_focus_bg: hsla(0, 0%, 91%, 1);
+$button_book: $link_color;
+
+//// Predefined Break-points
+$mediaMinWidth: 640px;
+$mediaBp1Width: 880px;
+$mediaMaxWidth: 1260px;
+
+@import
+"1normalize",
+"2mixins",
+"2responsive_font",
+"3cmq",
+"4base",
+"5headings",
+"6menu",
+"7logo",
+"8header",
+"9footer",
+"10svg",
+"11buttons",
+"12links",
+"13titles",
+"14slideshow",
+"15posts",
+"16posts_metas",
+"17cards",
+"18social_sharing",
+"19nav",
+"20ad_symbol",
+"21tag_cloud",
+"22tag_page",
+"23responsive_bg_img",
+"24pagination",
+"25green_pages",
+"26responsive_tables",
+"27add_your_company",
+"28speech_bubble",
+"29medium_zoom"
+;

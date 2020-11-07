@@ -1,0 +1,132 @@
+.footer {
+  box-shadow: $top_shadow;
+  display: block;
+  padding: $space 0;
+  width: 100%;
+  background-color:  $brand_color_bg;
+  color: $light_text_color;
+
+  .container {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    max-width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    align-items: center;
+  }
+
+  .title {
+    font-weight: $semibold_font_weight;
+    font-size: 1rem;
+    padding-top: $space;
+    padding-bottom: $space/6;
+    margin-bottom: $space/6;
+    border-bottom: 1px solid $light_text_color;
+    width: 100%;
+    text-transform: uppercase;
+    @include media( "screen", ">bp1Width") {
+      border-bottom: 0 none;
+      width: auto;
+    }
+  }
+
+}
+
+.menu_footer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  @include media( "screen", ">bp1Width") {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    max-width: 700px;
+  }
+
+  .menu_item {
+    min-height: 42px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+
+    &.active {
+      border-bottom: 0 none;
+
+      span {
+        padding: 5px;
+        border: $light_text_color solid 1px;
+      }
+    }
+}
+
+  .email a span,
+  .other_website a span {
+    text-transform: none;
+  }
+}
+
+.menu_contacts,
+.menu_posts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  @include media( "screen", ">bp1Width") {
+    max-width: 47%;
+  }
+}
+
+.menu_contacts {
+  > div {
+    min-height: 22px;
+    margin-bottom: $space/4;
+  }
+  .name {
+    color: black;
+  }
+}
+
+.footer_company_name {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  margin-top: $space;
+  margin-bottom: $space;
+  text-align: center;
+  @include media( "screen", ">minWidth") {
+    // width: 24%;
+    text-align: left;
+  }
+}
+
+.copyright {
+  font-size: 12px;
+  padding-top: $space;
+  margin-top: $space;
+}
+
+.menu.menu_footer .menu_item {
+  text-transform: none;
+}

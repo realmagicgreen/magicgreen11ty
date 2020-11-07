@@ -1,0 +1,34 @@
+---
+
+---
+<!DOCTYPE html>
+<html lang="{% if page.lang %}{{page.lang}}{% else %}{{site.lang}}{% endif %}" prefix="og: http://ogp.me/ns#">
+
+  {% include head.html %}
+
+  <!--layouts/post_index_tag-->
+  <body class="index {{page.title | slugify}} {% if site.menu %}{{ site.menu }}{% endif %} index">
+
+    {% include svg/defs.html %}
+
+    {% include header.html %}
+
+    <div class="bungkus group">
+
+      <div class="container" role="main">
+
+        {% include post_loop_tag.html %}
+
+      </div>
+
+    </div>
+
+    {% include footer.html %}
+
+    {% include script_ext_link.html %}
+
+    {% include script_append_to_copy_action.html %}
+
+  </body>
+
+</html>

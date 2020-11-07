@@ -1,0 +1,27 @@
+{% if paginator.total_pages > 1 %}
+
+  {% if paginator.next_page %}
+    {% unless paginator.previous_page %}
+
+      <ul class="paginator not_ul has_only_previous_button">
+        <li class="paginator_previous">
+          <a class="button " href="{{ paginator.next_page_path | prepend: site.baseurl }}">Previous articles ></a>
+        </li>
+      </ul>
+
+    {% endunless %}
+  {% endif %}
+
+  {% if paginator.previous_page and paginator.next_page %}
+
+    <ul class="paginator not_ul">
+      <li>
+        <a class="button" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">< Newer</a>
+      </li>
+      <li>
+        <a class="button " href="{{ paginator.next_page_path | prepend: site.baseurl }}">Previous ></a>
+      </li>
+    </ul>
+
+  {% endif %}
+{% endif %}

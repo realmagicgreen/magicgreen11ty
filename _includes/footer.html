@@ -1,0 +1,159 @@
+{% include tag_cloud.html %}
+
+<footer class="footer group" role="contentinfo">
+
+  <div class="container">
+
+    <a class="logo_block group" href="/" title="home">
+      {% if site.show_logo == "show" %}
+        {% include svg/use.html id="icn--logo" class="logo" %}
+      {% endif %}
+      <h1 class="footer_company_name">{{ site.title }}</h1>
+    </a>
+
+    <div class="menu menu_footer">
+
+      <div class="menu_posts" role="menu">
+        <div class="title">Latest articles</div>
+
+        {% for item in site.posts %}
+          {% if page.url contains item.url %}
+            {% unless item.publish=="notyet" %}
+            <a class="menu_item active" role="menuitem" title="{{ item.title }}" href="{{ item.url | prepend: site.baseurl }}">
+              <span class="">{{ item.title }}</span>
+            </a>
+            {% endunless %}
+          {% else %}
+            {% unless item.publish=="notyet" %}
+            <a class="menu_item " role="menuitem" title="{{ item.title }}" href="{{ item.url | prepend: site.baseurl }}">
+              <span class="page_title">{{ item.title }}</span>
+            </a>
+            {% endunless %}
+          {% endif %}
+        {% endfor %}
+
+      </div>
+
+      <div class="menu_contacts" role="menu">
+
+        <div class="title">About {{site.company.name}}</div>
+
+        {% if site.has_about_page %}
+        <div class="name">
+          {% if page.url contains 'about' %}
+          <a class="menu_item active" role="menuitem" href="/about-us/" title="about us">
+            <span>About us</span>
+          </a>
+          {% else %}
+          <a class="menu_item" role="menuitem" href="/about-us/" title="about us">
+            <span>About us</span>
+          </a>
+          {% endif %}
+        </div>
+        {% endif %}
+
+
+        {% if site.company.facebook_page %}
+        <div class="footer_icon facebook">
+          <a class="menu_item" role="menuitem" href="{{site.company.facebook_page}}" title="{{site.company.facebook_page}} Facebook page">
+            <span>
+              {% include svg/use.html id="icn--facebook" class="facebook" %}
+            </span>
+            <span>FB: {{site.company.facebook_page | replace: "https://web.facebook.com/", "" }}</span>
+          </a>
+        </div>
+        {% endif %}
+
+        {% if site.company.instagram %}
+        <div class="footer_icon instagram">
+          <a class="menu_item" role="menuitem" href="{{site.company.instagram}}" title="{{site.company.instagram | downcase}} on Instagram">
+            <span>
+              {% include svg/use.html id="icn--instagram" class="instagram" %}
+            </span>
+            <span>IG: {{site.company.instagram  | downcase | replace: "https://www.instagram.com/", "" }}</span>
+          </a>
+        </div>
+        {% endif %}
+
+        {% if site.company.twitter %}
+        <div class="footer_icon twitter">
+          <a class="menu_item" role="menuitem" href="{site.company.twitter}}" title="{{site.company.twitter}} at twitter">
+            <span>
+              {% include svg/use.html id="icn--twitter" class="twitter" %}
+            </span>
+            <span>Follow us on Twitter</span>
+          </a>
+        </div>
+        {% endif %}
+
+        {% if site.company.address %}
+        <div class="footer_icon address">
+          <a class="menu_item" role="menuitem" href="{% if site.company.maplink %}{{site.company.maplink}}{% else %}#{% endif %}" title="location">
+
+            <span class="address_icon">
+            {% include svg/use.html id="icn--location" class="location" %}
+            </span>
+
+            <div class="address_text">
+
+              {% if site.company.legal_name %}
+                <div class="name">{{site.company.legal_name}}</div>
+              {% else %}
+                <div class="name">{{site.company.name}}</div>
+              {% endif %}
+
+              <div>{{site.company.address}}</div>
+              <div>{{site.company.country}}</div>
+            </div>
+          </a>
+        </div>
+        {% endif %}
+
+        {% if site.company.telephone %}
+        <div class="footer_icon telephone">
+          <a class="menu_item" role="menuitem" href="#" title="telephone">
+            <span>{% include svg/use.html id="icn--localphone" class="localphone" %}</span>
+            <span>{{site.company.telephone}}</span>
+          </a>
+        </div>
+        {% endif %}
+
+        {% if site.company.fax %}
+        <div class="footer_icon fax">
+          <a class="menu_item" role="menuitem" href="#" title="fax">
+            <span>{% include svg/use.html id="icn--fax" class="fax" %}</span>
+            <span>{{site.company.fax}}</span>
+          </a>
+        </div>
+        {% endif %}
+
+        {% if site.company.email %}
+        <div class="footer_icon email">
+          <a class="menu_item" role="menuitem" class="" href="mailto:{{site.company.email}}" title="{{site.company.email}}">
+            <span>
+              {% include svg/use.html id="icn--email" class="email" %}
+            </span>
+            <span>{{site.company.email}}</span>
+          </a>
+        </div>
+        {% endif %}
+
+        {% if site.qr %}
+        <div class="menu_item footer_icon qr_box">
+          <span>
+            {% include svg/use.html id="icn--qr" class="qr" %}
+          </span>
+        </div>
+        {% endif %}
+
+      </div>
+
+    </div>
+
+    <div class="copyright">Copyright © {{ "now" | date: "%Y" }} {{site.company.legal_name}}. Released under <a id="magicgreen-to-creativecommons" title="This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials." href="https://creativecommons.org/licenses/by/4.0/">CC_BY license</a>. <br class="show_on_phones"> Powered by <a id="magicgreen-to-junglestar" href="https://junglestar.org">Junglestar</a></div>
+
+  </div>
+
+</footer>
+
+{% include script_google_analytics.html %}
