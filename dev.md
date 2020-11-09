@@ -44,16 +44,30 @@ Thanks, the [Junglestar](https://junglestar.org) team.
 
 ## Dev Troublshooting
 
-
-```npm run debug``` debug
+```npm run debug``` DEBUG=* eleventy
 ```npm update``` update npm packages
 ```npm outdated``` list npm packages
 
 
 ## Dev Time
 
-```npm run debug``` DEBUG=* eleventy
-```npm run build``` eleventy
-```npm run watch``` eleventy --watch
-```npm run serve``` eleventy --serve
-```npm run start``` npx @11ty/eleventy --serve
+Boot up a Browsersync web server to apply changes and refresh automatically. We’ll also --watch for you:
+
+```npm run start``` which runs ```npx @11ty/eleventy --serve```
+
+or serve like this:
+
+```npm run serve``` which runs ```eleventy --serve```
+
+build only:
+
+```npm run build``` which runs ```eleventy```
+
+or Automatically run when input template files change.
+Useful if you have your own web server:
+
+```npm run watch``` which runs ```eleventy --watch```
+
+or Change the web server’s port. Here how to use ```localhost:8081``` :
+
+```npx @11ty/eleventy --serve --port=8081```

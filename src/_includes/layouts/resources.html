@@ -1,0 +1,37 @@
+---
+
+---
+<!DOCTYPE html>
+<html lang="{% if page.lang %}{{page.lang}}{% else %}{{site.lang}}{% endif %}" prefix="og: http://ogp.me/ns#">
+
+  {% include partials/head.html %}
+
+  {% comment %}
+  same as layouts/post_index_category
+  {% endcomment %}
+
+  <body class="index {{page.title | slugify}} {% if site.menu %}{{ site.menu }}{% endif %} index">
+
+    {% include partials/svg/defs.html %}
+
+    {% include partials/header.html %}
+
+    <div class="bungkus group">
+
+      <div class="container" role="main">
+
+        {% include partials/post_loop_resources.html %}
+
+      </div>
+
+    </div>
+
+    {% include partials/footer.html %}
+
+    {% include partials/script_ext_link.html %}
+
+    {% include partials/script_append_to_copy_action.html %}
+
+  </body>
+
+</html>

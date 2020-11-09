@@ -112,11 +112,14 @@ module.exports = function(eleventyConfig) {
 
   // Aliases are in relation to the _includes folder HTML
   eleventyConfig.addLayoutAlias('base', 'layouts/base.html');
+  eleventyConfig.addLayoutAlias('index', 'layouts/index.html');
+  eleventyConfig.addLayoutAlias('post', 'layouts/post.html');
+  eleventyConfig.addLayoutAlias('post_grid', 'layouts/post_grid.html');
+  eleventyConfig.addLayoutAlias('post_index_category', 'layouts/post_index_category.html');
+
+  eleventyConfig.addLayoutAlias('resources', 'layouts/resources.html');
   // Aliases are in relation to the _includes folder NUNJUCKS
-  eleventyConfig.addLayoutAlias('photographer', 'layouts/photographer.njk');
-  eleventyConfig.addLayoutAlias('text_author', 'layouts/text_author.njk');
-  eleventyConfig.addLayoutAlias('post', 'layouts/post.njk');
-  eleventyConfig.addLayoutAlias('index', 'layouts/index.njk');
+  // eleventyConfig.addLayoutAlias('text_author', 'layouts/text_author.njk');
 
   eleventyConfig.setLiquidOptions({
     dynamicPartials: false,
