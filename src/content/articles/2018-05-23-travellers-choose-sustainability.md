@@ -1,10 +1,12 @@
 ---
-name: Travellers choose sustainability
-subtitle: Sustainable travel is on the rise worldwide according to recent statistics.
-description: "Clearly, there is strong consumer interest in eco-conscious travel. Sustainable travel is on the rise. The future’s bright. The future’s green. Recent data show travelers preferences: 87% want to travel more sustainably. 39% manage to travel sustainably. 67% are willing to spend at least 5% more to reduce their impact. Thinking green, choosing eco-friendly, traveling sustainably. Whichever term you use, the growing importance of environmental tourism can’t be ignored."
+title: Travellers choose sustainability
+subtitle: Sustainable, eco-conscious travel, is on the rise worldwide according to recent statistics.
+description: "Data show travelers preferences: 87% want to travel more sustainably. 39% manage to travel sustainably. 67% can spend at least 5% more to reduce their impact."
+date: 2018-05-23
+published: true
 category: know
-tags:  eco-entrepreneurs environment-friendly eco-tourism learning  social-responsibility travel
-image: /assets/p/posts/know/travellers-choose-sustainability/travellers-choose-sustainability.jpg
+tags:  [article, eco-entrepreneurs, environment-friendly, eco-tourism, learning, permaculture, social-responsibility, travel]
+cover_image: ./images/know/travellers-choose-sustainability/travellers-choose-sustainability.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
@@ -26,7 +28,8 @@ Thinking green, choosing eco-friendly, traveling sustainably. Whichever term you
 
 According to Booking.com’s recent Sustainable Travel Report, more and more travelers want to reduce their environmental impact, avoid over-touristed attractions and simply feel good about the accommodation they choose.
 
-**_Know more:_**
+
+## Know More Links
 
 [Study Show Growing Consumer Interest in Eco-Friendly Companies](https://www.webmarketingpros.com/blog/study-show-growing-consumer-interest-in-eco-friendly-companies/)
 

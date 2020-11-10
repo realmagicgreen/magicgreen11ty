@@ -1,23 +1,34 @@
 ---
-name: Building with bamboo
-subtitle: Bamboo is unmatched as a sustainable building material. It grows quickly and doesn't destroy the land.
-description: Bamboo, technically a grass, has been used in building for centuries due to its impressive strength. It offer twice the compressive strength of concrete and about the same strength-to-weight ratio of steel in tension. Bamboo provides excellent carbon sequestration, seventeen times as much carbon as a typical tree forest.
+title: Building with bamboo
+subtitle: "Bamboo is unmatched as a sustainable building material. It grows quickly and doesn't destroy the land."
+date: 2018-05-14
+published: true
 category: techniques
-tags: architecture bamboo design environment-friendly learning sustainable-construction save-trees wood
-image: /assets/p/posts/techniques/building-with-bamboo/building-with-bamboo.jpg
-show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
-home_slideshow_caption: # lowercase, max 12 digits, including spaces
-flag: # new or other...
+tags:
+  - article
+  - architecture
+  - bamboo
+  - design
+  - environment-friendly
+  - learning
+  - sustainable-construction
+  - save-trees
+  - wood
+cover_image: ./images/techniques/building-with-bamboo/building-with-bamboo.jpg
+description: "Bamboo has been used in building for centuries. Impressive strength, twice the compressive strength of concrete and same strength-to-weight of steel in tension." # max 160 digits cos dunno how to trim it, yet......
 ad: # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: # 'true' or empty
+show_in_home_slideshow: # 'true' or empty
+home_slideshow_caption: # lowercase, max 12 digits, including spaces
 photography: # put here photographer name
+
 ---
 Bamboo, technically a grass, has been used in building for centuries due to its impressive strength. It offer twice the compressive strength of concrete and about the same strength-to-weight ratio of steel in tension. [1]
 
 Bamboo provides excellent carbon sequestration, seventeen times as much carbon as a typical tree forest. [1]
 
-{% include partials/image.html name="-03" caption="Bamboo Structure" %}
+![Bamboo Structure](./images/techniques/building-with-bamboo/building-with-bamboo-03.jpg)
 
 Its leaves are a high-quality forage for livestock and its shoots are delicacy enjoyed by humans. Unlike trees that rarely grow back once cut, bamboo will continue to produce new shoots even after harvesting it.
 
@@ -35,8 +46,7 @@ Studies show construction is one of the world's least sustainable industries, ea
 
 >"In China, eucalyptus can grow at three to four meters a year, which is very impressive for timber. But building-quality bamboo will grow between six and 10 meters in that time,"_Terry Sunderland, scientist at the Centre for International Forestry Research in Indonesia_
 
-
-{% include partials/image.html name="-04" caption="Madrid Barajas Airport" %}
+![Madrid Barajas Airport](./images/techniques/building-with-bamboo/building-with-bamboo-04.jpg)
 
 Bamboo has its drawbacks. Without intensive treatment, it is prone to rotting and catches fire relatively easily, which is why many countries limit bamboo structures height by law.
 
@@ -48,7 +58,7 @@ Studies show remarkable differences with untreated bamboo, when harvested at spe
 
 Bamboo is harvested before sunrise, when most of the starch is still in the roots. To further reduce starch sometimes bamboo is also soaked for 90 days before further treatments.
 
-{% include partials/image.html name="-02" caption="Bamboo Forest in Japan" %}
+![Bamboo Forest in Japan](./images/techniques/building-with-bamboo/building-with-bamboo-02.jpg)
 
 
 Only mature bamboo, between 4 and 7 years old, is harvested. Poles inside the clump are older than those growing outside. An experienced bamboo harvester will be able to tell the age of bamboo by knocking on the culm and listening the different sounds. [3]
@@ -67,30 +77,41 @@ When it loses its glossy appearance its restored by gently oiling and waxing the
 
 To remove bamboo mold, lemon oil or a solution of vinegar and water can be used. Bamboo furniture usually 3 coats of polyurethane is applied to ensure the conservation of the furniture after treating it with turpentine and dried out completely. [6]
 
-**_Know more:_**
 
-[Building with bamboo -  the basics](https://www.buildingtrustinternational.org/BTIBambooToolkit.pdf)
+**_References:_**
+
+1.
+[All praise bamboo](http://www.cultureofpermaculture.org/blog/2014/01/all-praise-bamboo/)
+
+2.
+[Bamboo as a top-notch construction material](http://www.asiagreenbuildings.com/9299/bamboo-top-notch-construction-material/)
+
+3.
+[When and How to Harvest Bamboo ](https://www.guaduabamboo.com/cultivation/when-and-how-to-harvest-bamboo)
+
+4.
+[Cure bamboo](https://www.wikihow.com/Cure-Bamboo)
+
+5.
+[Drying bamboo poles](https://www.guaduabamboo.com/preservation/drying-bamboo-poles)
+
+6.
+[Remove bamboo mold](https://www.guaduabamboo.com/preservation/how-to-remove-bamboo-mold)
+
+
+
+## Know More Links
+
+[Building with bamboo -  the basics](https://www.buildingtrustinternational.org/BTIBambooToolkit.pdf)"
 
 [Bamboo](https://en.wikipedia.org/wiki/Bamboo)
 
 [bamboo facts, by Ibuku](http://ibuku.com/resources/bamboo-facts/)
 
-**_References:_**
+[cultur of permaculture](http://www.cultureofpermaculture.org)
 
-1.  
-[All praise bamboo](http://www.cultureofpermaculture.org/blog/2014/01/all-praise-bamboo/)
+[asia green buildings](http://www.asiagreenbuildings.com)
 
-2.  
-[Bamboo as a top-notch construction material](http://www.asiagreenbuildings.com/9299/bamboo-top-notch-construction-material/)
+[gua dua bamboo](https://www.guaduabamboo.com)
 
-3.  
-[When and How to Harvest Bamboo ](https://www.guaduabamboo.com/cultivation/when-and-how-to-harvest-bamboo)
-
-4.  
 [Cure bamboo](https://www.wikihow.com/Cure-Bamboo)
-
-5.  
-[Drying bamboo poles](https://www.guaduabamboo.com/preservation/drying-bamboo-poles)
-
-6.  
-[Remove bamboo mold](https://www.guaduabamboo.com/preservation/how-to-remove-bamboo-mold)

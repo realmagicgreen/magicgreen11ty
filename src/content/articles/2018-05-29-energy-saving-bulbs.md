@@ -1,10 +1,12 @@
 ---
-name: Energy saving bulbs
-subtitle: Saving the planet starts from saving energy.
-description: Now available almost in Bali at a cheap price (11.000 rp), this 9 watts LED bulb produces as much light as old incandescent 100w bulbs, and last much longer. Save money, and contribute to reducing energy consumption. Remember that in Indonesia electricity is still mostly produced by burning fossil fuels.
+title: Energy saving bulbs
+subtitle: "Saving the planet starts from saving energy."
+description: "This 9 watts LED bulb produces as much light as old incandescent 100w bulbs, and last much longer. Save money, and contribute to reducing energy consumption."
+date: 2018-05-29
+published: true
 category: know
-tags: energy-saving energy-efficiency electric learning
-image: /assets/p/posts/know/energy-saving-bulbs/energy-saving-bulbs.jpg
+tags: [article, energy-saving, energy-efficiency, electric, learning]
+cover_image: ./images/know/energy-saving-bulbs/energy-saving-bulbs.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
@@ -18,7 +20,8 @@ Now available almost in Bali at a cheap price (11.000 rp), this 9 watts LED bulb
 
 Save money, and contribute to reducing energy consumption. Remember that in Indonesia electricity is still mostly produced by burning fossil fuels.
 
-**_Know more:_**
+
+## Know More Links
 
 [Noci lighting](http://nocilighting.com/)
 

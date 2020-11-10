@@ -1,10 +1,12 @@
 ---
-name: Peace lilies
+title: Peace lilies
 subtitle: One of the most powerful pollutant remover.
-description: Peace lilies go by the scientific name of Spathiphyllum. NASA Clean Air Study found that it is one of the most powerful pollutant remover. While is toxic to cat and dogs, it does a fantastic job in cleaning the air that we humans pollute.
+description: "NASA Clean Air Study found that it is one of the most powerful pollutant remover. Most people don't know what's their apartment, is full of harfull substances."
+date: 2018-05-25
+published: true
 category: health
-tags: CO2 bedroom-plants air-cleaning botany horticulture plants learning wellness
-image: /assets/p/posts/health/peace-lilies/peace-lilies.jpg
+tags: [article, CO2, bedroom-plants, air-cleaning, botany, horticulture, plants, learning, wellness]
+cover_image: ./images/health/peace-lilies/peace-lilies.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
@@ -24,12 +26,12 @@ While is toxic to cat and dogs, it does a fantastic job in cleaning the air that
 
 **Pollutants removed**: Benzene, Formaldehyde, Trichloroethylene, Xylene, Toluene, Ammonia,
 
-**_Know more:_**
+
+## Know More Links
 
 [Spathiphyllum - wikipedia](https://en.wikipedia.org/wiki/Spathiphyllum)
 
 [NASA Clean Air Study](https://en.wikipedia.org/wiki/NASA_Clean_Air_Study)
-
 
 [Air freshener? Try plants - NY Times](https://www.nytimes.com/1994/02/13/nyregion/cuttings-need-an-air-freshener-try-plants.html)
 

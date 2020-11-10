@@ -1,10 +1,12 @@
 ---
-name: Food safe plastic
+title: Food safe plastic
 subtitle: The obvious solution to avoiding plastic toxicity is to avoid plastics. Reduce damage by picking the least toxic ones.
-description: The obvious solution to avoiding plastic toxicity is to avoid plastics, which, in a world awash in plastic, is pretty difficult. In the absence of this, it makes sense to limit your close encounters with plastic as best as you can. Look for the symbol. It indicated what type of plastic it is. Avoid buying the heavily toxic ones. This way you send a signal to producers, or at least your are not financing the dirty brands.
+description: "The obvious solution to avoiding plastic toxicity is to avoid plastics, which, in a world awash in plastic, is pretty difficult. In the absence of this, it..."
+date: 2018-05-20
+published: true
 category: know
-tags: plastic learning wellness
-image: /assets/p/posts/know/food-safe-plastic/food-safe-plastic.jpg
+tags: [article, plastic, learning, wellness]
+cover_image: ./images/know/food-safe-plastic/food-safe-plastic.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
@@ -41,7 +43,7 @@ Look for the symbol. It indicated what type of plastic it is. Avoid buying the h
 
 ### The plastic types
 
-{% include partials/image.html name="-02" caption="Look at least for BPA-free on the label of products" %}
+![Look at least for BPA-free on the label of products](./images/know/food-safe-plastic/food-safe-plastic-02.jpg)
 
 
 1. **PET: polyethylene terephthalate.** PET is commonly used in commercially sold drink bottles, and condiment bottles (like ketchup). Generally considered a “safe” plastic, as does not contain BPA, in the presence of heat it can leach antimony, a toxic metalloid, into food and beverages, which can cause vomiting, diarrhea and stomach ulcers. Some studies have shown up to 100 times the amount of antimony in bottled water than in clean groundwater. The longer the bottle is on the shelf or exposed to heat or sunshine, the more antimony is likely to have leached into the product.
@@ -60,7 +62,8 @@ Look for the symbol. It indicated what type of plastic it is. Avoid buying the h
 
 
 
-**_Know more:_**
+
+## Know More Links
 
 [Toxic traps 7 types dangerous plastic](https://www.alternet.org/personal-health/toxic-traps-when-these-7-types-plastic-are-dangerous)
 

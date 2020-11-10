@@ -1,10 +1,12 @@
 ---
-name: Brazilian Reclaimed Wood
+title: Brazilian Reclaimed Wood
 subtitle: Recycling wood is clever! From Indo to Brazil many up-cycle old timber turning it into furniture.
-description: Rest easy, feel good, you are sitting on a reclaimed wood chair! Recently in Brazil we have seen a big boom in furniture made from reclaimed wood. They sell it locally and also ship it all over the world.
+description: "Rest easy, feel good, you are sitting on a reclaimed wood chair! Recently in Brazil we have seen a big boom in furniture made from reclaimed wood."
+date: 2018-08-08
+published: true
 category: products
-tags: design environment-friendly eco-friendly Brazil learning recycle save-trees sustainable-construction up-cycle wood
-image: /assets/p/posts/products/brazilian-reclaimed-wood/brazilian-reclaimed-wood.jpg
+tags: [article, Brazil, design, environment-friendly, eco-friendly, learning, recycle, save-trees, sustainable-construction, up-cycle, wood]
+cover_image: ./images/products/brazilian-reclaimed-wood/brazilian-reclaimed-wood.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption:  # lowercase, max 12 digits, including spaces
 flag: # new or other...
@@ -18,31 +20,32 @@ Peroba is a common tree in Brazil, local craftsmen use its wood for everything. 
 
 It is also called [Aspidosperma polyneuron]((https://en.wikipedia.org/wiki/Aspidosperma_polyneuron)) is a timber tree native to Brazil, Colombia, Peru, Argentina, and Paraguay. It is common in Atlantic Forest vegetation. It is useful also for beekeeping.
 
-{% include partials/image.html name="-05" caption="X7 Woods works in the demolitions field." %}
+![X7 Woods works in the demolitions field.](./images/products/brazilian-reclaimed-wood/brazilian-reclaimed-wood-05.jpg)
 
 X7 Madeiras is Brazilian company who works with Peroba Rosa demolitions. They supplies all over Brazil and now they are starting to export too.
 
 They provide rough unpainted Peroba boards and boards with inks and Peroba beams and boards for table production.
 
+![Re-cycled boards](./images/products/brazilian-reclaimed-wood/brazilian-reclaimed-wood-04.jpg)
 
-{% include partials/image.html name="-04" caption="Re-cycled boards" %}
 
-{% include partials/image.html name="-07" caption="Re-cycled beams" %}
+![Re-cycled beams](./images/products/brazilian-reclaimed-wood/brazilian-reclaimed-wood-07.jpg)
+
 
 In addition to the Peroba, X7 Madeiras also works with Guarantã wood that can be used to base tables, chandeliers, benches, or whatever your imagination suggests.
 
-{% include partials/image.html name="-02" caption="Guarantã wood" %}
+![Guarantã wood](./images/products/brazilian-reclaimed-wood/brazilian-reclaimed-wood-02.jpg)
 
-{% include partials/image.html name="-08" caption="Guarantã wood" %}
+![Guarantã wood](./images/products/brazilian-reclaimed-wood/brazilian-reclaimed-wood-08.jpg)
 
 They can send samples. Their strong point is that they are located exactly where the demolition of the old wooden houses is done, in the south of the Brasil and we have great quantity.
 
-
-{% include partials/image.html name="-06" caption="" %}
+![They can send samples.](./images/products/brazilian-reclaimed-wood/brazilian-reclaimed-wood-06.jpg)
 
 You can contact X7 Madeiras directly by calling Joyce +55 11 97085 2003 or writing an email to them: joydepaula@hotmail.com.
 
-**_Know more:_**
+
+## Know More Links
 
 [Peroba Tree -  wikipedia](https://en.wikipedia.org/wiki/Aspidosperma_polyneuron)
 

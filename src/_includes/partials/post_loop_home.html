@@ -5,7 +5,7 @@
 
 <div class="post_grid">
 
-  {% for post in paginator.posts %}
+  <!-- {% for post in paginator.posts %}
     {% if post.featured %}
       {% unless post.publish=="notyet" %}
 
@@ -13,6 +13,24 @@
 
       {% endunless %}
     {% endif %}
-  {% endfor %}
+  {% endfor %} -->
+
+  <!-- {%- assign posts_all = collections.article  -%}
+  {%- for post in posts_all -%}
+    {% if post.featured %} -->
+
+    {%- for post in collections.article -%}
+  <li>{{ post.data.title }}</li>
+{%- endfor -%}
+
+      <!-- {% include partials/post_card.html %} -->
+
+      <!--ENDincludes/partials/post_card-->
+
+      <!-- fumes11 inner code njk
+      <a class="looper__link {{ category }} {% if page.url == post.url %}active{% endif %}" href="{{ post.url }}">{{ post.data.title }}</a>
+      -->
+    <!-- {% endif %}
+  {%- endfor -%} -->
 
 </div>

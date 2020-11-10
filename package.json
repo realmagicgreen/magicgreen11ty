@@ -1,6 +1,6 @@
 {
   "name": "magicgreen11ty",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Magic Green refactored with 11ty",
   "scripts": {
     "build": "eleventy",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/toybreaker/magicgreen11ty.git"
+    "url": "https://github.com/realmagicgreen/magicgreen11ty.git"
   },
   "keywords": [
     "frontend",
@@ -19,11 +19,11 @@
     "eleventy"
   ],
   "author": "toybreaker",
-  "license": "ISC",
+  "license": "CC0",
   "bugs": {
-    "url": "https://github.com/toybreaker/magicgreen11ty/issues"
+    "url": "https://github.com/realmagicgreen/magicgreen11ty/issues"
   },
-  "homepage": "https://github.com/toybreaker/magicgreen11ty#readme",
+  "homepage": "https://github.com/realmagicgreen/magicgreen11ty#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.11.1",
     "eleventy-plugin-date": "^1.0.0",

@@ -1,10 +1,12 @@
 ---
-name: The Ocean Cleanup
+title: The Ocean Cleanup
 subtitle: Trash accumulates in 5 ocean garbage patches, the largest one being the Great Pacific Garbage Patch. If left to circulate, the plastic will impact our ecosystems, health and economies.
-description: "Trash accumulates in 5 ocean garbage patches, the largest one being the Great Pacific Garbage Patch, located between Hawaii and California. If left to circulate, the plastic will impact our ecosystems, health and economies. Ocean currents concentrate plastic in five areas in the world, the subtropical gyres, also known as the world ocean garbage patches. Once in these patches, the plastic will not go away by itself."
+description: "Trash accumulates in 5 ocean patches, the largest one being the Great Pacific Garbage Patch. It is impacting our health, ecosystems and economies."
+date: 2018-08-01
+published: true
 category: solutions
-tags: biodiversity eco-entrepreneurs initiative plastic learning save-oceans social-responsibility sustainable-development waste water
-image: /assets/p/posts/solutions/the-ocean-cleanup/the-ocean-cleanup.jpg
+tags: [article, biodiversity, eco-entrepreneurs, initiative, plastic, learning, save-oceans, social-responsibility, sustainable-development, waste, water]
+cover_image: ./images/solutions/the-ocean-cleanup/the-ocean-cleanup.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
@@ -20,7 +22,7 @@ Trash accumulates in 5 ocean garbage patches, the largest one being the Great Pa
 
 Ocean currents concentrate plastic in five areas in the world: the subtropical gyres, also known as the world’s "ocean garbage patches". Once in these patches, the plastic will not go away by itself.
 
-{% include partials/image.html name="-02" caption="" %}
+![Ocean currents concentrate plastic in five areas](./images/solutions/the-ocean-cleanup/the-ocean-cleanup-02.jpg)
 
 The challenge of cleaning up the gyres is the plastic pollution spreads across millions of square kilometers and travels in all directions.
 
@@ -30,8 +32,7 @@ Covering this area using vessels and nets would take thousands of years and cost
 
 Solving this problem requires a combination of closing the source, and cleaning up what has already accumulated in the ocean.
 
-{% include partials/image.html name="-05" caption="" %}
-
+![Ocean currents concentrate plastic in five areas](./images/solutions/the-ocean-cleanup/the-ocean-cleanup-05.jpg)
 
 The Ocean Cleanup develops advanced [technologies](https://www.theoceancleanup.com/technology/) to rid the world's oceans of plastic. A full-scale deployment of our systems is estimated to clean up 50 % of the Great Pacific Garbage Patch in 5 years.
 
@@ -40,13 +41,12 @@ The Ocean Cleanup develops advanced [technologies](https://www.theoceancleanup.c
 
 The Ocean Cleanup floating systems are designed to capture plastics ranging from small pieces just millimeters in size, up to large debris, including massive discarded fishing nets (ghost nets), which can can be tens of meters wide.
 
-
-{% include partials/image.html name="-03" caption="" %}
+![The Ocean Cleanup floating systems are designed to capture plastics](./images/solutions/the-ocean-cleanup/the-ocean-cleanup-03.jpg)
 
 Models show that a full-scale cleanup system roll-out (a fleet of approximately 60 systems) could clean 50% of the Great Pacific Garbage Patch in just five years.
 
+![Models show that a full-scale cleanup system roll-out](./images/solutions/the-ocean-cleanup/the-ocean-cleanup-04.jpg)
 
-{% include partials/image.html name="-04" caption="" %}
 
 After fleets of systems are deployed into every ocean gyre, combined with source reduction, The Ocean Cleanup projects will be able to remove 90% of ocean plastic by 2040.
 
@@ -60,7 +60,8 @@ After fleets of systems are deployed into every ocean gyre, combined with source
 
 
 
-**_Know more:_**
+
+## Know More Links
 
 [The Ocean Cleanup - website](https://www.theoceancleanup.com)
 

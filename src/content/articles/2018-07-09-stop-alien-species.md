@@ -1,10 +1,12 @@
 ---
-name: Stop alien species
+title: Stop alien species
 subtitle: At recent ASEAN meeting Indonesia pushed the need to combat invasive alien species.
-description: #
+description: "Invasive Alien Species are threats to the balance of natural ecosystems. Their presence poses risk as unwanted predators of endemic species."
+date: 2018-07-09
+published: true
 category: solutions
-tags: ASEAN Cambodia Philippines Indonesia Thailand biodiversity botany forest initiative plants learning save-trees social-responsibility sustainable-development tropical
-image: /assets/p/posts/solutions/stop-alien-species/stop-alien-species.jpg
+tags: [article, ASEAN, Cambodia, Philippines, Indonesia, Thailand, biodiversity, botany, forest, initiative, plants, learning, save-trees, social-responsibility, sustainable-development, tropical]
+cover_image: ./images/solutions/stop-alien-species/stop-alien-species.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
@@ -23,7 +25,7 @@ While thanking the CBD Secretariat for all its guidance in abating the prolifera
 
 The [Golden Apple Snail (Ampullariidae)](https://en.wikipedia.org/wiki/Ampullariidae) is an example of a well-established invasive species in Southeast Asia. It is considered as the 40th worst alien species in Europe and in the Top 100 of the World’s Worst Invasive Alien Species.
 
-{% include partials/image.html name="-02" caption="Golden Apple Snails" %}
+![Golden Apple Snails](./images/solutions/stop-alien-species/stop-alien-species-02.jpg)
 
 Dr. Gono Semiadi stated that other well-established species, particularly in Viet Nam, include mimosa trees, water hyacinth, and caterpillars.
 
@@ -47,11 +49,13 @@ Vital ecosystem functions, such as pollination, soil regeneration, and nutrient 
 
 For example, a [common Myna](https://en.wikipedia.org/wiki/Myna), a bird of the starling family, can drive away native birds by occupying their nesting areas.
 
-{% include partials/image.html name="-03" caption="Mynas" %}
+![Mynas](./images/solutions/stop-alien-species/stop-alien-species-03.jpg)
+
 
 [Mimosa pigra](https://en.wikipedia.org/wiki/Mimosa_pigra), a thorny shrub with buoyant seeds that grow abundantly in mudflats, can drive away migratory birds feeding and nesting in these areas.
 
-{% include partials/image.html name="" caption="Mimosa pigra" %}
+![Mimosa pigra](./images/solutions/stop-alien-species/stop-alien-species.jpg)
+
 
 The ASEAN Centre for Biodiversity supports the ASEAN Member States in undertaking measures to cope with and come up with control measures on IAS through capacity building on taxonomy, information sharing through the ASEAN Clearing House Mechanism, and awareness raising.
 
@@ -59,13 +63,16 @@ Cambodia, Indonesia and the Philippines crafted their National Invasive Species 
 
 Thailand has established a list of IAS and developed control measures. In Viet Nam, a strong legal regulation system on import and export of biological materials is in place.
 
-All AMS are managing and controlling priority IAS, either manually or through the use of appropriate chemicals. The [Integrated Pest Management (IPM) ](https://en.wikipedia.org/wiki/Integrated_pest_management) approach is also being applied particularly for IAS affecting the agriculture sector.
+All AMS are managing and controlling priority IAS, either manually or through the use of appropriate chemicals.
+
+The [Integrated Pest Management (IPM) ](https://en.wikipedia.org/wiki/Integrated_pest_management) approach is also being applied particularly for IAS affecting the agriculture sector.
 
 In-depth research, survey, and analysis of priority IAS in the ASEAN region, were identified as measures to further understand IAS and draft measures for its control and eradication.
 
-**_Know more:_**
 
-[asean biodiversity](http://aseanbiodiversity.org/2018/07/10/indonesia-stresses-need-to-combat-invasive-alien-species/)
+## Know More Links
+
+[ASEAN biodiversity](http://aseanbiodiversity.org/2018/07/10/indonesia-stresses-need-to-combat-invasive-alien-species/)
 
 [Golden Apple Snail (Ampullariidae) - wikipedia](https://en.wikipedia.org/wiki/Ampullariidae)
 

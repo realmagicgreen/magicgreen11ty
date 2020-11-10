@@ -1,10 +1,12 @@
 ---
-name: Rethink plastic
+title: Rethink plastic
 subtitle: A movement to raise awareness of plastic pollution and the existing solutions. Movies, education, and government pressure.
-description: "A Plastic Ocean’s  message raises the awareness of plastic pollution and the existing solutions. We continue to bring this message around the world to national legislatures, city councils, schools, universities and environmental organizations. It is creating policy and social change around the world."
+description: "A Plastic Ocean’s message raises the awareness of plastic pollution and the existing solutions. It is creating policy and social change around the world."
+date: 2018-07-19
+published: true
 category: techniques
-tags: biodiversity eco-entrepreneurs initiative plastic learning save-oceans social-responsibility sustainable-development waste water
-image: /assets/p/posts/techniques/rethink-plastic/rethink-plastic.jpg
+tags: [article, biodiversity, eco-entrepreneurs, initiative, plastic, learning, save-oceans, social-responsibility, sustainable-development, waste, water]
+cover_image: ./images/techniques/rethink-plastic/rethink-plastic.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
@@ -18,9 +20,9 @@ Some wise people are creating a global movement that encourages all to #RethinkP
 
 ### Social Impact Through Film
 
-A Plastic Ocean’s  message raises the awareness of plastic pollution and the existing solutions. We continue to bring this message around the world to national legislatures, city councils, schools, universities and environmental organizations. It is creating policy and social change around the world.
+A Plastic Ocean’s message raises the awareness of plastic pollution and the existing solutions. We continue to bring this message around the world to national legislatures, city councils, schools, universities and environmental organizations. It is creating policy and social change around the world.
 
-{% include partials/image.html name="-02" caption="" %}
+![#RethinkPlastic](./images/techniques/rethink-plastic/rethink-plastic-02.jpg)
 
 We continue to be humbled by the film impact that [A Plastic Ocean](https://youtu.be/6zrn4-FfbXw) continues to make around the globe.
 
@@ -48,7 +50,7 @@ Engage your school with the 22-minute version of our award-winning documentary, 
 
 We are focused on finding solutions to plastic pollution and believe that young entrepreneurs can be guided to develop new businesses that can play a meaningful role.
 
-{% include partials/image.html name="-03" caption="" %}
+![focused on finding solutions to plastic pollution](./images/techniques/rethink-plastic/rethink-plastic-03.jpg)
 
 Our unique program encourages the creative minds of school-aged students to develop ideas that can help in the fight against plastic pollution.
 
@@ -66,7 +68,8 @@ You can [Help Create A Wave of Change by donating](https://plasticoceans.org/don
 
 
 
-**_Know more:_**
+
+## Know More Links
 
 [plastic oceans website](https://plasticoceans.org/)
 

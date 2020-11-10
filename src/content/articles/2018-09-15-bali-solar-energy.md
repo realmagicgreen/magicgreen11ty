@@ -1,10 +1,12 @@
 ---
-name: Bali solar energy
+title: Bali solar energy
 subtitle: PLN, Indonesia electricity company, plans to generate 50 MW of renewable electricity in 2021 from two solar powered plants in Bali.
-description: "Two privately built solar power plants in Bali are expected to beginning working in 2021. The plain is to reach 100 megawatts in 2023"
+description: "Two privately built solar power plants in Bali are expected to beginning working in 2021. The plain is to reach 100 megawatts in 2023."
+date: 2018-09-15
+published: true
 category: solutions
-tags: Bali environment-friendly eco-friendly Indonesia responsible-sources renewable-energy social-responsibility sustainable-development
-image: /assets/p/posts/solutions/bali-solar-energy/bali-solar-energy.jpg
+tags: [article, Bali, environment-friendly, eco-friendly, Indonesia, responsible-sources, renewable-energy, social-responsibility, sustainable-development]
+cover_image: ./images/solutions/bali-solar-energy/bali-solar-energy.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption:  # lowercase, max 12 digits, including spaces
 flag: # new or other...
@@ -25,6 +27,7 @@ According to a recent report in The Jakarta Post, the government mandated  state
 Previously overseen by the Energy and Mineral Resources Ministry’s directorate general of energy conservation and renewable energy, this allows PLN to negotiate a fair price directly with Independent Power Producers.
 
 
-**_Know more:_**
+
+## Know More Links
 
 [Read more on Gapura Bali ](https://www.gapurabali.com/news/2018/10/02/pln-build-solar-energy-units-east-and-west-bali/1538469038)

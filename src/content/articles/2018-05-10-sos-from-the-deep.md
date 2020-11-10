@@ -1,10 +1,12 @@
 ---
-name: SOS from the deep
-subtitle: CTC provides education and training to make sure that marine protected areas!
-description: Coral Reefs need our help now! More than 27% of the world’s coral reefs are already lost. If we don’t do anything about it, almost all of our coral reefs will be gone by 2050 and there will be more plastics than fish in the ocean! Why are coral reefs so important for our future? They are complex and very valuable ecosystems and provide habitats for a huge diversity of species.
+title: SOS from the deep
+subtitle: "CTC provides education and training to make sure that marine protected areas!"
+description: "Coral Reefs need our help now! More than 27% of the world’s coral reefs are already lost. If we don’t do anything about it, almost all of our coral reefs..."
+date: 2018-05-10
+published: true
 category: solutions
-tags: Bali biodiversity learning initiative Indonesia Nusa-Penida Maluku save-oceans tropical
-image: /assets/p/posts/solutions/sos-from-the-deep/sos-from-the-deep.jpg
+tags: [article, Bali, biodiversity, learning, initiative, Indonesia, Nusa-Penida, Maluku, save-oceans, tropical]
+cover_image: ./images/solutions/sos-from-the-deep/sos-from-the-deep.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
@@ -31,7 +33,8 @@ CTC provides education and training to make sure that marine protected areas wit
 They support on-the-ground conservation programs through our learning sites in Nusa Penida near Bali and the Banda Islands in Maluku.
 
 
-**_Know more:_**
+
+## Know More Links
 
 [SOS from the Deep - Escape Room video](https://youtu.be/slcggQ7wvks)
 

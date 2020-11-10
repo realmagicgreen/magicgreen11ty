@@ -1,10 +1,12 @@
 ---
-name: Evoware not plastic
-subtitle: A seaweed based eco-friendly alternative to food-grade plastic. And you can eat it.
-description: Plastic pollution is a global problem in our modern society, a worldwide threat to the environment, flora and fauna. A major part of that pollution comes from our habits, and take-away food along the food-grade plastic containers, wrappings, and single-use glasses for example, that are used to consume the food on the go.
+title: Evoware not plastic
+subtitle: "A seaweed based eco-friendly alternative to food-grade plastic. And you can eat it."
+description: "Plastic pollution is a global problem, a worldwide threat to the environment, flora and fauna. A major part of that pollution comes from our habits..."
+date: 2018-06-15
+published: true
 category: products
-tags: design environment-friendly eco-friendly Indonesia plastic plastic-alternatives social-responsibility sustainable-construction
-image: /assets/p/posts/products/evoware-not-plastic/evoware-not-plastic.jpg
+tags: [article, design, environment-friendly, eco-friendly, Indonesia, plastic, plastic-alternatives, social-responsibility, sustainable-construction]
+cover_image: ./images/products/evoware-not-plastic/evoware-not-plastic.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
@@ -15,7 +17,8 @@ photography: # put here photographer name
 ---
 Plastic pollution is a global problem in our modern society, a worldwide threat to the environment, flora and fauna. A major part of that pollution comes from our habits, and take-away food along the food-grade plastic containers, wrappings, and single-use glasses for example, that are used to consume the food on the go.
 
-{% include partials/image.html name="-02" caption="Evoware use seaweed" %}
+
+![Evoware use seaweed](./images/products/evoware-not-plastic/evoware-not-plastic-02.jpg)
 
 That's where Evoware comes in the equation, with the brilliant idea of using natural materials, namely seaweed, that are biodegradable as well as edible.
 
@@ -36,31 +39,27 @@ Evoware products are edible food wraps, water-resistant soap wraps, edible sache
 
 - Printable and heat sealable.
 
-
-{% include partials/image.html name="-03" caption="Evoware turn seaweed into different kinds of packaging" %}
+![Evoware turn seaweed into different kinds of packaging](./images/products/evoware-not-plastic/evoware-not-plastic-03.jpg)
 
 By using seaweed, Evoware is also greatly helping thousands of farmers living a better life by working closely with seaweed farming communities throughout Indonesia.
 
 ### Seaweed-Based Packaging
 
-{% include partials/image.html name="-04" caption="seaweed farming is spread all over Indonesia, a country of more than 18.000 islands" %}
+![seaweed farming is spread all over Indonesia, a country of more than 18.000 islands](./images/products/evoware-not-plastic/evoware-not-plastic-04.jpg)
 
 Evo-ware collaborate with local seaweed farmers to provide best quality seaweed to bring you many benefits. Our seaweed-based packaging's patent has been granted, and we have received halal and safety guarantee certificate.
 
-
-{% include partials/image.html name="-05" caption="Seaweed farming is the practice of cultivating and harvesting seaweed" %}
+![Seaweed farming is the practice of cultivating and harvesting seaweed](./images/products/evoware-not-plastic/evoware-not-plastic-05.jpg)
 
 You can buy it through: Whatsapp: +628118692424 and email: [info@evoware.id](info@evoware.id)
 
 
-**_Know more:_**
+
+## Know More Links
 
 [Evoware – Edible Sachet and Food Wraps to End Plastic Waste Video](https://youtu.be/24T6ruz1GhU)
 
 [Evoware – Youtube channel](https://www.youtube.com/channel/UCBN9aRJfC-bI-f3ll4abZaQ/videos)
-
-
-**_Read more:_**
 
 [Reuters Evoware review](https://www.reuters.com/article/us-indonesia-evoware/indonesian-startup-wages-war-on-plastic-with-edible-seaweed-cups-idUSKBN1DN0XA)
 
@@ -73,6 +72,5 @@ You can buy it through: Whatsapp: +628118692424 and email: [info@evoware.id](inf
 [iflscience - review](http://www.iflscience.com/environment/this-seaweedbased-edible-packaging-could-help-save-our-seas/)
 
 [fastcompany - review](https://www.fastcompany.com/40477587/instead-of-throwing-out-this-plastic-wrapper-you-eat-it)
-
 
 [or just google it and check out the latest news...](https://www.google.co.id/search?q=evoware+world&oq=EVOWARE+WORLD)

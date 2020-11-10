@@ -1,18 +1,30 @@
 ---
-name: Immune boost drinks
-subtitle: An interview with healthy drink producer Iris from Live Essences.
-description: "We met with Iris an expert in the field who is wishing to share some knowledge and shed some light about how to live healthier listening to your guts."
+title: Immune boost drinks
+subtitle: "An interview with healthy drink producer Iris from Live Essences."
+date: 2020-05-01
+published: true
 category: health
-tags: health Bali botany horticulture wellness plants superfood eco-entrepreneur
-image: /assets/p/posts/health/immune-boost-drinks/immune-boost-drinks.jpg
-show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
-home_slideshow_caption: health boosters # lowercase, max 12 digits, including spaces
-flag: # new or other...
+tags:
+  - article
+  - healthier
+  - Bali
+  - botany
+  - horticulture
+  - wellness
+  - plants
+  - pollutants-remove
+  - superfood
+  - eco-entrepreneur
+cover_image: ./images/health/immune-boost-drinks/immune-boost-drinks.jpg
+description: "We met with Iris, an expert in the field, who shared some knowledge and shed some light about how to live healthier by listening to your guts." # max 160 digits cos dunno how to trim it, yet......
 ad: true # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: true # 'true' or empty
+show_in_home_slideshow: # 'true' or empty
+home_slideshow_caption: health boosters # lowercase, max 12 digits, including spaces
 photography: # put here photographer name
 ---
+
 Rooted in ancient knowledge, crafted from Mother Nature’s most powerful plants, botanical remedies has been used since the beginning of time.
 
 We met with Iris an expert in the field who is wishing to share some knowledge and shed some light about how to live healthier listening to your guts.
@@ -26,7 +38,8 @@ Iris is Greek-German. She works with high-quality, invigorating ingredients to d
 
 Her goal is to keep products, brand and experiences, pure and honest. A mindful business, aiming to be fully organic and 100% self-sustainable.
 
-{% include partials/image.html name="-02" caption="Live Essences complete offer of wellness shot drinks" %}
+
+![Live Essences complete offer of wellness shot drinks](./images/health/immune-boost-drinks/immune-boost-drinks-02.jpg)
 
 
 ## Wellness shots
@@ -35,8 +48,7 @@ Live Essences Wellness shots are processed with care with essential probiotics a
 
 Live Essences Wellness shots are carefully prepared, never overheated and minimally processed, to preserve their abundant nutrients, vitamins and their pure, unadulterated life force energy.
 
-
-{% include partials/image.html name="-03" caption="Live Essences lab in Bali" %}
+![Live Essences lab in Bali](./images/health/immune-boost-drinks/immune-boost-drinks-03.jpg)
 
 Crafted from nature’s most powerful plants, LE drinks are currently produced using organic, fair-trade premium ingredients, devoid of any pesticides or harmful chemicals, sourced from the foothills of Mount Batur in Bali, Indonesia.
 
@@ -53,8 +65,7 @@ Live Essences is inspired by the purity and power of the natural world, unlockin
 > Bali took me back to the warmth, simplicity, energising and nature-honouring lifestyle of Greece. I realised that by reconnecting with the essence of my childhood, I was creating a new sense for my life, and looking towards an exciting future. Today, I have put all these feelings into 5 Essences, crafted with ancient wisdom and modern techniques. _Iris from Live Essences_
 
 
-
-{% include partials/image.html name="-04" caption="Live Essences healthy stomach drink" %}
+![Live Essences healthy stomach drink](./images/health/immune-boost-drinks/immune-boost-drinks-04.jpg)
 
 Magicgreen asked Iris to share her story:
 
@@ -64,12 +75,12 @@ For the love of medicinal plants, private lessons, online studies on traditional
 
 Supplying the restaurant of my friends surf resort here in Canggu.
 
-##  What motivates you and where are you going, as a company?
+## What motivates you and where are you going, as a company?
 
 My main motivation is to bring ancient knowledge back paying attention to recent/modern research and applying techniques in the way we process the plants into the products, engineering unadulterated natural products.
 
 
-{% include partials/image.html name="-07" caption="Live Essences processes  plants into drinks" %}
+![Live Essences processes  plants into drinks](./images/health/immune-boost-drinks/immune-boost-drinks-07.jpg)
 
 Finding natural ways to preserve them. Creating foods that love you back.
 
@@ -78,8 +89,7 @@ Live Essences as a company to expand and add on numerous new products. Expanding
 We are also working on a new idea to modularise the company and streamline it for a future franchising development.
 
 
-{% include partials/image.html name="-05" caption="Live Essences and some of the ingredients used" %}
-
+![Live Essences and some of the ingredients used](./images/health/immune-boost-drinks/immune-boost-drinks-05.jpg)
 
 ## What is the message that your brand is pushing?
 
@@ -99,8 +109,8 @@ Bali is one of the Mecca's of health and self development! We are supported by a
 
 This helps very much with developing innovative products.
 
+![Live Essences source locally from organic faming facilities](./images/health/immune-boost-drinks/immune-boost-drinks-06.jpg)
 
-{% include partials/image.html name="-06" caption="Live Essences source locally from organic faming facilities" %}
 
 ## What we need to know about your products?
 
@@ -112,8 +122,7 @@ We found a natural way to preserve it and, in its essence form, it has no expiry
 
 The focus is to nourish and replenish both the stomach and gut flora. Drinks the body will appreciate to the fullest. Food that loves you back.
 
-
-{% include partials/image.html name="-08" caption="Live Essences skin oils" %}
+![Live Essences skin oils](./images/health/immune-boost-drinks/immune-boost-drinks-08.jpg)
 
 ## Message or things you want to say to the world...
 
@@ -121,17 +130,16 @@ Nature is full of diversity and we need to bring diversity back into our lives a
 
 It's time for a change, where we re-educate our taste buds with foods that actually nourish, heal and revive the body.
 
+## Know More Links
 
-**_Know more:_**
+[Live Essences - website](https://live-essences.com)
 
-[Live Essences website](https://live-essences.com)
+[Live Essences - Facebook](https://www.facebook.com/liveessences)
 
-[Live Essences Facebook](https://www.facebook.com/liveessences)
+[Live Essences - Instagram](https://www.instagram.com/liveessences/)
 
-[Live Essences Instagram](https://www.instagram.com/liveessences/)
-
-[Live Essences youtube](https://www.youtube.com/channel/UC-CrtGFNj_L4-7vbRtXzQQw/featured?disable_polymer=1)
+[Live Essences - Youtube](https://www.youtube.com/channel/UC-CrtGFNj_L4-7vbRtXzQQw/featured?disable_polymer=1)
 
 [Ways to improve your gut health - Medical News today](https://www.medicalnewstoday.com/articles/325293)
 
-[How Your Gut Health Affects Your Whole Body - WebMD](https://www.webmd.com/digestive-disorders/ss/slideshow-how-gut-health-affects-whole-body)
+[How Your Gut Health Affects Your Whole Body - WebMD](https://www.webmd.com/digestive-disorders/ss/slideshow-how-gut-health-affects-whole-body)"

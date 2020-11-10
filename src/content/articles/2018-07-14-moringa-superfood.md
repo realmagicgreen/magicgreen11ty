@@ -1,10 +1,20 @@
 ---
-name: Moringa superfood
+title: Moringa superfood
 subtitle: Also called drumstick tree, horseradish tree, Moringa is an excellent source of vitamins, antioxidants and minerals.
-description: Moringa also called drumstick tree, horseradish tree, ben oil tree or benzoil tree is a fast-growing, drought-resistant tree, native to the southern foothills of the Himalayas. Almost all parts of the tree are eaten or used as ingredients in traditional herbal medicines. The results suggest that Moringa leaf meal can be used to substitute up to 10% of dietary protein in Nile tilapia fish without significant reduction in growth. Diets with higher inclusion levels of moringa leaves significantly depressed growth performance on the fish tested.
+date: 2018-07-14
+published: true
+description: Moringa is a fast-growing, drought-resistant tree. Leaves, rich in vitamins and minerals, are used in herbal medicines. It can be used to substitute protein. # max 160 digits cos dunno how to trim it, yet......
 category: health
-tags: CO2 botany horticulture plants learning superfood wellness
-image: /assets/p/posts/health/moringa-superfood/moringa-superfood.jpg
+tags:
+  - article
+  - CO2
+  - botany
+  - horticulture
+  - plants
+  - learning
+  - superfood
+  - wellness
+cover_image: ./images/health/moringa-superfood/moringa-superfood.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
@@ -13,7 +23,6 @@ featured: true # use 'true' to have it displayed in home
 sticky: true # 'true' or empty
 photography:  # put here photographer name
 ---
-
 Moringa also called drumstick tree, horseradish tree, ben oil tree or benzoil tree is a fast-growing, drought-resistant tree, native to the southern foothills of the Himalayas.
 
 Almost all parts of the tree are eaten or used as ingredients in traditional herbal medicines.
@@ -32,9 +41,10 @@ In Western countries, the dried leaves are sold as dietary supplements, either i
 
 The diet of people in developing nations sometimes lacks vitamins, minerals and protein. In these countries, [Moringa oleifera](https://en.wikipedia.org/wiki/Moringa_oleifera) can be an important source of many essential nutrients.
 
-{% include partials/image.html name="-02" caption="Moringa is available in powder and is consumed raw added to salads and shakes" %}
 
-Moringa benefits are:
+![Moringa is available in powder and is consumed raw added to salads and shakes](./images/health/moringa-superfood/moringa-superfood-02.jpg)
+
+## Moringa benefits
 
 - Very Nutritious
 - Rich in Antioxidants
@@ -58,7 +68,8 @@ However, there is one downside, Moringa leaves may also [contain high levels of 
 
 The results suggest that Moringa leaf meal can be used to substitute up to 10% of dietary protein in Nile tilapia fish without significant reduction in growth. Diets with higher inclusion levels of moringa leaves significantly depressed growth performance on the fish tested.
 
-**_Know more:_**
+
+## Know More Links
 
 [Six benefits of Moringa](https://www.healthline.com/nutrition/6-benefits-of-moringa-oleifera)
 

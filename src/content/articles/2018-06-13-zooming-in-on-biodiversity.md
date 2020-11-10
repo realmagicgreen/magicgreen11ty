@@ -1,10 +1,12 @@
 ---
-name: Zooming in on biodiversity
-subtitle: An ASEAN wide photo contest capturing the richness of biological resources in the region.
-description: Biodiversity is the variety of life on Earth. These forms of life include microorganisms, fungi, plants, and animals, including the communities that they form and the habitats in which they live. According to the Convention on Biological Diversity, biodiversity is - the variability among living organisms from all sources including, inter alia, terrestrial, marine and other aquatic ecosystems and the ecological complexes of which they are part; this includes diversity within species, between species and of ecosystems...
+title: Zooming in on biodiversity
+subtitle: "An ASEAN wide photo contest capturing the richness of biological resources in the region."
+description: "Biodiversity is the variety of life on Earth and include microorganisms, fungi, plants, and animals, the communities they form, the habitats in which they live."
+date: 2018-06-13
+published: true
 category: know
-tags: ASEAN  Indonesia Malaysia Myanmar Philippines Singapore biodiversity initiative learning tropical
-image: /assets/p/posts/know/zooming-in-on-biodiversity/zooming-in-on-biodiversity.jpg
+tags: [article, ASEAN, Indonesia, Malaysia, Myanmar, Philippines, Singapore, biodiversity, initiative, learning, permaculture, tropical]
+cover_image: ./images/know/zooming-in-on-biodiversity/zooming-in-on-biodiversity.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: BIO DIVERSITY # lowercase, max 12 digits, including spaces
 flag: # new or other...
@@ -18,13 +20,11 @@ Biodiversity is the variety of life on Earth. These forms of life include microo
 
 According to the Convention on Biological Diversity, biodiversity is “the variability among living organisms from all sources including, inter alia, terrestrial, marine and other aquatic ecosystems and the ecological complexes of which they are part; this includes diversity within species, between species and of ecosystems."
 
-{% include partials/image.html name="-02" caption="2015 Finalist: Golden Orb Weaving Web,
-Chai Wai Meng" %}
+![2015 Finalist: Golden Orb Weaving Web, Chai Wai Meng](./images/know/zooming-in-on-biodiversity/zooming-in-on-biodiversity-02.jpg)
 
 Biodiversity provides us with air, water, food and materials for medicine, clothing and shelter. Millions of people rely on biodiversity for livelihood and a host of ecosystem services. However, due to the continuous growth of population and overexploitation of biological resources, this “web of life” is now under serious threat.
 
-{% include partials/image.html name="-03" caption="2015 Finalist: Pitcher Frog, Joel Forte" %}
-
+![2015 Finalist: Pitcher Frog, Joel Forte](./images/know/zooming-in-on-biodiversity/zooming-in-on-biodiversity-03.jpg)
 
 **Zooming in on Biodiversity** is a photo contest open to all nationals from the 10 ASEAN Member States, conceptualized by the ASEAN Centre for Biodiversity.
 
@@ -33,8 +33,7 @@ Biodiversity provides us with air, water, food and materials for medicine, cloth
 
 This year’s Zooming in on Biodiversity aims to translate into exceptional photographs the sustainable use of biological resources in a developing world.
 
-{% include partials/image.html name="-04" caption="2009 Third Place winner: Children plant trees in mining site, Karlo Emmanuel Victoriano" %}
-
+![2009 Third Place winner: Children plant trees in mining site, Karlo Emmanuel Victoriano](./images/know/zooming-in-on-biodiversity/zooming-in-on-biodiversity-04.jpg)
 
 **Through this ASEAN-wide photo contest, ACB aims to:**
 
@@ -46,7 +45,7 @@ This year’s Zooming in on Biodiversity aims to translate into exceptional phot
 
 ### Overall Theme: Biodiversity richness of ASEAN
 
-{% include partials/image.html name="-05" caption="2009 Third Place: Kids Collecting Water, Kyaw Kyaw Winn" %}
+![2009 Third Place: Kids Collecting Water, Kyaw Kyaw Winn](./images/know/zooming-in-on-biodiversity/zooming-in-on-biodiversity-05.jpg)
 
 The entries must showcase the abundance of biodiversity in the region. The photos may highlight subjects related to the following:
 
@@ -80,15 +79,15 @@ Once submitted, the owners/photographers provide ACB the right to use the photos
 
 ### PRIZES
 
-1st Place   USD 1,500  
-2nd Place   USD 1,000  
+1st Place   USD 1,500
+2nd Place   USD 1,000
 3rd Place   USD 500
 
-{% include partials/image.html name="" caption="2009 edition winner: Large Flying Fox,
-Chalid Nasution" %}
+
+![2009 edition winner: Large Flying Fox, Chalid Nasution](./images/know/zooming-in-on-biodiversity/zooming-in-on-biodiversity.jpg)
 
 
-**_Know more:_**
+## Know More Links
 
 [ASEAN Centre for Biodiversity (ACB) - website](https://aseanbiodiversity.org/)
 

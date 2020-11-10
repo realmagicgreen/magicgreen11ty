@@ -1,10 +1,19 @@
 ---
-name: Benefits of Spirulina
+title: Benefits of Spirulina
 subtitle: Spirulina may literally be the single most nutritious food on the planet for how beneficial it is.
-description: Spirulina is is a type of bacteria called cyanobacterium, a dark blue-green algae that has been touted as one of the most potent and protective superfood in existence. Often used as a supplement to the diets due to the well-researched and diverse health benefits, Spirulina is a fantastic source of antioxidants, which can protect against oxidative damage.  
+date: 2018-07-01
+published: true
+description: Spirulina is a type of bacteria called cyanobacterium, a blue-green algae that has been touted as one of the most potent, protective superfood in existence. # max 160 digits cos dunno how to trim it, yet......
 category: health
-tags: CO2 botany plants learning superfood wellness
-image: /assets/p/posts/health/benefits-of-spirulina/benefits-of-spirulina.jpg
+tags:
+  - article
+  - CO2
+  - botany
+  - plants
+  - learning
+  - superfood
+  - wellness
+cover_image: ./images/health/benefits-of-spirulina/benefits-of-spirulina.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
@@ -13,15 +22,15 @@ featured: true # use 'true' to have it displayed in home
 sticky: # 'true' or empty
 photography:  # put here photographer name
 ---
-Spirulina is is a type of bacteria called cyanobacterium, a dark blue-green algae that has been touted as one of the most potent and protective **uperfood** in existence.
+**Spirulina** is a type of bacteria called cyanobacterium, a dark blue-green algae that has been touted as one of the most potent and protective **superfood** in existence.
 
-{% include partials/image.html name="-03" caption="Spirulina grows in both fresh and salt water. Just like plants, cyanobacteria can produce energy out of sunlight, via the process called photosynthesis." %}
+![Spirulina grows in both fresh and salt water. Just like plants, cyanobacteria can produce energy out of sunlight, via the process called photosynthesis.](./images/health/benefits-of-spirulina/benefits-of-spirulina-03.jpg)
 
 Spirulina was consumed by the Aztecs back in the day, but became popular again when NASA proposed that it could be grown in space and [used by astronauts](http://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19890016190.pdf).
 
-Often used as a supplement to the diets due to the well-researched and diverse health benefits, Spirulina is a fantastic source of antioxidants, which can protect against oxidative damage.  
+Often used as a supplement to the diets due to the well-researched and diverse health benefits, Spirulina is a fantastic source of antioxidants, which can protect against oxidative damage.
 
-It can lower total cholesterol, LDL cholesterol and triglycerides, while raising HDL (the "good") cholesterol. It protects LDL cholesterol from becoming oxidized.  
+It can lower total cholesterol, LDL cholesterol and triglycerides, while raising HDL, the "good" cholesterol. It protects LDL cholesterol from becoming oxidized.
 
 Spirulina may have some anti-cancer properties, especially against a type of precancerous lesion called OSMF (Oral Submucous Fibrosis).
 
@@ -33,7 +42,7 @@ One study shows that it may be effective against anemia in the elderly. It can e
 
 Spirulina may also have other beneficial effects, such as helping to "detoxify" the heavy metal arsenic from the body.
 
-{% include partials/image.html name="-02" caption="It is actually quite amazing how nutritious Spirulina is." %}
+![It is actually quite amazing how nutritious Spirulina is.](./images/health/benefits-of-spirulina/benefits-of-spirulina-02.jpg)
 
 
 A single tablespoon (7 grams) of dried Spirulina powder contains (2):
@@ -69,7 +78,7 @@ Spirulina contains an abundance of nucleic acids, according to the Beth Israel D
 
 If you are susceptible to gout attacks or kidney stones, spirulina may be especially harmful to you. To avoid excessive uric acid, the hospital recommends limiting your intake of spirulina to less than 50 grams per day.
 
-**_Know more:_**
+## Know More Links
 
 [Spirulina - Wikipedia](https://en.wikipedia.org/wiki/Spirulina_(dietary_supplement))
 

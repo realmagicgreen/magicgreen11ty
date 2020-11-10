@@ -1,36 +1,29 @@
 {% comment %}
-Responsive images.
-for use in posts inside markdown.
+Responsive images. For use in posts inside 11ty/liquid markdown.
+
 Example:
-<div>{% include image.html name="" caption="test" %}</div>
+{% include image.html name: "" caption: "test" %}
 this will grab the first image used also in the post header
+
 or
-<div>{% include image.html name="-04" caption="test" %}</div>
+
+{% include image.html, name: "-04", caption: "test" %}
 this will grab the 4th image
 {% endcomment %}
-
 {% comment %}
 2do:
-write the caption into a file with same name as image (image.md)
-develop the code to suck it here as caption (as kirby does!)
-it's very convenient as to write the caption you have to go see the image anyway...
-(180604 - tried but it looks impossible)
+Write the caption into a file with same name as image (image.md)
+Develop the code to suck it here as caption (as kirby does!)
+It'd be very convenient as to write the caption you have to go see the image anyway...
+(180604 - tried w/ Jekyll, but it looks impossible, maybe can using 11ty js...)
 {% endcomment %}
 
 <figure class="post_content_image">
-  {% comment %}
-  assign the page image and split at the extension dot
-  {% endcomment %}
-  {% assign f = page.image | split: '.' %}
-  <img data-zoomable="true" loading="lazy" src="{{ f[0] | relative_url }}{{ include.name }}-640.{{ f[1] }}"
-       srcset="{{ f[0] | relative_url }}{{ include.name }}-640.{{ f[1] }} 640w,
-               {{ f[0] | relative_url }}{{ include.name }}-880.{{ f[1] }} 880w,
-               {{ f[0] | relative_url }}{{ include.name }}-1024.{{ f[1] }} 1024w,
-               {{ f[0] | relative_url }}{{ include.name }}-1920.{{ f[1] }} 1920w"
-       sizes="100vw" alt="{{ page.name }} - {{ page.subtitle }}" />
-
-      {% if include.caption %}
-      <figcaption>{{ include.caption }}</figcaption>
-      {% endif %}
+  {% comment %} assign the page image and split at the extension dot{% endcomment %}{% assign f = image | split: '.' %}<img loading="lazy" src="{{ f[0] | relative_url }}{{ name }}-640.{{ f[1] }}"
+       srcset="{{ f[0] | relative_url }}{{ name }}-640.{{ f[1] }} 640w,
+               {{ f[0] | relative_url }}{{ name }}-880.{{ f[1] }} 880w,
+               {{ f[0] | relative_url }}{{ name }}-1024.{{ f[1] }} 1024w,
+               {{ f[0] | relative_url }}{{ name }}-1920.{{ f[1] }} 1920w"
+       sizes="100vw" alt="{{ site.title }} - {{ title }} {% if photographer %}- photo by {{ photographer | upcase }}{% endif %}" />{% if caption %}<figcaption><strong>{{ caption }}</strong></figcaption>{% endif %}
 
  </figure>

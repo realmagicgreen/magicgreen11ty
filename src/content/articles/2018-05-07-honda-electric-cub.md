@@ -1,10 +1,12 @@
 ---
-name: Honda electric cub
-subtitle: Soon available in Indonesia the retro looking scooter with revolutionary features.
-description: The new Honda EV-Cub is definitely an eyebrow raiser. Two electric motors, one in the front, the other in the back. Sure this is unique. I only know of a few electric bikes that have that configuration, which, by the way, is plenty of fun in the right conditions.
+title: Honda electric cub
+subtitle: "Soon available in Indonesia the retro looking scooter with revolutionary features."
+description: "The new Honda EV-Cub is definitely an eyebrow raiser. Two electric motors, one in the front, the other in the back. Sure this is unique. I only know of a few..."
+date: 2018-05-07
+published: true
 category: products
-tags: commuting environment-friendly eco-friendly electric Indonesia  
-image: /assets/p/posts/products/honda-electric-cub/honda-electric-cub.jpg
+tags: [article, commuting, environment-friendly, eco-friendly, electric, Indonesia]
+cover_image: ./images/products/honda-electric-cub/honda-electric-cub.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
@@ -27,7 +29,8 @@ The battery will be detachable, which we have come to expect on smaller two-whee
 Currently Honda is working with Panasonic to develop electric motor batteries for the Indonesian market. To note Honda EV Cub was only able to drive about 70 km.
 
 
-**_Know more:_**
+
+## Know More Links
 
 [Honda ev cub motor listrik](http://warungasep.net/2016/07/09/honda-ev-cub-motor-listrik-yang-akan-diproduksi-masal-honda-tahun-2018-nanti/)
 

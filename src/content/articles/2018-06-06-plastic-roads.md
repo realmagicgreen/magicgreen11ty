@@ -1,10 +1,12 @@
 ---
-name: Plastic roads
-subtitle: Indonesia uses plastic and rubber tires waste for road asphalt. A clever way to reduce plastic pollution.
-description: Indonesia began to use plastic and rubber tires waste or a mixture of both for the asphalt material of the highway. The Research and Development Agency at the Ministry of Public Works and People's Housing of Indonesia uses plastic waste as a road asphalt material.
+title: Plastic roads
+subtitle: Indonesia tried plastic and rubber tires waste for road asphalt. A clever way to reduce plastic pollution.
+description: "The Ministry of Public Works and People's Housing Indonesia began testing a mix of plastic and rubber tires waste in the asphalt mix."
+date: 2018-06-06
+published: true
 category: solutions
-tags: Bali Indonesia plastic social-responsibility recycle waste
-image: /assets/p/posts/solutions/plastic-roads/plastic-roads.jpg
+tags: [article, Bali, Indonesia, plastic, social-responsibility, recycle, waste]
+cover_image: ./images/solutions/plastic-roads/plastic-roads.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
@@ -18,9 +20,9 @@ Indonesia began to use plastic and rubber tires waste or a mixture of both for t
 
 >"Our test results will be packed, especially our concerns, our experts use plastic and rubber. We have mastered the process," _Danis Sumadilaga, Head of Research and Development Ministry in Jimbaran, Bali_
 
-Asphalt-making technology using a mixture of plasti was first discovered by a chemical scientist from India, Rajagopalan Vasudevan, in 2015.
+Asphalt-making technology using a mixture of plastic was first discovered by a chemical scientist from India, Rajagopalan Vasudevan, in 2015.
 
-{% include partials/image.html name="-02" caption="" %}
+![Asphalt-making technology using a mixture of plastic was first discovered by a chemical scientist from India](./images/solutions/plastic-roads/plastic-roads-02.jpg)
 
 India has built a road along more than 25 thousand kilometers of asphalt made from plastic waste.
 
@@ -28,7 +30,7 @@ India has built a road along more than 25 thousand kilometers of asphalt made fr
 
 To this day people often bury or burn plastic and rubber waste causing soil and air pollution. Wastes buried in the ground will eventually carry water and enter the river and then carried into the sea in the form of micro plastic.
 
-{% include partials/image.html name="-03" caption="" %}
+![We are standardizing this technology for implementation in Indonesia](./images/solutions/plastic-roads/plastic-roads-03.jpg)
 
 President Joko Widodo at the G-20 meeting in 2017 has expressed Indonesia's commitment to reduce marine plastic waste by 70 percent by 2025.
 
@@ -43,7 +45,7 @@ The amount of plastic waste in Indonesia in 2019 is estimated at 9.52 million to
 
 Asphalt produced by plastic and rubber waste material is more sticky when compared with conventional asphalt. The level of stability and resilience of the mixture increased 40 percent. The government has coordinated with the Indonesian Plastic Recycling Association in 16 major cities that will collect and sort waste.
 
-{% include partials/image.html name="-04" caption="" %}
+![Asphalt produced by plastic and rubber waste material is more sticky when compared with conventional asphalt.](./images/solutions/plastic-roads/plastic-roads-04.jpg)
 
 Indonesia, with a population of 257.6 million, is the world's second-biggest source of marine plastic waste.
 
@@ -69,7 +71,8 @@ Indonesia, with a population of 257.6 million, is the world's second-biggest sou
 • Distance from location ± 40 km, with travel time ± 2 hours
 
 
-**_Know more:_**
+
+## Know More Links
 
 [Plastic rubber asphalt](https://www.tinuku.com/2017/07/plastic-rubber-asphalt.html)
 

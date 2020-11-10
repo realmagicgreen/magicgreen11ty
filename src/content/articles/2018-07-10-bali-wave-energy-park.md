@@ -1,10 +1,12 @@
 ---
-name: Bali wave energy park
-subtitle: Wello will build a 10 MW Wave Energy Park in Nusa Penida an island close to  Bali.
-description: Currently more than 60% of the worlds electricity is produced with fossil fuels. With 75% of the earth’s surface being covered by water, the huge clean, continues energy production potential of wave energy is rapidly increasing in interest. Gapura Energi Utama, an Indonesian infrastructure construction company, has ordered a 10 MegaWatt Wello Penguin wave energy park. It floats on water and captures kinetic energy from the waves, which is then turned into electrical power with zero emissions. The vessel is positioned away from the wave breaking zone.
+title: Bali wave energy park
+subtitle: "Wello will build a 10 MW Wave Energy Park in Nusa Penida an island close to Bali."
+description: "Over 60% of the worlds electricity comes from fossil fuels. Wello Penguin floats on water capturing ocean kinetic energy. Electricity without emissions."
+date: 2018-07-10
+published: true
 category: solutions
-tags: Bali Indonesia Nusa-Penida environment-friendly renewable-energy eco-entrepreneurs social-responsibility sustainable-development water wave-power
-image: /assets/p/posts/solutions/bali-wave-energy-park/bali-wave-energy-park.jpg
+tags: [article, Bali, Indonesia, Nusa-Penida, environment-friendly, eco-entrepreneurs, hydro-power, renewable-energy, social-responsibility, sustainable-development, water, wave-power]
+cover_image: ./images/solutions/bali-wave-energy-park/bali-wave-energy-park.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
@@ -23,7 +25,7 @@ The Penguin floats on water and captures kinetic energy from the waves, which is
 
 The park will be located next to Nusa Penida Island in Bali. It will be the largest wave energy park globally.
 
-The delivery will take place after the permission process is finalized, which is estimated to occur by the end of 2018.  
+The delivery will take place after the permission process is finalized, which is estimated to occur by the end of 2018.
 
 The patented Wello Penguin wave energy converter has been developed and tested for almost 10 years.
 
@@ -38,7 +40,8 @@ The Penguins are anchored to sea bottom at a depth of approximately 50 meters. O
 The device does not have any moving parts in contact with sea water and the service needs are minimal. Remote connection allows for continuous monitoring and adjustment of the solution.
 
 
-**_Read more:_**
+
+## Know More Links
 
 [Wello news](https://wello.eu/2017/12/28/wello-supplying-10-mw-wave-energy-park-bali/)
 

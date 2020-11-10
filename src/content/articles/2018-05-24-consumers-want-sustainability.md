@@ -1,10 +1,12 @@
 ---
-name: Consumers want sustainability
+title: Consumers want sustainability
 subtitle: Sustainable Mainstream. Eco-friendly is definitely in.
-description: "Environmental consciousness, social responsibility, and sustainability are all hot button topics in consumer retail today. The real question is: do these topics really matter to consumers? Two interesting research studies set out to find the answer to this question. Here's what those studies revealed."
+description: "Environmental consciousness, social responsibility, and sustainability are all hot button topics in consumer retail today. The real question is..."
+date: 2018-05-24
+published: true
 category: know
-tags:  eco-entrepreneurs environment-friendly eco-packaging learning social-responsibility
-image: /assets/p/posts/know/consumers-want-sustainability/consumers-want-sustainability.jpg
+tags: [article, eco-entrepreneurs, environment-friendly, eco-packaging, learning, social-responsibility]
+cover_image: ./images/know/consumers-want-sustainability/consumers-want-sustainability.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
@@ -52,7 +54,8 @@ Here are some other statistics of note from the Hartman Group study:
 
 Commenting on the study, [PackWorld.com](https://www.packworld.com/article/sustainability/material-health/infographic-how-important-eco-friendly-packaging-purchase) observes: "Although a product's essential content and use are more strongly emphasized by consumers, earth-friendly packaging may be a first step for manufacturers in creating a more environmentally responsible halo for its products."
 
-**_Know more:_**
+
+## Know More Links
 
 [Eco-Friendly Packaging: What Consumers Really Want](http://www.pkgbranding.com/blog/eco-friendly-packaging-what-consumers-really-want)
 

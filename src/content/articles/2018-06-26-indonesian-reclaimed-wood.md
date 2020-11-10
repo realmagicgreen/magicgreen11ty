@@ -1,10 +1,12 @@
 ---
-name: Indonesian reclaimed wood
+title: Indonesian reclaimed wood
 subtitle: Reclaimed timber is trendy now! Check out this smart way to up-cycle old wood turning it into furniture.
-description: Rest easy, feel good, you are sitting on a reclaimed timber chair! In the last few years in Indonesia and specially in Bali, we have seen a big boom in furniture made from reclaimed wood. They sell it locally and also ship it all over the world.
+description: "Rest easy, feel good, you are sitting on a reclaimed timber chair! Recently Indonesia and specially in Bali, have seen a boom in reclaimed wood furniture."
+cdate: 2018-06-26
+published: true
 category: products
-tags: design environment-friendly eco-friendly Indonesia learning recycle save-trees sustainable-construction up-cycle wood
-image: /assets/p/posts/products/indonesian-reclaimed-wood/indonesian-reclaimed-wood.jpg
+tags: [article, design, environment-friendly, eco-friendly, Indonesia, learning, recycle, save-trees, sustainable-construction, up-cycle, wood]
+cover_image: ./images/products/indonesian-reclaimed-wood/indonesian-reclaimed-wood.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption:  # lowercase, max 12 digits, including spaces
 flag: # new or other...
@@ -22,21 +24,23 @@ In the last few years in Indonesia and specially in Bali, we have seen a big boo
 
 A quick search on google can reveal you how many companies are offering a wide variety of furniture and designs all made using wood has been reclaimed or salvaged.
 
-{% include partials/image.html name="-02" caption="" %}
+![Reclaimed timber is trendy now!](./images/products/indonesian-reclaimed-wood/indonesian-reclaimed-wood-02.jpg)
+
 
 They take unused old structures such as boats, bridges, jetties and factories and turn them into surely solid timber products, sometime beautiful other time funky and kitsch, including flooring, decking, panelling, and countertops.
 
 This ‘full circle’ production, reduce waste and utilize woods to the max. After all, hardwoods take thousands of years to grow and they deserve a second life.
 
-Some companies, like [Recycle teak](http://www.recycleteak.com/about-us/) are conscious enough to get [certified by FSC] 2018-05-17-sustainable-wood , to show customers their effort and care about our environment.
+Some companies, like [Recycle teak](http://www.recycleteak.com/about-us/) are conscious enough to get certified by FSC, to show customers their effort and care about our environment.
 
-{% include partials/image.html name="-03" caption="" %}
+![Reclaimed timber is trendy now!](./images/products/indonesian-reclaimed-wood/indonesian-reclaimed-wood-03.jpg)
 
 Some companies even go a step further and donate 10% of proceeds go to no-profits. For example [boat wood furniture Bali](http://boatwoodfurniturebali.com/) supprt Ypac Jimbaran, a local organization helping the physically handicapped children of bali.
 
 If you life far away and want to make something using reclaimed wood here is a [tutorial that guide you to build a reclaimed wood armchair](http://www.instructables.com/id/Reclaimed-Wood-Patio-Armchair/).
 
-**_Know more:_**
+
+## Know More Links
 
 [Recycle teak](http://www.recycleteak.com/)
 
@@ -53,5 +57,3 @@ If you life far away and want to make something using reclaimed wood here is a [
 [Recycled furniture Indonesia](http://www.recycledfurnitureindonesia.com/)
 
 [Indonesia reclaimed teak](http://www.indonesiareclaimedteak.com/)
-
-**_Read more:_**

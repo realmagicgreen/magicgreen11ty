@@ -1,10 +1,12 @@
 ---
-name: Gardens by the bay
-subtitle: An astonishing example of sustainable edutainment environment
-description: Rated number 3 on things to do in Singapore Tripadvisor. Reached more than 40 million visitors to date. World's top 20 most checked-in places on Facebook. Contains more than 1,000,000 plants. The two Cooled Conservatories at Gardens by the Bay are the world’s largest column-less greenhouses.
+title: Gardens by the bay
+subtitle: "An astonishing example of sustainable edutainment environment"
+description: "Rated number 3 on things to do in Singapore Tripadvisor. Reached more than 40 million visitors to date. World's top 20 most checked-in places on Facebook."
+date: 2018-05-06
+published: true
 category: solutions
-tags: architecture biodiversity design eco-entrepreneurs hydro-power horticulture learning recycle Singapore sustainable-construction
-image: /assets/p/posts/solutions/gardens-by-the-bay/gardens-by-the-bay.jpg
+tags: [article, architecture, biodiversity, design, eco-entrepreneurs, hydro-power, horticulture, learning, recycle, Singapore, sustainable-construction]
+cover_image: ./images/solutions/gardens-by-the-bay/gardens-by-the-bay.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
@@ -42,7 +44,7 @@ We aim to be a model for sustainable development and conservation.
 
 Underlying the concept of Gardens by the Bay are the principles of environmental sustainability. Much effort was made to plan and design for sustainable cycles in energy and water throughout Bay South Garden.
 
-{% include partials/image.html name="-02" caption="" %}
+![Garden by the bay](./images/solutions/gardens-by-the-bay/gardens-by-the-bay-02.jpg)
 
 **Energetics of the conservatories**
 
@@ -68,7 +70,8 @@ The Conservatories apply the strategy of cooling only the lower levels, thus red
 
 To reduce the amount of energy required in the cooling process, the air in Flower Dome is de-humidified by liquid desiccant (drying agent) before it is cooled. This desiccant is recycled using the waste heat from the burning of the biomass.
 
-{% include partials/image.html name="-03" caption="" %}
+![Garden by the bay](./images/solutions/gardens-by-the-bay/gardens-by-the-bay-03.jpg)
+
 
 **4) Generating energy and harnessing waste heat**
 
@@ -114,7 +117,8 @@ More than a scenic treat, the lakes are a rich source of aquatic life from fish 
 
 In this realm of lush greenery you can learn all about the spectacular myriad of tropical plants and the systems these plants support. Find out how plants disperse their seeds, how mushrooms benefit rainforest communities and how plants adapt to adverse environments.
 
-{% include partials/image.html name="-04" caption="" %}
+![Garden by the bay](./images/solutions/gardens-by-the-bay/gardens-by-the-bay-04.jpg)
+
 
 Enjoy the sights of flowers and fruits in bloom, learn how to identify different tree species and even see some of the most primitive plants in the world! More on [World of plants](http://www.gardensbythebay.com.sg/en/attractions/world-of-plants/visitor-information.html)
 
@@ -131,6 +135,11 @@ A collection of four themed gardens, the [Heritage Gardens](http://www.gardensby
 
 Take a walk through the Sun Pavilion and marvel at the amazing desert-like landscapes. With over 1,000 desert plants comprising some 100 different species and varieties, the [Sun Pavilion](http://www.gardensbythebay.com.sg/en/attractions/sun-pavilion.html) is nothing short of extraordinary.
 
-**_Resources:_**
+
+## Know More Links
 
 [Gardens by the bay](http://www.gardensbythebay.com.sg/)
+
+[Heritage Gardens](http://www.gardensbythebay.com.sg/en/attractions/heritage-gardens/visitor-information.html)
+
+[World of plants](http://www.gardensbythebay.com.sg/en/attractions/world-of-plants/visitor-information.html)

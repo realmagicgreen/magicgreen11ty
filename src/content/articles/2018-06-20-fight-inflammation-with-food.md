@@ -1,10 +1,12 @@
 ---
-name: Fight inflammation with food
+title: Fight inflammation with food
 subtitle: Inflammation is caused by unhealthy foods and lifestyle habits. You can treat it yourself with foods, exercise, good sleep and stress management.
-description: Inflammation can occur in response to trauma, illness and stress. It can also be caused by unhealthy foods and lifestyle habits. Anti-inflammatory foods, exercise, good sleep and stress management can help.
+description: "Inflammation can occur in response to trauma, illness, stress, or unhealthy foods. Anti-inflammatory foods, exercise, good sleep and stress management can help."
+date: 2018-06-20
+published: true
 category: health
-tags: CO2 botany plants learning superfood wellness
-image: /assets/p/posts/health/fight-inflammation-with-food/fight-inflammation-with-food.jpg
+tags: [article, CO2, botany, plants, learning, superfood, wellness]
+cover_image: ./images/health/fight-inflammation-with-food/fight-inflammation-with-food.jpg
 show_in_home_slideshow: true # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: food that cures # lowercase, max 12 digits, including spaces
 flag: # new or other...
@@ -21,7 +23,8 @@ Anti-inflammatory foods, exercise, good sleep and stress management can help.
 
 ### Turmeric and Curcumin
 
-{% include partials/image.html name="" caption="Curcumin or Turmeric provides several impressive health benefits." %}
+
+![Curcumin or Turmeric provides several impressive health benefits.](./images/health/fight-inflammation-with-food/fight-inflammation-with-food.jpg)
 
 
 [Curcumin](https://en.wikipedia.org/wiki/Curcumin) is a component of the spice Turmeric. It provides several impressive health benefits.
@@ -50,7 +53,7 @@ DHA, in particular, has been shown to have anti-inflammatory effects that reduce
 
 ### Ginger
 
-{% include partials/image.html name="-02" caption="Ginger root has been shown to reduce inflammation" %}
+![Ginger root has been shown to reduce inflammation.](./images/health/fight-inflammation-with-food/fight-inflammation-with-food-02.jpg)
 
 [Ginger](https://en.wikipedia.org/wiki/Ginger) has been shown to reduce inflammation, as well as muscle pain and soreness after exercise.
 
@@ -98,7 +101,8 @@ However, in the case of excessive or chronic inflammation, supplements can often
 
 
 
-**_Know more:_**
+
+## Know More Links
 
 [Curcumin - Wikipedia](https://en.wikipedia.org/wiki/Curcumin)
 

@@ -1,10 +1,12 @@
 ---
-name: Cool Reclaimed Wood Lamps
+title: Cool Reclaimed Wood Lamps
 subtitle: Get some cool design lamps. They claim these lamps are made of up-cycled wood. Old timber turned into great furniture pieces. Really?!
-description: Rest easy, feel good, turn on your reclaimed wood lamp! Adjust it into a new position reflecting how you feel at the moment.
+description: "Rest easy, feel good, turn on your reclaimed wood lamp! Adjust it into a new position reflecting how you feel at the moment."
+date: 2018-08-26
+published: true
 category: products
-tags: design environment-friendly eco-friendly Indonesia learning recycle save-trees Surabaya sustainable-construction up-cycle wood
-image: /assets/p/posts/products/cool-reclaimed-wood-lamps/cool-reclaimed-wood-lamps.jpg
+tags: [article, design, environment-friendly, eco-friendly, Indonesia, learning, recycle, save-trees, Surabaya, sustainable-construction, up-cycle, wood]
+cover_image: ./images/products/cool-reclaimed-wood-lamps/cool-reclaimed-wood-lamps.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption:  # lowercase, max 12 digits, including spaces
 flag: # new or other...
@@ -18,20 +20,21 @@ Yo, these guys from Surabaya, in East Java, make some really cool design lamps.
 
 The human shape is totally moveable, and can be twisted into many funny shapes.
 
-{% include partials/image.html name="-02" caption="Swimming, sitting or any other   position you can think of!" %}
+![Swimming, sitting or any other position you can think of!](./images/products/cool-reclaimed-wood-lamps/cool-reclaimed-wood-lamps-02.jpg)
 
 They claim it's from reclaimed wood, but neither the product nor the packaging carry any proof of this... and honestly the lamp itself does not look like it's made from re-used wood. They told us so probably just to appear smart and trendy... lame.
 
 But, rest easy, feel good, turn on your wood lamp! Adjust it into a new position reflecting how you feel at the moment.
 
-{% include partials/image.html name="-03" caption="Yoga" %}
+![Yoga](./images/products/cool-reclaimed-wood-lamps/cool-reclaimed-wood-lamps-03.jpg)
 
 Now enjoy the always changing shape of your new lamp.
 
-{% include partials/image.html name="-04" caption="Muhammad Arifin is the designer" %}
+![Muhammad Arifin is the designer](./images/products/cool-reclaimed-wood-lamps/cool-reclaimed-wood-lamps-04.jpg)
 
 
-**_Know more:_**
+
+## Know More Links
 
 [Pulampu online](https://pulampu.yukbisnis.com/)
 

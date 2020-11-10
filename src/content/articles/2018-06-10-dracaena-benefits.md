@@ -1,10 +1,22 @@
 ---
-name: Dracaena benefits
+title: Dracaena benefits
 subtitle: This plant removes many pollutants. It's perfect for an healthy home.
-description: People use Dracaena for the health benefits they offer. Dracaena, which name comes from ancient greek, meaning female dragon, is a genus of about 120 species of trees and succulent shrubs. Caring for it is quite easy. It can withstand a certain amount of neglect. A brightly lit spot without direct sunshine is suggested. A small amount of morning or evening sun is not a problem. Avoid having a plant sitting near cold drafts. A fast draining potting soil mix is best to use. Over-watering can kill it.
+date: 2018-06-10
+published: true
+description: People use Dracaena for the health benefits they offer. Dracaena, which name comes from ancient greek, meaning female dragon, is a genus of about 120 species.  # max 160 digits cos dunno how to trim it, yet......
 category: health
-tags: CO2 bedroom-plants air-cleaning botany horticulture plants learning wellness
-image: /assets/p/posts/health/dracena-benefits/dracena-benefits.jpg
+tags:
+  - article 
+  - CO2
+  - air-cleaning
+  - bedroom-plants
+  - botany
+  - horticulture
+  - plants
+  - pollutants-remove
+  - learning
+  - wellness
+cover_image: ./images/health/dracena-benefits/dracena-benefits.jpg
 show_in_home_slideshow: true # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: air cleaning plants # lowercase, max 12 digits, including spaces
 flag: # new or other...
@@ -18,7 +30,7 @@ People use Dracaena for the health benefits they offer. Dracaena, which name com
 
 Caring for it is quite easy. It can withstand a certain amount of neglect. A brightly lit spot without direct sunshine is suggested. A small amount of morning or evening sun is not a problem. Avoid having a plant sitting near cold drafts. A fast draining potting soil mix is best to use. Over-watering can kill it.
 
-{% include partials/image.html name="-02" caption="Dracena Arborea" %}
+![Dracena Arborea](./images/health/dracena-benefits/dracena-benefits-02.jpg)
 
 NASA has spent a lot of time researching air quality in sealed environments. **Dracaena marginata** is among the top 10 plants for removing indoor pollutants, according to the agency.
 
@@ -32,10 +44,10 @@ A study conducted in the University of Agriculture in Norway concluded that hous
 
 **Pollutants removed**: Benzene, Trichloroethylene, Formaldehyde, Carbon dioxide
 
-**_Know more:_**
+
+## Know More Links
 
 [Dracaena uses](http://www.westcoastnurseries.com/dracaena-why-use-dracaena/)
-
 
 [Effectiveness of Houseplants in Reducing the Indoor Air Pollutant](http://horttech.ashspublications.org/cgi/content/abstract/19/2/286)
 
@@ -43,6 +55,6 @@ A study conducted in the University of Agriculture in Norway concluded that hous
 
 [92% of the world’s population exposed to unsafe levels of air pollution](https://www.sciencedaily.com/releases/2016/09/160927144248.htm)
 
-[NASA Clean Air Study](https://en.wikipedia.org/wiki/NASA_Clean_Air_Study)
+[NASA Clean Air Study](https://en.wikipedia.org/wiki/NASA_Clean_Air_Study)"
 
 [Aphrodisiac potentials of Dracaena Arborea](https://www.sciencedirect.com/science/article/pii/S1995764514601036)

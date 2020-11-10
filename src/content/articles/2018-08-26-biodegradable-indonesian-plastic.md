@@ -1,10 +1,12 @@
 ---
-name: Biodegradable Indonesian Plastic
+title: Biodegradable Indonesian Plastic
 subtitle: Avani’s cassava-based biodegradable bags and products are solutions to the worldwide plastic problem.
-description: "Every year, an estimated 1 trillion plastic bags are consumed worldwide. Avani cassava-based biodegradable bags are a solution to mitigate this horrible worldwide epidemic. Avani bags are bio-based, an ideal replacement to petroleum-based plastic bags. Compostable and biodegradable these bags can be recycled along with paper."
+description: "Every year an estimated 1 trillion plastic bags are consumed worldwide. Avani cassava-based biodegradable bags are a solution to mitigate this horrible problem."
+date: 2018-05-22
+published: true
 category: products
-tags: design environment-friendly eco-friendly Indonesia recycle sustainable-construction plastic plastic-alternatives social-responsibility
-image: /assets/p/posts/products/biodegradable-indonesian-plastic/biodegradable-indonesian-plastic.jpg
+tags: [article, design, environment-friendly, eco-friendly, Indonesia, recycle, sustainable-construction, plastic, plastic-alternatives, social-responsibility]
+cover_image: ./images/products/biodegradable-indonesian-plastic/biodegradable-indonesian-plastic.jpg
 show_in_home_slideshow: true # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: bio plastic # lowercase, max 12 digits, including spaces
 flag: # new or other...
@@ -22,7 +24,7 @@ Avani makes bags from industrial grade cassava starch and other natural ingredie
 
 Every year, an estimated 1 trillion plastic bags are consumed worldwide. Avani’s cassava-based biodegradable bags are a solution to mitigate this horrible worldwide epidemic.
 
-{% include partials/image.html name="-05" caption="cassava-based eco bags Biodegradable bag" %}
+![cassava-based eco bags Biodegradable bag](./images/products/biodegradable-indonesian-plastic/biodegradable-indonesian-plastic-05.jpg)
 
 Avani bags are bio-based, an ideal replacement to petroleum-based plastic bags. Compostable and biodegradable these bags can be recycled along with paper.
 
@@ -32,8 +34,7 @@ Avani bags are bio-based, an ideal replacement to petroleum-based plastic bags. 
 
 An eco-friendly alternative to the petroleum based rain poncho, Avani offer a rain poncho  made of renewable resources of corn, soy and sunflower seeds.
 
-
-{% include partials/image.html name="-02" caption="Biodegradable poncho" %}
+![Biodegradable poncho](./images/products/biodegradable-indonesian-plastic/biodegradable-indonesian-plastic-02.jpg)
 
 
 It could last up to 3 months, and then can become compost for our soil. It looks, feels and performs like plastic but is made 100% from renewables non polluting resources.
@@ -43,7 +44,7 @@ It could last up to 3 months, and then can become compost for our soil. It looks
 
 Avani wooden cutleries is derived from certified forests. Made from birchwood, they become the perfect substitute in replacing the normally used plastic cutlery. They are also aesthetically more natural and provide a flexible and durable feel for your consuming needs.
 
-{% include partials/image.html name="-03" caption="wooden cutleries" %}
+![wooden cutleries](./images/products/biodegradable-indonesian-plastic/biodegradable-indonesian-plastic-03.jpg)
 
 Derived from sustainable, replanted forest wood and produced in an ETO sterilization facility and have been CE, FSC and ISO 13485 certified.
 
@@ -52,8 +53,7 @@ Derived from sustainable, replanted forest wood and produced in an ETO steriliza
 
 Made from polylactic acid (PLA) or corn starch, Avani PLA products will release no toxic chemicals a big problem we have when using conventional plastic and they are compostable.
 
-
-{% include partials/image.html name="-04" caption="polylactic acid (PLA) or corn starch glass" %}
+![polylactic acid (PLA) or corn starch glass](./images/products/biodegradable-indonesian-plastic/biodegradable-indonesian-plastic-04.jpg)
 
 
 
@@ -67,20 +67,21 @@ Placing sustainability as its core business values, Avani is committed to exerci
 
 **_Addresses and contacts:_**
 
-AVANI Eco Hub  
-Jl. Cargo Permai No. 188  
-Dusun Liligundi, Ubung Kaja, Denpasar  
-80116 Bali, Indonesia  
-Phone: +62 361 906 5555  
+AVANI Eco Hub
+Jl. Cargo Permai No. 188
+Dusun Liligundi, Ubung Kaja, Denpasar
+80116 Bali, Indonesia
+Phone: +62 361 906 5555
 
-AVANI Jakarta Office  
-Bellezza Shopping Arcade 3rd Floor n.350  
-Jl. Letnan Jend. Soepeno No. 34, Kebayoran Lama  
-12210 Jakarta, Indonesia  
-Phone: +62 21 3048 5599  
+AVANI Jakarta Office
+Bellezza Shopping Arcade 3rd Floor n.350
+Jl. Letnan Jend. Soepeno No. 34, Kebayoran Lama
+12210 Jakarta, Indonesia
+Phone: +62 21 3048 5599
 
 
-**_Know more:_**
+
+## Know More Links
 
 [Avani website](https://www.avanieco.com/)
 
