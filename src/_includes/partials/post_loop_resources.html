@@ -51,7 +51,7 @@
           {{ company.website | remove:'http://' | remove:'https://' | remove:'www.' | remove:'/' }}
           {% endcomment %}
 
-          <td class="website"><a title="website" class="sober_link " href="{{ company.website}}">{% if company.website %}{% include svg/use.html id="icn--link" class="link" %}{% endif %}</a></td>
+          <td class="website"><a title="website" class="sober_link " href="{{ company.website}}">{% if company.website %}{% include svg/use.html id: "icn--link" class: "link" %}{% endif %}</a></td>
 
 
         </tr>
@@ -73,7 +73,7 @@ somehow sorting works only once,
 weird!
 {% endcomment %}
 
-{% include partials/script_list.html %}
+{% include scripts/script_list.html %}
 <script>
   var options = {
     valueNames: [ 'brand', 'products', 'country', 'address' ]

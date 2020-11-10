@@ -7,11 +7,11 @@
 
 **2.** Load the defs.html in your layout before any icon like this:
 
-```{% include svg/defs.html %}```
+```{% include partials/svg/defs.html %}```
 
 **3.** Then get any symbol from def.html like this:
 
-```{% include svg/use.html id="icn--smile" class="smile" %}```
+```{% include partials/svg/use.html id: "icn--smile" class: "smile" %}```
 
 **Note:** Improve svg look with `shape-rendering`:
 

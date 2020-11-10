@@ -33,6 +33,7 @@ module.exports = function(eleventyConfig) {
 
   //LiquidFilter
   eleventyConfig.addLiquidFilter('readingTime', readingTime);
+
   //full-width massive, from https://github.com/eduardoboucas/buildtimes
   eleventyConfig.addLiquidFilter("feature_title", title => {
     const MIN_LENGTH = 10;
@@ -109,16 +110,15 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('./src/android-chrome-144x144.png');
   eleventyConfig.addPassthroughCopy('./src/android-chrome-192x192.png');
 
-
-  // Aliases are in relation to the _includes folder HTML
+  // Aliases are in relation to the _includes folder HTML(LIQUID)
   eleventyConfig.addLayoutAlias('base', 'layouts/base.html');
   eleventyConfig.addLayoutAlias('index', 'layouts/index.html');
   eleventyConfig.addLayoutAlias('post', 'layouts/post.html');
   eleventyConfig.addLayoutAlias('post_grid', 'layouts/post_grid.html');
   eleventyConfig.addLayoutAlias('post_index_category', 'layouts/post_index_category.html');
-
   eleventyConfig.addLayoutAlias('resources', 'layouts/resources.html');
   // Aliases are in relation to the _includes folder NUNJUCKS
+  // for example FUMES has this: d
   // eleventyConfig.addLayoutAlias('text_author', 'layouts/text_author.njk');
 
   eleventyConfig.setLiquidOptions({
