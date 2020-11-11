@@ -6,7 +6,7 @@ date: 2018-05-16
 published: true
 category: services
 tags: [article, commuting, environment-friendly, eco-friendly, electric, Indonesia, Lombok, Sumbawa]
-cover_image: ./images/services/charging-stations-coming/charging-stations-coming.jpg
+cover_image: /assets/p/services/charging-stations-coming/charging-stations-coming.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...

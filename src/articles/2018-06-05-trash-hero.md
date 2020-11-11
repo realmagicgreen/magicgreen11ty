@@ -6,7 +6,7 @@ date: 2018-06-05
 published: true
 category: solutions
 tags: [article, Bali, environment-friendly, eco-friendly, free, initiative, Indonesia, social-responsibility, save-oceans]
-cover_image: ./images/solutions/trash-hero/trash-hero.jpg
+cover_image: /assets/p/solutions/trash-hero/trash-hero.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...

@@ -6,7 +6,7 @@ cdate: 2018-06-26
 published: true
 category: products
 tags: [article, design, environment-friendly, eco-friendly, Indonesia, learning, recycle, save-trees, sustainable-construction, up-cycle, wood]
-cover_image: ./images/products/indonesian-reclaimed-wood/indonesian-reclaimed-wood.jpg
+cover_image: /assets/p/products/indonesian-reclaimed-wood/indonesian-reclaimed-wood.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption:  # lowercase, max 12 digits, including spaces
 flag: # new or other...
@@ -24,7 +24,7 @@ In the last few years in Indonesia and specially in Bali, we have seen a big boo
 
 A quick search on google can reveal you how many companies are offering a wide variety of furniture and designs all made using wood has been reclaimed or salvaged.
 
-![Reclaimed timber is trendy now!](./images/products/indonesian-reclaimed-wood/indonesian-reclaimed-wood-02.jpg)
+![Reclaimed timber is trendy now!](/assets/p/products/indonesian-reclaimed-wood/indonesian-reclaimed-wood-02.jpg)
 
 
 They take unused old structures such as boats, bridges, jetties and factories and turn them into surely solid timber products, sometime beautiful other time funky and kitsch, including flooring, decking, panelling, and countertops.
@@ -33,7 +33,7 @@ This ‘full circle’ production, reduce waste and utilize woods to the max. Af
 
 Some companies, like [Recycle teak](http://www.recycleteak.com/about-us/) are conscious enough to get certified by FSC, to show customers their effort and care about our environment.
 
-![Reclaimed timber is trendy now!](./images/products/indonesian-reclaimed-wood/indonesian-reclaimed-wood-03.jpg)
+![Reclaimed timber is trendy now!](/assets/p/products/indonesian-reclaimed-wood/indonesian-reclaimed-wood-03.jpg)
 
 Some companies even go a step further and donate 10% of proceeds go to no-profits. For example [boat wood furniture Bali](http://boatwoodfurniturebali.com/) supprt Ypac Jimbaran, a local organization helping the physically handicapped children of bali.
 

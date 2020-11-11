@@ -6,7 +6,7 @@ date: 2018-05-09
 published: true
 category: products
 tags: [article, Bali, bamboo, environment-friendly, plastic-alternatives, Indonesia, social-responsibility, sustainable-construction, wood]
-cover_image: ./images/products/bamboo-straws/bamboo-straws.jpg
+cover_image: /assets/p/products/bamboo-straws/bamboo-straws.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...

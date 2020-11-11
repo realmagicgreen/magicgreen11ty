@@ -1,8 +1,23 @@
 <a class="card {{ post.data.category }} {% if post.data.sticky %}sticky_post{% endif %}" title="{{ post.data.title }}" href="{{ post.url | url }}">
 
-  <li>{{ post.data.title }}</li>
-
   <div class="card_post_image clipped">
+    <figure class="clipped">
+
+      {% assign f = post.data.cover_image | split: '.' %}
+      <img loading="lazy" src="{{ f[0] | relative_url }}-640.{{ f[1] }}"
+       srcset="{{ f[0] | relative_url }}-640.{{ f[1] }} 640w,
+               {{ f[0] | relative_url }}-880.{{ f[1] }} 880w,
+               {{ f[0] | relative_url }}-1024.{{ f[1] }} 1024w,
+               {{ f[0] | relative_url }}-1920.{{ f[1] }} 1920w"
+       sizes="(max-width: 640px) 100vw, (max-width: 880px) 50vw, (min-width: 881px) 33vw"
+       alt="{{ post.data.title }}">
+
+
+  <!-- {% if post.data.flag %}
+  <figcaption class="figcaption {{ post.data.flag | slugify }}">{{ post.flag }}</figcaption>
+  {% endif %} -->
+</figure>
+
 
   </div>
 

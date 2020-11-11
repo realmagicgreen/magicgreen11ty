@@ -14,7 +14,7 @@ tags:
   - learning
   - superfood
   - wellness
-cover_image: ./images/health/moringa-superfood/moringa-superfood.jpg
+cover_image: /assets/p/health/moringa-superfood/moringa-superfood.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
@@ -42,7 +42,7 @@ In Western countries, the dried leaves are sold as dietary supplements, either i
 The diet of people in developing nations sometimes lacks vitamins, minerals and protein. In these countries, [Moringa oleifera](https://en.wikipedia.org/wiki/Moringa_oleifera) can be an important source of many essential nutrients.
 
 
-![Moringa is available in powder and is consumed raw added to salads and shakes](./images/health/moringa-superfood/moringa-superfood-02.jpg)
+![Moringa is available in powder and is consumed raw added to salads and shakes](/assets/p/health/moringa-superfood/moringa-superfood-02.jpg)
 
 ## Moringa benefits
 

@@ -6,7 +6,7 @@ date: 2018-05-20
 published: true
 category: solutions
 tags: [article, biodiversity, eco-tourism, eco-entrepreneurs, Indonesia, initiative, Lombok, permaculture, social-responsibility, Sumbawa, sustainable-development]
-cover_image: ./images/solutions/eco-regions-indonesia/eco-regions-indonesia.jpg
+cover_image: /assets/p/solutions/eco-regions-indonesia/eco-regions-indonesia.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...

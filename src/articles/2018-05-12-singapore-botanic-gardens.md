@@ -6,7 +6,7 @@ date: 2018-05-12
 published: true
 category: solutions
 tags: [article, botany, biodiversity, eco-entrepreneurs, free, forest, heritage, horticulture, learning, plants, Singapore, tropical]
-cover_image: ./images/solutions/singapore-botanic-gardens/singapore-botanic-gardens.jpg
+cover_image: /assets/p/solutions/singapore-botanic-gardens/singapore-botanic-gardens.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
@@ -24,7 +24,7 @@ The Singapore Botanic Gardens, protected through the Planning Act of Singapore, 
 
 It demonstrates the evolution of a British tropical colonial botanic garden from a ‘Pleasure Garden’ in the English Landscape Style, to a colonial Economic Garden with facilities for horticultural and botanical research, to a modern and world-class botanic garden, scientific institution and place of conservation, recreation and education.
 
-![Take nothing but photographs, leave nothing but footprints](./images/solutions/singapore-botanic-gardens/singapore-botanic-gardens-02.jpg)
+![Take nothing but photographs, leave nothing but footprints](/assets/p/solutions/singapore-botanic-gardens/singapore-botanic-gardens-02.jpg)
 
 Most of the 183 acres of Singapore Botanic Gardens is in a National Park, and the other designations include: Conservation Area, Tree Conservation Area and Nature Area (applied to the rainforest area).
 
@@ -46,7 +46,7 @@ With more than 50% of its species representing plants that are rare in Singapore
 
 The Healing Garden showcases over 400 varieties of plants used medicinally. It' i's laid out thematically relating to component parts of the body such as head, respiratory and reproductive systems.
 
-![Artemisia, the ancient cure for Malaria.](./images/solutions/singapore-botanic-gardens/singapore-botanic-gardens-04.jpg)
+![Artemisia, the ancient cure for Malaria.](/assets/p/solutions/singapore-botanic-gardens/singapore-botanic-gardens-04.jpg)
 
 Spread over 2.5 hectares, it's designed as a tranquil retreat with medicinal plants traditionally used in Southeast Asia as the main focus. Here you can discover the power of plants to heal and enhance our quality of life.
 
@@ -69,7 +69,7 @@ The Learning Forest is located in the new Tyersall-Gallop Core of the Singapore 
 The Learning Forest features a network of boardwalks and elevated walkways that allow visitors to explore habitats ranging from a freshwater forest wetland to a lowland rainforest.
 
 
-![Singapore botanic gardens](./images/solutions/singapore-botanic-gardens/singapore-botanic-gardens-03.jpg)
+![Singapore botanic gardens](/assets/p/solutions/singapore-botanic-gardens/singapore-botanic-gardens-03.jpg)
 
 Visitors can learn about freshwater forest wetland ecosystems at the Keppel Discovery Wetlands and walk amongst a collection of some of the tallest tree species in Southeast Asia at the SPH Walk of Giants.
 
@@ -106,7 +106,7 @@ Conveniently located next to the car park at Cluny Park Gate and opposite The Ga
 
 It showcases a wide array of ornamental plants with colourful foliage of varying shapes and textures and demonstrates that the beauty and diversity of plants does not lie in their flowers alone.
 
-![Singapore botanic gardens](./images/solutions/singapore-botanic-gardens/singapore-botanic-gardens.jpg)
+![Singapore botanic gardens](/assets/p/solutions/singapore-botanic-gardens/singapore-botanic-gardens.jpg)
 
 Visitors can expect to spot interesting carnivorous plants such as Nepenthes or pitcher plants.
 
@@ -121,7 +121,7 @@ A stroll on the boardwalk in the garden also offers a brilliant view of aquatic 
 The varying colours of the leaves in the foliage garden is one thing that will be hard to miss. This is known as variegation and it is attributed to many factors such as genetics or pigmentation.
 
 
-![Singapore botanic gardens](./images/solutions/singapore-botanic-gardens/singapore-botanic-gardens-08.jpg)
+![Singapore botanic gardens](/assets/p/solutions/singapore-botanic-gardens/singapore-botanic-gardens-08.jpg)
 
 For instance, plants bearing genetic leaf variegation, chimeras, lack chlorophyll in some tissues, causing their leaves to appear yellow or white in some areas.
 
@@ -138,7 +138,7 @@ The foliage garden also presents an eye-opening range of various leaf shapes and
 Leaves come in many forms such as  heart (cordate) or palm (palmate) shaped.
 
 
-![Singapore botanic gardens](./images/solutions/singapore-botanic-gardens/singapore-botanic-gardens-07.jpg)
+![Singapore botanic gardens](/assets/p/solutions/singapore-botanic-gardens/singapore-botanic-gardens-07.jpg)
 
 Leathery or thin leaves are adaptive modifications to hot and humid tropical weather.  Hairy leaves, whilst often pleasant to the touch, act as a form of self defence mechanism to deter herbivores.
 
@@ -149,7 +149,7 @@ Founded in 1875, the Singapore Botanic Gardens is one of the oldest specialized 
 
 The Library holds over 30,000 accessioned items, a rare and irreplaceable resource that supports the work of the Gardens staff, students, and researchers across the globe in a diverse range of science and horticulture disciplines.
 
-![Singapore botanic gardens](./images/solutions/singapore-botanic-gardens/singapore-botanic-gardens-06.jpg)
+![Singapore botanic gardens](/assets/p/solutions/singapore-botanic-gardens/singapore-botanic-gardens-06.jpg)
 
 The collection contains books, periodicals, field books, botanical artwork, historical maps of the Gardens and various other print and digital media.
 
@@ -219,7 +219,7 @@ Open from 8.30am to 7.00pm daily, it's the only section with an Admission Fee: 5
 
 Near the bamboo area you will find the reflexology path, a joint community service project by the [Rotary Club of Changi](http://www.rotarychangi.com/), the [Rotary Club of Singapore](http://rotarysingaporefoundation.org/) East, Rotary Club of Kaohsiung East and the Rotary Club of Sanchung East.
 
-![Singapore botanic gardens](./images/solutions/singapore-botanic-gardens/singapore-botanic-gardens-05.jpg)
+![Singapore botanic gardens](/assets/p/solutions/singapore-botanic-gardens/singapore-botanic-gardens-05.jpg)
 
 **_Visitor informations:_**
 

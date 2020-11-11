@@ -6,7 +6,7 @@ date: 2018-05-24
 published: true
 category: know
 tags: [article, eco-entrepreneurs, environment-friendly, eco-packaging, learning, social-responsibility]
-cover_image: ./images/know/consumers-want-sustainability/consumers-want-sustainability.jpg
+cover_image: /assets/p/know/consumers-want-sustainability/consumers-want-sustainability.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...

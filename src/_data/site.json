@@ -9,7 +9,7 @@
   "lang": "en",
   "license": "CC0",
   "qr": "yes",
-  "url": "https://fumes.junglestar.org",
+  "url": "https://magicgreen.junglestar.org",
   "owner": {
     "name": "Magic Green",
     "email": "magicgreen@junglestar.org",
@@ -21,6 +21,9 @@
       "analytics": "UA-16659805-1",
       "verify": "google32e66f1a5601ec40"
     }
+  },
+  "company": {
+    "legal_name": "Magic Green"
   },
   "version": "6.0.0"
 }

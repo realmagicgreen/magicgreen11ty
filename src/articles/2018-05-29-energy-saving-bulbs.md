@@ -6,7 +6,7 @@ date: 2018-05-29
 published: true
 category: know
 tags: [article, energy-saving, energy-efficiency, electric, learning]
-cover_image: ./images/know/energy-saving-bulbs/energy-saving-bulbs.jpg
+cover_image: /assets/p/know/energy-saving-bulbs/energy-saving-bulbs.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...

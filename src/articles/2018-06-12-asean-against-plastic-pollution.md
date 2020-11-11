@@ -6,7 +6,7 @@ date: 2018-06-12
 published: true
 category: solutions
 tags: [article, ASEAN, Indonesia, Malaysia, Myanmar, Philippines, Singapore, environment-friendly, initiative, social-responsibility, waste]
-cover_image: ./images/solutions/asean-against-plastic-pollution/asean-against-plastic-pollution.jpg
+cover_image: /assets/p/solutions/asean-against-plastic-pollution/asean-against-plastic-pollution.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...

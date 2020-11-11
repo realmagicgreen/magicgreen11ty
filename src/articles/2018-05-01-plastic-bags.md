@@ -12,7 +12,7 @@ tags:
   - save-oceans
   - social-responsibility
   - recycle
-cover_image: ./images/know/plastic-bags/plastic-bags.jpg
+cover_image: /assets/p/know/plastic-bags/plastic-bags.jpg
 description: "Billions of plastic bags are made each year. One hundred billion are thrown away according to  Worldwatch Institute, with less than 1% being recycled." # max 160 digits cos dunno how to trim it, yet......
 ad: # use 'true' to have post displaying AD
 featured: # use 'true' to have it displayed in home

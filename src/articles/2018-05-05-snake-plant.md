@@ -6,7 +6,7 @@ date: 2018-05-05
 published: true
 category: health
 tags: [article, CO2, bedroom-plants, air-cleaning, botany, horticulture, plants, learning, wellness]
-cover_image: ./images/health/snake-plant/snake-plant.jpg
+cover_image: /assets/p/health/snake-plant/snake-plant.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...

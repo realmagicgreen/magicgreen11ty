@@ -6,7 +6,7 @@ date: 2018-05-06
 published: true
 category: solutions
 tags: [article, architecture, biodiversity, design, eco-entrepreneurs, hydro-power, horticulture, learning, recycle, Singapore, sustainable-construction]
-cover_image: ./images/solutions/gardens-by-the-bay/gardens-by-the-bay.jpg
+cover_image: /assets/p/solutions/gardens-by-the-bay/gardens-by-the-bay.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
@@ -44,7 +44,7 @@ We aim to be a model for sustainable development and conservation.
 
 Underlying the concept of Gardens by the Bay are the principles of environmental sustainability. Much effort was made to plan and design for sustainable cycles in energy and water throughout Bay South Garden.
 
-![Garden by the bay](./images/solutions/gardens-by-the-bay/gardens-by-the-bay-02.jpg)
+![Garden by the bay](/assets/p/solutions/gardens-by-the-bay/gardens-by-the-bay-02.jpg)
 
 **Energetics of the conservatories**
 
@@ -70,7 +70,7 @@ The Conservatories apply the strategy of cooling only the lower levels, thus red
 
 To reduce the amount of energy required in the cooling process, the air in Flower Dome is de-humidified by liquid desiccant (drying agent) before it is cooled. This desiccant is recycled using the waste heat from the burning of the biomass.
 
-![Garden by the bay](./images/solutions/gardens-by-the-bay/gardens-by-the-bay-03.jpg)
+![Garden by the bay](/assets/p/solutions/gardens-by-the-bay/gardens-by-the-bay-03.jpg)
 
 
 **4) Generating energy and harnessing waste heat**
@@ -117,7 +117,7 @@ More than a scenic treat, the lakes are a rich source of aquatic life from fish 
 
 In this realm of lush greenery you can learn all about the spectacular myriad of tropical plants and the systems these plants support. Find out how plants disperse their seeds, how mushrooms benefit rainforest communities and how plants adapt to adverse environments.
 
-![Garden by the bay](./images/solutions/gardens-by-the-bay/gardens-by-the-bay-04.jpg)
+![Garden by the bay](/assets/p/solutions/gardens-by-the-bay/gardens-by-the-bay-04.jpg)
 
 
 Enjoy the sights of flowers and fruits in bloom, learn how to identify different tree species and even see some of the most primitive plants in the world! More on [World of plants](http://www.gardensbythebay.com.sg/en/attractions/world-of-plants/visitor-information.html)

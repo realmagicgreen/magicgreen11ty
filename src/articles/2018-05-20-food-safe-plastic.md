@@ -6,7 +6,7 @@ date: 2018-05-20
 published: true
 category: know
 tags: [article, plastic, learning, wellness]
-cover_image: ./images/know/food-safe-plastic/food-safe-plastic.jpg
+cover_image: /assets/p/know/food-safe-plastic/food-safe-plastic.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
@@ -43,7 +43,7 @@ Look for the symbol. It indicated what type of plastic it is. Avoid buying the h
 
 ### The plastic types
 
-![Look at least for BPA-free on the label of products](./images/know/food-safe-plastic/food-safe-plastic-02.jpg)
+![Look at least for BPA-free on the label of products](/assets/p/know/food-safe-plastic/food-safe-plastic-02.jpg)
 
 
 1. **PET: polyethylene terephthalate.** PET is commonly used in commercially sold drink bottles, and condiment bottles (like ketchup). Generally considered a “safe” plastic, as does not contain BPA, in the presence of heat it can leach antimony, a toxic metalloid, into food and beverages, which can cause vomiting, diarrhea and stomach ulcers. Some studies have shown up to 100 times the amount of antimony in bottled water than in clean groundwater. The longer the bottle is on the shelf or exposed to heat or sunshine, the more antimony is likely to have leached into the product.

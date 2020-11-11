@@ -6,7 +6,7 @@ date: 2018-11-01
 published: true
 category: know
 tags: [article, architecture, design, learning, sustainable-development]
-cover_image: ./images/know/bandwidth-and-economic-wealth/bandwidth-and-economic-wealth.jpg
+cover_image: /assets/p/know/bandwidth-and-economic-wealth/bandwidth-and-economic-wealth.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption:  # lowercase, max 12 digits, including spaces
 flag: # new or other...

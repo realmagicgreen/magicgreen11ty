@@ -6,7 +6,7 @@ date: 2018-06-13
 published: true
 category: know
 tags: [article, ASEAN, Indonesia, Malaysia, Myanmar, Philippines, Singapore, biodiversity, initiative, learning, permaculture, tropical]
-cover_image: ./images/know/zooming-in-on-biodiversity/zooming-in-on-biodiversity.jpg
+cover_image: /assets/p/know/zooming-in-on-biodiversity/zooming-in-on-biodiversity.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: BIO DIVERSITY # lowercase, max 12 digits, including spaces
 flag: # new or other...
@@ -20,11 +20,11 @@ Biodiversity is the variety of life on Earth. These forms of life include microo
 
 According to the Convention on Biological Diversity, biodiversity is “the variability among living organisms from all sources including, inter alia, terrestrial, marine and other aquatic ecosystems and the ecological complexes of which they are part; this includes diversity within species, between species and of ecosystems."
 
-![2015 Finalist: Golden Orb Weaving Web, Chai Wai Meng](./images/know/zooming-in-on-biodiversity/zooming-in-on-biodiversity-02.jpg)
+![2015 Finalist: Golden Orb Weaving Web, Chai Wai Meng](/assets/p/know/zooming-in-on-biodiversity/zooming-in-on-biodiversity-02.jpg)
 
 Biodiversity provides us with air, water, food and materials for medicine, clothing and shelter. Millions of people rely on biodiversity for livelihood and a host of ecosystem services. However, due to the continuous growth of population and overexploitation of biological resources, this “web of life” is now under serious threat.
 
-![2015 Finalist: Pitcher Frog, Joel Forte](./images/know/zooming-in-on-biodiversity/zooming-in-on-biodiversity-03.jpg)
+![2015 Finalist: Pitcher Frog, Joel Forte](/assets/p/know/zooming-in-on-biodiversity/zooming-in-on-biodiversity-03.jpg)
 
 **Zooming in on Biodiversity** is a photo contest open to all nationals from the 10 ASEAN Member States, conceptualized by the ASEAN Centre for Biodiversity.
 
@@ -33,7 +33,7 @@ Biodiversity provides us with air, water, food and materials for medicine, cloth
 
 This year’s Zooming in on Biodiversity aims to translate into exceptional photographs the sustainable use of biological resources in a developing world.
 
-![2009 Third Place winner: Children plant trees in mining site, Karlo Emmanuel Victoriano](./images/know/zooming-in-on-biodiversity/zooming-in-on-biodiversity-04.jpg)
+![2009 Third Place winner: Children plant trees in mining site, Karlo Emmanuel Victoriano](/assets/p/know/zooming-in-on-biodiversity/zooming-in-on-biodiversity-04.jpg)
 
 **Through this ASEAN-wide photo contest, ACB aims to:**
 
@@ -45,7 +45,7 @@ This year’s Zooming in on Biodiversity aims to translate into exceptional phot
 
 ### Overall Theme: Biodiversity richness of ASEAN
 
-![2009 Third Place: Kids Collecting Water, Kyaw Kyaw Winn](./images/know/zooming-in-on-biodiversity/zooming-in-on-biodiversity-05.jpg)
+![2009 Third Place: Kids Collecting Water, Kyaw Kyaw Winn](/assets/p/know/zooming-in-on-biodiversity/zooming-in-on-biodiversity-05.jpg)
 
 The entries must showcase the abundance of biodiversity in the region. The photos may highlight subjects related to the following:
 
@@ -84,7 +84,7 @@ Once submitted, the owners/photographers provide ACB the right to use the photos
 3rd Place   USD 500
 
 
-![2009 edition winner: Large Flying Fox, Chalid Nasution](./images/know/zooming-in-on-biodiversity/zooming-in-on-biodiversity.jpg)
+![2009 edition winner: Large Flying Fox, Chalid Nasution](/assets/p/know/zooming-in-on-biodiversity/zooming-in-on-biodiversity.jpg)
 
 
 ## Know More Links

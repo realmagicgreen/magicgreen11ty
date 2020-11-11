@@ -6,7 +6,7 @@ date: 2018-05-13
 published: true
 category: products
 tags: [article, commuting, electric, environment-friendly]
-cover_image: ./images/products/et-foldable-scooter/et-foldable-scooter.jpg
+cover_image: /assets/p/products/et-foldable-scooter/et-foldable-scooter.jpg
 show_in_home_slideshow:  # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: e-scooters # lowercase, max 12 digits, including spaces
 flag: # new or other...

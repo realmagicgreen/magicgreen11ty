@@ -6,7 +6,7 @@ date: 2018-08-26
 published: true
 category: products
 tags: [article, design, environment-friendly, eco-friendly, Indonesia, learning, recycle, save-trees, Surabaya, sustainable-construction, up-cycle, wood]
-cover_image: ./images/products/cool-reclaimed-wood-lamps/cool-reclaimed-wood-lamps.jpg
+cover_image: /assets/p/products/cool-reclaimed-wood-lamps/cool-reclaimed-wood-lamps.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption:  # lowercase, max 12 digits, including spaces
 flag: # new or other...
@@ -20,17 +20,17 @@ Yo, these guys from Surabaya, in East Java, make some really cool design lamps.
 
 The human shape is totally moveable, and can be twisted into many funny shapes.
 
-![Swimming, sitting or any other position you can think of!](./images/products/cool-reclaimed-wood-lamps/cool-reclaimed-wood-lamps-02.jpg)
+![Swimming, sitting or any other position you can think of!](/assets/p/products/cool-reclaimed-wood-lamps/cool-reclaimed-wood-lamps-02.jpg)
 
 They claim it's from reclaimed wood, but neither the product nor the packaging carry any proof of this... and honestly the lamp itself does not look like it's made from re-used wood. They told us so probably just to appear smart and trendy... lame.
 
 But, rest easy, feel good, turn on your wood lamp! Adjust it into a new position reflecting how you feel at the moment.
 
-![Yoga](./images/products/cool-reclaimed-wood-lamps/cool-reclaimed-wood-lamps-03.jpg)
+![Yoga](/assets/p/products/cool-reclaimed-wood-lamps/cool-reclaimed-wood-lamps-03.jpg)
 
 Now enjoy the always changing shape of your new lamp.
 
-![Muhammad Arifin is the designer](./images/products/cool-reclaimed-wood-lamps/cool-reclaimed-wood-lamps-04.jpg)
+![Muhammad Arifin is the designer](/assets/p/products/cool-reclaimed-wood-lamps/cool-reclaimed-wood-lamps-04.jpg)
 
 
 

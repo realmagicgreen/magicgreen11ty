@@ -6,7 +6,7 @@ date: 2018-05-23
 published: true
 category: know
 tags:  [article, eco-entrepreneurs, environment-friendly, eco-tourism, learning, permaculture, social-responsibility, travel]
-cover_image: ./images/know/travellers-choose-sustainability/travellers-choose-sustainability.jpg
+cover_image: /assets/p/know/travellers-choose-sustainability/travellers-choose-sustainability.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...

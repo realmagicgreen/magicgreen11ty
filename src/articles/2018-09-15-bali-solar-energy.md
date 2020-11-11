@@ -6,7 +6,7 @@ date: 2018-09-15
 published: true
 category: solutions
 tags: [article, Bali, environment-friendly, eco-friendly, Indonesia, responsible-sources, renewable-energy, social-responsibility, sustainable-development]
-cover_image: ./images/solutions/bali-solar-energy/bali-solar-energy.jpg
+cover_image: /assets/p/solutions/bali-solar-energy/bali-solar-energy.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption:  # lowercase, max 12 digits, including spaces
 flag: # new or other...

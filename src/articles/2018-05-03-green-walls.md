@@ -14,7 +14,7 @@ tags:
   - pollutants-remove
   - Indonesia
 canonical_url: false
-cover_image: ./images/solutions/green-walls/green-walls.jpg
+cover_image: /assets/p/solutions/green-walls/green-walls.jpg
 description: "Green walls are not only visually pleasant, but naturally absorb CO2 and other pollutants thus cleaning the air." # max 160 digits cos dunno how to trim it, yet......
 ad: # use 'true' to have post displaying AD
 featured: # use 'true' to have it displayed in home
@@ -27,16 +27,16 @@ photography: # put here photographer name
 
 Green walls are not only visually pleasant, but naturally absorb CO2 and other pollutants thus cleaning the air.
 
-![Singapore Raffles Hospital](./images/solutions/green-walls/green-walls-02.jpg)
+![Singapore Raffles Hospital](/assets/p/solutions/green-walls/green-walls-02.jpg)
 
 
 Let's not forget that trees, and green in general, created the oxygen in our atmosphere.
 
-![Singapore Orchard Mall rooftop](./images/solutions/green-walls/green-walls-03.jpg)
+![Singapore Orchard Mall rooftop](/assets/p/solutions/green-walls/green-walls-03.jpg)
 
 While this solution is picking up quickly in many metropolitan areas for the specific work they do for us, in Bali too we have some, like this one in Sanur.
 
-![Bali, Sanur](./images/solutions/green-walls/green-walls.jpg)
+![Bali, Sanur](/assets/p/solutions/green-walls/green-walls.jpg)
 
 
 
