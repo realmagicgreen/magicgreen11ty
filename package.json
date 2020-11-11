@@ -1,6 +1,6 @@
 {
   "name": "magicgreen11ty",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Magic Green refactored with 11ty",
   "scripts": {
     "build": "eleventy",

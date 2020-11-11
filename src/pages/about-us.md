@@ -1,13 +1,14 @@
 ---
-layout: post
-name: About us
+title: About us
 subtitle: Working towards a necessary future.
 category: about
 description: We are a network of communication professionals, with a solid experience producing communication tools, who feel the need to make something meaningful and necessary. We'd like to give a contribution to push the world towards the right direction. Help us spread the word.
 image: /assets/p/posts/about/about-us/about-us.jpg
 many_pictures: # 'true' or empty
 publish: # use 'notyet' to print 'coming soon'
-tag: # new or other...
+tag:
+  - page
+  - about-us # new or other...
 featured: # use 'true' to have it displayed in home
 ---
 >"**Nothing is as powerful as an idea whose time has come.**" _Victor Hugo_
@@ -32,7 +33,7 @@ We see an urgent need for a communication platform which gather infos, good exam
 
 Our project is a website and a printed magazine. We are building a internet based platform to gather infos, examples and addresses of all stuff green related in Bali and beyond.
 
-We are open-source, copyright-free. We encourage you to print any article of our website and forward it to anyone that might be interested in your network of friends and colleagues. Print to a PDF file in order to save trees, of course.  
+We are open-source, copyright-free. We encourage you to print any article of our website and forward it to anyone that might be interested in your network of friends and colleagues. Print to a PDF file in order to save trees, of course.
 
 We aim to inspire responsible tourism and the tourism industry. Follow us to know what's up in Bali and beyond!
 

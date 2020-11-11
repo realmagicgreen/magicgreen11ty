@@ -3,34 +3,16 @@
   <h1 class="">{{site.subtitle}}</h1>
 </div>
 
-<div class="post_grid">
+<div class="post_grid all_featured_articles">
 
-  <!-- {% for post in paginator.posts %}
-    {% if post.featured %}
-      {% unless post.publish=="notyet" %}
+  {%- assign featured_posts = collections.article  -%}
 
-        {% include post_card.html %}
+  {%- for post in featured_posts reversed -%}
+    {% if post.data.featured %}
 
-      {% endunless %}
-    {% endif %}
-  {% endfor %} -->
+      {% include partials/post_card.html %}
 
-  <!-- {%- assign posts_all = collections.article  -%}
-  {%- for post in posts_all -%}
-    {% if post.featured %} -->
-
-    {%- for post in collections.article -%}
-  <li>{{ post.data.title }}</li>
-{%- endfor -%}
-
-      <!-- {% include partials/post_card.html %} -->
-
-      <!--ENDincludes/partials/post_card-->
-
-      <!-- fumes11 inner code njk
-      <a class="looper__link {{ category }} {% if page.url == post.url %}active{% endif %}" href="{{ post.url }}">{{ post.data.title }}</a>
-      -->
-    <!-- {% endif %}
-  {%- endfor -%} -->
+    {%- endif -%}
+  {%- endfor -%}
 
 </div>

@@ -1,4 +1,4 @@
-{% if page.name != 'About us' %}
+{% if page.data.title != 'About us' %}
 <h5 class="post_metas">
 
   <div class="post_meta_block">
@@ -7,7 +7,7 @@
     </div>
 
     <div class="post_meta_text">
-      {% for tag in page.tags %}
+      {% for tag in tags %}
         <a class="sober_link nowrap" href="/{{ tag }}/">{{ tag }}</a>
       {% endfor %}
     </div>

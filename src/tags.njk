@@ -1,0 +1,43 @@
+---
+eleventyExcludeFromCollections: true
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+  filter:
+    - all
+    - article
+    - template
+  addAllPagesToCollections: true
+layout: base
+renderData:
+  title: Tagged “{{ tag }}”
+permalink: /{{ tag }}/
+---
+<div class="content {% if category %}{{ category }}{% else %}index{% endif %} {% if offwhite %}offwhite_content{% endif %} tags_njk_template">
+
+  <div class="wrapper">
+
+    <div class="tagpage tagpage__title">
+
+      <span class="tagpage__ico">{% set id = "icn--tag" %}{% include "partials/svg/use.html" %}</span>
+
+      <h1 class="page__title">{{ tag | capitalize }}</h1>
+
+    </div>
+
+    <div class="tagpage post_cards">
+      {% set postslist = collections[ tag ] %}
+
+      {% for post in postslist | reverse %}
+
+        {% include "partials/index_post_block--excerpt.njk" %}
+
+      {% endfor %}
+
+      {% include "partials/nav--tag-cloud.njk" %}
+    </div>
+
+  </div>
+
+</div>
