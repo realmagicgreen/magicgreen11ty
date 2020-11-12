@@ -31,7 +31,7 @@
 
     <tbody class="list">
       {% for company in site.data.companies %}
-        <tr class="green_pages_table_row" id="{{ company.brand | slugify }}"  itemscope itemtype="http://schema.org/Organization">
+        <tr class="green_pages_table_row" id="{{ company.brand | replace: "", "-"  }}"  itemscope itemtype="http://schema.org/Organization">
 
           <td class="brand" data-th="Brand" itemprop="brand">{{ company.brand }}</td>
 

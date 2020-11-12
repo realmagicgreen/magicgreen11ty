@@ -7,7 +7,7 @@
   {% include partials/head.html %}
 
   <!--layouts/post_grid-->
-  <body class="layout_post_grid index {{page.title | slugify}} {% if site.menu %}{{ site.menu }}{% endif %} grid">
+  <body class="layout_post_grid index {{page.title | replace: "", "-" }} {% if site.menu %}{{ site.menu }}{% endif %} grid">
 
     {% include partials/svg/defs.html %}
 

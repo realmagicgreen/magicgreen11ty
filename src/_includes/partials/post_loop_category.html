@@ -2,7 +2,7 @@
 {% include partials/post_page_title.html %}
 
 <div class="post_grid">
-{% capture pagecat %}{{ page.category | slugify }}{% endcapture %}
+{% capture pagecat %}{{ page.category | replace: "", "-"  }}{% endcapture %}
 
 {% for post in site.posts %}
   {% if post.category contains pagecat %}

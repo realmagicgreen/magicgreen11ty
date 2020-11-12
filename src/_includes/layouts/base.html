@@ -6,8 +6,8 @@
 
   {% include partials/head.html %}
 
-  <!--layouts/default-->
-  <body class="{{page.title | slugify}} {% if site.menu %}{{ site.menu }}{% endif %}">
+  <!--layouts/base-->
+  <body class="{{page.title }}{%if site.menu%}{{site.menu}}{%endif%}">
 
     {% include partials/svg/defs.html %}
 

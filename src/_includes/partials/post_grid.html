@@ -3,18 +3,18 @@
 
 {% for post in site.posts %}
 {% unless post.publish=='notyet' %}
-    <a class="card {{ post.category }}" title="{{ post.name }}" href="/{{ post.category }}/{{ post.name  | slugify }}/">
+    <a class="card {{ post.category }}" title="{{ post.name }}" href="/{{ post.category }}/{{ post.name  | replace: "", "-"  }}/">
 
       <div class="card_post_image">
         <figure class="">
-          <img  class="post_thumb" src="/assets/p/posts/{{ post.category }}/{{ post.name | slugify }}.jpg" alt="{{ post.name }}" title="{{ post.name }}">
-          <figcaption class="figcaption {% if post.tag %}{{ post.tag | slugify }}{% else %}{% if post.publish=="notyet" %}coming-soon{% endif %}{% endif %}">
+          <img  class="post_thumb" src="/assets/p/posts/{{ post.category }}/{{ post.name | replace: "", "-"  }}.jpg" alt="{{ post.name }}" title="{{ post.name }}">
+          <figcaption class="figcaption {% if post.tag %}{{ post.tag | replace: "", "-"  }}{% else %}{% if post.publish=="notyet" %}coming-soon{% endif %}{% endif %}">
             {% if post.tag %}{{ post.tag }}
             {% else %}{% if post.publish=="notyet" %}coming soon{% endif %}
             {% endif %}
           </figcaption>
         </figure>
-        <div class="category {{ post.category | slugify }}">
+        <div class="category {{ post.category | replace: "", "-"  }}">
           {{ post.category }}
         </div>
       </div>

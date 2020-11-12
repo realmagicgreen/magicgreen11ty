@@ -7,7 +7,7 @@
   {% include partials/head.html %}
 
   <!--layouts/post_index_tag-->
-  <body class="index {{page.title | slugify}} {% if site.menu %}{{ site.menu }}{% endif %} index">
+  <body class="index {{page.title | replace: "", "-" }} {% if site.menu %}{{ site.menu }}{% endif %} index">
 
     {% include partials/svg/defs.html %}
 

@@ -1,4 +1,4 @@
-<div class="post_image_group">
+<div class="post_image_group partials_post_image_group_html">
 
   <div class="slideshow_wrap">
     <div class="slideshow">
@@ -10,16 +10,17 @@
               {% comment %}
               assign the page image and split at the extension dot
               {% endcomment %}
-              {% assign f = page.data.cover_image | split: '.' %}
+
+              {% assign f = post.data.cover_image | split: '.' %}
               <img src="{{ f[0] | relative_url }}-640.{{ f[1] }}"
                    srcset="{{ f[0] | relative_url }}-640.{{ f[1] }} 640w,
                            {{ f[0] | relative_url }}-880.{{ f[1] }} 880w,
                            {{ f[0] | relative_url }}-1024.{{ f[1] }} 1024w,
                            {{ f[0] | relative_url }}-1920.{{ f[1] }} 1920w"
                    sizes="100vw"
-                   alt="{{ page.data.title }} - {{ page.data.subtitle }}">
+                   alt="{{ title }} - {{ subtitle }}">
 
-                   <!-- <figcaption>{{ page.title }} - {{ page.subtitle }}</figcaption> -->
+                   <!-- <figcaption>{{ post.data.title }} - {{ post.data.subtitle }}</figcaption> -->
 
              </figure>
 
@@ -29,16 +30,16 @@
     </div>
   </div>
 
-  {% if page.flag %}
-    <span class="figcaption {{ page.data.flag | slugify }}">{{ page.data.flag }}</span>
+  {% if post.data.flag %}
+    <span class="figcaption {{ post.data.flag | replace: "", "-"  }}">{{ post.data.flag }}</span>
   {% endif %}
-  {% if page.publish == "notyet" %}
+  {% if post.data.publish == "notyet" %}
     <span class="figcaption coming-soon">coming soon</span>
   {% endif %}
 
-  {% if page.name != 'About us' %}
-    <div class="category {{ page.data.category }}">
-      {{ page.category }}
+  {% if post.data.title != 'About us' %}
+    <div class="category {{ category }}">
+      {{ category }}
     </div>
   {% endif %}
 

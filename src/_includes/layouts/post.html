@@ -6,16 +6,19 @@
 
   {% include partials/head.html %}
 
-  <!--layouts/post-->
-  <body class="{{page.category | slugify}} post {{page.title | slugify}} {% if site.menu %}{{site.menu}}{% endif %}">
+  <!--layouts/posta-->
+  <body class="QQ {{ page.data.category | replace: "", "-" }} post {{ post.data.title  }} {% if site.data.menu %}{{site.data.menu}}{% endif %}">
 
     {% include partials/svg/defs.html %}
 
     {% include partials/header.html %}
 
-    <div class="bungkus group {{ page.category }}">
+    <div class="bungkus group {{ page.data.category }}">
 
-      {% include partials/post_image_group.html %}
+
+            {% comment %}
+            {% include partials/post_image_group.html %}
+            {% endcomment %}
 
       <div class="container small" role="main">
 
