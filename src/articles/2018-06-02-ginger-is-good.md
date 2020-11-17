@@ -1,5 +1,5 @@
 ---
-title: Ginger is good
+title: Ginger Is Good
 subtitle: This root provides us with a wealth of anti-inflammatory anti-bacterial and analgesic effects.
 date: 2018-06-02
 published: true

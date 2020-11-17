@@ -1,5 +1,5 @@
 ---
-title: Green walls
+title: Green Walls
 subtitle: "Absorb pollution, offer cooling shade and cost much less than any other walls."
 date: 2018-05-03
 published: true

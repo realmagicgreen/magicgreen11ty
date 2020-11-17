@@ -1,5 +1,5 @@
 ---
-title: ASEAN against plastic pollution
+title: ASEAN Against Plastic Pollution
 subtitle: ASEAN Centre for Biodiversity (ACB) joins the movement against the use of plastics, supports the initiatives in banning plastic use.
 description: "Every year, the world produces around 5 trillion plastic bags. That is about 700 per person. Utilized for just a few minutes, take centuries to decompose."
 date: 2018-06-12

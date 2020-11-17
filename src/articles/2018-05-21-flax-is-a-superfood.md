@@ -1,5 +1,5 @@
 ---
-title: Flax is a superfood
+title: Flax is a Superfood
 subtitle: Nutritional powerhouses flax or linseed are packed with fiber, omega-3, vitamins, and antioxidants.
 description: "Flax seeds are nutritional powerhouses. They're absolutely packed with fiber, omega-3 fatty acids, B vitamins, antioxidants, and cancer-fighting lignans."
 date: 2018-05-20

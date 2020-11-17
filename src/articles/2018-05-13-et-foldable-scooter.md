@@ -1,5 +1,5 @@
 ---
-title: ET foldable scooter
+title: ET Foldable Scooter
 subtitle: Charge it, un-fold it and ride smarter.
 description: Among the big offer of e-bikes and scooters one which sticks out is definitely this slick ET foldable electric scooter. With a catchy design it guarantees you...
 date: 2018-05-13

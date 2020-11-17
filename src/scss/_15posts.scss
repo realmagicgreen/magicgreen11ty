@@ -2,8 +2,10 @@ figure {
   position: relative;
   margin: 0;
   padding: 0;
+
   &.post_content_image {
     margin-top: $space--small;
+
     figcaption {
       text-transform: uppercase;
       font-size: 80%;
@@ -71,6 +73,7 @@ blockquote {
   @include media("screen", ">maxWidth") {
     margin-right: 18vw;
   }
+
   p {
     font-size: 1.25rem;
     line-height: 1.25;
@@ -81,13 +84,12 @@ blockquote {
     }
 
     em {
-      font-size: 0.75rem;
+      font-size: .75rem;
       padding-top: $space--small/2;
       display: block;
     }
   }
 }
-
 
 .post_image_group {
   position: relative;
@@ -131,7 +133,7 @@ blockquote {
 
 .category {
   height: 26px;
-  line-height: 22px;
+  line-height: 26px;
   text-align: right;
   text-transform: uppercase;
   font-weight: $semibold_font_weight;

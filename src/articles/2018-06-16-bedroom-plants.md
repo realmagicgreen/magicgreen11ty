@@ -1,5 +1,5 @@
 ---
-title: Air cleaning bedroom plants
+title: Air Cleaning Bedroom Plants
 subtitle: "Plants that absorb pollutants and CO2 at night and help you sleep better."
 date: 2018-06-16
 published: true

@@ -1,5 +1,5 @@
 ---
-title: Byebye plastic bags
+title: Byebye Plastic Bags
 subtitle: "Youth Driven Change to get the people of Bali to say no to plastic bags."
 description: "Byebye plastic bags is an initiative from children to force people to say no to plastic bags, because of the enormous environmental pollution they cause."
 date: 2018-05-15

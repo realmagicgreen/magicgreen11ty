@@ -1,5 +1,5 @@
 ---
-title: Chrysanthemum power
+title: Chrysanthemum Power
 subtitle: Beautiful flowers and powerful pollutant remover. A must have for an healthy home.
 description: "Chrysanthemum, known also as Pot Mum or Florist's Mum, is an excellent poison remover. The Pot Mum has an incredible transpiration rate and this is one of... "
 date: 2018-05-31

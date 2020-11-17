@@ -1,5 +1,5 @@
 ---
-title: Raising awareness
+title: Raising Awareness
 subtitle: "Mission Blue inspires action to explore and protect the ocean for a global network of marine protected areas."
 date: 2020-07-14
 published: true

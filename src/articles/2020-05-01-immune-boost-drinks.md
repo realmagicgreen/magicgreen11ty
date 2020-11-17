@@ -1,5 +1,5 @@
 ---
-title: Immune boost drinks
+title: Immune Boost Drinks
 subtitle: "An interview with healthy drink producer Iris from Live Essences."
 date: 2020-05-01
 published: true

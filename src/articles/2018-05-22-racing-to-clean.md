@@ -1,5 +1,5 @@
 ---
-title: Racing to clean
+title: Racing To Clean
 subtitle: Volcom Indonesia offers an example of responsible action, the Red Bag race.
 description: "From the great mind of Ketut \"King Kong\" Kasih, owner of Volcom Indonesia. The red bag race is a competition to collect trash at surf contests." # max 160 digits cos dunno how to trim it, yet......
 date: 2018-05-22

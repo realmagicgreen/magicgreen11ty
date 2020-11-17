@@ -1,5 +1,5 @@
 ---
-title: Trash hero
+title: Trash Hero
 subtitle: This global phenomena is growing bigger. And it's happening in Bali too.
 description: "Let's talk trash. The Trash Hero movement is a global phenomena and is growing bigger. They educate and act. In Bali too, people are taking action."
 date: 2018-06-05

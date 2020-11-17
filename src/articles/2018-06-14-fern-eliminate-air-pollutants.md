@@ -1,5 +1,5 @@
 ---
-title: Ferns eliminate air pollutants
+title: Ferns Eliminate Air Pollutants
 subtitle: This ancient plant offers a superior pollutants removal efficiency. A must have for an healthy home.
 date: 2018-06-14
 published: true

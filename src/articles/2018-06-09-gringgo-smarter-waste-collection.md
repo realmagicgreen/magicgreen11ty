@@ -1,5 +1,5 @@
 ---
-title: Gringgo smarter waste collection
+title: Gringgo Smarter Waste Collection
 subtitle: Born in Bali this platform for recycling is tackling the trash problem head on.
 description: "In many places around the world, trash is a big problem and recycling is not easy, so people don't recycle. Gringgo make it easy. "
 date: 2018-06-09

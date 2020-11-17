@@ -1,5 +1,5 @@
 ---
-title: Peace lilies
+title: Peace Lilies
 subtitle: One of the most powerful pollutant remover.
 description: "NASA Clean Air Study found that it is one of the most powerful pollutant remover. Most people don't know what's their apartment, is full of harfull substances."
 date: 2018-05-25

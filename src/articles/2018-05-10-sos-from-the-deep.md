@@ -1,5 +1,5 @@
 ---
-title: SOS from the deep
+title: SOS From The Deep
 subtitle: "CTC provides education and training to make sure that marine protected areas!"
 description: "Coral Reefs need our help now! More than 27% of the world’s coral reefs are already lost. If we don’t do anything about it, almost all of our coral reefs..."
 date: 2018-05-10

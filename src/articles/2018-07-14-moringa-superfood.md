@@ -1,5 +1,5 @@
 ---
-title: Moringa superfood
+title: Moringa Superfood
 subtitle: Also called drumstick tree, horseradish tree, Moringa is an excellent source of vitamins, antioxidants and minerals.
 date: 2018-07-14
 published: true

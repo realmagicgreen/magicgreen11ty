@@ -16,17 +16,19 @@
       <div class="menu_posts" role="menu">
         <div class="title">Latest articles</div>
 
-        {% for item in site.posts %}
+        {%- assign featured_posts = collections.article  -%}
+
+        {% for item in featured_posts reversed %}
           {% if page.url contains item.url %}
-            {% unless item.publish=="notyet" %}
-            <a class="menu_item active" role="menuitem" title="{{ item.title }}" href="{{ item.url | prepend: site.baseurl }}">
-              <span class="">{{ item.title }}</span>
+            {% unless item.data.publish=="notyet" %}
+            <a class="menu_item active" role="menuitem" title="{{ item.data.title }}" href="{{ item.url | url }}">
+              <span class="">{{ item.data.title }}</span>
             </a>
             {% endunless %}
           {% else %}
-            {% unless item.publish=="notyet" %}
-            <a class="menu_item " role="menuitem" title="{{ item.title }}" href="{{ item.url | prepend: site.baseurl }}">
-              <span class="page_title">{{ item.title }}</span>
+            {% unless item.data.publish=="notyet" %}
+            <a class="menu_item " role="menuitem" title="{{ item.data.title }}" href="{{ item.url | url }}">
+              <span class="page_title">{{ item.data.title }}</span>
             </a>
             {% endunless %}
           {% endif %}
