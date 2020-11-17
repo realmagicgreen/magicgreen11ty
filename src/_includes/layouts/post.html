@@ -6,8 +6,8 @@
 
   {% include partials/head.html %}
 
-  <!--layouts/posta-->
-  <body class="QQ {{ page.data.category | replace: "", "-" }} post {{ post.data.title  }} {% if site.data.menu %}{{site.data.menu}}{% endif %}">
+  <!--layouts/post-->
+  <body class="{{ category | replace: " ", "-"}} post {{ title | downcase | replace: " ", "-"}} {% if site.data.menu %}{{site.data.menu}}{% endif %}">
 
     {% include partials/svg/defs.html %}
 
@@ -15,10 +15,7 @@
 
     <div class="bungkus group {{ page.data.category }}">
 
-
-            {% comment %}
-            {% include partials/post_image_group.html %}
-            {% endcomment %}
+      {% include partials/post_image_group.html %}
 
       <div class="container small" role="main">
 
