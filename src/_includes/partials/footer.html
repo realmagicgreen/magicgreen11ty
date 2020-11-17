@@ -40,7 +40,6 @@
 
         <div class="title">About {{site.company.name}}</div>
 
-        {% if site.has_about_page %}
         <div class="name">
           {% if page.url contains 'about' %}
           <a class="menu_item active" role="menuitem" href="/about-us/" title="about us">
@@ -52,16 +51,15 @@
           </a>
           {% endif %}
         </div>
-        {% endif %}
 
 
-        {% if site.company.facebook_page %}
+        {% if site.company.facebook %}
         <div class="footer_icon facebook">
-          <a class="menu_item" role="menuitem" href="{{site.company.facebook_page}}" title="{{site.company.facebook_page}} Facebook page">
+          <a class="menu_item" role="menuitem" href="{{site.company.facebook}}" title="{{site.company.facebook}} Facebook page">
             <span>
               {% include partials/svg/use.html, id: "icn--facebook" class: "facebook" %}
             </span>
-            <span>FB: {{site.company.facebook_page | replace: "https://web.facebook.com/", "" }}</span>
+            <span>FB: {{site.company.facebook | replace: "https://web.facebook.com/", "" }}</span>
           </a>
         </div>
         {% endif %}
@@ -77,7 +75,8 @@
         </div>
         {% endif %}
 
-        {% if site.company.twitter %}
+        {% if site.company.twitter == "" %}
+        {% else %}
         <div class="footer_icon twitter">
           <a class="menu_item" role="menuitem" href="{site.company.twitter}}" title="{{site.company.twitter}} at twitter">
             <span>
