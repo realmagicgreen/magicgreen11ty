@@ -31,8 +31,9 @@ module.exports = function(eleventyConfig) {
     }
   });
 
-  //LiquidFilter
+  //LiquidFilters
   eleventyConfig.addLiquidFilter('readingTime', readingTime);
+
 
   //full-width massive, from https://github.com/eduardoboucas/buildtimes
   eleventyConfig.addLiquidFilter("feature_title", title => {

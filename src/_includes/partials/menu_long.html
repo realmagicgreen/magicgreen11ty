@@ -13,11 +13,11 @@ menu with many items
 
   {% for item in site.data.menu_long %}
     {% if page.url contains item.url %}
-      <a class="menu_item active" role="menuitem" title="{{ item.name }}" href="{{ item.url | prepend: site.baseurl }}">
+      <a class="menu_item active" role="menuitem" title="{{ item.name }}" href="{{ item.url | url }}">
         <span class="nowrap">{{ item.name }}</span>
       </a>
     {% else %}
-      <a class="menu_item " role="menuitem" title="{{ item.name }}" href="{{ item.url | prepend: site.baseurl }}">
+      <a class="menu_item" role="menuitem" title="{{ item.name }}" href="{{ item.url | url }}">
         <span class="page_title nowrap">{{ item.name }}</span>
       </a>
     {% endif %}
