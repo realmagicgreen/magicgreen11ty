@@ -13,9 +13,6 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.setLibrary("njk", nunjucksEnvironment);
 };
 
-// var env = new nunjucks.Environment();
-// env.addExtension('CaptureTag', new CaptureTag());
-
 module.exports = function(eleventyConfig) {
 
 
@@ -36,6 +33,7 @@ module.exports = function(eleventyConfig) {
 
 
   //full-width massive, from https://github.com/eduardoboucas/buildtimes
+  //not used yet
   eleventyConfig.addLiquidFilter("feature_title", title => {
     const MIN_LENGTH = 10;
     const MAX_LENGTH = 20;

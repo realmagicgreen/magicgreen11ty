@@ -3,25 +3,25 @@
 
 {% for post in site.posts %}
 {% unless post.publish=='notyet' %}
-    <a class="card {{ post.category }}" title="{{ post.name }}" href="/{{ post.category }}/{{ post.name  | replace: "", "-"  }}/">
+    <a class="card {{ post.category }}" title="{{ post.title }}" href="/{{ post.category }}/{{ post.title | slug }}/">
 
       <div class="card_post_image">
         <figure class="">
-          <img  class="post_thumb" src="/assets/p/posts/{{ post.category }}/{{ post.name | replace: "", "-"  }}.jpg" alt="{{ post.name }}" title="{{ post.name }}">
-          <figcaption class="figcaption {% if post.tag %}{{ post.tag | replace: "", "-"  }}{% else %}{% if post.publish=="notyet" %}coming-soon{% endif %}{% endif %}">
+          <img  class="post_thumb" src="/assets/p/posts/{{ post.category }}/{{ post.title | slug }}.jpg" alt="{{ post.ntitleame }}" title="{{ post.title }}">
+          <figcaption class="figcaption {% if post.tag %}{{ post.tag | slug }}{% else %}{% if post.publish=="notyet" %}coming-soon{% endif %}{% endif %}">
             {% if post.tag %}{{ post.tag }}
             {% else %}{% if post.publish=="notyet" %}coming soon{% endif %}
             {% endif %}
           </figcaption>
         </figure>
-        <div class="category {{ post.category | replace: "", "-"  }}">
+        <div class="category {{ post.category | slug }}">
           {{ post.category }}
         </div>
       </div>
 
       <div class="card_post_text">
-        <h2>{{post.name}}</h2>
-        <h4>{{post.subtitle}}</h4>
+        <h2>{{ post.name }}</h2>
+        <h4>{{ post.subtitle }}</h4>
       </div>
 
     </a>

@@ -6,11 +6,7 @@
 
   {% include partials/head.html %}
 
-  {% comment %}
-  same as layouts/post_index_category
-  {% endcomment %}
-
-  <body class="index {{page.title | slug }} {% if site.menu %}{{ site.menu }}{% endif %} index">
+  <body class="index {{title | slug}} resources layout--resources_htm">
 
     {% include partials/svg/defs.html %}
 

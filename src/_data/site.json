@@ -9,7 +9,6 @@
   "lang": "en",
   "license": "CC0",
   "qr": "yes",
-  "menu": "long_menu",
   "projectimage": "assets/p/og.jpg",
   "url": "https://magicgreen.junglestar.org",
   "author": {
@@ -25,7 +24,7 @@
     "instagram": "https://www.instagram.com/realmagicgreen",
     "google": {
       "analytics": "UA-16659805-1",
-      "verify": "google32e66f1a5601ec40"
+      "verification": "google32e66f1a5601ec40"
     }
   },
   "version": "6.0.0"

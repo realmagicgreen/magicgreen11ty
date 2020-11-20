@@ -2,9 +2,9 @@
 {% include partials/post_page_title.html %}
 
 <div class="post_grid">
-{% capture pagecat %}{{ page.category | replace: "", "-"  }}{% endcapture %}
+{% capture pagecat %}{{ page.category | slug }}{% endcapture %}
 
-{% for post in site.posts %}
+{% for post in collection.articles %}
   {% if post.category contains pagecat %}
     {% unless post.publish=='notyet' %}
 
