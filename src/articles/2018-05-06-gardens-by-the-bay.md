@@ -16,6 +16,8 @@ sticky: # 'true' or empty
 photography: Rocco Marosi # put here photographer name
 ---
 
+<div class="tldr">
+
 ## TLDR
 
 - Rated number 3 on things to do in Singapore Tripadvisor
@@ -27,6 +29,8 @@ photography: Rocco Marosi # put here photographer name
 - Contains more than 1,000,000 plants
 
 - The two Cooled Conservatories at Gardens by the Bay are the world’s largest column-less greenhouses.
+
+</div>
 
 ## Mission
 

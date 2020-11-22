@@ -1,16 +1,17 @@
 .speech_bubble {
   position: relative;
-  display:inline-block;
-  max-width:90%;
-  min-height:1.5em;
+  display: inline-block;
+  max-width: 90%;
+  min-height: 1.5em;
   padding: 10px;
   margin-bottom: 10px;
   border: $black solid 1px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  border-radius: $radius;
   background-color: darken($bg_color, 20);
-  &:after  {
+
+  &:after {
     content: "";
     position: absolute;
     left: 0;
@@ -24,6 +25,7 @@
     top: calc(50% - 15px);
     left: -28px;
   }
+
   &:before {
     content: "";
     position: absolute;

@@ -8,7 +8,7 @@
     padding-top: $space;
     padding-bottom: $space;
     text-align: center;
-    @include media( "screen", ">bp1Width") {
+    @include media("screen", ">bp1Width") {
       text-align: left;
     }
   }
@@ -22,10 +22,10 @@
   margin-right: 6px;
   margin-bottom: $space--small/2;
   border: 1px solid $black_stroke;
-  border-radius: 4px;
+  border-radius: $radius;
   color: $black;
   padding: 0 10px;
-  opacity: 0.9;
+  opacity: .9;
   -webkit-box-shadow: $card_shadow;
   box-shadow: $card_shadow;
 
@@ -47,7 +47,6 @@
   }
 }
 
-
 .input {
   //a
   display: inline-block;
@@ -56,19 +55,15 @@
   margin-right: 6px;
   margin-bottom: $space--small/2;
   border: 1px solid $black_stroke;
-  border-radius: 4px;
+  border-radius: $radius;
   color: $black;
   padding: 0 10px;
-  opacity: 0.9;
+  opacity: .9;
   -webkit-box-shadow: $card_shadow;
   box-shadow: $card_shadow;
 
   &:focus,
-  &:hover {
+  &:hover {}
 
-  }
-
-  &:active {
-
-  }
+  &:active {}
 }

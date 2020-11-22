@@ -24,7 +24,18 @@ show_in_home_slideshow: true # 'true' or empty
 home_slideshow_caption: bio cement # lowercase, max 12 digits, including spaces
 photography: # put here photographer name
 ---
+<div class="tldr">
 
+## TLDR
+
+- Growing biologically controlled calcium carbonate cement by employing microorganisms.
+
+- 99% less carbon footprint compared to cement.
+
+- Formed at ambient temperatures without dust release.
+
+
+</div>
 
 As an architect or designer, what is your role in the building industry? Are you making conscious decisions to support a sustainable economy? It all starts with the materials we use.
 

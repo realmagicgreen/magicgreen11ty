@@ -166,3 +166,10 @@ blockquote {
     border-bottom: 1px solid $transparent_grey;
   }
 }
+
+.container .tldr {
+  display: block;
+  padding: $space--small;
+  border: 1px solid $transparent_grey;
+  border-radius: $radius;
+}

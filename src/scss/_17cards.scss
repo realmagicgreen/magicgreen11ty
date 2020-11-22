@@ -7,7 +7,7 @@
   -webkit-transition: $transition_shadow;
   transition: $transition_shadow;
   border: 1px solid $black;
-  border-radius: 5px;
+  border-radius: $radius;
   overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -24,11 +24,10 @@
     position: relative;
     width: 100%;
     color: $transparent_grey;
-    -webkit-transition: -webkit-transform 0.25s ease-in-out;
-    transition: -webkit-transform 0.25s ease-in-out;
-    transition: transform 0.25s ease-in-out;
-    transition: transform 0.25s ease-in-out, -webkit-transform 0.25s ease-in-out;
-
+    -webkit-transition: -webkit-transform .25s ease-in-out;
+    transition: -webkit-transform .25s ease-in-out;
+    transition: transform .25s ease-in-out;
+    transition: transform .25s ease-in-out, -webkit-transform .25s ease-in-out;
 
     .services & {
       background-color: $category_01;
@@ -86,16 +85,15 @@
   margin-top: -10px;
   margin-bottom: $space--small;
 
-    margin-bottom: 0;
-    height: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-
+  margin-bottom: 0;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
 
   & > * + * {
     margin-top: $space--small/2;

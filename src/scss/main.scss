@@ -55,14 +55,15 @@ $heading5: $heading1/10*5.5;
 $icon_size: 30px;
 
 //shadows
-$top_shadow: 0px -2px 5px 0 rgba($black,0.12), 0px -4px 10px 0 rgba($black,0.24);
-$bottom_shadow: 0px 4px 10px 0 rgba($black,0.24);
-$card_shadow: 1px 1px 2px 0px rgba($black,0.12), 2px 2px 3px 0px rgba($black,0.24);
-$card_shadow--hover: 4px 4px 8px 0px rgba($black,0.12), 8px 8px 8px 0px rgba($black,0.24);
+$top_shadow: 0 -2px 5px 0 rgba($black,0.12), 0 -4px 10px 0 rgba($black,0.24);
+$bottom_shadow: 0 4px 10px 0 rgba($black,0.24);
+$card_shadow: 1px 1px 2px 0 rgba($black,0.12), 2px 2px 3px 0 rgba($black,0.24);
+$card_shadow--hover: 4px 4px 8px 0 rgba($black,0.12), 8px 8px 8px 0 rgba($black,0.24);
 
-$transition_shadow: box-shadow 0.2s ease;
+$transition_shadow: box-shadow .2s ease;
 
 // buttons
+$radius: 4px;
 $black_stroke: hsl(0,0%,0%);
 $button_focus_bg: hsla(0, 0%, 91%, 1);
 $button_book: $link_color;
@@ -72,35 +73,4 @@ $mediaMinWidth: 640px;
 $mediaBp1Width: 880px;
 $mediaMaxWidth: 1260px;
 
-@import
-"1normalize",
-"2mixins",
-"2responsive_font",
-"3cmq",
-"4base",
-"5headings",
-"6menu",
-"7logo",
-"8header",
-"9footer",
-"10svg",
-"11buttons",
-"12links",
-"13titles",
-"14slideshow",
-"15posts",
-"16posts_metas",
-"17cards",
-"18social_sharing",
-"19nav",
-"20ad_symbol",
-"21tag_cloud",
-"22tag_page",
-"23responsive_bg_img",
-"24pagination",
-"25green_pages",
-"26responsive_tables",
-"27add_your_company",
-"28speech_bubble",
-"29medium_zoom"
-;
+@import "1normalize", "2mixins", "2responsive_font", "3cmq", "4base", "5headings", "6menu", "7logo", "8header", "9footer", "10svg", "11buttons", "12links", "13titles", "14slideshow", "15posts", "16posts_metas", "17cards", "18social_sharing", "19nav", "20ad_symbol", "21tag_cloud", "22tag_page", "23responsive_bg_img", "24pagination", "25green_pages", "26responsive_tables", "27add_your_company", "28speech_bubble", "29medium_zoom";
