@@ -13,6 +13,8 @@
 
   <meta name="keywords" content="{% if tags %}{{ tags | join: ', ' }}{% else %}{{ site.keywords }}{% endif %}">
 
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
+
   <style>
     {% include css/main.css %}
   </style>

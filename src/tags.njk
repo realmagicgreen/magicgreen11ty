@@ -14,13 +14,17 @@ renderData:
   title: Tagged “{{ tag }}”
 permalink: /{{ tag }}/
 ---
-<div class="content {% if category %}{{ category }}{% else %}index{% endif %} {% if offwhite %}offwhite_content{% endif %} tags_njk_template">
+<div class="content {% if category %}{{ category }}{% else %}index{% endif %} {% if offwhite %}offwhite_content{% endif %} tags_njk">
 
   <div class="wrapper">
 
     <div class="tagpage tagpage__title">
 
-      <span class="tagpage__ico">{% set id = "icn--tag" %}{% include "partials/svg/use.html" %}</span>
+      <span class="tagpage__ico roh">
+        <svg class="tag">
+          <use xlink:href="#icn--tag"></use>
+        </svg>
+      </span>
 
       <h1 class="page__title">{{ tag | capitalize }}</h1>
 
@@ -35,7 +39,7 @@ permalink: /{{ tag }}/
 
       {% endfor %}
 
-      {% include "partials/tag-cloud.njk" %}
+      {% include "partials/tag_cloud.njk" %}
     </div>
 
   </div>

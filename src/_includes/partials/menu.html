@@ -4,8 +4,9 @@
 </div>
 
 <nav class="menu menu_header" role="menu" id="menu">
+  {%- assign cat = collections.category  -%}
 
-  {%- for item in collections.categories -%}
+  {%- for item in cat -%}
     {% if page.url contains item.url %}
       <a class="menu_item active" role="menuitem" title="{{ item.data.title }}" href="{{ item.url | url }}">
         <span class="nowrap">{{ item.data.title }}</span>

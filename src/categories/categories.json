@@ -1,4 +1,4 @@
 {
   "layout": "post_index_category",
-  "permalink": "/{{ title | slugify }}/"
+  "permalink": "/{{ title | slug }}/"
 }

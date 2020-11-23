@@ -1,4 +1,4 @@
 {
   "layout": "resources",
-  "permalink": "/{{ title | slugify }}/"
+  "permalink": "/{{ title | slug }}/"
 }

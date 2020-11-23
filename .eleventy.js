@@ -4,23 +4,15 @@ const pluginSass = require('./src/_11ty/sass');
 const readingTime = require('./src/_11ty/reading-time');
 const pluginDate = require("eleventy-plugin-date");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
-const CaptureTag = require('./src/_11ty/nunjucks-capture');
 const slugify = require("@sindresorhus/slugify");
 
 let Nunjucks = require("nunjucks");
 
 module.exports = function(eleventyConfig) {
 
-  let nunjucksEnvironment = new Nunjucks.Environment(
-    new Nunjucks.addExtension('CaptureTag', new CaptureTag())
-  );
+  let nunjucksEnvironment = new Nunjucks.Environment();
 
   eleventyConfig.setLibrary("njk", nunjucksEnvironment);
-};
-
-
-
-module.exports = function(eleventyConfig) {
 
   // // Filter source file names using a glob
   //   eleventyConfig.addCollection("categories", function(collectionApi) {
@@ -126,9 +118,9 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addLayoutAlias('default', 'default.html');
   eleventyConfig.addLayoutAlias('index', 'index.html');
   eleventyConfig.addLayoutAlias('post', 'post.html');
-  // eleventyConfig.addLayoutAlias('post_grid', 'layouts/post_grid.html');
-  // eleventyConfig.addLayoutAlias('post_index_category', 'layouts/post_index_category.html');
-  // eleventyConfig.addLayoutAlias('resources', 'layouts/resources.html');
+  eleventyConfig.addLayoutAlias('post_index_category', 'post_index_category.html');
+  eleventyConfig.addLayoutAlias('resources', 'resources.html');
+
   // Aliases are in relation to the _includes folder NUNJUCKS
   // for example FUMES has this:
   // eleventyConfig.addLayoutAlias('text_author', 'layouts/text_author.njk');
@@ -160,7 +152,7 @@ module.exports = function(eleventyConfig) {
     dir: {
       input: 'src',
     },
-    templateFormats : ['njk', 'md', 'liquid', 'html'],
+    // templateFormats : ['njk', 'md', 'liquid', 'html'],
     // markdownTemplateEngine: 'liquid',
     // htmlTemplateEngine : 'liquid',
     passthroughFileCopy: true,
