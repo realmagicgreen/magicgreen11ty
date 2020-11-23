@@ -61,7 +61,7 @@ or serve like this:
 
 build only:
 
-```npm run build``` which runs ```eleventy```
+```npm run build``` which runs ```rm -rf _site && npx @11ty/eleventy```
 
 or Automatically run when input template files change.
 Useful if you have your own web server:

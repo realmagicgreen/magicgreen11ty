@@ -2,15 +2,14 @@
 {% include partials/post_page_title.html %}
 
 <div class="post_grid">
-{% capture pagecat %}{{ page.category | slug }}{% endcapture %}
 
-{% for post in collection.articles %}
-  {% if post.category contains pagecat %}
-    {% unless post.publish=='notyet' %}
+{%- assign this_cat_posts = collections.categories  -%}
 
-      {% include post_card.html %}
+{%- for post in this_cat_posts reversed -%}
+  {% if post.data.featured %}
 
-    {% endunless %}
-  {% endif %}
-{% endfor %}
+    {% include partials/post_card.html %}
+
+  {%- endif -%}
+{%- endfor -%}
 </div>

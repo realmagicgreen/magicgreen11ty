@@ -5,13 +5,18 @@
     <div class="header_block">
 
       <a class="logo_block group" href="/" title="home">
-          {% include partials/svg/use.html, id: "icn--logo" class: "logo" %}
+
+        {% include partials/svg/use.html, id: "icn--logo" class: "logo" %}
+
         <h1>{{ site.title }}</h1>
+        
       </a>
 
       {% include partials/menu.html %}
 
       {% include scripts/script_menu_toggle.html %}
+
+    </div>
 
   </div>
 

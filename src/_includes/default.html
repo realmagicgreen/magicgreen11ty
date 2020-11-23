@@ -6,21 +6,14 @@
 
   {% include partials/head.html %}
 
-  <body class="index {{title | slugify }} layout--post_index_tag_html">
+  <!--layouts/default-->
+  <body class="{{title | slugify }} roh">
 
     {% include partials/svg/defs.html %}
 
     {% include partials/header.html %}
 
-    <div class="bungkus group">
-
-      <div class="container" role="main">
-
-        {% include partials/post_loop_tag.html %}
-
-      </div>
-
-    </div>
+    {{ content }}
 
     {% include partials/footer.html %}
 

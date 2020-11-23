@@ -1,11 +1,16 @@
+const markdownIt = require("markdown-it");
+const markdownItAnchor = require("markdown-it-anchor");
 const pluginSass = require('./src/_11ty/sass');
 const readingTime = require('./src/_11ty/reading-time');
 const pluginDate = require("eleventy-plugin-date");
+const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const CaptureTag = require('./src/_11ty/nunjucks-capture');
+const slugify = require("@sindresorhus/slugify");
 
 let Nunjucks = require("nunjucks");
 
 module.exports = function(eleventyConfig) {
+
   let nunjucksEnvironment = new Nunjucks.Environment(
     new Nunjucks.addExtension('CaptureTag', new CaptureTag())
   );
@@ -13,8 +18,18 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.setLibrary("njk", nunjucksEnvironment);
 };
 
+
+
 module.exports = function(eleventyConfig) {
 
+  // // Filter source file names using a glob
+  //   eleventyConfig.addCollection("categories", function(collectionApi) {
+  //     return collectionApi.getFilteredByGlob("categories/*.md");
+  //   });
+
+  // PLUGINS
+
+  eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
   eleventyConfig.addPlugin(pluginDate, {
     // Specify custom date formats
@@ -28,11 +43,30 @@ module.exports = function(eleventyConfig) {
     }
   });
 
+  // sass
+  eleventyConfig.addPlugin(pluginSass, {
+    watch: './src/scss/*.scss',
+    outputDir: './src/_includes/css/'
+  });
+
+  // FILTERS
+
+  // Universal slug filter strips unsafe chars from URLs
+  // eleventyConfig.addFilter("slug", function (str) {
+  //   return slugify(str, {
+  //     lower: true,
+  //     replacement: "-",
+  //     remove: /[*+~.·,()'"`´%!?¿:@»]/g
+  //   });
+	// });
+
   //LiquidFilters
   eleventyConfig.addLiquidFilter('readingTime', readingTime);
 
+  //NunjucksFilter
+  eleventyConfig.addNunjucksFilter('readingTime', readingTime);
 
-  //full-width massive, from https://github.com/eduardoboucas/buildtimes
+  //Full-width massive, from https://github.com/eduardoboucas/buildtimes
   //not used yet
   eleventyConfig.addLiquidFilter("feature_title", title => {
     const MIN_LENGTH = 10;
@@ -76,32 +110,11 @@ module.exports = function(eleventyConfig) {
     `;
   });
 
-  //NunjucksFilter
-  eleventyConfig.addNunjucksFilter('readingTime', readingTime);
+  // COLLECTIONS
 
   //tags as in 11ty base repo
   eleventyConfig.addCollection('tagList', require('./src/_11ty/getTagList'));
-
-  // //TESTING: list of tags with count per tag - candy
-  // eleventyConfig.addCollection('tagCount', require('./src/_11ty/tagCounter'));
-  //
-  //TESTING: list of posts per tag - candy
   eleventyConfig.addCollection('tagListPosts', require('./src/_11ty/tagListPosts'));
-
-    // //test to enable pagination and prev/next navigation
-    // // temporarily suspended
-    // eleventyConfig.addCollection('articles', function(collection) {
-    //   return collection.getFilteredByGlob('src/articles/*.md').sort((a, b) => {
-    //     return a.data.display_order - b.data.display_order;
-    //   });
-    // });
-
-
-  // sass
-  eleventyConfig.addPlugin(pluginSass, {
-    watch: './src/scss/*.scss',
-    outputDir: './src/_includes/css/'
-  });
 
   // pass some assets right through
   eleventyConfig.addPassthroughCopy('./src/assets');
@@ -117,7 +130,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addLayoutAlias('post_index_category', 'layouts/post_index_category.html');
   eleventyConfig.addLayoutAlias('resources', 'layouts/resources.html');
   // Aliases are in relation to the _includes folder NUNJUCKS
-  // for example FUMES has this: d
+  // for example FUMES has this:
   // eleventyConfig.addLayoutAlias('text_author', 'layouts/text_author.njk');
 
   eleventyConfig.setLiquidOptions({
@@ -128,16 +141,28 @@ module.exports = function(eleventyConfig) {
     ]
   });
 
+  const markdownItOptions = { html: true };
+  const markdownItAnchorOptions = {
+    permalinkClass: "heading-anchor",
+    level: 1,
+    permalink: true,
+    permalinkBefore: true,
+    slugify
+  };
+  const markdownItPlugin = markdownIt(markdownItOptions).use(
+    markdownItAnchor,
+    markdownItAnchorOptions
+  );
+
+  eleventyConfig.setLibrary("md", markdownItPlugin);
+
   return {
-    dir: {
-      input: 'src',
-      includes: '_includes', //default
-      data: '_data', //default
-      output: '_site' //default
-    },
-    templateFormats : ['njk', 'md', 'liquid', 'html'],
-    markdownTemplateEngine: 'liquid',
-    htmlTemplateEngine : 'liquid',
+    // dir: {
+    //   input: 'src',
+    // },
+    // templateFormats : ['njk', 'md', 'liquid', 'html'],
+    // markdownTemplateEngine: 'liquid',
+    // htmlTemplateEngine : 'liquid',
     passthroughFileCopy: true,
   };
 }

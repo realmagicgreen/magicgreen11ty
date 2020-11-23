@@ -25,7 +25,7 @@
     <h1 class="{% if post.data.ad %}ad_symbol{% endif %}">{{post.data.title}}</h1>
     <h3 class="border_top border_bottom">{{post.data.subtitle}}</h3>
     <div class="card_post_text_content">
-      {{ post.templateContent | strip_html | truncate: 200 }}
+      {{ post.templateContent | strip_html | truncate: 200 | replace: "¶ TLDR","" }}
     </div>
 
     <div class="button_row">

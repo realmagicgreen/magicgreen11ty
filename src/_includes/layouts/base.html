@@ -2,12 +2,12 @@
 
 ---
 <!DOCTYPE html>
-<html lang="{% if page.lang %}{{page.lang}}{% else %}{{site.lang}}{% endif %}" prefix="og: http://ogp.me/ns#">
+<html lang="{% if page.data.lang %}{{ page.data.lang }}{% else %}{{ site.lang }}{% endif %}" prefix="og: http://ogp.me/ns#">
 
   {% include partials/head.html %}
 
   <!--layouts/base-->
-  <body class="{{title | slug}}">
+  <body class="{{title | slugify }}">
 
     {% include partials/svg/defs.html %}
 

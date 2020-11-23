@@ -3,18 +3,18 @@
 
 {% for post in site.posts %}
 {% unless post.publish=='notyet' %}
-    <a class="card {{ post.category }}" title="{{ post.title }}" href="/{{ post.category }}/{{ post.title | slug }}/">
+    <a class="card {{ post.category }}" title="{{ post.title }}" href="/{{ post.category }}/{{ post.title | slugify }}/">
 
       <div class="card_post_image">
         <figure class="">
-          <img  class="post_thumb" src="/assets/p/posts/{{ post.category }}/{{ post.title | slug }}.jpg" alt="{{ post.ntitleame }}" title="{{ post.title }}">
-          <figcaption class="figcaption {% if post.tag %}{{ post.tag | slug }}{% else %}{% if post.publish=="notyet" %}coming-soon{% endif %}{% endif %}">
+          <img  class="post_thumb" src="/assets/p/posts/{{ post.category }}/{{ post.title | slugify }}.jpg" alt="{{ post.ntitleame }}" title="{{ post.title }}">
+          <figcaption class="figcaption {% if post.tag %}{{ post.tag | slugify }}{% else %}{% if post.publish=="notyet" %}coming-soon{% endif %}{% endif %}">
             {% if post.tag %}{{ post.tag }}
             {% else %}{% if post.publish=="notyet" %}coming soon{% endif %}
             {% endif %}
           </figcaption>
         </figure>
-        <div class="category {{ post.category | slug }}">
+        <div class="category {{ post.category | slugify }}">
           {{ post.category }}
         </div>
       </div>

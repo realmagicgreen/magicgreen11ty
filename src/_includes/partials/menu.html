@@ -1,24 +1,18 @@
-{% comment %}
-menu with many items
-{% endcomment %}
-
-  <div class="menu_toggle_buttom" id="menu_toggle_buttom">
-    {% include partials/svg/use.html, id: "icn--burger" class: "open" %}
-    {% include partials/svg/use.html, id: "icn--x" class: "close" %}
-  </div>
-
+<div class="menu_toggle_buttom" id="menu_toggle_buttom">
+  {% include partials/svg/use.html, id: "icn--burger" class: "open" %}
+  {% include partials/svg/use.html, id: "icn--x" class: "close" %}
 </div>
 
 <nav class="menu menu_header" role="menu" id="menu">
 
-  {% for item in site.data.menu_long %}
+  {%- for item in collections.categories -%}
     {% if page.url contains item.url %}
-      <a class="menu_item active" role="menuitem" title="{{ item.name }}" href="{{ item.url | url }}">
-        <span class="nowrap">{{ item.name }}</span>
+      <a class="menu_item active" role="menuitem" title="{{ item.data.title }}" href="{{ item.url | url }}">
+        <span class="nowrap">{{ item.data.title }}</span>
       </a>
     {% else %}
-      <a class="menu_item" role="menuitem" title="{{ item.name }}" href="{{ item.url | url }}">
-        <span class="page_title nowrap">{{ item.name }}</span>
+      <a class="menu_item" role="menuitem" title="{{ item.data.title }}" href="{{ item.url | url }}">
+        <span class="page_title nowrap">{{ item.data.title }}</span>
       </a>
     {% endif %}
   {% endfor %}

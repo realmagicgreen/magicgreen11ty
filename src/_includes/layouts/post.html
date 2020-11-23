@@ -1,44 +1,20 @@
 ---
-
+layout: default
 ---
-<!DOCTYPE html>
-<html lang="{% if page.lang %}{{page.lang}}{% else %}{{site.lang}}{% endif %}" prefix="og: http://ogp.me/ns#">
+<div class="bungkus group {{ page.data.category }}">
 
-  {% include partials/head.html %}
+  {% include partials/post_image_group.html %}
 
-  <!--layouts/post-->
-  <body class="{{category | slug}} post {{title | slug}} layout--post_htm">
+  <div class="container small" role="main">
 
-    {% include partials/svg/defs.html %}
+    {% include partials/post_header.html %}
 
-    {% include partials/header.html %}
+    {{ content }}
 
-    <div class="bungkus group {{ page.data.category }}">
+    {% include partials/social_sharing.html %}
 
-      {% include partials/post_image_group.html %}
+  </div>
 
-      <div class="container small" role="main">
+</div>
 
-        {% include partials/post_header.html %}
-
-        {{ content }}
-
-        {% include partials/social_sharing.html %}
-
-      </div>
-
-    </div>
-
-    {% include partials/footer.html %}
-
-    {% include scripts/script_ResponsiveBackgroundImage.html %}
-
-    {% include scripts/script_medium_zoom.html %}
-
-    {% include scripts/script_ext_link.html %}
-
-    {% include scripts/script_append_to_copy_action.html %}
-
-  </body>
-
-</html>
+{% include scripts/script_ResponsiveBackgroundImage.html %}
