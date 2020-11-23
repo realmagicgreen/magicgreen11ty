@@ -123,23 +123,23 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('./src/android-chrome-192x192.png');
 
   // Aliases are in relation to the _includes folder HTML(LIQUID)
-  eleventyConfig.addLayoutAlias('base', 'layouts/base.html');
-  eleventyConfig.addLayoutAlias('index', 'layouts/index.html');
-  eleventyConfig.addLayoutAlias('post', 'layouts/post.html');
-  eleventyConfig.addLayoutAlias('post_grid', 'layouts/post_grid.html');
-  eleventyConfig.addLayoutAlias('post_index_category', 'layouts/post_index_category.html');
-  eleventyConfig.addLayoutAlias('resources', 'layouts/resources.html');
+  eleventyConfig.addLayoutAlias('default', 'default.html');
+  eleventyConfig.addLayoutAlias('index', 'index.html');
+  eleventyConfig.addLayoutAlias('post', 'post.html');
+  // eleventyConfig.addLayoutAlias('post_grid', 'layouts/post_grid.html');
+  // eleventyConfig.addLayoutAlias('post_index_category', 'layouts/post_index_category.html');
+  // eleventyConfig.addLayoutAlias('resources', 'layouts/resources.html');
   // Aliases are in relation to the _includes folder NUNJUCKS
   // for example FUMES has this:
   // eleventyConfig.addLayoutAlias('text_author', 'layouts/text_author.njk');
 
-  eleventyConfig.setLiquidOptions({
-    dynamicPartials: false,
-    root: [
-      '_includes',
-      '.'
-    ]
-  });
+  // eleventyConfig.setLiquidOptions({
+  //   dynamicPartials: false,
+  //   root: [
+  //     '_includes',
+  //     '.'
+  //   ]
+  // });
 
   const markdownItOptions = { html: true };
   const markdownItAnchorOptions = {
@@ -157,10 +157,10 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.setLibrary("md", markdownItPlugin);
 
   return {
-    // dir: {
-    //   input: 'src',
-    // },
-    // templateFormats : ['njk', 'md', 'liquid', 'html'],
+    dir: {
+      input: 'src',
+    },
+    templateFormats : ['njk', 'md', 'liquid', 'html'],
     // markdownTemplateEngine: 'liquid',
     // htmlTemplateEngine : 'liquid',
     passthroughFileCopy: true,

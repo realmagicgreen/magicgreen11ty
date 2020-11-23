@@ -1,5 +1,6 @@
 ---
 eleventyExcludeFromCollections: true
+layout: default
 pagination:
   data: collections
   size: 1
@@ -9,7 +10,6 @@ pagination:
     - article
     - template
   addAllPagesToCollections: true
-layout: base
 renderData:
   title: Tagged “{{ tag }}”
 permalink: /{{ tag }}/

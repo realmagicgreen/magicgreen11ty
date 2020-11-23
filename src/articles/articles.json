@@ -1,5 +1,4 @@
 {
   "layout": "post",
-  "permalink": "{{category}}/{{ title | slugify }}/",
-  "tags": "article"
+  "permalink": "{{category}}/{{ title | slug }}/"
 }

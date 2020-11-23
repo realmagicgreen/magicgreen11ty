@@ -7,7 +7,7 @@ published: true
 category: know
 tags:
   - article
-  - CO
+  - CO2
   - eco-entrepreneurs
   - environment-friendly
   - social-responsibility
