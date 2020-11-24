@@ -30,49 +30,67 @@
       padding-bottom: $space/2;
     }
   }
+  //when site has a short menu
+  .short_menu & {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
 
-  nav {
-    display: none;
-    @include media("screen", ">minWidth") {
-      display: inherit;
-      padding: $space--small 0;
-    }
-    @include media("screen", ">bp1Width") {
-      padding: 0;
-    }
-
-    &.show {
+    nav {
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
-      min-width: 100%;
-      padding-top: 1rem;
-      flex-direction: column;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+    }
+  }
 
-      justify-content: space-around;
-
-      min-height: calc(100vh - 94px);
-      min-width: 100%;
-      padding-top: 6vh;
-      padding-bottom: 6vh;
+  // site has a long menu
+  .long_menu & {
+    nav {
+      display: none;
       @include media("screen", ">minWidth") {
-        display: block;
-        min-width: auto;
-        border-bottom: 0 none;
-        padding-bottom: 0;
+        display: inherit;
+        padding: $space--small 0;
+      }
+      @include media("screen", ">bp1Width") {
+        padding: 0;
       }
 
-      .menu_item {
-        //a
-        border: 1px solid darken($bg_color, 70);
-        margin-left: 20vw;
-        margin-right: 20vw;
-        min-height: 7vh;
+      &.show {
+        display: flex;
+        min-width: 100%;
+        padding-top: 1rem;
+        flex-direction: column;
+
+        justify-content: space-around;
+
+        min-height: calc(100vh - 94px);
+        min-width: 100%;
+        padding-top: 6vh;
+        padding-bottom: 6vh;
         @include media("screen", ">minWidth") {
+          display: block;
+          min-width: auto;
           border-bottom: 0 none;
-          min-height: auto;
+          padding-bottom: 0;
         }
 
-        &.active {
-          border: 3px solid $brand_color;
+        .menu_item {
+          //a
+          border: 1px solid darken($bg_color, 70);
+          margin-left: 20vw;
+          margin-right: 20vw;
+          min-height: 7vh;
+          @include media("screen", ">minWidth") {
+            border-bottom: 0 none;
+            min-height: auto;
+          }
+
+          &.active {
+            border: 3px solid $brand_color;
+          }
         }
       }
     }
@@ -164,11 +182,13 @@
     text-transform: uppercase;
 
     &.active {
-      font-weight: $semibold_font_weight;
-      font-size: 120%;
-      @include media("screen", ">minWidth") {
-        font-size: .9rem;
-        font-weight: $base_font_weight;
+      .long_menu & {
+        font-weight: $semibold_font_weight;
+        font-size: 120%;
+        @include media("screen", ">minWidth") {
+          font-size: .9rem;
+          font-weight: $base_font_weight;
+        }
       }
     }
     @include media("screen", ">minWidth") {

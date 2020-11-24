@@ -9,14 +9,47 @@
         {% include partials/svg/use.html, id: "icn--logo" class: "logo" %}
 
         <h1>{{ site.title }}</h1>
-        
+
       </a>
 
-      {% include partials/menu.html %}
-
-      {% include scripts/script_menu_toggle.html %}
+      <div class="menu_toggle_buttom" id="menu_toggle_buttom">
+        {% include partials/svg/use.html, id: "icn--burger" class: "open" %}
+        {% include partials/svg/use.html, id: "icn--x" class: "close" %}
+      </div>
 
     </div>
+
+    <nav class="menu menu_header" role="menu" id="menu">
+
+      <a class="menu_item" role="menuitem" title="health" href="/health/">
+        <span class="nowrap">health</span>
+      </a>
+      <a class="menu_item" role="menuitem" title="know" href="/know/">
+        <span class="nowrap">know</span>
+      </a>
+      <a class="menu_item" role="menuitem" title="products" href="/products/">
+        <span class="nowrap">products</span>
+      </a>
+      <a class="menu_item" role="menuitem" title="services" href="/services/">
+        <span class="nowrap">services</span>
+      </a>
+      <a class="menu_item" role="menuitem" title="solutions" href="/solutions/">
+        <span class="nowrap">solutions</span>
+      </a>
+      <a class="menu_item" role="menuitem" title="techniques" href="/techniques/">
+        <span class="nowrap">techniques</span>
+      </a>
+
+      {% comment %}
+      this | size not working
+      <div class="menu_footer_item">
+        There are currently {{ site.posts | size }} articles
+      </div>
+      {% endcomment %}
+
+    </nav>
+
+    {% include scripts/script_menu_toggle.html %}
 
   </div>
 

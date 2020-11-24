@@ -9,15 +9,11 @@ const slugify = require("@sindresorhus/slugify");
 let Nunjucks = require("nunjucks");
 
 module.exports = function(eleventyConfig) {
-
-  let nunjucksEnvironment = new Nunjucks.Environment();
+  let nunjucksEnvironment = new Nunjucks.Environment(
+    new Nunjucks.FileSystemLoader("_includes")
+  );
 
   eleventyConfig.setLibrary("njk", nunjucksEnvironment);
-
-  // // Filter source file names using a glob
-  //   eleventyConfig.addCollection("categories", function(collectionApi) {
-  //     return collectionApi.getFilteredByGlob("categories/*.md");
-  //   });
 
   // PLUGINS
 
