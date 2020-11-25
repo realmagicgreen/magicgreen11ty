@@ -1,0 +1,22 @@
+.heading-anchor {
+  display: inline-block;
+  width: 40px;
+  text-align: center;
+  visibility: hidden;
+  border-bottom: 0 none!important;
+  box-shadow: none!important;
+}
+
+.post h1:hover,
+.post h2:hover,
+.post h3:hover {
+  .heading-anchor {
+    visibility: visible;
+
+  }
+}
+
+.heading-anchor:hover {
+  border-bottom: 0 none!important;
+  box-shadow: none!important;
+}

@@ -15,6 +15,7 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.setLibrary("njk", nunjucksEnvironment);
 
+
   // PLUGINS
 
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
@@ -134,6 +135,7 @@ module.exports = function(eleventyConfig) {
     permalinkClass: "heading-anchor",
     level: 1,
     permalink: true,
+    permalinkSymbol: "&#128279;",
     permalinkBefore: true,
     slugify
   };
