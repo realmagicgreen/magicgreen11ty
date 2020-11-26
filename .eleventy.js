@@ -118,10 +118,6 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addLayoutAlias('post_index_category', 'post_index_category.html');
   eleventyConfig.addLayoutAlias('resources', 'resources.html');
 
-  // Aliases are in relation to the _includes folder NUNJUCKS
-  // for example FUMES has this:
-  // eleventyConfig.addLayoutAlias('text_author', 'layouts/text_author.njk');
-
   // eleventyConfig.setLiquidOptions({
   //   dynamicPartials: false,
   //   root: [

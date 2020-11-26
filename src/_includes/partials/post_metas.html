@@ -8,7 +8,9 @@
 
     <div class="post_meta_text">
       {% for tag in tags %}
+        {% unless tag == "article" %}
         <a class="sober_link nowrap" href="/{{ tag }}/">{{ tag }}</a>
+        {% endunless %}
       {% endfor %}
     </div>
   </div>

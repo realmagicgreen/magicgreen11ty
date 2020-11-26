@@ -9,7 +9,6 @@ module.exports = function(collection) {
 
         tags = tags.filter(function(item) {
           switch(item) {
-            case "all":
             case "article":
               return false;
           }
