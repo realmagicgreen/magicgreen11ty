@@ -15,6 +15,7 @@
     "name": "Rokma",
     "email": "me@rokma.com"
   },
+  "version": "6.0.20",
   "company": {
     "name": "Magic Green",
     "email": "magicgreen@junglestar.org",
@@ -26,6 +27,5 @@
       "analytics": "UA-16659805-1",
       "verification": "google32e66f1a5601ec40"
     }
-  },
-  "version": "6.0.19"
+  }
 }

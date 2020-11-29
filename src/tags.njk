@@ -6,15 +6,18 @@ pagination:
   size: 1
   alias: tag
   filter:
+    - all
     - article
   addAllPagesToCollections: true
 renderData:
   title: Tagged “{{ tag }}”
 permalink: /{{ tag }}/
 ---
-<div class="content {% if category %}{{ category }}{% else %}index{% endif %} {% if offwhite %}offwhite_content{% endif %} tags_njk">
+<div class="bungkus group post_index_tag">
 
-  <div class="wrapper">
+  <div class="container" role="main">
+
+    <div class="wrapper tags_njk">
 
     <div class="tagpage tagpage__title">
 
@@ -29,9 +32,9 @@ permalink: /{{ tag }}/
     </div>
 
     <div class="tagpage post_cards">
-      {% set postslist = collections[ tag ] %}
+      {% set postlist = collections[ tag ] %}
 
-      {% for post in postslist | reverse %}
+      {% for post in postlist | reverse %}
 
         {% include "partials/index_post_block--excerpt.njk" %}
 
@@ -39,6 +42,8 @@ permalink: /{{ tag }}/
 
       {% include "partials/tag_cloud.njk" %}
     </div>
+
+  </div>
 
   </div>
 

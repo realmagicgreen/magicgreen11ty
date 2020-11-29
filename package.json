@@ -1,6 +1,6 @@
 {
   "name": "magicgreen11ty",
-  "version": "0.0.19",
+  "version": "0.0.20",
   "description": "Magic Green refactored with 11ty",
   "scripts": {
     "build": "rm -rf _site && npx @11ty/eleventy",
@@ -26,7 +26,6 @@
   "homepage": "https://github.com/realmagicgreen/magicgreen11ty#readme",
   "dependencies": {
     "@sindresorhus/slugify": "^0.10.0",
-    "@11ty/eleventy-navigation": "^0.1.6",
     "eleventy-plugin-date": "^1.0.0",
     "eleventy-plugin-reading-time": "0.0.1",
     "eleventy-plugin-respimg": "^0.1.2",

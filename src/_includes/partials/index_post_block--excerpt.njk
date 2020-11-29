@@ -7,10 +7,10 @@
 
     <div class="thumb">
 
-      {% if post.data.thumb %}
-      <img loading="lazy" src="/assets/i/t/{{ post.data.thumb }}" alt="{{ post.data.title }}">
+      {% if post.data.cover_image %}
+      <img loading="lazy" src="{{ post.data.cover_image }}" alt="{{ post.data.title }}">
       {% else %}
-      <img loading="lazy" class="nothumb" src="/assets/i/t/fumesyousuck_thumb.svg" alt="{{ post.data.title }}">
+      <img loading="lazy" class="no_cover_image" src="/assets/p/og.jpg" alt="{{ post.data.category }}">
       {% endif %}
 
     </div>

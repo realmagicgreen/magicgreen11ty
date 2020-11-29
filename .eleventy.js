@@ -1,24 +1,28 @@
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
+const pluginDate = require("eleventy-plugin-date");
+const slugify = require("@sindresorhus/slugify");
+
 const pluginSass = require('./src/_11ty/sass');
 const readingTime = require('./src/_11ty/reading-time');
-const pluginDate = require("eleventy-plugin-date");
-const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
-const slugify = require("@sindresorhus/slugify");
+const CaptureTag = require('./src/_11ty/nunjucks-capture');
+
 
 let Nunjucks = require("nunjucks");
 
 module.exports = function(eleventyConfig) {
   let nunjucksEnvironment = new Nunjucks.Environment(
-    new Nunjucks.FileSystemLoader("_includes")
+    new Nunjucks.FileSystemLoader("_includes"),
+    new Nunjucks.addExtension('CaptureTag', new CaptureTag())
   );
 
   eleventyConfig.setLibrary("njk", nunjucksEnvironment);
+};
 
+
+module.exports = function(eleventyConfig) {
 
   // PLUGINS
-
-  eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
   eleventyConfig.addPlugin(pluginDate, {
     // Specify custom date formats
@@ -39,15 +43,6 @@ module.exports = function(eleventyConfig) {
   });
 
   // FILTERS
-
-  // Universal slug filter strips unsafe chars from URLs
-  // eleventyConfig.addFilter("slug", function (str) {
-  //   return slugify(str, {
-  //     lower: true,
-  //     replacement: "-",
-  //     remove: /[*+~.·,()'"`´%!?¿:@»]/g
-  //   });
-	// });
 
   //LiquidFilters
   eleventyConfig.addLiquidFilter('readingTime', readingTime);
@@ -118,13 +113,13 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addLayoutAlias('post_index_category', 'post_index_category.html');
   eleventyConfig.addLayoutAlias('resources', 'resources.html');
 
-  // eleventyConfig.setLiquidOptions({
-  //   dynamicPartials: false,
-  //   root: [
-  //     '_includes',
-  //     '.'
-  //   ]
-  // });
+  eleventyConfig.setLiquidOptions({
+    dynamicPartials: false,
+    root: [
+      '_includes',
+      '.'
+    ]
+  });
 
   const markdownItOptions = { html: true };
   const markdownItAnchorOptions = {
@@ -146,9 +141,9 @@ module.exports = function(eleventyConfig) {
     dir: {
       input: 'src',
     },
-    // templateFormats : ['njk', 'md', 'liquid', 'html'],
-    // markdownTemplateEngine: 'liquid',
-    // htmlTemplateEngine : 'liquid',
+    templateFormats : ['njk', 'md', 'liquid', 'html'],
+    markdownTemplateEngine: 'liquid',
+    htmlTemplateEngine : 'liquid',
     passthroughFileCopy: true,
   };
 }
