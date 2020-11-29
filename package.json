@@ -1,6 +1,6 @@
 {
   "name": "magicgreen11ty",
-  "version": "0.0.20",
+  "version": "2.0.21",
   "description": "Magic Green refactored with 11ty",
   "scripts": {
     "build": "rm -rf _site && npx @11ty/eleventy",

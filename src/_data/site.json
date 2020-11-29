@@ -1,4 +1,5 @@
 {
+  "version": "2.0.21",
   "now_year": "2020",
   "title": "Magic Green",
   "subtitle": "Sustainable and environment-friendly examples from South East Asia and beyond.",
@@ -15,7 +16,6 @@
     "name": "Rokma",
     "email": "me@rokma.com"
   },
-  "version": "6.0.20",
   "company": {
     "name": "Magic Green",
     "email": "magicgreen@junglestar.org",
