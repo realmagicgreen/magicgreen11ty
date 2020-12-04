@@ -2,8 +2,6 @@ const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
 const pluginDate = require("eleventy-plugin-date");
 const slugify = require("@sindresorhus/slugify");
-
-const pluginSass = require('./src/_11ty/sass');
 const readingTime = require('./src/_11ty/reading-time');
 const CaptureTag = require('./src/_11ty/nunjucks-capture');
 
@@ -36,11 +34,6 @@ module.exports = function(eleventyConfig) {
     }
   });
 
-  // sass
-  eleventyConfig.addPlugin(pluginSass, {
-    watch: './src/scss/*.scss',
-    outputDir: './src/_includes/css/'
-  });
 
   // FILTERS
 
@@ -52,47 +45,47 @@ module.exports = function(eleventyConfig) {
 
   //Full-width massive, from https://github.com/eduardoboucas/buildtimes
   //not used yet
-  eleventyConfig.addLiquidFilter("feature_title", title => {
-    const MIN_LENGTH = 10;
-    const MAX_LENGTH = 20;
-
-    if (!title) return "";
-
-    let currentLine = "";
-    let lines = [];
-    let words = title.split(" ");
-
-    words.forEach(word => {
-      if (currentLine.length + word.length <= MAX_LENGTH) {
-        currentLine += word + " ";
-      } else {
-        lines.push(currentLine);
-
-        currentLine = word + " ";
-      }
-    });
-
-    if (currentLine.length < MIN_LENGTH) {
-      lines[lines.length - 1] += currentLine;
-    } else {
-      lines.push(currentLine);
-    }
-
-    return `
-      <span class="feature-title__full">${title}</span>
-
-      ${lines
-        .map(
-          line => `
-        <span aria-hidden="true" class="feature-title__part">${line.slice(
-          0,
-          -1
-        )}</span>
-      `
-        )
-        .join("")}
-    `;
-  });
+  // eleventyConfig.addLiquidFilter("feature_title", title => {
+  //   const MIN_LENGTH = 10;
+  //   const MAX_LENGTH = 20;
+  //
+  //   if (!title) return "";
+  //
+  //   let currentLine = "";
+  //   let lines = [];
+  //   let words = title.split(" ");
+  //
+  //   words.forEach(word => {
+  //     if (currentLine.length + word.length <= MAX_LENGTH) {
+  //       currentLine += word + " ";
+  //     } else {
+  //       lines.push(currentLine);
+  //
+  //       currentLine = word + " ";
+  //     }
+  //   });
+  //
+  //   if (currentLine.length < MIN_LENGTH) {
+  //     lines[lines.length - 1] += currentLine;
+  //   } else {
+  //     lines.push(currentLine);
+  //   }
+  //
+  //   return `
+  //     <span class="feature-title__full">${title}</span>
+  //
+  //     ${lines
+  //       .map(
+  //         line => `
+  //       <span aria-hidden="true" class="feature-title__part">${line.slice(
+  //         0,
+  //         -1
+  //       )}</span>
+  //     `
+  //       )
+  //       .join("")}
+  //   `;
+  // });
 
   // COLLECTIONS
 

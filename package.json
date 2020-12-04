@@ -1,13 +1,14 @@
 {
   "name": "magicgreen11ty",
-  "version": "2.0.21",
+  "version": "2.1.0",
   "description": "Magic Green refactored with 11ty",
   "scripts": {
-    "build": "rm -rf _site && npx @11ty/eleventy",
-    "watch": "eleventy --watch",
-    "serve": "eleventy --serve",
+    "build": "npm run sass && eleventy",
     "debug": "DEBUG=* eleventy",
-    "start": "npx @11ty/eleventy --serve"
+    "sass": "sass --style=compressed src/scss/main.scss src/_includes/css/main.css",
+    "watch:eleventy": "eleventy --serve",
+    "watch:sass": "npm run sass -- --watch",
+    "start": "npm-run-all sass --parallel watch:*"
   },
   "repository": {
     "type": "git",
@@ -29,12 +30,13 @@
     "eleventy-plugin-date": "^1.0.0",
     "eleventy-plugin-reading-time": "0.0.1",
     "eleventy-plugin-respimg": "^0.1.2",
-    "eleventy-plugin-sass": "^1.1.1",
     "markdown-it": "^10.0.0",
     "markdown-it-anchor": "^5.2.5",
-    "nunjucks-capture": "^1.0.4"
+    "nunjucks-capture": "^1.0.4",
+    "sass": "^1.29.0"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^0.11.1"
+    "@11ty/eleventy": "^0.11.1",
+    "npm-run-all": "^4.1.5"
   }
 }
