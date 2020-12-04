@@ -47,6 +47,23 @@
   }
 }
 
+.button_no_link {
+  //not an a!
+  display: inline-block;
+  width: auto;
+  line-height: 32px;
+  margin-right: 6px;
+  margin-bottom: $space--small/2;
+  border: 1px solid $black_stroke;
+  border-radius: $radius;
+  color: $black;
+  padding: 0 10px;
+  opacity: .9;
+  -webkit-box-shadow: $card_shadow;
+  box-shadow: $card_shadow;
+  background-color: white;
+}
+
 .input {
   //a
   display: inline-block;

@@ -1,0 +1,14 @@
+<nav aria-labelledby="articles-archive-pagination">
+  <h2 class="center" id="articles-archive-pagination">See more articles</h2>
+  <ul class="paginator not_ul">
+    <li><a class="button" href="{{ pagination.href.first }}">Newest</a></li>
+    <li>{% if pagination.href.previous %}<a class="button" href="{{ pagination.href.previous }}"><</a>{% else %}{% endif %}</li>
+
+    <li class="button_no_link" aria-current="page">
+    {{ pagination.pageNumber | plus: 1 }}
+    </li>
+
+    <li>{% if pagination.href.next %}<a class="button" href="{{ pagination.href.next }}">></a>{% else %}{% endif %}</li>
+    <li><a class="button" href="{{ pagination.href.last }}">Oldest</a></li>
+  </ul>
+</nav>

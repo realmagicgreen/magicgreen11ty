@@ -1,6 +1,14 @@
 ---
 layout: default
+pagination:
+  data: collections.article
+  size: 9
+  alias: articles
+  reverse: true
+  addAllPagesToCollections: true
 ---
+
+
 <div class="bungkus group index">
 
   {% include partials/slideshow_home.html %}
