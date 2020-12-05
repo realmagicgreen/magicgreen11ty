@@ -3,9 +3,9 @@ title: Maya Green Roof
 subtitle: "Luxury meets efficiency. Cutting energy bill and looking good in Sanur, Bali."
 date: 2018-05-01
 published: true
-category: solutions
 tags:
   - article
+  - solutions
   - air-cleaning
   - architecture
   - Bali

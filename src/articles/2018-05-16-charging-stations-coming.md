@@ -4,8 +4,16 @@ subtitle: Indonesia state electricity company is developing stations in Lombok a
 description: State electricity company PT Perusahaan Listrik Negara (PLN) in West Nusa Tenggara (NTB) is developing General Electricity Provider Stations (SPLU) in...
 date: 2018-05-16
 published: true
-category: services
-tags: [article, commuting, environment-friendly, eco-friendly, electric, Indonesia, Lombok, Sumbawa]
+tags:
+  - article
+  - services
+  - commuting
+  - environment-friendly
+  - eco-friendly
+  - electric
+  - Indonesia
+  - Lombok
+  - Sumbawa
 cover_image: /assets/p/services/charging-stations-coming/charging-stations-coming.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces

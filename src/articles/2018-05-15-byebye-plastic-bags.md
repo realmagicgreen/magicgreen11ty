@@ -4,8 +4,16 @@ subtitle: "Youth Driven Change to get the people of Bali to say no to plastic ba
 description: "Byebye plastic bags is an initiative from children to force people to say no to plastic bags, because of the enormous environmental pollution they cause."
 date: 2018-05-15
 published: true
-category: solutions
-tags: [Bali, eco-entrepreneurs, environment-friendly, initiative, Indonesia, save-oceans,  social-responsibility]
+tags:
+  - article
+  - solutions
+  - Bali
+  - eco-entrepreneurs
+  - environment-friendly
+  - initiative
+  - Indonesia
+  - save-oceans
+  - social-responsibility
 cover_image: /assets/p/solutions/byebye-plastic-bags/byebye-plastic-bags.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces

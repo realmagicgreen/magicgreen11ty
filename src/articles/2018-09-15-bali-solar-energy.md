@@ -4,8 +4,17 @@ subtitle: PLN, Indonesia electricity company, plans to generate 50 MW of renewab
 description: "Two privately built solar power plants in Bali are expected to beginning working in 2021. The plain is to reach 100 megawatts in 2023."
 date: 2018-09-15
 published: true
-category: solutions
-tags: [article, Bali, environment-friendly, eco-friendly, Indonesia, responsible-sources, renewable-energy, social-responsibility, sustainable-development]
+tags:
+  - article
+  - solutions
+  - Bali
+  - environment-friendly
+  - eco-friendly
+  - Indonesia
+  - responsible-sources
+  - renewable-energy
+  - social-responsibility
+  - sustainable-development
 cover_image: /assets/p/solutions/bali-solar-energy/bali-solar-energy.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption:  # lowercase, max 12 digits, including spaces

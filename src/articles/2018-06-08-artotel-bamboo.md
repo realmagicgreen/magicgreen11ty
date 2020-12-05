@@ -4,8 +4,18 @@ subtitle: Luxury meets sustainability. Looking good with excellent bamboo archit
 description: "With a state of the art brand new bamboo construction, Artotel Beach Club in Sanur, Bali brings vibrancy and color to the island's south east."
 date: 2018-06-08
 published: true
-category: solutions
-tags: [article, architecture, bamboo, Bali, design, eco-friendly, learning, Indonesia, sustainable-construction, wood]
+tags:
+  - article
+  - solutions
+  - architecture
+  - bamboo
+  - Bali
+  - design
+  - eco-friendly
+  - learning
+  - Indonesia
+  - sustainable-construction
+  - wood
 cover_image: /assets/p/solutions/artotel-bamboo/artotel-bamboo.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: Bamboo masters # lowercase, max 12 digits, including spaces

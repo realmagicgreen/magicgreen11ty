@@ -4,8 +4,19 @@ subtitle: The Eco Region approach aspire to be a game changer for large scale gr
 description: "The plan is to create green destination and attract the world's most engaged green partners and most passionate eco-tourists. Envision sustainable development."
 date: 2018-05-20
 published: true
-category: solutions
-tags: [article, biodiversity, eco-tourism, eco-entrepreneurs, Indonesia, initiative, Lombok, permaculture, social-responsibility, Sumbawa, sustainable-development]
+tags:
+  - article
+  - solutions
+  - biodiversity
+  - eco-tourism
+  - eco-entrepreneurs
+  - Indonesia
+  - initiative
+  - Lombok
+  - permaculture
+  - social-responsibility
+  - Sumbawa
+  - sustainable-development
 cover_image: /assets/p/solutions/eco-regions-indonesia/eco-regions-indonesia.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces

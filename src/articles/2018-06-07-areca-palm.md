@@ -1,12 +1,12 @@
 ---
 title: Areca Palm
 subtitle: Removes CO2 and produces lots of oxygen. Its health benefits will boost your energy and productivity.
+description: Areca Palm, Yellow Palm, or Butterfly Palm is a wonder plant. Besides cleaning the air by removing pollutants it's an effective humidifier. # max 160 digits
 date: 2018-06-07
 published: true
-description: Areca Palm, Yellow Palm, or Butterfly Palm is a wonder plant. Besides cleaning the air by removing pollutants it's an effective humidifier. # max 160 digits cos dunno how to trim it, yet......
-category: health
 tags:
   - article
+  - health
   - CO2
   - air-cleaning
   - bedroom-plants

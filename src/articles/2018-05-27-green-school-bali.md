@@ -4,8 +4,22 @@ subtitle: Architectural wonder to educate for sustainability.
 description: "Founded and conceived by John and Cynthia Hardy in 2006, Green School opened in 2008 with 90 students and a tailor-made campus that emerged from the jungle..."
 date: 2018-05-27
 published: true
-category: services
-tags: [article, architecture, Bali, bamboo, environment-friendly, design, Indonesia, hydro-power, learning, permaculture, recycle, renewable-energy, sustainable-construction, wood]
+tags:
+  - article
+  - services
+  - architecture
+  - Bali
+  - bamboo
+  - environment-friendly
+  - design
+  - Indonesia
+  - hydro-power
+  - learning
+  - permaculture
+  - recycle
+  - renewable-energy
+  - sustainable-construction
+  - wood
 cover_image: /assets/p/services/green-school-bali/green-school-bali.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces

@@ -4,8 +4,20 @@ subtitle: "An ASEAN wide photo contest capturing the richness of biological reso
 description: "Biodiversity is the variety of life on Earth and include microorganisms, fungi, plants, and animals, the communities they form, the habitats in which they live."
 date: 2018-06-13
 published: true
-category: know
-tags: [article, ASEAN, Indonesia, Malaysia, Myanmar, Philippines, Singapore, biodiversity, initiative, learning, permaculture, tropical]
+tags:
+  - article
+  - know
+  - ASEAN
+  - Indonesia
+  - Malaysia
+  - Myanmar
+  - Philippines
+  - Singapore
+  - biodiversity
+  - initiative
+  - learning
+  - permaculture
+  - tropical
 cover_image: /assets/p/know/zooming-in-on-biodiversity/zooming-in-on-biodiversity.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: BIO DIVERSITY # lowercase, max 12 digits, including spaces

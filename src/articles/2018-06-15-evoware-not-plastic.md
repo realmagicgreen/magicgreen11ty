@@ -4,8 +4,17 @@ subtitle: "A seaweed based eco-friendly alternative to food-grade plastic. And y
 description: "Plastic pollution is a global problem, a worldwide threat to the environment, flora and fauna. A major part of that pollution comes from our habits..."
 date: 2018-06-15
 published: true
-category: products
-tags: [article, design, environment-friendly, eco-friendly, Indonesia, plastic, plastic-alternatives, social-responsibility, sustainable-construction]
+tags:
+  - article
+  - products
+  - design
+  - environment-friendly
+  - eco-friendly
+  - Indonesia
+  - plastic
+  - plastic-alternatives
+  - social-responsibility
+  - sustainable-construction
 cover_image: /assets/p/products/evoware-not-plastic/evoware-not-plastic.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces

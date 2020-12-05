@@ -3,9 +3,9 @@ title: Mosquito Repellent Plants
 subtitle: "Mosquito repellent plants that you can easily grow in your balcony or garden area. It’s about your health."
 date: 2019-10-01
 published: true
-category: solutions
 tags:
   - article
+  - solutions
   - environment-friendly
   - eco-friendly
   - plants

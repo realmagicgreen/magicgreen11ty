@@ -4,8 +4,18 @@ subtitle: "Use recycled glass and bottles to make lamp and serve water to custom
 description: "A clever way to limit the use of plastic bottles is serving water in up-cycled bottle and glasses. These technique adopted by Warung Santai in Sanur has..."
 date: 2018-05-07
 published: true
-category: techniques
-tags: [article, Bali, design, environment-friendly, glass, Indonesia, learning, plastic-alternatives, social-responsibility, up-cycle]
+tags:
+  - article
+  - techniques
+  - Bali
+  - design
+  - environment-friendly
+  - glass
+  - Indonesia
+  - learning
+  - plastic-alternatives
+  - social-responsibility
+  - up-cycle
 cover_image: /assets/p/techniques/up-cycled-glass/up-cycled-glass.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces

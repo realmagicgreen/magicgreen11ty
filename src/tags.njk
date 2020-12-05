@@ -17,33 +17,30 @@ permalink: /{{ tag }}/
 
   <div class="container" role="main">
 
-    <div class="wrapper tags_njk">
-
     <div class="tagpage tagpage__title">
 
-      <span class="tagpage__ico roh">
+      <span class="tagpage__ico">
         <svg class="tag">
           <use xlink:href="#icn--tag"></use>
         </svg>
       </span>
 
-      <h1 class="page__title">{{ tag | capitalize }}</h1>
+      <h1 class="page__title center">{{ tag | capitalize }}</h1>
 
     </div>
 
-    <div class="tagpage post_cards">
+    <div class="post_grid all_featured_articles">
+
       {% set postlist = collections[ tag ] %}
 
-      {% for post in postlist | reverse %}
+      {% for article in postlist | reverse %}
 
-        {% include "partials/post_card--index.njk" %}
+        {% include "partials/post_card.njk" %}
 
       {% endfor %}
 
       {% include "partials/tag_cloud.njk" %}
     </div>
-
-  </div>
 
   </div>
 

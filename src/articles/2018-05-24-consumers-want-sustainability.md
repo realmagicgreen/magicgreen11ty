@@ -4,8 +4,14 @@ subtitle: Sustainable Mainstream. Eco-friendly is definitely in.
 description: "Environmental consciousness, social responsibility, and sustainability are all hot button topics in consumer retail today. The real question is..."
 date: 2018-05-24
 published: true
-category: know
-tags: [article, eco-entrepreneurs, environment-friendly, eco-packaging, learning, social-responsibility]
+tags:
+  - article
+  - know
+  - eco-entrepreneurs
+  - environment-friendly
+  - eco-packaging
+  - learning
+  - social-responsibility
 cover_image: /assets/p/know/consumers-want-sustainability/consumers-want-sustainability.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces

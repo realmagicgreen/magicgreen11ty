@@ -4,8 +4,15 @@ subtitle: Garansindo brings Zero superbikes to Indonesia. Serious riding.
 description: "Powerful. Electric and available now. Developed to aggressively take on urban environments while encouraging occasional detours to your favorite stretch..."
 date: 2018-05-11
 published: true
-category: products
-tags: [article, commuting, environment-friendly, eco-friendly, electric, Indonesia, travel]
+tags:
+  - article
+  - products
+  - commuting
+  - environment-friendly
+  - eco-friendly
+  - electric
+  - Indonesia
+  - travel
 cover_image: /assets/p/products/zero-electric-motorcycles/zero-electric-motorcycles.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces

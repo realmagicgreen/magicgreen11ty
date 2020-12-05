@@ -4,9 +4,9 @@ subtitle: "Go green or go home, millennials shop Eco-Friendly, new study finds."
 description: "New data has found that Americans don’t want to get caught buying from a company exploiting the planet The findings show that 90% of millennials will buy..."
 date: 2018-05-04
 published: true
-category: know
 tags:
   - article
+  - know
   - CO2
   - eco-entrepreneurs
   - environment-friendly

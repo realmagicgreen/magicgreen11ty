@@ -4,8 +4,24 @@ subtitle: At recent ASEAN meeting Indonesia pushed the need to combat invasive a
 description: "Invasive Alien Species are threats to the balance of natural ecosystems. Their presence poses risk as unwanted predators of endemic species."
 date: 2018-07-09
 published: true
-category: solutions
-tags: [article, ASEAN, Cambodia, Philippines, Indonesia, Thailand, biodiversity, botany, forest, initiative, plants, learning, save-trees, social-responsibility, sustainable-development, tropical]
+tags:
+  - article
+  - solutions
+  - ASEAN
+  - Cambodia
+  - Philippines
+  - Indonesia
+  - Thailand
+  - biodiversity
+  - botany
+  - forest
+  - initiative
+  - plants
+  - learning
+  - save-trees
+  - social-responsibility
+  - sustainable-development
+  - tropical
 cover_image: /assets/p/solutions/stop-alien-species/stop-alien-species.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces

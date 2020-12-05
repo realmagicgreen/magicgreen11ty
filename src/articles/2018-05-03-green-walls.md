@@ -3,9 +3,9 @@ title: Green Walls
 subtitle: "Absorb pollution, offer cooling shade and cost much less than any other walls."
 date: 2018-05-03
 published: true
-category: solutions
 tags:
   - article
+  - solutions
   - air-cleaning
   - Bali
   - CO2

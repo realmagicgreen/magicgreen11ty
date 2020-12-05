@@ -4,8 +4,19 @@ subtitle: ASEAN Centre for Biodiversity (ACB) joins the movement against the use
 description: "Every year, the world produces around 5 trillion plastic bags. That is about 700 per person. Utilized for just a few minutes, take centuries to decompose."
 date: 2018-06-12
 published: true
-category: solutions
-tags: [article, ASEAN, Indonesia, Malaysia, Myanmar, Philippines, Singapore, environment-friendly, initiative, social-responsibility, waste]
+tags:
+  - article
+  - solutions
+  - ASEAN
+  - Indonesia
+  - Malaysia
+  - Myanmar
+  - Philippines
+  - Singapore
+  - environment-friendly
+  - initiative
+  - social-responsibility
+  - waste
 cover_image: /assets/p/solutions/asean-against-plastic-pollution/asean-against-plastic-pollution.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces

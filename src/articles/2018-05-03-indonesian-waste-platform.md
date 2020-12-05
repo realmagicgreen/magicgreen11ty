@@ -3,9 +3,9 @@ title: Indonesian Waste Platform
 subtitle: "Hub promoting and facilitating cross-sector collaborations for solutions on the waste problems in Indonesia."
 date: 2018-05-03
 published: true
-category: solutions
 tags:
   - article
+  - solutions
   - Bali
   - Indonesia
   - learning

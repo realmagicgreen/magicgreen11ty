@@ -3,9 +3,9 @@ title: Plastic Bags
 subtitle: "Less than 1 percent of plastic bags goes into a recycle bin."
 date: 2018-05-01
 published: true
-category: know
 tags:
   - article
+  - know
   - learning
   - plastic
   - plastic-alternatives

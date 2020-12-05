@@ -4,8 +4,14 @@ subtitle: "Nearly 4 billion trees are cut down each year for paper."
 description: "Did you know that nearly 4 billion trees are cut down each year for paper. Used paper towels are not recyclable. 1 ton of paper towels consumes 17 trees..."
 date: 2018-05-08
 published: true
-category: know
-tags: [article, learning, paper, recycle, save-trees, social-responsibility]
+tags:
+  - article
+  - known
+  - learning
+  - paper
+  - recycle
+  - save-trees
+  - social-responsibility
 cover_image: /assets/p/know/paper-towels/paper-towels.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces

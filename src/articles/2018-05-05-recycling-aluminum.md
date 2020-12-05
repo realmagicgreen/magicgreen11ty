@@ -4,9 +4,9 @@ subtitle: "Aluminum can can be recycled an unlimited number of times."
 description: "Recycling one aluminum can saves enough electricity to power a TV for three hours. Aluminum can can be recycled an unlimited number of times. And if your area..."
 date: 2018-05-05
 published: true
-category: know
 tags:
   - article
+  - know
   - aluminum
   - learning
   - social-responsibility

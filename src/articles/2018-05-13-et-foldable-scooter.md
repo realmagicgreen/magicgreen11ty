@@ -4,8 +4,12 @@ subtitle: Charge it, un-fold it and ride smarter.
 description: Among the big offer of e-bikes and scooters one which sticks out is definitely this slick ET foldable electric scooter. With a catchy design it guarantees you...
 date: 2018-05-13
 published: true
-category: products
-tags: [article, commuting, electric, environment-friendly]
+tags:
+  - article
+  - products
+  - commuting
+  - electric
+  - environment-friendly
 cover_image: /assets/p/products/et-foldable-scooter/et-foldable-scooter.jpg
 show_in_home_slideshow:  # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: e-scooters # lowercase, max 12 digits, including spaces

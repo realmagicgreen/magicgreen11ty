@@ -4,8 +4,19 @@ subtitle: "An astonishing example of sustainable edutainment environment"
 description: "Rated number 3 on things to do in Singapore Tripadvisor. Reached more than 40 million visitors to date. World's top 20 most checked-in places on Facebook."
 date: 2018-05-06
 published: true
-category: solutions
-tags: [article, architecture, biodiversity, design, eco-entrepreneurs, hydro-power, horticulture, learning, recycle, Singapore, sustainable-construction]
+tags:
+  - article
+  - solutions
+  - architecture
+  - biodiversity
+  - design
+  - eco-entrepreneurs
+  - hydro-power
+  - horticulture
+  - learning
+  - recycle
+  - Singapore
+  - sustainable-construction]
 cover_image: "/assets/p/solutions/gardens-by-the-bay/gardens-by-the-bay.jpg"
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces

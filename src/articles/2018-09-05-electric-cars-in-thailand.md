@@ -4,8 +4,16 @@ subtitle: The Thai Government has a goal of getting 1.2 m electric vehicles on t
 description: "The rising number of relectric vehicles could have a major role in our society said Amonrat Kaewpradap of the Electric Vehicle Association of Thailand."
 date: 2018-09-05
 published: true
-category: solutions
-tags: [article, electric, environment-friendly, eco-friendly, initiative, social-responsibility, sustainable-development, Thailand]
+tags:
+  - article
+  - solutions
+  - electric
+  - environment-friendly
+  - co-friendly
+  - initiative
+  - social-responsibility
+  - sustainable-development
+  - Thailand
 cover_image: /assets/p/solutions/electric-cars-in-thailand/electric-cars-in-thailand.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption:  # lowercase, max 12 digits, including spaces

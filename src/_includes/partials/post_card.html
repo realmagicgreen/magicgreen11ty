@@ -1,5 +1,5 @@
 <!--partials/post_card-->
-<a class="card {{ article.data.category }} {% if article.data.sticky %}sticky_post{% endif %}" title="{{ article.data.title }}" href="{{ article.url | url }}">
+<a class="card" title="{{ article.data.title }}" href="{{ article.url | url }}">
 
   <div class="card_post_image clipped">
     <figure class="clipped">
@@ -13,17 +13,15 @@
        sizes="(max-width: 640px) 100vw, (max-width: 880px) 50vw, (min-width: 881px) 33vw"
        alt="{{ article.data.title }}">
 
-
-  <!-- {% if post.data.flag %}
-  <figcaption class="figcaption {{ post.data.flag | replace: "", "-"  }}">{{ post.flag }}</figcaption>
-  {% endif %} -->
-</figure>
-
+      <!-- {% if post.data.flag %}
+      <figcaption class="figcaption {{ post.data.flag | replace: "", "-"  }}">{{ post.flag }}</figcaption>
+      {% endif %} -->
+    </figure>
 
   </div>
 
   <div class="card_post_text">
-    <h1 class="{% if post.data.ad %}ad_symbol{% endif %}">{{article.data.title}}</h1>
+    <h1 class="{% if article.data.ad %}ad_symbol{% endif %}">{{article.data.title}}</h1>
     <h3 class="border_top border_bottom">{{article.data.subtitle}}</h3>
     <div class="card_post_text_content">
       {{ article.templateContent | strip_html | replace: "TLDR","" | replace: "&#128279;","" | truncate: 200  }}

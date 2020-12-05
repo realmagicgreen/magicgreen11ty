@@ -4,8 +4,19 @@ subtitle: A movement to raise awareness of plastic pollution and the existing so
 description: "A Plastic Ocean’s message raises the awareness of plastic pollution and the existing solutions. It is creating policy and social change around the world."
 date: 2018-07-19
 published: true
-category: techniques
-tags: [article, biodiversity, eco-entrepreneurs, initiative, plastic, learning, save-oceans, social-responsibility, sustainable-development, waste, water]
+tags:
+  - article
+  - techniques
+  - biodiversity
+  - eco-entrepreneurs
+  - initiative
+  - plastic
+  - learning
+  - save-oceans
+  - social-responsibility
+  - sustainable-development
+  - waste
+  - water
 cover_image: /assets/p/techniques/rethink-plastic/rethink-plastic.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces

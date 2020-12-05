@@ -4,8 +4,18 @@ subtitle: "CTC provides education and training to make sure that marine protecte
 description: "Coral Reefs need our help now! More than 27% of the world’s coral reefs are already lost. If we don’t do anything about it, almost all of our coral reefs..."
 date: 2018-05-10
 published: true
-category: solutions
-tags: [article, Bali, biodiversity, learning, initiative, Indonesia, Nusa-Penida, Maluku, save-oceans, tropical]
+tags:
+  - article
+  - solutions
+  - Bali
+  - biodiversity
+  - learning
+  - initiative
+  - Indonesia
+  - Nusa-Penida
+  - Maluku
+  - save-oceans
+  - tropical
 cover_image: /assets/p/solutions/sos-from-the-deep/sos-from-the-deep.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces

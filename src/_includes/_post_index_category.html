@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<div class="bungkus group post_index_category">
+
+  <div class="container" role="main">
+
+    {% include partials/post_page_title.html %}
+
+    <div class="post_grid">
+
+    {% for article in collections.know %}
+      {% include partials/post_card.html %}
+    {% endfor %}
+
+    </div>
+
+  </div>
+
+</div>

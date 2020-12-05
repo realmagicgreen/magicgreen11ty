@@ -6,14 +6,9 @@
 <div class="post_grid all_featured_articles">
 
   {% for article in articles %}
-    {% if article.data.featured %}
-
-      {% include partials/post_card.html %}
-
-    {% endif %}
+    {% include partials/post_card.html %}
   {% endfor %}
 
 </div>
-
 
 {% include partials/pagination_nav.html %}

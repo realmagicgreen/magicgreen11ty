@@ -20,6 +20,16 @@ module.exports = function(eleventyConfig) {
 
 module.exports = function(eleventyConfig) {
 
+  // // Custom collections
+  // const knowPosts = post => post.category == "know";
+  // eleventyConfig.addCollection("know", collection => {
+  //   return [
+  //     ...collection.getFilteredByGlob("./src/articles/*.md").filter(knowPosts)
+  //   ].reverse();
+  // });
+
+
+
   // PLUGINS
 
   eleventyConfig.addPlugin(pluginDate, {
@@ -36,6 +46,18 @@ module.exports = function(eleventyConfig) {
 
 
   // FILTERS
+
+  // // {{ array | where: key,value }}
+  // eleventyConfig.addFilter('where', function (array, key, value) {
+  //   return array.filter(item => {
+  //     const keys = key.split('.');
+  //     const reducedKey = keys.reduce((object, key) => {
+  //       return object[key];
+  //     }, item);
+  //
+  //     return (reducedKey === value ? item : false);
+  //   });
+  // });
 
   //LiquidFilters
   eleventyConfig.addLiquidFilter('readingTime', readingTime);
@@ -88,6 +110,7 @@ module.exports = function(eleventyConfig) {
   // });
 
   // COLLECTIONS
+
 
   //tags as in 11ty base repo
   eleventyConfig.addCollection('tagList', require('./src/_11ty/getTagList'));

@@ -4,8 +4,15 @@ subtitle: Inflammation is caused by unhealthy foods and lifestyle habits. You ca
 description: "Inflammation can occur in response to trauma, illness, stress, or unhealthy foods. Anti-inflammatory foods, exercise, good sleep and stress management can help."
 date: 2018-06-20
 published: true
-category: health
-tags: [article, CO2, botany, plants, learning, superfood, wellness]
+tags:
+  - article
+  - health
+  - CO2
+  - botany
+  - plants
+  - learning
+  - superfood
+  - wellness
 cover_image: /assets/p/health/fight-inflammation-with-food/fight-inflammation-with-food.jpg
 show_in_home_slideshow: true # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: food that cures # lowercase, max 12 digits, including spaces

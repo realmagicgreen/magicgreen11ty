@@ -5,7 +5,16 @@ description: "The future of the world’s forests is very important to the plane
 date: 2018-05-17
 published: true
 category: services
-tags:  [article, certification, eco-entrepreneurs, environment-friendly, responsible-sources, save-trees, sustainable-construction, social-responsibility, wood]
+tags:
+  - article
+  - certification
+  - eco-entrepreneurs
+  - environment-friendly
+  - responsible-sources
+  - save-trees
+  - sustainable-construction
+  - social-responsibility
+  - wood
 cover_image: /assets/p/services/sustainable-wood/sustainable-wood.jpg
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow

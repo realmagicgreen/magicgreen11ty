@@ -4,8 +4,18 @@ subtitle: With free entrance, you will be able to see, meet and buy plants, tree
 description: "Among beautiful green booths there are many useful infos and products to discover, like a coconut climber tool called Ponkod."
 date: 2018-07-26
 published: true
-category: services
-tags: [article, Bali, botany, horticulture, initiative, free, plants, learning, permaculture, wellness]
+tags:
+  - article
+  - services
+  - Bali
+  - botany
+  - horticulture
+  - initiative
+  - free
+  - plants
+  - learning
+  - permaculture
+  - wellness
 cover_image: /assets/p/services/bali-agri-tradeshow/bali-agri-tradeshow.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces

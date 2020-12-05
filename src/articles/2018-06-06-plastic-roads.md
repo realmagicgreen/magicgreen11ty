@@ -4,8 +4,15 @@ subtitle: Indonesia tried plastic and rubber tires waste for road asphalt. A cle
 description: "The Ministry of Public Works and People's Housing Indonesia began testing a mix of plastic and rubber tires waste in the asphalt mix."
 date: 2018-06-06
 published: true
-category: solutions
-tags: [article, Bali, Indonesia, plastic, social-responsibility, recycle, waste]
+tags:
+  - article
+  - solutions
+  - Bali
+  - Indonesia
+  - plastic
+  - social-responsibility
+  - recycle
+  - waste
 cover_image: /assets/p/solutions/plastic-roads/plastic-roads.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces

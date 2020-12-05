@@ -7,15 +7,25 @@ pagination:
   reverse: true
   addAllPagesToCollections: true
 ---
-
-
 <div class="bungkus group index">
 
   {% include partials/slideshow_home.html %}
 
   <div class="container" role="main">
 
-    {% include partials/post_loop_home.html %}
+    <div class="post_page_title">
+      <h1 class="">{{site.subtitle}}</h1>
+    </div>
+
+    <div class="post_grid all_featured_articles">
+
+      {% for article in articles %}
+        {% include partials/post_card.html %}
+      {% endfor %}
+
+    </div>
+
+    {% include partials/pagination_nav.html %}
 
   </div>
 

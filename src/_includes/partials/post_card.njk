@@ -1,0 +1,34 @@
+{# use in tag pages #}
+<a class="card" title="{{ article.data.title }}" href="{{ article.url | url }}">
+
+  <div class="card_post_image clipped">
+
+    {% if article.data.cover_image %}
+    <figure class="clipped">
+      <img loading="lazy" src="{{ article.data.cover_image }}" alt="{{ article.data.title }}">
+      {% else %}
+      <img loading="lazy" class="no_cover_image" src="/assets/p/og.jpg" alt="{{ article.data.title }}">
+    </figure>
+    {% endif %}
+
+  </div>
+
+  <div class="card_post_text">
+
+    <h1 class="{% if article.data.ad %}ad_symbol{% endif %}">{{ article.data.title }}</h1>
+
+    <div class="reading_time">
+      <em>Read in {{ article | readingTime }}</em>
+    </div>
+
+    <div class="card_post_text_content">
+      {{ article.templateContent | striptags | truncate(188) | replace('TLDR', '') | replace('&#128279;', '') }}
+    </div>
+
+    <div class="button_row">
+      <span class="button">Learn more</span>
+    </div>
+
+  </div>
+
+</a>

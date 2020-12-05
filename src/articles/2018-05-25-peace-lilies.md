@@ -4,8 +4,17 @@ subtitle: One of the most powerful pollutant remover.
 description: "NASA Clean Air Study found that it is one of the most powerful pollutant remover. Most people don't know what's their apartment, is full of harfull substances."
 date: 2018-05-25
 published: true
-category: health
-tags: [article, CO2, bedroom-plants, air-cleaning, botany, horticulture, plants, learning, wellness]
+tags:
+  - article
+  - health
+  - CO2
+  - bedroom-plants
+  - air-cleaning
+  - botany
+  - horticulture
+  - plants
+  - learning
+  - wellness
 cover_image: /assets/p/health/peace-lilies/peace-lilies.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces

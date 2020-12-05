@@ -3,9 +3,9 @@ title: Bio Cement
 subtitle: "No kiln firing, No CO2 emissions. Grown sustainable building material."
 date: 2020-07-30
 published: true
-category: solutions
 tags:
   - article
+  - solutions
   - biodiversity
   - green-building
   - design

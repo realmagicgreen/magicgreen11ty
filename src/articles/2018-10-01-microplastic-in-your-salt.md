@@ -4,8 +4,15 @@ subtitle: "Planet or plastic? Salt produced in Indonesia, using the ancient tech
 description: "Microplastics were found in sea salt several years ago. Now, new research shows microplastics in 90% of the table salt brands sampled worldwide."
 date: 2018-10-01
 published: true
-category: know
-tags: [article, Indonesia, design, learning, plastic, save-oceans, waste]
+tags:
+  - article
+  - know
+  - Indonesia
+  - design
+  - learning
+  - plastic
+  - save-oceans
+  - waste
 cover_image: /assets/p/know/microplastic-in-your-salt/microplastic-in-your-salt.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption:  # lowercase, max 12 digits, including spaces

@@ -4,9 +4,9 @@ subtitle: Volcom Indonesia offers an example of responsible action, the Red Bag 
 description: "From the great mind of Ketut \"King Kong\" Kasih, owner of Volcom Indonesia. The red bag race is a competition to collect trash at surf contests." # max 160 digits cos dunno how to trim it, yet......
 date: 2018-05-22
 published: true
-category: techniques
 tags:
   - article
+  - techniques
   - Bali
   - environment-friendly
   - eco-friendly

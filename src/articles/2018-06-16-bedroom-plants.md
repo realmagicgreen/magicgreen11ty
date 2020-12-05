@@ -1,12 +1,12 @@
 ---
 title: Air Cleaning Bedroom Plants
 subtitle: "Plants that absorb pollutants and CO2 at night and help you sleep better."
+description: "Studies at NASA, Pennsylvania State University, the University of Georgia and other respected institutions suggest that plants can definitely clean the air." # max 160 digits
 date: 2018-06-16
 published: true
-description: "Studies at NASA, Pennsylvania State University, the University of Georgia and other respected institutions suggest that plants can definitely clean the air." # max 160 digits cos dunno how to trim it, yet......
-category: health
 tags:
   - article
+  - health
   - CO2
   - air-cleaning
   - bedroom-plants

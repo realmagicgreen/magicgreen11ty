@@ -3,9 +3,9 @@ title: Bambu Indah
 subtitle: "A radically distinctive boutique hotel in Ubud, unique luxury experience in a lush natural environment. Dense tropical jungle and river pools."
 date: 2018-11-25
 published: true
-category: services
 tags:
   - article
+  - services
   - architecture
   - Bali
   - bamboo

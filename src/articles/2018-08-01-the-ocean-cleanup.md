@@ -4,8 +4,19 @@ subtitle: Trash accumulates in 5 ocean garbage patches, the largest one being th
 description: "Trash accumulates in 5 ocean patches, the largest one being the Great Pacific Garbage Patch. It is impacting our health, ecosystems and economies."
 date: 2018-08-01
 published: true
-category: solutions
-tags: [article, biodiversity, eco-entrepreneurs, initiative, plastic, learning, save-oceans, social-responsibility, sustainable-development, waste, water]
+tags:
+  - article
+  - solutions
+  - biodiversity
+  - eco-entrepreneurs
+  - initiative
+  - plastic
+  - learning
+  - save-oceans
+  - social-responsibility
+  - sustainable-development
+  - waste
+  - water
 cover_image: /assets/p/solutions/the-ocean-cleanup/the-ocean-cleanup.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces

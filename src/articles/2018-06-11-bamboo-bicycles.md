@@ -4,8 +4,17 @@ subtitle: Making bikes out of bamboo is actually not all that crazy. East Bali b
 description: "The crazy idea of making bikes out of bamboo is actually not all that crazy. It has excellent vibration dampening effects, noticeable on bumpy roads."
 date: 2018-06-11
 published: true
-category: products
-tags: [article, bamboo, Bali, design, eco-friendly, environment-friendly, Indonesia, learning, sustainable-construction, wood]
+tags:
+  - article
+  - products
+  - bamboo
+  - Bali, design
+  - eco-friendly
+  - environment-friendly
+  - Indonesia
+  - learning
+  - sustainable-construction
+  - wood
 cover_image: /assets/p/products/bamboo-bicycles/bamboo-bicycles.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces

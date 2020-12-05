@@ -4,8 +4,12 @@ subtitle: The obvious solution to avoiding plastic toxicity is to avoid plastics
 description: "The obvious solution to avoiding plastic toxicity is to avoid plastics, which, in a world awash in plastic, is pretty difficult. In the absence of this, it..."
 date: 2018-05-20
 published: true
-category: know
-tags: [article, plastic, learning, wellness]
+tags:
+  - article
+  - know
+  - plastic
+  - learning
+  - wellness
 cover_image: /assets/p/know/food-safe-plastic/food-safe-plastic.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
