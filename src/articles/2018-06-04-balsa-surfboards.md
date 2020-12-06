@@ -3,6 +3,7 @@ title: Balsa Surfboards
 subtitle: "Vince Tierny surfboards are produced with 100% balsa wood sourced from small scale plantations in East Java."
 category: products
 date: 2018-06-04
+updated: 2020-10-10
 published: true
 tags:
   - article

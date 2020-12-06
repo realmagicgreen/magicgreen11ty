@@ -1,4 +1,4 @@
-{% if page.data.title != 'About us' %}
+{% if title != 'About us' %}
 <h5 class="post_metas">
 
   <div class="post_meta_block">
@@ -21,7 +21,7 @@
       {% include partials/svg/use.html id: "icn--photographer" class: "photographer" %}
     </div>
 
-    <div class="post_meta_text nowrap" title="photography by {{ page.photography }}">
+    <div class="post_meta_text nowrap" title="photography by {{ photography }}">
       {{ photography }}
     </div>
   </div>
@@ -36,6 +36,20 @@
       {{ page.date | date: "%d %b %Y" }}
     </div>
   </div>
+
+
+  {% if updated %}
+  <div class="post_meta_block post_meta_block--last">
+    <div class="post_meta_icon">
+      {% include partials/svg/use.html id: "icn--clock" class: "clock" %}
+    </div>
+
+    <div class="post_meta_text nowrap">
+      updated on {{ updated | date: "%d %b %Y" }}
+    </div>
+  </div>
+  {% endif %}
+
 
 </h5>
 {% endif %}
