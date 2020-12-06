@@ -1,6 +1,7 @@
 ---
 title: Golden Pothos
 subtitle: Effective in removing formaldehyde, thrives also under fluorescent lights and it's very easy to care for.
+category: health
 description: Golden Pothos is 1 of the top 3 plants that has been labeled the most effective in removing formaldehyde, is strong and stays green even with little light. # max 160 digits
 date: 2018-06-03
 published: true

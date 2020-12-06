@@ -1,6 +1,7 @@
 ---
 title: Up-cycled Glass
 subtitle: "Use recycled glass and bottles to make lamp and serve water to customers."
+category: techniques
 description: "A clever way to limit the use of plastic bottles is serving water in up-cycled bottle and glasses. These technique adopted by Warung Santai in Sanur has..."
 date: 2018-05-07
 published: true

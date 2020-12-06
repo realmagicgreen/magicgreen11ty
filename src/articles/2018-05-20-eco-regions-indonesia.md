@@ -1,6 +1,7 @@
 ---
 title: Eco Regions Indonesia
 subtitle: The Eco Region approach aspire to be a game changer for large scale green development.
+category: solutions
 description: "The plan is to create green destination and attract the world's most engaged green partners and most passionate eco-tourists. Envision sustainable development."
 date: 2018-05-20
 published: true

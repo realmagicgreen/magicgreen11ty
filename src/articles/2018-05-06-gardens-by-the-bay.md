@@ -1,6 +1,7 @@
 ---
 title: Gardens By The Bay
 subtitle: "An astonishing example of sustainable edutainment environment"
+category: solutions
 description: "Rated number 3 on things to do in Singapore Tripadvisor. Reached more than 40 million visitors to date. World's top 20 most checked-in places on Facebook."
 date: 2018-05-06
 published: true

@@ -1,6 +1,7 @@
 ---
 title: Cool Reclaimed Wood Lamps
 subtitle: Get some cool design lamps. They claim these lamps are made of up-cycled wood. Old timber turned into great furniture pieces. Really?!
+category: products
 description: "Rest easy, feel good, turn on your reclaimed wood lamp! Adjust it into a new position reflecting how you feel at the moment."
 date: 2018-08-26
 published: true

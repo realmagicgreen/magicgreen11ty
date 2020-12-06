@@ -1,6 +1,7 @@
 ---
 title: Bali Water Protection
 subtitle: This project calls on Bali’s leadership and responsibility to address the island’s diminishing water table and rapidly dropping levels of freshwater availability.
+category: solutions
 description: "Bali is on the verge of an environmental catastrophe. Groundwater reserves are at 20% according to Politeknik Negeri Bali in a report published by Republika."
 date: 2018-06-17
 published: true

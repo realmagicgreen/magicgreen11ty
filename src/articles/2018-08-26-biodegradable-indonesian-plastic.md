@@ -1,6 +1,7 @@
 ---
 title: Biodegradable Indonesian Plastic
 subtitle: Avani’s cassava-based biodegradable bags and products are solutions to the worldwide plastic problem.
+category: products
 description: "Every year an estimated 1 trillion plastic bags are consumed worldwide. Avani cassava-based biodegradable bags are a solution to mitigate this horrible problem."
 date: 2018-05-22
 published: true

@@ -20,6 +20,7 @@
     padding-bottom: $space--small;
     @include media("screen", ">minWidth") {
       width: auto;
+      padding-top: .5rem;
     }
   }
 

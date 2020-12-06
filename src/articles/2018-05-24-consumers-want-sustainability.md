@@ -1,6 +1,7 @@
 ---
 title: Consumers Want Sustainability
 subtitle: Sustainable Mainstream. Eco-friendly is definitely in.
+category: know
 description: "Environmental consciousness, social responsibility, and sustainability are all hot button topics in consumer retail today. The real question is..."
 date: 2018-05-24
 published: true

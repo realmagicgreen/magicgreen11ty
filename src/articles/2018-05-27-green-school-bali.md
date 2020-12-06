@@ -1,6 +1,7 @@
 ---
 title: Green School Bali
 subtitle: Architectural wonder to educate for sustainability.
+category: services
 description: "Founded and conceived by John and Cynthia Hardy in 2006, Green School opened in 2008 with 90 students and a tailor-made campus that emerged from the jungle..."
 date: 2018-05-27
 published: true

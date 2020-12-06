@@ -1,6 +1,7 @@
 ---
 title: Xiaomi Electric Scooter
 subtitle: This convenient foldable scooter in now available in Indonesia
+category: products
 description: "XIAOMI Mijia 365 electric scooter comes with a dual-brake system. The front wheel has E-ABS anti-lock system, while the rear wheel uses mechanical disk brake..."
 date: 2018-05-18
 published: true

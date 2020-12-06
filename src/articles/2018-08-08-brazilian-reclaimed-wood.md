@@ -1,6 +1,7 @@
 ---
 title: Brazilian Reclaimed Wood
 subtitle: Recycling wood is clever! From Indo to Brazil many up-cycle old timber turning it into furniture.
+category: products
 description: "Rest easy, feel good, you are sitting on a reclaimed wood chair! Recently in Brazil we have seen a big boom in furniture made from reclaimed wood."
 date: 2018-08-08
 published: true

@@ -1,6 +1,7 @@
 ---
 title: Bali Plastic Bags Ban
 subtitle: "Denpasar just introduced a new prohibition of plastic bags, Styrofoam and plastic straws in supermarkets, convenience stores and shopping centres."
+category: solutions
 date: 2019-02-01
 published: true
 tags:
