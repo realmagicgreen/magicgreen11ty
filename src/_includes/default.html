@@ -2,11 +2,11 @@
 
 ---
 <!DOCTYPE html>
-<html lang="{% if page.lang %}{{page.lang}}{% else %}{{site.lang}}{% endif %}" prefix="og: http://ogp.me/ns#">
+<html lang="{%if page.lang%}{{page.lang}}{% else %}{{site.lang}}{% endif %}" prefix="og: http://ogp.me/ns#">
 
   {% include partials/head.html %}
 
-  <body class="{{ title | slug }} long_menu">
+  <body class="long_menu">
 
     {% include partials/svg/defs.html %}
 

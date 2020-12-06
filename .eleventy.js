@@ -20,16 +20,6 @@ module.exports = function(eleventyConfig) {
 
 module.exports = function(eleventyConfig) {
 
-  // // Custom collections
-  // const knowPosts = post => post.category == "know";
-  // eleventyConfig.addCollection("know", collection => {
-  //   return [
-  //     ...collection.getFilteredByGlob("./src/articles/*.md").filter(knowPosts)
-  //   ].reverse();
-  // });
-
-
-
   // PLUGINS
 
   eleventyConfig.addPlugin(pluginDate, {
@@ -46,18 +36,6 @@ module.exports = function(eleventyConfig) {
 
 
   // FILTERS
-
-  // // {{ array | where: key,value }}
-  // eleventyConfig.addFilter('where', function (array, key, value) {
-  //   return array.filter(item => {
-  //     const keys = key.split('.');
-  //     const reducedKey = keys.reduce((object, key) => {
-  //       return object[key];
-  //     }, item);
-  //
-  //     return (reducedKey === value ? item : false);
-  //   });
-  // });
 
   //LiquidFilters
   eleventyConfig.addLiquidFilter('readingTime', readingTime);
@@ -112,7 +90,7 @@ module.exports = function(eleventyConfig) {
   // COLLECTIONS
 
 
-  //tags as in 11ty base repo
+  // tags as in 11ty base repo
   eleventyConfig.addCollection('tagList', require('./src/_11ty/getTagList'));
   eleventyConfig.addCollection('tagListPosts', require('./src/_11ty/tagListPosts'));
 
@@ -122,7 +100,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('./src/android-chrome-144x144.png');
   eleventyConfig.addPassthroughCopy('./src/android-chrome-192x192.png');
 
-  // Aliases are in relation to the _includes folder HTML(LIQUID)
+  // aliases are in relation to the _includes folder HTML(LIQUID)
   eleventyConfig.addLayoutAlias('default', 'default.html');
   eleventyConfig.addLayoutAlias('index', 'index.html');
   eleventyConfig.addLayoutAlias('post', 'post.html');
@@ -143,8 +121,7 @@ module.exports = function(eleventyConfig) {
     level: 1,
     permalink: true,
     permalinkSymbol: "&#128279;",
-    permalinkBefore: true,
-    slugify
+    permalinkBefore: false,
   };
   const markdownItPlugin = markdownIt(markdownItOptions).use(
     markdownItAnchor,
