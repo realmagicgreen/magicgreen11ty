@@ -21,7 +21,22 @@
 
     <nav class="menu menu_header" role="menu" id="menu">
 
-      <a class="menu_item" role="menuitem" title="health" href="/health/">
+      {% for item in navigation.main %}
+
+      <a class="menu_item {% if page.url == item.url %}active{% endif %}" role="menuitem" title="{{ item.label }}" href="{{ item.url | safe }}">
+        <span class="nowrap">{{ item.label }}</span>
+      </a>
+
+       <!-- <li class="level-1 mb-4 md:mr-4 md:mb-0">
+
+           <a href="{{ item.url | safe }}" class="link font-bold text-white hover:text-pink-500 active:text-pink-500 {% if page.url == item.url %}active text-pink-500{% endif %}
+           "{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.label }}</a>
+
+       </li> -->
+
+       {% endfor %}
+
+      <!-- <a class="menu_item" role="menuitem" title="health" href="/health/">
         <span class="nowrap">health</span>
       </a>
       <a class="menu_item" role="menuitem" title="know" href="/know/">
@@ -38,7 +53,7 @@
       </a>
       <a class="menu_item" role="menuitem" title="techniques" href="/techniques/">
         <span class="nowrap">techniques</span>
-      </a>
+      </a> -->
 
       {% comment %}
       this | size not working
