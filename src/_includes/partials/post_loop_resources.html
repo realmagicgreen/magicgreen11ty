@@ -30,7 +30,7 @@
     </thead>
 
     <tbody class="list">
-      {% for company in site.data.companies %}
+      {% for company in resources.companies %}
         <tr class="green_pages_table_row" id="{{ company.brand | replace: "", "-"  }}"  itemscope itemtype="http://schema.org/Organization">
 
           <td class="brand" data-th="Brand" itemprop="brand">{{ company.brand }}</td>
@@ -51,7 +51,10 @@
           {{ company.website | remove:'http://' | remove:'https://' | remove:'www.' | remove:'/' }}
           {% endcomment %}
 
-          <td class="website"><a title="website" class="sober_link " href="{{ company.website}}">{% if company.website %}{% include svg/use.html id: "icn--link" class: "link" %}{% endif %}</a></td>
+          <td class="website"><a title="website" class="sober_link " href="{{ company.website}}">
+            {% if company.website %}
+            {% include partials/svg/use.html id: "icn--link" class: "link" %}
+            {% endif %}</a></td>
 
 
         </tr>
