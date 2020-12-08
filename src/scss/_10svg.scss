@@ -2,15 +2,16 @@ footer {
   .email,
   .facebook,
   .instagram,
-  .qr  {
+  .qr {
     fill: $brand_color;
   }
 }
 
-.logo,
-.open,
-.close{
-  fill: $brand_color;
+.close,
+.open {
+  stroke: $brand_color;
+  width: 48px;
+  height: 48px;
 }
 
 svg {
@@ -23,13 +24,13 @@ svg {
 
   .post_tags & {
     margin-top: 4px;
-    width: $icon_size/3*2.25;
-    height: $icon_size/3*2.25;
+    width: $icon_size;
+    height: $icon_size;
   }
 
   .tagcloud_block & {
-    width: $icon_size*1.5;
-    height: $icon_size*1.5;
+    width: $icon_size;
+    height: $icon_size;
     position: relative;
     top: 13px;
   }
@@ -54,4 +55,10 @@ svg {
       margin-left: -6px;
     }
   }
+}
+
+.tagpage__ico .tag {
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
 }

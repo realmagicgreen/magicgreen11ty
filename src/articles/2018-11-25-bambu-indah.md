@@ -87,7 +87,7 @@ To ensure a healthy garden, only natural fertilizers is used, including compost 
 
 Composting diverts waste from landfills, and helps eliminate the need for chemical fertilizers often used in commercial farms.
 
-The Bambu Kitchen Restaurant is working towards being 100& self sufficient, growing all of our fruit, vegetables and herbs on site.
+The Bambu Kitchen Restaurant is working towards being 100% self sufficient, growing all of our fruit, vegetables and herbs on site.
 
 
 ![The Bambu Kitchen Restaurant is working towards being self sufficient. Photo by Rokma](/assets/p/services/bambu-indah/bambu-indah-14.jpg)
