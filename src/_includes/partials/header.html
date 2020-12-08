@@ -6,15 +6,24 @@
 
       <a class="logo_block group" href="/" title="home">
 
-        {% include partials/svg/use.html, id: "icn--logo" class: "logo" %}
+        <svg class="logo">
+          <use xlink:href="#icn--logo"></use>
+        </svg>
 
         <h1>{{ site.title }}</h1>
 
       </a>
 
       <div class="menu_toggle_buttom" id="menu_toggle_buttom">
-        {% include partials/svg/use.html, id: "icn--burger" class: "open" %}
-        {% include partials/svg/use.html, id: "icn--x" class: "close" %}
+
+        <svg class="open">
+          <use xlink:href="#icn--burger"></use>
+        </svg>
+
+        <svg class="close">
+          <use xlink:href="#icn--x"></use>
+        </svg>
+
       </div>
 
     </div>
@@ -23,9 +32,9 @@
 
       {% for item in navigation.main %}
 
-      <a class="menu_item {% if page.url == item.url %}active{% endif %}" role="menuitem" title="{{ item.label }}" href="{{ item.url | safe }}">
-        <span class="nowrap">{{ item.label }}</span>
-      </a>
+        <a class="menu_item {% if page.url == item.url %}active{% endif %}" role="menuitem" title="{{ item.label }}" href="{{ item.url | safe }}">
+          <span class="nowrap">{{ item.label }}</span>
+        </a>
 
       {% endfor %}
 

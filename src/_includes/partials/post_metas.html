@@ -3,7 +3,9 @@
 
   <div class="post_meta_block">
     <div class="post_meta_icon">
-      {% include partials/svg/use.html id: "icn--tag" class: "tag" %}
+      <svg class="tag">
+        <use xlink:href="#icn--tag"></use>
+      </svg>
     </div>
 
     <div class="post_meta_text">
@@ -18,7 +20,9 @@
   {% if photography %}
   <div class="post_meta_block">
     <div class="post_meta_icon">
-      {% include partials/svg/use.html id: "icn--photographer" class: "photographer" %}
+      <svg class="photographer">
+        <use xlink:href="#icn--photographer"></use>
+      </svg>
     </div>
 
     <div class="post_meta_text nowrap" title="photography by {{ photography }}">
@@ -29,7 +33,9 @@
 
   <div class="post_meta_block post_meta_block--last">
     <div class="post_meta_icon">
-      {% include partials/svg/use.html id: "icn--clock" class: "clock" %}
+      <svg class="clock">
+        <use xlink:href="#icn--clock"></use>
+      </svg>
     </div>
 
     <div class="post_meta_text nowrap">
@@ -41,7 +47,9 @@
   {% if updated %}
   <div class="post_meta_block post_meta_block--last">
     <div class="post_meta_icon">
-      {% include partials/svg/use.html id: "icn--clock" class: "clock" %}
+      <svg class="clock">
+        <use xlink:href="#icn--clock"></use>
+      </svg>
     </div>
 
     <div class="post_meta_text nowrap">

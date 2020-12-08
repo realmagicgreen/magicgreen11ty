@@ -2,7 +2,9 @@
 <div class="post_page_title post_loop_tag">
 
   <h1 class="minimal_padding">
-    {% include partials/svg/use.html id: "icn--tag" class: "icon_tag" %}
+    <svg class="tag">
+      <use xlink:href="#icn--tag"></use>
+    </svg>
     {{ page.tag }}
   </h1>
 

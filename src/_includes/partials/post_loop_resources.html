@@ -41,11 +41,23 @@
 
           <td class="show_on_phones country" data-th="Country" itemprop="addressLocality">{% if company.country %}{{ company.country }}{% endif %}</td>
 
-          <td class="email" itemprop="email"><a class="sober_link "title="email" href="mailto:{{ company.email }}">{% if company.email %}{% include partials/svg/use.html, id: "icn--email" class: "email" %}{% endif %}</a></td>
+          <td class="email" itemprop="email"><a class="sober_link "title="email" href="mailto:{{ company.email }}">{% if company.email %}
+            <svg class="email">
+              <use xlink:href="#icn--email"></use>
+            </svg>
+          {% endif %}</a></td>
 
-          <td class="telephone" itemprop="telephone">{% if company.telephone %}<a class="sober_link "title="tel:+{{ company.telephone }}" href="tel:+{{ company.telephone }}">{% include partials/svg/use.html, id: "icn--localphone" class: "localphone" %}</a>{% endif %}</td>
+          <td class="telephone" itemprop="telephone">{% if company.telephone %}<a class="sober_link "title="tel:+{{ company.telephone }}" href="tel:+{{ company.telephone }}">
+            <svg class="localphone">
+              <use xlink:href="#icn--localphone"></use>
+            </svg>
+          </a>{% endif %}</td>
 
-          <td class="location" itemprop="location">{% if company.location %}<a class="sober_link "title="location" href="{{ company.location }}">{% include partials/svg/use.html, id: "icn--location" class: "location" %}</a>{% endif %}</td>
+          <td class="location" itemprop="location">{% if company.location %}<a class="sober_link "title="location" href="{{ company.location }}">
+            <svg class="location">
+              <use xlink:href="#icn--location"></use>
+            </svg>
+          </a>{% endif %}</td>
 
           {% comment %} old way to display URL
           {{ company.website | remove:'http://' | remove:'https://' | remove:'www.' | remove:'/' }}
@@ -53,9 +65,10 @@
 
           <td class="website"><a title="website" class="sober_link " href="{{ company.website}}">
             {% if company.website %}
-            {% include partials/svg/use.html id: "icn--link" class: "link" %}
+            <svg class="link">
+              <use xlink:href="#icn--link"></use>
+            </svg>
             {% endif %}</a></td>
-
 
         </tr>
       {% endfor %}

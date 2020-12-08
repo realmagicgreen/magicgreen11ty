@@ -6,7 +6,9 @@
 
     <a class="logo_block group" href="/" title="home">
       {% if site.show_logo == "show" %}
-        {% include partials/svg/use.html, id: "icn--logo" class: "logo" %}
+        <svg class="logo">
+          <use xlink:href="#icn--logo"></use>
+        </svg>
       {% endif %}
       <h1 class="footer_company_name">{{ site.title }}</h1>
     </a>
@@ -57,7 +59,9 @@
         <div class="footer_icon facebook">
           <a class="menu_item" role="menuitem" href="{{site.company.facebook}}" title="{{site.company.facebook}} Facebook page">
             <span>
-              {% include partials/svg/use.html, id: "icn--facebook" class: "facebook" %}
+              <svg class="facebook">
+                <use xlink:href="#icn--facebook"></use>
+              </svg>
             </span>
             <span>FB: {{site.company.facebook | replace: "https://web.facebook.com/", "" }}</span>
           </a>
@@ -66,33 +70,49 @@
 
         {% if site.company.instagram %}
         <div class="footer_icon instagram">
+
           <a class="menu_item" role="menuitem" href="{{site.company.instagram}}" title="{{site.company.instagram | downcase}} on Instagram">
+
             <span>
-              {% include partials/svg/use.html, id: "icn--instagram" class: "instagram" %}
+              <svg class="instagram">
+                <use xlink:href="#icn--instagram"></use>
+              </svg>
             </span>
+
             <span>IG: {{site.company.instagram  | downcase | replace: "https://www.instagram.com/", "" }}</span>
+
           </a>
+
         </div>
         {% endif %}
 
         {% if site.company.twitter == "" %}
         {% else %}
         <div class="footer_icon twitter">
+
           <a class="menu_item" role="menuitem" href="{site.company.twitter}}" title="{{site.company.twitter}} at twitter">
+
             <span>
-              {% include partials/svg/use.html, id: "icn--twitter" class: "twitter" %}
+              <svg class="twitter">
+                <use xlink:href="#icn--twitter"></use>
+              </svg>
             </span>
+
             <span>Follow us on Twitter</span>
+
           </a>
         </div>
         {% endif %}
 
         {% if site.company.address %}
         <div class="footer_icon address">
+
           <a class="menu_item" role="menuitem" href="{% if site.company.maplink %}{{site.company.maplink}}{% else %}#{% endif %}" title="location">
 
             <span class="address_icon">
-            {% include partials/svg/use.html, id: "icn--location" class: "location" %}
+              <svg class="location">
+                <use xlink:href="#icn--location"></use>
+              </svg>
             </span>
 
             <div class="address_text">
@@ -104,16 +124,24 @@
               {% endif %}
 
               <div>{{site.company.address}}</div>
+
               <div>{{site.company.country}}</div>
+
             </div>
+
           </a>
+
         </div>
         {% endif %}
 
         {% if site.company.telephone %}
         <div class="footer_icon telephone">
           <a class="menu_item" role="menuitem" href="#" title="telephone">
-            <span>{% include partials/svg/use.html, id: "icn--localphone" class: "localphone" %}</span>
+            <span>
+              <svg class="localphone">
+                <use xlink:href="#icn--localphone"></use>
+              </svg>
+            </span>
             <span>{{site.company.telephone}}</span>
           </a>
         </div>
@@ -123,7 +151,9 @@
         <div class="footer_icon email">
           <a class="menu_item" role="menuitem" class="" href="mailto:{{site.company.email}}" title="{{site.company.email}}">
             <span>
-              {% include partials/svg/use.html, id: "icn--email" class: "email" %}
+              <svg class="email">
+                <use xlink:href="#icn--email"></use>
+              </svg>
             </span>
             <span>{{site.company.email}}</span>
           </a>
@@ -133,7 +163,9 @@
         {% if site.qr %}
         <div class="menu_item footer_icon qr_box">
           <span>
-            {% include partials/svg/use.html, id: "icn--qr" class: "qr" %}
+            <svg class="qr">
+              <use xlink:href="#icn--qr"></use>
+            </svg>
           </span>
         </div>
         {% endif %}
