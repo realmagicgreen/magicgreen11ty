@@ -40,10 +40,11 @@
 
       {% endfor %}
 
+
       {% comment %}
-      this | size not working
+      NOT working
       <div class="menu_footer_item">
-        There are currently {{ site.posts | size }} articles
+        There are currently {{ collections[article].length }} articles
       </div>
       {% endcomment %}
 
