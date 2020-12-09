@@ -19,13 +19,80 @@ permalink: /{{ tag }}/
 
     <div class="tagpage tagpage__title">
 
-      <span class="tagpage__ico">
-        <svg class="tag">
-          <use xlink:href="#icn--tag"></use>
-        </svg>
-      </span>
+      {% if '/services' in page.url %}
 
-      <h1 class="page__title">{{ tag | capitalize }}</h1>
+        <div class="post_page_title">
+
+          <h1 class="show_on_phones minimal_padding">{{ tag | capitalize }}</h1>
+
+          <h2 class="minimal_padding speech_bubble">Services to lower your environmental impact.</h2>
+
+        </div>
+
+      {% elseif '/products' in page.url %}
+
+      <div class="post_page_title">
+
+        <h1 class="show_on_phones minimal_padding">{{ tag | capitalize }}</h1>
+
+        <h2 class="minimal_padding speech_bubble">Sometimes it's easy to stop buying polluting products and start supporting more sustainable ones.</h2>
+
+      </div>
+
+      {% elseif '/techniques' in page.url %}
+
+      <div class="post_page_title">
+
+        <h1 class="show_on_phones minimal_padding">{{ tag | capitalize }}</h1>
+
+        <h2 class="minimal_padding speech_bubble">The way to sustainable living explained in details.</h2>
+
+      </div>
+
+
+      {% elseif '/solutions' in page.url %}
+
+      <div class="post_page_title">
+
+        <h1 class="show_on_phones minimal_padding">{{ tag | capitalize }}</h1>
+
+        <h2 class="minimal_padding speech_bubble">Small or big, here are some solutions to environmental problems.</h2>
+
+      </div>
+
+
+      {% elseif '/know' in page.url %}
+
+      <div class="post_page_title">
+
+        <h1 class="show_on_phones minimal_padding">{{ tag | capitalize }}</h1>
+
+        <h2 class="minimal_padding speech_bubble">Did you know that... Hum, actually I didn't. Thanks for letting me know!.</h2>
+
+      </div>
+
+      {% elseif '/health' in page.url %}
+
+      <div class="post_page_title">
+
+        <h1 class="show_on_phones minimal_padding">{{ tag | capitalize }}</h1>
+
+        <h2 class="minimal_padding speech_bubble">How to improve your life. Food, plants medicines, healthy living, superfoods.</h2>
+
+      </div>
+
+
+      {% else %}
+
+        <span class="tagpage__ico">
+          <svg class="tag">
+            <use xlink:href="#icn--tag"></use>
+          </svg>
+        </span>
+
+        <h1 class="page__title">{{ tag | capitalize }}</h1>
+
+      {% endif %}
 
     </div>
 

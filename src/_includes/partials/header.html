@@ -32,7 +32,9 @@
 
       {% for item in navigation.main %}
 
-        <a class="menu_item {% if page.url == item.url %}active{% endif %}" role="menuitem" title="{{ item.label }}" href="{{ item.url | safe }}">
+        {% capture keyword %}{{ item.url }}{% endcapture %}
+
+        <a class="menu_item {% if page.url contains keyword %}active{% endif %}" role="menuitem" title="{{ item.label }}" href="{{ item.url | safe }}">
           <span class="nowrap">{{ item.label }}</span>
         </a>
 
