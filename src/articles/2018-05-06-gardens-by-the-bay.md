@@ -32,15 +32,15 @@ photography: Rocco Marosi # put here photographer name
 
 ## TLDR
 
-- Rated number 3 on things to do in Singapore Tripadvisor
+- Reached more than 40 million visitors to date.
 
-- Reached more than 40 million visitors to date
+- Contains more than 1,000,000 plants.
 
-- World's top 20 most checked-in places on Facebook
+- Architecture wonder: The Cooled Conservatories at Gardens by the Bay are the world’s largest column-less greenhouses.
 
-- Contains more than 1,000,000 plants
+- Rated no.3 on things to do in Singapore Tripadvisor.
 
-- The two Cooled Conservatories at Gardens by the Bay are the world’s largest column-less greenhouses.
+- World's top 20 most checked-in places on Facebook.
 
 </div>
 
@@ -58,53 +58,71 @@ We aim to be a model for sustainable development and conservation.
 
 **A creation of sustainability between social, economic and environmental**
 
-Underlying the concept of Gardens by the Bay are the principles of environmental sustainability. Much effort was made to plan and design for sustainable cycles in energy and water throughout Bay South Garden.
+Underlying the concept of Gardens by the Bay are the principles of environmental sustainability.
+
+Much effort was made to plan and design for sustainable cycles in energy and water throughout Bay South Garden.
 
 ![Garden by the bay](/assets/p/solutions/gardens-by-the-bay/gardens-by-the-bay-02.jpg)
 
 **Energetics of the conservatories**
 
-Comprising two glass biomes, the Conservatories replicate the cool-dry climate of the Mediterranean and semi-arid sub-tropical regions and the cool-moist climate of the Tropical Montane region. They house a diverse collection of plants that are not commonly seen in this part of the world and are of high conservation value.
+Comprising two glass biomes, the Conservatories replicate the cool-dry climate of the Mediterranean and semi-arid sub-tropical regions and the cool-moist climate of the Tropical Montane region.
 
-The conservatories are a statement in sustainable engineering and apply a suite of cutting-edge technologies for energy-efficient solutions in cooling. This suite of technologies can help to achieve at least 30% savings in energy consumption, compared to conventional cooling technologies.
+They house a diverse collection of plants that are not commonly seen in this part of the world and are of high conservation value.
+
+The conservatories are a statement in sustainable engineering and apply a suite of cutting-edge technologies for energy-efficient solutions in cooling.
+
+This suite of technologies can help to achieve at least 30% savings in energy consumption, compared to conventional cooling technologies.
 
 
 
 **1) Minimising Solar Heat Gain**
 
-The two conservatories are fitted with specially selected glass that allows optimal light in for plants, but reduces a substantial amount of heat. The roof is fitted with a sensor-operated retractable sails that opens automatically to provide shade to the plants when it gets too hot.
+The two conservatories are fitted with specially selected glass that allows optimal light in for plants, but reduces a substantial amount of heat.
+
+The roof is fitted with a sensor-operated retractable sails that opens automatically to provide shade to the plants when it gets too hot.
 
 
 
 **2) Cooling only the occupied zones**
 
-The Conservatories apply the strategy of cooling only the lower levels, thus reducing the volume of air to be cooled. This is achieved through thermal stratification – ground cooling by chilled water pipes cast within the floor slabs enabling cool air to settle at the lower occupied zone while the warm air rises and is vented out at high levels.
+The Conservatories apply the strategy of cooling only the lower levels, thus reducing the volume of air to be cooled.
+
+This is achieved through thermal stratification – ground cooling by chilled water pipes cast within the floor slabs enabling cool air to settle at the lower occupied zone while the warm air rises and is vented out at high levels.
 
 
 
 **3) De-humidifying the air before cooling**
 
-To reduce the amount of energy required in the cooling process, the air in Flower Dome is de-humidified by liquid desiccant (drying agent) before it is cooled. This desiccant is recycled using the waste heat from the burning of the biomass.
+To reduce the amount of energy required in the cooling process, the air in Flower Dome is de-humidified by liquid desiccant (drying agent) before it is cooled.
+
+This desiccant is recycled using the waste heat from the burning of the biomass.
 
 ![Garden by the bay](/assets/p/solutions/gardens-by-the-bay/gardens-by-the-bay-03.jpg)
 
 
 **4) Generating energy and harnessing waste heat**
 
-Electricity is generated on-site to run the chillers that cool the Conservatories. At the same time, waste heat is captured in the process to regenerate the liquid desiccant. This co-generation of energy is achieved by the use of a Combined Heat Power (CHP) steam turbine that is fed by horticultural waste from the Gardens and other parks around Singapore. This reduces dependency on the electrical grid.
+Electricity is generated on-site to run the chillers that cool the Conservatories. At the same time, waste heat is captured in the process to regenerate the liquid desiccant.
+
+This co-generation of energy is achieved by the use of a Combined Heat Power (CHP) steam turbine that is fed by horticultural waste from the Gardens and other parks around Singapore. This reduces dependency on the electrical grid.
 
 
 
 
 ## Cool-dry conservatory - Flower dome
 
-Enter a world of perpetual spring! Replicating the cool and dry Mediterranean climate, [Flower Dome](http://www.gardensbythebay.com.sg/en/attractions/flower-dome/visitor-information.html) showcases exotic plants from five continents which are displayed in nine different Gardens. Wander amongst thousand-year-old olive trees and unusual Baobabs as you take in sights of the Flower Field Display. Find out more about the
+Enter a world of perpetual spring! Replicating the cool and dry Mediterranean climate, [Flower Dome](http://www.gardensbythebay.com.sg/en/attractions/flower-dome/visitor-information.html) showcases exotic plants from five continents which are displayed in nine different Gardens.
+
+Wander amongst thousand-year-old olive trees and unusual Baobabs as you take in sights of the Flower Field Display. Find out more about the
 
 ## Cloud Forest
 
 A mysterious world veiled in mist. Take in breath-taking mountain views surrounded by diverse vegetation and hidden floral gems. And learn about rare plants and their fast-disappearing environment.
 
-Explore the tropical highlands amidst orchids, pitcher plants and ferns from the cool-moist Tropical Montane region. Be amazed as you encounter the world's tallest indoor waterfall at 35 meters and descend through the surreal mist-filled Cloud Walk and Treetop Walk. More about the [Cloud Forest](http://www.gardensbythebay.com.sg/en/attractions/cloud-forest/visitor-information.html)
+Explore the tropical highlands amidst orchids, pitcher plants and ferns from the cool-moist Tropical Montane region.
+
+Be amazed as you encounter the world's tallest indoor waterfall at 35 meters and descend through the surreal mist-filled Cloud Walk and Treetop Walk. More about the [Cloud Forest](http://www.gardensbythebay.com.sg/en/attractions/cloud-forest/visitor-information.html)
 
 ## Supertree grove
 
@@ -116,22 +134,30 @@ Or, stroll along the 22-metre-high OCBC Skyway, a 128-metre aerial walkway that 
 
 **Environmentally sustainable functions of the supertrees**
 
-Eleven of the Supertrees are embedded with environmentally sustainable functions. Some have photovoltaic cells on their canopies to harvest solar energy for lighting up the Supertrees, while others are integrated with the Conservatories and serve as air exhaust receptacles.
+Eleven of the Supertrees are embedded with environmentally sustainable functions.
+
+Some have photovoltaic cells on their canopies to harvest solar energy for lighting up the Supertrees, while others are integrated with the Conservatories and serve as air exhaust receptacles.
 
 
 ## Ocbc skyway
 
-There’s nothing quite like a stroll along the [Ocbc skyway](http://www.gardensbythebay.com.sg/en/attractions/ocbc-skyway.html). At a height of 22 metres and surrounded by panoramic vistas of the Gardens and Marina Bay skyline, this 128-metre-long aerial walkway is an experience not to be missed.
+There’s nothing quite like a stroll along the [Ocbc skyway](http://www.gardensbythebay.com.sg/en/attractions/ocbc-skyway.html).
+
+At a height of 22 metres and surrounded by panoramic vistas of the Gardens and Marina Bay skyline, this 128-metre-long aerial walkway is an experience not to be missed.
 
 ## Dragonfly & Kingfisher Lakes
 
 Immerse in the fascinating world that exists below the surface of [Dragonfly & Kingfisher Lakes](http://www.gardensbythebay.com.sg/en/attractions/dragonfly-and-kingfisher-lakes.html).
 
-More than a scenic treat, the lakes are a rich source of aquatic life from fish to plants. These plants play a vital role in maintaining the right amount of nutrients in the lake by absorbing excess nitrogen and phosphorus. They help ensure better water quality by acting as a natural eco-filter and strategically located aquatic reeds also act as filter beds.
+More than a scenic treat, the lakes are a rich source of aquatic life from fish to plants. These plants play a vital role in maintaining the right amount of nutrients in the lake by absorbing excess nitrogen and phosphorus.
+
+They help ensure better water quality by acting as a natural eco-filter and strategically located aquatic reeds also act as filter beds.
 
 ## World of plants
 
-In this realm of lush greenery you can learn all about the spectacular myriad of tropical plants and the systems these plants support. Find out how plants disperse their seeds, how mushrooms benefit rainforest communities and how plants adapt to adverse environments.
+In this realm of lush greenery you can learn all about the spectacular myriad of tropical plants and the systems these plants support.
+
+Find out how plants disperse their seeds, how mushrooms benefit rainforest communities and how plants adapt to adverse environments.
 
 ![Garden by the bay](/assets/p/solutions/gardens-by-the-bay/gardens-by-the-bay-04.jpg)
 
@@ -145,7 +171,9 @@ The Gardens’ newest attraction featuring the largest collection of sculptural 
 
 ## Heritage Gardens
 
-A collection of four themed gardens, the [Heritage Gardens](http://www.gardensbythebay.com.sg/en/attractions/heritage-gardens/visitor-information.html) will take you through the history and culture of Singapore’s three main ethnic groups and colonial past, through the fascinating story of plants. Explore the Chinese, Malay, Indian, and Colonial Gardens and learn how plants are intricately linked to the culture of each group.
+A collection of four themed gardens, the [Heritage Gardens](http://www.gardensbythebay.com.sg/en/attractions/heritage-gardens/visitor-information.html) will take you through the history and culture of Singapore’s three main ethnic groups and colonial past, through the fascinating story of plants.
+
+Explore the Chinese, Malay, Indian, and Colonial Gardens and learn how plants are intricately linked to the culture of each group.
 
 ## Sun Pavilion
 

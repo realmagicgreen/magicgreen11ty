@@ -5,7 +5,17 @@
 
     {% if article.data.cover_image %}
     <figure class="clipped">
-      <img loading="lazy" src="{{ article.data.cover_image }}" alt="{{ article.data.title }}">
+
+
+      {% set f %} {{ article.data.cover_image | replace(".jpg", "") }}{% endset%}
+      <img loading="lazy" src="{{ f }}-640.jpg"
+       srcset="{{ f }}-640.jpg 640w,
+               {{ f }}-880.jpg 880w,
+               {{ f }}-1024.jpg 1024w,
+               {{ f }}-1920.jpg 1920w"
+       sizes="(max-width: 640px) 100vw, (max-width: 880px) 50vw, (min-width: 881px) 33vw"
+       alt="{{ article.data.title }}">
+
       {% else %}
       <img loading="lazy" class="no_cover_image" src="/assets/p/og.jpg" alt="{{ article.data.title }}">
     </figure>

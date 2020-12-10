@@ -94,7 +94,7 @@ blockquote {
 .post_image_group {
   position: relative;
   width: 100%;
-  color: $transparent_grey;
+  color: $grey;
   // category_01: services
   // category_02: products
   // category_03: techniques
@@ -169,7 +169,8 @@ blockquote {
 
 .container .tldr {
   display: block;
-  padding: $space--small;
-  border: 1px solid $transparent_grey;
-  border-radius: $radius;
+  //padding: $space--small;
+  // border-left: 1px solid $transparent_grey;
+  // border-right: 1px solid $transparent_grey;
+  // border-radius: $radius;
 }

@@ -9,9 +9,9 @@ $link_color: $black;
 $light_text_color: hsla(92, 100%, 28%, 1);
 $bg_color: hsla(92, 100%, 90%, 1); //hsl(0, 0%, 96%);
 
-$grey: hsl(0,0%,45%);
-$grey--light: hsl(0,0%,85%);
-$transparent_grey: transparentize($black, .65);
+$grey: hsl(0,0%,33%);
+$grey--light: hsl(0,0%,75%);
+$transparent_grey: transparentize($black, .55);
 
 $underline_link_color: $brand_color;
 
