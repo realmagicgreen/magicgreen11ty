@@ -7,7 +7,7 @@
 	{% if cover_image %}
 	<meta property="og:image" content="{{ site.url }}{{ cover_image }}">
 	{% else %}
-	<meta property="og:image" content="{{ site.url }}/assets/p/og.jpg">
+	<meta property="og:image" content="{{ site.url }}/assets/p/og_large_image.jpg">
 	{% endif %}
 
 	{% if description %}
@@ -40,7 +40,7 @@
 	<meta name="twitter:image:src" content="{{ site.url }}{{ cover_image }}">
 	{% else %}
 	<meta name="twitter:card" content="summary">
-	<meta name="twitter:image:src" content="{{ site.url }}/assets/p/og.jpg">
+	<meta name="twitter:image:src" content="{{ site.url }}/assets/p/og_large_image.jpg">
 	{% endif %}
 
 	{% if description %}
