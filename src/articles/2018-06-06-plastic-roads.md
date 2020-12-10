@@ -30,7 +30,8 @@ Indonesia began to use plastic and rubber tires waste or a mixture of both for t
 
 Asphalt-making technology using a mixture of plastic was first discovered by a chemical scientist from India, Rajagopalan Vasudevan, in 2015.
 
-![Asphalt-making technology using a mixture of plastic was first discovered by a chemical scientist from India](/assets/p/solutions/plastic-roads/plastic-roads-02.jpg)
+{% include partials/image.html, name: name, caption: 'Asphalt-making technology using a mixture of plastic was first discovered by a chemical scientist from India' %}
+
 
 India has built a road along more than 25 thousand kilometers of asphalt made from plastic waste.
 
@@ -38,7 +39,9 @@ India has built a road along more than 25 thousand kilometers of asphalt made fr
 
 To this day people often bury or burn plastic and rubber waste causing soil and air pollution. Wastes buried in the ground will eventually carry water and enter the river and then carried into the sea in the form of micro plastic.
 
-![We are standardizing this technology for implementation in Indonesia](/assets/p/solutions/plastic-roads/plastic-roads-03.jpg)
+{% assign name = '-03' %}
+{% include partials/image.html, name: name, caption: 'We are standardizing this technology for implementation in Indonesia' %}
+
 
 President Joko Widodo at the G-20 meeting in 2017 has expressed Indonesia's commitment to reduce marine plastic waste by 70 percent by 2025.
 
@@ -53,7 +56,9 @@ The amount of plastic waste in Indonesia in 2019 is estimated at 9.52 million to
 
 Asphalt produced by plastic and rubber waste material is more sticky when compared with conventional asphalt. The level of stability and resilience of the mixture increased 40 percent. The government has coordinated with the Indonesian Plastic Recycling Association in 16 major cities that will collect and sort waste.
 
-![Asphalt produced by plastic and rubber waste material is more sticky when compared with conventional asphalt.](/assets/p/solutions/plastic-roads/plastic-roads-04.jpg)
+{% assign name = '-04' %}
+{% include partials/image.html, name: name, caption: 'Asphalt produced by plastic and rubber waste material is more sticky when compared with conventional asphalt.' %}
+
 
 Indonesia, with a population of 257.6 million, is the world's second-biggest source of marine plastic waste.
 

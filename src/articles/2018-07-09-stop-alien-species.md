@@ -42,7 +42,10 @@ While thanking the CBD Secretariat for all its guidance in abating the prolifera
 
 The [Golden Apple Snail (Ampullariidae)](https://en.wikipedia.org/wiki/Ampullariidae) is an example of a well-established invasive species in Southeast Asia. It is considered as the 40th worst alien species in Europe and in the Top 100 of the World’s Worst Invasive Alien Species.
 
-![Golden Apple Snails](/assets/p/solutions/stop-alien-species/stop-alien-species-02.jpg)
+
+{% assign name = '-02' %}
+{% include partials/image.html, name: name, caption: 'Golden Apple Snails' %}
+
 
 Dr. Gono Semiadi stated that other well-established species, particularly in Viet Nam, include mimosa trees, water hyacinth, and caterpillars.
 
@@ -66,12 +69,16 @@ Vital ecosystem functions, such as pollination, soil regeneration, and nutrient 
 
 For example, a [common Myna](https://en.wikipedia.org/wiki/Myna), a bird of the starling family, can drive away native birds by occupying their nesting areas.
 
-![Mynas](/assets/p/solutions/stop-alien-species/stop-alien-species-03.jpg)
+{% assign name = '-03' %}
+{% include partials/image.html, name: name, caption: 'Mynas' %}
+
 
 
 [Mimosa pigra](https://en.wikipedia.org/wiki/Mimosa_pigra), a thorny shrub with buoyant seeds that grow abundantly in mudflats, can drive away migratory birds feeding and nesting in these areas.
 
-![Mimosa pigra](/assets/p/solutions/stop-alien-species/stop-alien-species.jpg)
+{% assign name = '' %}
+{% include partials/image.html, name: name, caption: 'Mimosa pigra' %}
+
 
 
 The ASEAN Centre for Biodiversity supports the ASEAN Member States in undertaking measures to cope with and come up with control measures on IAS through capacity building on taxonomy, information sharing through the ASEAN Clearing House Mechanism, and awareness raising.

@@ -36,7 +36,10 @@ In the last few years in Indonesia and specially in Bali, we have seen a big boo
 
 A quick search on google can reveal you how many companies are offering a wide variety of furniture and designs all made using wood has been reclaimed or salvaged.
 
-![Reclaimed timber is trendy now!](/assets/p/products/indonesian-reclaimed-wood/indonesian-reclaimed-wood-02.jpg)
+{% assign name = '-02' %}
+{% include partials/image.html, name: name, caption: 'Reclaimed timber is trendy now!' %}
+
+
 
 
 They take unused old structures such as boats, bridges, jetties and factories and turn them into surely solid timber products, sometime beautiful other time funky and kitsch, including flooring, decking, panelling, and countertops.
@@ -45,7 +48,10 @@ This ‘full circle’ production, reduce waste and utilize woods to the max. Af
 
 Some companies, like [Recycle teak](http://www.recycleteak.com/about-us/) are conscious enough to get certified by FSC, to show customers their effort and care about our environment.
 
-![Reclaimed timber is trendy now!](/assets/p/products/indonesian-reclaimed-wood/indonesian-reclaimed-wood-03.jpg)
+{% assign name = '-02' %}
+{% include partials/image.html, name: name, caption: 'Reclaimed timber is trendy now!' %}
+
+
 
 Some companies even go a step further and donate 10% of proceeds go to no-profits. For example [boat wood furniture Bali](http://boatwoodfurniturebali.com/) supprt Ypac Jimbaran, a local organization helping the physically handicapped children of bali.
 

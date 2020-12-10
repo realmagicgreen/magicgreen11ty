@@ -22,7 +22,9 @@ photography: # put here photographer name
 ---
 
 
-The obvious solution to avoiding plastic toxicity is to avoid plastics, which, in a world awash in plastic, is pretty difficult. In the absence of this, it makes sense to limit your close encounters with plastic as best as you can.
+The obvious solution to avoiding plastic toxicity is to avoid plastics, which, in a world awash in plastic, is pretty difficult.
+
+In the absence of this, it makes sense to limit your close encounters with plastic as best as you can.
 
 >“BPA should be considered a hazard to human development and reproduction with clear evidence of adverse effects.” _Sarah Janssen of the Natural Resources Defense Council_
 
@@ -33,11 +35,11 @@ Look for the symbol. It indicated what type of plastic it is. Avoid buying the h
 
 - Never heat or microwave your food in plastic containers, which increases the leaching of chemicals.
 
-- Avoid contact with BPA by avoiding plastic wrap (use wax or parchment paper, or aluminum foil), plastic food containers (use metal or glass containers), and disposable water bottles (use reusable non-plastic or BPA-free bottles).
+- Avoid contact with BPA by avoiding **plastic wrap** (use wax or parchment paper, or aluminum foil), plastic food containers (use metal or glass containers), and disposable water bottles (use **reusable non-plastic or BPA-free bottles**).
 
-- Look for BPA-free on the label of products (while this is not a guarantee of safety, it at least limits BPA exposure). Use metal and wooden eating and cooking utensils instead of plastic utensils.
+- Look for **BPA-free** on the label of products (while this is not a guarantee of safety, it at least limits BPA exposure). Use metal and wooden eating and cooking utensils instead of plastic utensils.
 
-- Find food and water containers that are BPA-free. Avoid phthalates by primarily avoiding PVC products (labeled as #3 plastic).
+- Find food and water containers that are BPA-free. Avoid **phthalates** by primarily avoiding PVC products (labeled as #3 plastic).
 
 - Look for phthalates-free labels.
 
@@ -46,24 +48,42 @@ Look for the symbol. It indicated what type of plastic it is. Avoid buying the h
 - Avoid plastics numbered #6 and #7 whenever possible.
 
 
-### The plastic types
+## The plastic types
 
 ![Look at least for BPA-free on the label of products](/assets/p/know/food-safe-plastic/food-safe-plastic-02.jpg)
 
 
-1. **PET: polyethylene terephthalate.** PET is commonly used in commercially sold drink bottles, and condiment bottles (like ketchup). Generally considered a “safe” plastic, as does not contain BPA, in the presence of heat it can leach antimony, a toxic metalloid, into food and beverages, which can cause vomiting, diarrhea and stomach ulcers. Some studies have shown up to 100 times the amount of antimony in bottled water than in clean groundwater. The longer the bottle is on the shelf or exposed to heat or sunshine, the more antimony is likely to have leached into the product.
+## **1. PET: polyethylene terephthalate.**
 
-2. **HDPE: high-density polyethylene.** HDPE is commonly used in milk and juice bottles, detergent bottles, shampoo bottles, grocery bags, and cereal box liners. Like PET, it is also considered “safe,” but has been shown to leach estrogenic chemicals dangerous to fetuses and juveniles.
+PET is commonly used in commercially sold drink bottles, and condiment bottles (like ketchup). Generally considered a “safe” plastic, as **does not contain BPA**, in the presence of heat **it can leach antimony, a toxic metalloid**, into food and beverages, which can cause vomiting, diarrhea and stomach ulcers.
 
-3. **PVC: polyvinyl chloride.** PVC can be flexible or rigid, and is used for plumbing pipes, clear food packaging, shrink wrap, plastic children’s toys, tablecloths, vinyl flooring, children’s play mats, and blister packs (such as for medicines). PVC contains a phthalate called DEHP, which can cause male traits to become more feminized (DEHP-containing products have been banned in many countries, but not the U.S.). In some products, DEHP has been replaced with another chemical called DiNP, which has similarly been shown to have hormone disruption properties.
+Some studies have shown up to **100 times the amount of antimony in bottled water** than in clean groundwater. The longer the bottle is on the shelf or exposed to heat or sunshine, the more antimony is likely to have leached into the product.
 
-4. **LDPE: low-density polyethylene.** LDPE is used for dry cleaning bags, bread bags, newspaper bags, produce bags, and garbage bags, as well as “paper” milk cartons and hot/cold beverage cups. LDPE does not contain BPA, but as with most plastics, it can leach estrogenic chemicals.
+## **2. HDPE: high-density polyethylene.**
 
-5. **PP: polypropylene.** PP is used to make yogurt containers, deli food containers and winter clothing insulation. PP actually has a high heat tolerance and as such, does not seem to leach many of the chemicals other plastics do.
+HDPE is commonly used in milk and juice bottles, detergent bottles, shampoo bottles, grocery bags, and cereal box liners. Like PET, it is also considered “safe,” but has been shown to **leach estrogenic chemicals dangerous to fetuses and juveniles**.
 
-6. **PS: polystyrene** PS, also popularly known as Styrofoam, is used for cups, plates, take-out containers, supermarket meat trays, and packing peanuts. Polystyrene can leach styrene, a suspected carcinogen, especially in the presence of heat (which makes hot coffee in a Styrofoam container an unwise choice).
+## **3. PVC: polyvinyl chloride.**
 
-7. **Everything else.** Any plastic item not made from the above six plastics is lumped together as a #7 plastic. Any plastic designated #7 is likely to leach BPA and/or BPS, both potent endocrine disruptors linked to interfering with proper mood, growth, development, sexual function, reproductive function, and puberty, among other essential human developmental processes. They are also suspected of increasing the risk of adult reproductive cancers, obesity, heart disease, and type 2 diabetes.
+PVC can be flexible or rigid, and is used for plumbing pipes, clear food packaging, shrink wrap, plastic children’s toys, tablecloths, vinyl flooring, children’s play mats, and blister packs (such as for medicines).
+
+PVC contains a phthalate called DEHP, which **can cause male traits to become more feminized** (DEHP-containing products have been banned in many countries, but not the U.S.). In some products, DEHP has been replaced with another chemical called DiNP, which has similarly been shown to have **hormone disruption properties**.
+
+## **4. LDPE: low-density polyethylene.**
+
+LDPE is used for dry cleaning bags, bread bags, newspaper bags, produce bags, and garbage bags, as well as “paper” milk cartons and hot/cold beverage cups. LDPE does not contain BPA, but as with most plastics, **it can leach estrogenic chemicals**.
+
+## **5. PP: polypropylene.**
+
+PP is used to make yogurt containers, deli food containers and winter clothing insulation. PP actually has a high heat tolerance and as such, **does not seem to leach many of the chemicals other plastics do**.
+
+## **6. PS: polystyrene**
+
+PS, also popularly known as Styrofoam, is used for cups, plates, take-out containers, supermarket meat trays, and packing peanuts. **Polystyrene can leach styrene, a suspected carcinogen, especially in the presence of heat** (which makes hot coffee in a Styrofoam container an unwise choice).
+
+## **7. Everything else.**
+
+Any plastic item not made from the above six plastics is lumped together as a #7 plastic. Any plastic designated #7 is likely to **leach BPA and/or BPS**, both **potent endocrine disruptors** linked to interfering with proper mood, growth, development, sexual function, reproductive function, and puberty, among other essential human developmental processes. They are also suspected of **increasing the risk of adult reproductive cancers, obesity, heart disease, and type 2 diabetes**.
 
 
 

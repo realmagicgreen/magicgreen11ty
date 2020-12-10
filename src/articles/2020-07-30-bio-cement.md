@@ -128,7 +128,7 @@ The idea for _"Coral Reef"_ was born of one of Khan’s ongoing projects in the 
 
 Currently under construction, the structure, due in 2021, present a surface made of many small stone elements, referencing traditional local coral-stone buildings and the geometry of _Arish_, the region’s palm-leaf architecture.
 
->"When we started working with BioMason, I wondered if we could recreate an element of our building from its biocement, and I wanted that product to use Sharjah’s sand as its a regate material, a resource that is plentiful,"
+>"When we started working with BioMason, I wondered if we could recreate an element of our building from its biocement, and I wanted that product to use Sharjah’s sand as its a regate material, a resource that is plentiful..."
 
 says Khan.
 

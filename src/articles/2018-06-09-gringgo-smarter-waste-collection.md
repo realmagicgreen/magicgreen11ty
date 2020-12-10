@@ -39,7 +39,10 @@ Smarter waste collection service that is more reliable, cheaper and greener. Cre
 
 Innovate & create positive social & environmental impact. Build a waste network that helps reduce ocean plastic pollution by 25% by 2020 in South East Asia & increase recycling rates by 50% by 2022
 
-![Gringgo Denpasar map](/assets/p/solutions/gringgo-smarter-waste-collection/gringgo-smarter-waste-collection-02.jpg)
+{% assign name = '-02' %}
+{% include partials/image.html, name: name, caption: 'Gringgo Denpasar map' %}
+
+
 
 
 ### Data & waste service in Denpasar

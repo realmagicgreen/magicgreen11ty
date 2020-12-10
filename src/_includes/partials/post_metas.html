@@ -31,7 +31,7 @@
   </div>
   {% endif %}
 
-  <div class="post_meta_block post_meta_block--last">
+  <div class="post_meta_block {% if updated %}{% else %}post_meta_block--last{% endif %}">
     <div class="post_meta_icon">
       <svg class="clock">
         <use xlink:href="#icn--clock"></use>

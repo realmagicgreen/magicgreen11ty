@@ -33,17 +33,17 @@ But how extensively plastic bits are spread throughout the most commonly used se
 
 Now, new research shows microplastics in 90% of the table salt brands sampled worldwide.
 
-<br>
-
 ## Salt brands tested.
 
 Of 39 salt brands tested, 36 had microplastics in them, according to a new analysis by researchers in South Korea and Greenpeace East Asia. Using prior salt studies, this new effort is the first of its scale to look at the geographical spread of microplastics in table salt and their correlation to where plastic pollution is found in the environment.
 
-![Salt brands tested.](/assets/p/know/microplastic-in-your-salt/microplastic-in-your-salt-02.jpg)
+{% assign name = '-02' %}
+{% include partials/image.html, name: name, caption: 'Salt brands tested.' %}
+
+
 
 >“The findings suggest that human ingestion of microplastics via marine products is strongly related to emissions in a given region,”_Seung-Kyu Kim, marine science professor at Incheon National University in South Korea._
 
-<br>
 
 ## Assessing the impact of microplastics.
 
@@ -53,10 +53,14 @@ Of 39 salt brands tested, 36 had microplastics in them, according to a new analy
 
 >“The earlier studies found traces of microplastics in salt products sold in those countries, but we haven’t known how much.”_Sherri Mason_
 
-![Assessing the impact of microplastics](/assets/p/know/microplastic-in-your-salt/microplastic-in-your-salt-03.jpg)
+
+{% assign name = '-03' %}
+{% include partials/image.html, name: name, caption: 'Assessing the impact of microplastics' %}
 
 
-# We know the solutions.
+
+
+## We know the solutions.
 
 
 >"In short, if we want to understand the risks to marine animals, and humans through seafood, we need to first get a handle on how much plastic there is, what form it takes, and where it is in the ocean, so that we can evaluate how much plastic a particular animal or species is exposed to. If there is no exposure, there is no risk. This study shows that there is far more plastic in the ocean than we can currently account for. Now we have to find it."_Kara Lavender Law, research professor of oceanography at Sea Education Association (SEA) in Woods Hole, MA, home of the SEA Semester undergraduate study abroad program._

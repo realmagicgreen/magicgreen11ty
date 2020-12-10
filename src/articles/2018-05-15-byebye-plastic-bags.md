@@ -30,7 +30,10 @@ It was invented of two young women, Melati and Isabel Wijtsen.
 
 They have a vision of a plastic bag free world where the young generation takes care and take action. They want to ban the use, sale and production of plastic bags.
 
-![Melati and Isabel in a typical Bali small shop](/assets/p/solutions/byebye-plastic-bags/byebye-plastic-bags-02.jpg)
+{% assign name = '-02' %}
+{% include partials/image.html, name: name, caption: 'Melati and Isabel in a typical Bali small shop' %}
+
+
 
 They have some sponsors and partners, but mostly they are living from donations. You too can be part of the movement, if you join or build your own BBPB team.
 
@@ -43,7 +46,10 @@ They promised to get Bali free in 2018, what is definitely not the case. Most of
 Hopefully the girls find some good new solutions to get there vision come true.
 
 
-![These young people just cleaned the beach](/assets/p/solutions/byebye-plastic-bags/byebye-plastic-bags-03.jpg)
+{% assign name = '-03' %}
+{% include partials/image.html, name: name, caption: 'These young people just cleaned the beach' %}
+
+
 
 The first important step they reckon is to educate people about the damage plastic bags brings to our environment and also how you can be part of the solution.
 
@@ -82,7 +88,10 @@ For every one bag sold, one bag will be donated to a local community member.
 
 In 2014, BBPB completed version 1 of their educational booklet for primary aged students to learn about the harms of plastic.
 
-![The plastic problem in numbers](/assets/p/solutions/byebye-plastic-bags/byebye-plastic-bags-04.jpg)
+{% assign name = '-04' %}
+{% include partials/image.html, name: name, caption: 'The plastic problem in numbers' %}
+
+
 
 
 It was distributed throughout schools in Indonesia. An updated Version 2 of the booklet is to be published and distributed in 2018. [Educational booklet - PDF](https://drive.google.com/file/d/0Bxg4eo4M4UbeYmhxREI1cXJIY3c/view)

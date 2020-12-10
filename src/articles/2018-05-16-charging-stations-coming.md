@@ -32,7 +32,7 @@ PLN NTB general manager Mukhtar said the SPLU development is part of NTB provinc
 
 There is one SPLU available in Gili Trawangan, which is home to many owners of electric motorcycles. Mukhtar mentioned that the addition of SPLU units in Gili Trawangan and KEK Mandalika would be done gradually.
 
->“We will coordinate with the provincial administration and Indonesia Tourism Development Corporation [ITDC] regarding location and permit,” he said.
+>“We will coordinate with the provincial administration and Indonesia Tourism Development Corporation ITDC regarding location and permit,” he said.
 
 PLN NTB aims to implement 30 SPLU units in 2018, which will be installed in several places, including six units in Mandalika and five units in West Lombok, North Lombok and East Lombok.
 

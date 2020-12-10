@@ -22,7 +22,7 @@ featured: # use 'true' to have it displayed in home
 sticky: # 'true' or empty
 show_in_home_slideshow: # 'true' or empty
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
-photography: # put here photographer name
+photography: Rokma # put here photographer name
 ---
 
 Designed by award-winning architect, **Budiman Hendropurnomo** of Denton Corker Marshall, Maya Sanur Resort feature an innovative design that elevates aesthetics to exciting new heights.
