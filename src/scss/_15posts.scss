@@ -169,8 +169,9 @@ blockquote {
 
 .container .tldr {
   display: block;
+  border-bottom: 1px solid $transparent_grey;
+  margin-bottom: $space;
   //padding: $space--small;
-  // border-left: 1px solid $transparent_grey;
   // border-right: 1px solid $transparent_grey;
   // border-radius: $radius;
 }

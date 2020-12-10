@@ -39,6 +39,6 @@ We aim to inspire responsible tourism and the tourism industry. Follow us to kno
 
 # Who
 
-We are a network of communication professionals, with a solid experience producing communication tools, who feel the need to make something meaningful and necessary.
+We are a network of communication professionals, with a solid experience producing content and communication tools, who feel the need to make something meaningful and necessary, to contribute to build a better, less harmfull, more sustainable world.
 
 We'd like to give a contribution to push the world toward the right direction. Help us spread the message.

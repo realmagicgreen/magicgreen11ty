@@ -108,6 +108,7 @@ svg {
     max-width: $mediaMaxWidth*1.15;
     margin: 0 auto;
   }
+
   &.small {
     @include media("screen", ">bp1Width") {
       max-width: $mediaBp1Width;
@@ -115,6 +116,7 @@ svg {
   }
 
   .book_now,
+  figcaption,
   p {
     margin: 0 0 0 auto;
     max-width: 100%;

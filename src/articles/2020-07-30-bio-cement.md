@@ -43,13 +43,18 @@ As an architect or designer, what is your role in the building industry? Are you
 
 Bio cement, 99.4% carbon free cement, is the right choice for the health of our environment without sacrificing durability or lifespan of the material.
 
-![carbon free biocement floor](/assets/p/solutions/bio-cement/bio-cement-02.jpg)
+
+{% assign name = '-02' %}
+{% include partials/image.html, name: name, caption: 'carbon free biocement floor' %}
+
 
 Can a fairly new material be used in the same way as the conventional ones we have been building with for centuries?
 
 Would it be a viable option to replace, say, concrete, with an environmentally responsible alternative and still get the same results in terms of architectural performance?
 
-![environmentally responsible wall](/assets/p/solutions/bio-cement/bio-cement-03.jpg)
+{% assign name = '-03' %}
+{% include partials/image.html, name: name, caption: 'environmentally responsible wall' %}
+
 
 And how can a structure be intrinsically linked to its locale?
 
@@ -60,7 +65,8 @@ London-based designer **Asif Khan** explored with his _Wallpaper Re-Made_ projec
 
 A leading innovator in the green building space, **bioMASON®** offers the lowest carbon footprint, greater than 99% less, cement product in the market.
 
-![posing procedure](/assets/p/solutions/bio-cement/bio-cement-04.jpg)
+{% assign name = '-04' %}
+{% include partials/image.html, name: name, caption: 'posing procedure' %}
 
 They grow their pre-cast materials by employing microorganisms.
 
@@ -84,7 +90,9 @@ It "grows" sustainable cement by employing microorganisms, just as coral reefs a
 
 **BioMason** was built on a single belief that there is a better way, a new way with cues from natural marine cement formation.
 
-![circular economy diagram](/assets/p/solutions/bio-cement/bio-cement-05.jpg)
+{% assign name = '-05' %}
+{% include partials/image.html, name: name, caption: 'circular economy diagram' %}
+
 
 Instead of burning calcium carbonate to form cement, we are growing calcium carbonate cement biologically, precise, strong, durable, and real world tested, all formed in ambient conditions.
 
@@ -107,7 +115,8 @@ Our biocement for dust control offers a best in class solution, that is cost eff
 
 BioMason’s **biocement®** for dust control inhibits the creation of excess soil dust, which is a pollutant that contributes to an increase in particulate matter.
 
-![biocement® floor](/assets/p/solutions/bio-cement/bio-cement-06.jpg)
+{% assign name = '-06' %}
+{% include partials/image.html, name: name, caption: 'biocement® floor' %}
 
 It's odorless, non-leaching, biodegradable, non-dissipating, non-flammable, water resistant, non-slippery & safe, results in a durable surface ecologically and environmentally safe, works on even the most difficult soil substrates.
 
