@@ -22,7 +22,7 @@
 
   <div class="card_post_text">
     <h1 class="{% if article.data.ad %}ad_symbol{% endif %}">{{article.data.title}}</h1>
-    <h3 class="border_top border_bottom">{{article.data.subtitle}}</h3>
+    <h2 class="h3 border_top border_bottom">{{article.data.subtitle}}</h2>
     <div class="card_post_text_content">
       {{ article.templateContent | strip_html | replace: "TLDR","" | replace: "&#128279;","" | truncate: 200  }}
     </div>

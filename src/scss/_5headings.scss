@@ -1,3 +1,9 @@
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
 h1,
 h2,
 h3,
@@ -12,25 +18,30 @@ h6 {
   line-height: 1.2;
 }
 
+.h1,
 h1 {
   font-size: $heading1;
   text-transform: uppercase;
 }
 
+.h2,
 h2 {
   font-size: $heading2;
   text-transform: uppercase;
 }
 
+.h3,
 h3 {
   font-size: $heading3;
   text-transform: uppercase;
 }
 
+.h4,
 h4 {
   font-size: $heading4;
 }
 
+.h5,
 h5 {
   font-size: $heading5;
 }
@@ -43,7 +54,11 @@ h5 {
 }
 
 // adjacent selectors
+.h1:not(.minimal_padding),
 h1:not(.minimal_padding),
+p + .h1:not(.minimal_padding),
+p + .h2:not(.minimal_padding),
+p + .h3:not(.minimal_padding),
 p + h1:not(.minimal_padding),
 p + h2:not(.minimal_padding),
 p + h3:not(.minimal_padding) {
@@ -51,6 +66,10 @@ p + h3:not(.minimal_padding) {
   padding-bottom: $space;
 }
 
+.h1 + .h2:not(.minimal_padding),
+.h1 + .h3:not(.minimal_padding),
+.h2 + .h5:not(.minimal_padding),
+.h3 + .h5:not(.minimal_padding),
 h1 + h2:not(.minimal_padding),
 h1 + h3:not(.minimal_padding),
 h2 + h5:not(.minimal_padding),

@@ -27,6 +27,8 @@
 
     <h1 class="{% if article.data.ad %}ad_symbol{% endif %}">{{ article.data.title }}</h1>
 
+    <h2 class="h3 border_top border_bottom">{{ article.data.subtitle }}</h2>
+
     <div class="reading_time">
       <em>Read in {{ article | readingTime }}</em>
     </div>
