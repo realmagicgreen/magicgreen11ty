@@ -1,0 +1,50 @@
+<!-- Open Graph -->
+	<meta property="og:locale" content="en_UK">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="{{ site.title }} | {{ title }}">
+
+
+	{% if cover_image %}
+	<meta property="og:image" content="{{ site.url }}{{ cover_image }}">
+	{% else %}
+	<meta property="og:image" content="{{ site.url }}/assets/p/og.jpg">
+	{% endif %}
+
+	{% if description %}
+	<meta property="og:description" content="{{ description | truncate:160 }}">
+	{% else %}
+	<meta property="og:description" content="{{ site.description | truncate:160 }}">
+	{% endif %}
+
+	<meta property="og:url" content="{{ site.url }}{{ page.url}}">
+	<meta property="og:site_name" content="{{ site.title }}">
+
+
+<!-- Twitter Cards -->
+	<meta name="twitter:title" content="{{ site.title }} | {{ title }}">
+
+	{% if description %}
+	<meta name="twitter:description" content="{{ description | truncate:160 }}">
+	{% else %}
+	<meta name="twitter:description" content="{{ site.description | truncate:160 }}">
+	{% endif %}
+
+	{% if site.company.twitter %}
+	<meta name="twitter:site" content="@{{ site.company.twitter | replace: "https://twitter.com/", ""  }}">
+	{% endif %}
+
+	<meta name="twitter:creator" content="@{{ site.author.twitter | replace: "https://twitter.com/", "" }}">
+
+	{% if cover_image %}
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:image:src" content="{{ site.url }}{{ cover_image }}">
+	{% else %}
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:image:src" content="{{ site.url }}/assets/p/og.jpg">
+	{% endif %}
+
+	{% if description %}
+	<meta name="description" content="{{ description | truncate:160 }}">
+	{% else %}
+	<meta name="description" content="{{ site.description | truncate:160 }}">
+	{% endif %}

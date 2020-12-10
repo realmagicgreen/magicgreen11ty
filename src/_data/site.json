@@ -1,5 +1,5 @@
 {
-  "version": "2.6.0",
+  "version": "2.6.1",
   "now_year": "2020",
   "title": "Magic Green",
   "subtitle": "Sustainable and environment-friendly examples from South East Asia and beyond.",
@@ -14,7 +14,8 @@
   "url": "https://magicgreen.junglestar.org",
   "author": {
     "name": "Rokma",
-    "email": "me@rokma.com"
+    "email": "me@rokma.com",
+    "twitter": "rokmatwit"
   },
   "company": {
     "name": "Magic Green",
