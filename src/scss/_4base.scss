@@ -171,3 +171,15 @@ blockquote p {
 .uppercased {
   text-transform: uppercase;
 }
+
+.index .post_page_title {
+  margin-top: $space--small;
+  margin-bottom: $space--small;
+
+  h1 {
+    width: 65vw;
+    max-width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

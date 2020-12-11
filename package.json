@@ -1,6 +1,6 @@
 {
   "name": "magicgreen11ty",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Magic Green refactored with 11ty",
   "scripts": {
     "build": "npm run sass && eleventy",
