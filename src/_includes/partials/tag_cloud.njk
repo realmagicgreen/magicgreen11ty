@@ -2,11 +2,11 @@
 
   <div class="container">
 
-    <h3 class="uppercase">
+    <h3 class="tagcloud_title uppercase">
       <svg class="tag">
         <use xlink:href="#icn--tag"></use>
       </svg>
-      Browse all tags
+      Browse tags
     </h3>
 
     <div id="tag-cloud">
@@ -14,7 +14,7 @@
       {% for tagKey, tagVal in collections.tagListPosts %}
       {% set tagUrl %}/{{ tagKey }}/{% endset %}
 
-        <a class="looper__link {{ tagKey }} size-{{ tagVal.length }}" href="{{ tagUrl | url }}" style="font-size: calc({{ tagVal.length * 5 }}% + .75rem) ">{{ tagKey }}</a>
+        <a class="looper__link tagcloud_link {{ tagKey }} size-{{ tagVal.length }}" href="{{ tagUrl | url }}" style="font-size: calc({{ tagVal.length * 5 }}% + .75rem) ">{{ tagKey }}</a>
 
       {% endfor %}
 
