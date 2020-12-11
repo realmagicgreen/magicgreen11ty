@@ -14,7 +14,7 @@ footer {
   height: 48px;
 }
 
-svg {
+svg:not(.logo) {
   .post_metas & {
     fill: $grey;
     width: $icon_size/3*2;

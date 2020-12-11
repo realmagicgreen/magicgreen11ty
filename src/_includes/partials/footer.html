@@ -1,16 +1,11 @@
-
-
 <footer class="footer group" role="contentinfo">
 
   <div class="container">
 
-    <a class="logo_block group" href="/" title="home">
-      {% if site.show_logo == "show" %}
-        <svg class="logo">
-          <use xlink:href="#icn--logo"></use>
-        </svg>
-      {% endif %}
-      <h1 class="footer_company_name">{{ site.title }}</h1>
+    <a class="logo_block group" href="/" title="{{ site.title }} home">
+      <svg class="logo">
+        <use xlink:href="#icn--logo"></use>
+      </svg>
     </a>
 
     <div class="menu menu_footer">
@@ -179,5 +174,3 @@
   </div>
 
 </footer>
-
-{% include scripts/script_google_analytics.html %}
