@@ -74,11 +74,19 @@ The scaled process of growing biocement materials is similar to hydroponics and 
 
 Aggregate is mixed with our microorganisms, pressed into shape and fed an aqueous solution until hardened to specification.
 
+{% assign name = '-07' %}
+{% include partials/image.html, name: name, caption: 'bacteria at work' %}
+
+
 Their process enables materials to be formed in ambient temperatures by replacing the curing process with the formation of biologically controlled structural cement.
 
 Their patented biocement® **bioLITH®** tiles are available today to architects and green building leaders across the globe.
 
-The tiles are made from biocement® material.
+
+{% assign name = '-10' %}
+{% include partials/image.html, name: name, caption: 'This brick is made from biocement material.' %}
+
+
 
 This North Carolina-based company, co-founded by CEO _Ginger Krieg Dosier_ and her partner _Michael Dosier_, is innovative.
 
@@ -109,7 +117,10 @@ Explains _Krieg Dosier_.
 
 The company is also researching marine biocement with the ability to self-repair.
 
-Our biocement for dust control offers a best in class solution, that is cost effective, and convenient in application.
+{% assign name = '-08' %}
+{% include partials/image.html, name: name, caption: 'close up of a biocement brick' %}
+
+BioMason biocement for dust control offers a best in class solution, that is cost effective, and convenient in application.
 
 ## Dust control solution
 
@@ -154,6 +165,7 @@ The piece may even become part of the museum, when it opens.
 
 But the point of this project goes beyond its practical applications.
 
+
 There’s a deep, conceptual and symbolic value to the experiment.
 
 >"BioMason was founded by two architects who worked in the UAE from 2007 to 2014."
@@ -170,8 +182,12 @@ Khan feels _"Coral Reef"_ is an exciting challenge:
 
 [Biomason - website](https://www.biomason.com)
 
-[Ginger Krieg Dosier presents the idea - Youtube](https://youtu.be/6BqoM4am8kw)
+[Growing bricks, not another brick in the wall - TEDxWWF](https://youtu.be/OcZl2rRoccU)
+
+[Growing bricks with bacteria - bioMASON- Youtube](https://youtu.be/6BqoM4am8kw)
 
 [Biomason - IG](https://www.instagram.com/biomason)
 
 [Biomason - Twitter](https://twitter.com/biomason)
+
+[Bricks grown from bacteria - archdaily](https://www.archdaily.com/472905/bricks-grown-from-bacteria)
