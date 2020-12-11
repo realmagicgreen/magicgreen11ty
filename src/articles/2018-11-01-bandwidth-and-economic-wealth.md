@@ -1,8 +1,8 @@
 ---
 title: Bandwidth and Economic Wealth
 subtitle: "There is a relationship between available bandwidth and economic health. After Singapore in the lead, the six top countries for speed are all European."
-category: know
 description: "After Singapore in the lead, the six top countries for speed are all European – Sweden, Denmark, Norway, Romania, Belgium and the Netherlands."
+category: know
 date: 2018-11-01
 published: true
 tags:

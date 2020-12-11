@@ -1,8 +1,8 @@
 ---
 title: Electric Cars in Thailand
-subtitle: The Thai Government has a goal of getting 1.2 m electric vehicles on the road by 2036.
-category: solutions
+subtitle: "The Thai Government has a goal of getting 1.2M electric vehicles on the road by 2036."
 description: "The rising number of relectric vehicles could have a major role in our society said Amonrat Kaewpradap of the Electric Vehicle Association of Thailand."
+category: solutions
 date: 2018-09-05
 published: true
 tags:

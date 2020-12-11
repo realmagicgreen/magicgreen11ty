@@ -1,8 +1,8 @@
 ---
 title: Biodegradable Indonesian Plastic
 subtitle: Avani’s cassava-based biodegradable bags and products are solutions to the worldwide plastic problem.
-category: products
 description: "Every year an estimated 1 trillion plastic bags are consumed worldwide. Avani cassava-based biodegradable bags are a solution to mitigate this horrible problem."
+category: products
 date: 2018-05-22
 published: true
 tags:
@@ -26,6 +26,18 @@ featured: true # use 'true' to have it displayed in home
 sticky: true # 'true' or empty
 photography: # put here photographer name
 ---
+
+<div class="tldr">
+
+## TLDR
+
+- Avani’s cassava-based biodegradable bags are a solution to mitigate this horrible worldwide epidemic.
+
+- Made from polylactic acid (PLA) or corn starch, Avani PLA products will release no toxic chemicals.
+
+- Avani wooden cutleries are made of certified forests birchwood.
+
+</div>
 
 It's imperative today to replace plastic with biodegradable solutions made from renewable sources.
 

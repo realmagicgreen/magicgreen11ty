@@ -1,8 +1,8 @@
 ---
 title: Benefits of Spirulina
-subtitle: Spirulina may literally be the single most nutritious food on the planet for how beneficial it is.
+subtitle: "Spirulina may literally be the single most nutritious food on the planet for how beneficial it is."
+description: "Spirulina is a type of bacteria called cyanobacterium, a blue-green algae that has been touted as one of the most potent, protective superfood in existence." # max 160 digits
 category: health
-description: Spirulina is a type of bacteria called cyanobacterium, a blue-green algae that has been touted as one of the most potent, protective superfood in existence. # max 160 digits
 date: 2018-07-01
 published: true
 tags:
@@ -25,13 +25,11 @@ photography:  # put here photographer name
 ---
 **Spirulina** is a type of bacteria called cyanobacterium, a dark blue-green algae that has been touted as one of the most potent and protective **superfood** in existence.
 
+Spirulina was consumed by the Aztecs back in the day, but became popular again when NASA proposed that it could be grown in space and [used by astronauts](http://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19890016190.pdf).
 
 {% assign name = '-03' %}
 {% include partials/image.html, name: name, caption: 'Spirulina grows in both fresh and salt water. Just like plants, cyanobacteria can produce energy out of sunlight, via the process called photosynthesis' %}
 
-
-
-Spirulina was consumed by the Aztecs back in the day, but became popular again when NASA proposed that it could be grown in space and [used by astronauts](http://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19890016190.pdf).
 
 Often used as a supplement to the diets due to the well-researched and diverse health benefits, Spirulina is a fantastic source of antioxidants, which can protect against oxidative damage.
 
@@ -51,8 +49,6 @@ Spirulina may also have other beneficial effects, such as helping to "detoxify" 
 {% include partials/image.html, name: name, caption: 'It is actually quite amazing how nutritious Spirulina is.' %}
 
 
-
-
 A single tablespoon (7 grams) of dried Spirulina powder contains (2):
 
 - Protein: 4 grams.
@@ -68,7 +64,7 @@ This is coming with only 20 calories, and 1.7 grams of digestible carbohydrate.
 
 Spirulina may literally be the single most nutritious food on the planet.
 
-### What Are the Dangers of Spirulina?
+## What Are the Dangers of Spirulina?
 
 Because it takes in minerals from its environment, however, spirulina can absorb toxic amounts of some substances. If you use spirulina, buy it from a reputable source and use it in moderation.
 

@@ -1,6 +1,7 @@
 ---
 title: Raising Awareness
 subtitle: "Mission Blue inspires action to explore and protect the ocean for a global network of marine protected areas."
+description: "Mission Blue inspires action to explore and protect the ocean, ignite public support for a global network of marine protected areas." # max 160 digits
 category: solutions
 date: 2020-07-14
 published: true
@@ -22,7 +23,6 @@ tags:
   - save-oceans
   - water
 cover_image: /assets/p/solutions/raising-awareness/raising-awareness.jpg
-description: "Mission Blue inspires action to explore and protect the ocean, ignite public support for a global network of marine protected areas." # max 160 digits cos dunno how to trim it, yet......
 ad: # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: true # 'true' or empty
@@ -30,6 +30,20 @@ show_in_home_slideshow: true # 'true' or empty
 home_slideshow_caption: raising awareness # lowercase, max 12 digits, including spaces
 photography: # put here photographer name
 ---
+
+<div class="tldr">
+
+## TLDR
+
+- Mission Blue embarks on regular oceanic expeditions that shed light on these vital ecosystems and implements communications campaigns.
+
+- They created a global network of marine protected areas, called Hope Spots.
+
+- Since 2008, Mission Blue expeditions have visited Hope Spots around the world, documenting these vibrant marine environments and engaging local stakeholders to protect them.
+
+- The goal is to inspire action to protect these critical ocean habitats.
+
+</div>
 
 
 Led by famous oceanographer Dr. Sylvia Earle, Mission Blue inspires action to explore and protect the ocean.

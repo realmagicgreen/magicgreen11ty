@@ -24,6 +24,18 @@ featured: true # use 'true' to have it displayed in home
 sticky: true # 'true' or empty
 photography:  # put here photographer name
 ---
+
+<div class="tldr">
+
+## TLDR
+
+- Moringa dried leaves,sold as dietary supplements, in powder or capsule form are exceptionally rich in vitamin C.
+
+- They also contain beta-carotene, powerful antioxidant and Chlorogenic acid wich helps moderate blood sugar levels.
+
+</div>
+
+
 Moringa also called drumstick tree, horseradish tree, ben oil tree or benzoil tree is a fast-growing, drought-resistant tree, native to the southern foothills of the Himalayas.
 
 Almost all parts of the tree are eaten or used as ingredients in traditional herbal medicines.

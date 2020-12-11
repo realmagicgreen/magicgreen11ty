@@ -1,6 +1,7 @@
 ---
 title: Mosquito Repellent Plants
 subtitle: "Mosquito repellent plants that you can easily grow in your balcony or garden area. It’s about your health."
+description: "Mosquitoes spread serious diseases as malaria, dengue, yellow fever, encephalitis and West Nile and Zika viruses. They can give heart worm to pets."
 category: solutions
 date: 2019-10-01
 published: true
@@ -12,7 +13,6 @@ tags:
   - plants
   - mosquitoes
 cover_image: /assets/p/solutions/mosquito-repellent-plants/mosquito-repellent-plants.jpg
-description: "Mosquitoes spread serious diseases as malaria, dengue, yellow fever, encephalitis and West Nile and Zika viruses. They can give heart worm to pets." # max 160 digits cos dunno how to trim it, yet......
 ad: # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: true # 'true' or empty
@@ -20,7 +20,20 @@ show_in_home_slideshow: # 'true' or empty
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 photography: # put here photographer name
 ---
-Mosquitoes can be a terrible nuisance. Before you grab a can of chemical bug spray, you can take a stand against mosquitoes with a few well-chosen.
+
+<div class="tldr">
+
+## TLDR
+
+- Mosquitoes are attracted by the carbon dioxide we exhale.
+
+- Many plant repels mosquitos and some can alleviate the bite hitch.
+
+- Get rid of any stagnant or standing water in your yard and get one of the plants illustrated here to ahve a more peaceful life.
+
+</div>
+
+Mosquitoes can be a terrible nuisance. Before you grab a can of chemical bug spray, you can take a stand against mosquitoes with a few well-chosen plants.
 
 Mosquitoes are stimulated by a number of factors when seeking out a blood meal.
 

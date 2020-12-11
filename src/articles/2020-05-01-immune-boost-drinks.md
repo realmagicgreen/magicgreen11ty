@@ -1,8 +1,8 @@
 ---
 title: Immune Boost Drinks
 subtitle: "An interview with healthy drink producer Iris from Live Essences."
-category: health
 description: "We met with Iris, an expert in the field, who shared some knowledge and shed some light about how to live healthier by listening to your guts." # max 160 digits
+category: health
 date: 2020-05-01
 published: true
 tags:
@@ -24,6 +24,20 @@ show_in_home_slideshow: # 'true' or empty
 home_slideshow_caption: health boosters # lowercase, max 12 digits, including spaces
 photography: # put here photographer name
 ---
+
+<div class="tldr">
+
+## TLDR
+
+- Live Essences Wellness shots contains essential probiotics and vital acetic acids,  powerful remedies that aid digestion and boost the immune system and fight bad bacteria.
+
+- Their mission is to inspire to follow your gut, and trust in your innate intuitions.
+
+- 100% natural wholesome medicinal product, where even the sweetener is non glycemic, form palm nectar.
+
+- They use a natural way to preserve the drinks. In their essence form, they have no expiry date.
+
+</div>
 
 Rooted in ancient knowledge, crafted from Mother Nature’s most powerful plants, botanical remedies has been used since the beginning of time.
 

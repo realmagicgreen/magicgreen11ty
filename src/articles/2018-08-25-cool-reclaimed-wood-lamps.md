@@ -1,8 +1,8 @@
 ---
 title: Cool Reclaimed Wood Lamps
-subtitle: Get some cool design lamps. They claim these lamps are made of up-cycled wood. Old timber turned into great furniture pieces. Really?!
-category: products
+subtitle: "Get some cool design lamps. They claim these lamps are made of up-cycled wood. Old timber turned into great furniture pieces. Really?!"
 description: "Rest easy, feel good, turn on your reclaimed wood lamp! Adjust it into a new position reflecting how you feel at the moment."
+category: products
 date: 2018-08-26
 published: true
 tags:
@@ -33,12 +33,11 @@ Yo, these guys from Surabaya, in East Java, make some really cool design lamps.
 
 The human shape is totally moveable, and can be twisted into many funny shapes.
 
+They claim it's from reclaimed wood, but neither the product nor the packaging carry any proof of this... and honestly the lamp itself does not look like it's made from re-used wood. They told us so probably just to appear smart and trendy... lame.
+
 {% assign name = '-02' %}
 {% include partials/image.html, name: name, caption: 'Swimming, sitting or any other position you can think of!' %}
 
-
-
-They claim it's from reclaimed wood, but neither the product nor the packaging carry any proof of this... and honestly the lamp itself does not look like it's made from re-used wood. They told us so probably just to appear smart and trendy... lame.
 
 But, rest easy, feel good, turn on your wood lamp! Adjust it into a new position reflecting how you feel at the moment.
 
@@ -46,13 +45,10 @@ But, rest easy, feel good, turn on your wood lamp! Adjust it into a new position
 {% include partials/image.html, name: name, caption: 'Yoga' %}
 
 
-
 Now enjoy the always changing shape of your new lamp.
 
 {% assign name = '-04' %}
 {% include partials/image.html, name: name, caption: 'Muhammad Arifin is the designer' %}
-
-
 
 
 

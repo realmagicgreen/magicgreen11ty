@@ -1,8 +1,8 @@
 ---
 title: Evoware Not Plastic
 subtitle: "A seaweed based eco-friendly alternative to food-grade plastic. And you can eat it."
-category: products
 description: "Plastic pollution is a global problem, a worldwide threat to the environment, flora and fauna. A major part of that pollution comes from our habits..."
+category: products
 date: 2018-06-15
 published: true
 tags:

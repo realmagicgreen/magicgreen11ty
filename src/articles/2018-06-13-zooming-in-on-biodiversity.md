@@ -1,8 +1,8 @@
 ---
 title: Zooming In On Biodiversity
 subtitle: "An ASEAN wide photo contest capturing the richness of biological resources in the region."
-category: know
 description: "Biodiversity is the variety of life on Earth and include microorganisms, fungi, plants, and animals, the communities they form, the habitats in which they live."
+category: know
 date: 2018-06-13
 published: true
 tags:

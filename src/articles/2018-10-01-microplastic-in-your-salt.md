@@ -1,8 +1,8 @@
 ---
 title: Microplastic In Your Salt
 subtitle: "Planet or plastic? Salt produced in Indonesia, using the ancient technique of evaporating seawater contains lots of microplastics."
-category: know
 description: "Microplastics were found in sea salt several years ago. Now, new research shows microplastics in 90% of the table salt brands sampled worldwide."
+category: know
 date: 2018-10-01
 published: true
 tags:
@@ -24,6 +24,17 @@ sticky:  # 'true' or empty
 photography: # put here photographer name
 ---
 
+<div class="tldr">
+
+## TLDR
+
+- Of 39 salt brands tested, 36 had microplastics in them, according to a new analysis by researchers in South Korea and Greenpeace East Asia.
+
+- Studies show that there is far more plastic in the ocean than we can currently account for.
+
+- So we need to prevent plastic from entering the oceans in the first place.
+
+</div>
 
 Salt produced in Indonesia, using the  ancient technique of evaporating seawater, has been found to contains some of the highest microplastics sampled.
 
@@ -35,7 +46,9 @@ Now, new research shows microplastics in 90% of the table salt brands sampled wo
 
 ## Salt brands tested.
 
-Of 39 salt brands tested, 36 had microplastics in them, according to a new analysis by researchers in South Korea and Greenpeace East Asia. Using prior salt studies, this new effort is the first of its scale to look at the geographical spread of microplastics in table salt and their correlation to where plastic pollution is found in the environment.
+Of 39 salt brands tested, 36 had microplastics in them, according to a new analysis by researchers in South Korea and Greenpeace East Asia.
+
+Using prior salt studies, this new effort is the first of its scale to look at the geographical spread of microplastics in table salt and their correlation to where plastic pollution is found in the environment.
 
 {% assign name = '-02' %}
 {% include partials/image.html, name: name, caption: 'Salt brands tested.' %}

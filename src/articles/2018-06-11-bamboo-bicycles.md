@@ -1,8 +1,8 @@
 ---
 title: Bamboo Bicycles
-subtitle: Making bikes out of bamboo is actually not all that crazy. East Bali bamboo bikes manufacture them locally.
-category: products
+subtitle: "Making bikes out of bamboo is actually not all that crazy. East Bali bamboo bikes manufacture them locally."
 description: "The crazy idea of making bikes out of bamboo is actually not all that crazy. It has excellent vibration dampening effects, noticeable on bumpy roads."
+category: products
 date: 2018-06-11
 published: true
 tags:
