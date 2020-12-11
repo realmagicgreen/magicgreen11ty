@@ -20,20 +20,17 @@
 }
 
 .post_meta_block {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
   flex-direction: row;
   padding-bottom: $space/2;
   padding-right: $space/2;
 
   a {
     color: $grey;
-    margin-left: .2rem;
-    margin-right: .2rem;
+    margin-left: .3rem;
+    margin-right: .3rem;
+    min-height: 48px;
+    display: inline-block;
 
     &:hover {
       color: $black;
