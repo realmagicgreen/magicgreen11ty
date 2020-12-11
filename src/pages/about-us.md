@@ -18,24 +18,22 @@ featured: # use 'true' to have it displayed in home
 
 # Feeding the green baby.
 
-The growing concern about the ecological impact is a fact worldwide. In recent years there is lots of press about the environment and how to preserve it. Media are urging to clean up our actions and change the way we operate.
+The growing concern about the ecological impact is a fact worldwide. Scientists and upstreamists are urging us to clean up our actions and change the way we live and operate. Lots of press has appeared in recent years here and there but somehow infos are spread all over the place.
 
-Ecologically sustainable business needs to communicate about their low impact practices and policies. Bali has already a growing industry of environmentally conscious business operators. Green minded business must let customer know in order to beat the competition.
+Ecologically sustainable business needs to communicate about their low impact practices and policies. Green minded business must let customers know in order to beat the competition.
 
-The island of Bali, Indonesia and the whole South East Asia, have all the interests to show the actions taken to minimise impact and conserve the environment. There is a need to improve the country image.
-
-Green and sustainable businesses practices are both necessary and a growing reality in Bali. Conscious tourists want to know who is doing the right thing and are ready to support them. The time is perfect to fill this gap.
+Green and sustainable businesses practices are both necessary and a growing reality today. Conscious consumers want to know who is doing the right thing and are ready to support them. The time is perfect to fill this gap.
 
 
 # The Magic Green project
 
-We see an urgent need for a communication platform which gather infos, good examples and connect. We started this information tool to let the world know and to push the best examples. We need to inspire and show what can be done and who is doing it.
+We see an urgent need for a communication platform which gather infos, good examples and connect. So we started this information tool to let the world know. We want to inspire, to push the best examples and show what can be done and who is doing it.
 
-Our project is a website and a printed magazine. We are building a internet based platform to gather infos, examples and addresses of all stuff green related in Bali and beyond.
+We are building a internet based platform to gather infos, examples and addresses of all stuff green in South East Asia and beyond.
 
 We are open-source, copyright-free. We encourage you to print any article of our website and forward it to anyone that might be interested in your network of friends and colleagues. Print to a PDF file in order to save trees, of course.
 
-We aim to inspire responsible tourism and the tourism industry. Follow us to know what's up in Bali and beyond!
+We aim to inspire responsible tourism and consumption. Follow us to know what's up!
 
 # Who
 
