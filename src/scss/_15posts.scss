@@ -175,3 +175,9 @@ blockquote {
   // border-right: 1px solid $transparent_grey;
   // border-radius: $radius;
 }
+
+.post {
+  &.bungkus {
+    background-color: $bg_color;
+  }
+}

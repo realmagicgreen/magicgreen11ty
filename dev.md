@@ -9,7 +9,7 @@ Thanks, the [Junglestar](https://junglestar.org) team.
 ## Features:
 
 
-## URGENT 2DOs:
+## 2DOs:
 - [ ] Add Patreon
 - [ ] TEST: gsheet is shared with iam.gservice user (magicgreen-admin@magicgreen-205703.iam.gserviceaccount.com) and given EDIT permissions, maybe need only read, test later, when it's working!
 - [ ] build ADD YOURSELF FORM > gform > gsheet

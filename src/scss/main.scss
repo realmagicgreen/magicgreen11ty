@@ -8,6 +8,7 @@ $brand_color_bg: $black;
 $link_color: $black;
 $light_text_color: hsla(92, 100%, 28%, 1);
 $bg_color: hsla(92, 100%, 90%, 1); //hsl(0, 0%, 96%);
+$badass: #BADA55;
 
 $grey: hsl(0,0%,33%);
 $grey--light: hsl(0,0%,75%);
@@ -64,8 +65,9 @@ $transition_shadow: box-shadow .2s ease;
 
 // buttons
 $radius: 4px;
+$button_bg: $badass;
 $black_stroke: hsl(0,0%,0%);
-$button_focus_bg: hsla(0, 0%, 91%, 1);
+$button_focus_bg: $brand_color;
 $button_book: $link_color;
 
 //// Predefined Break-points

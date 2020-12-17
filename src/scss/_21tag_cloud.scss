@@ -1,5 +1,5 @@
 .tagcloud_block {
-  background-color: darken($bg_color, 20);
+  background-color: darken($bg_color, 0);
   text-align: center;
 
   .container {
@@ -19,14 +19,21 @@
 
 .tagcloud_link {
   //a
+  color: initial;
   display: inline-block;
   min-height: 48px;
+  line-height: normal;
   padding-left: 8px;
   padding-right: 8px;
 
   &.size-1,
   &.size-2 {
     display: none;
+  }
+
+  &:focus,
+  &:hover {
+    background-color: $badass;
   }
 }
 
