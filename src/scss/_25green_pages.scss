@@ -129,7 +129,7 @@
 
 .green_pages_table_row:nth-child(odd) {
   //tr
-  background-color: transparentize($brand_color, .75);
+  background-color: transparentize($brand_color, .5);
 }
 
 .functionalities_block {

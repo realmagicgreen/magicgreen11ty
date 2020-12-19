@@ -1,0 +1,37 @@
+---
+
+---
+<!DOCTYPE html>
+<html lang="{%if page.lang%}{{page.lang}}{% else %}{{site.lang}}{% endif %}" prefix="og: http://ogp.me/ns#">
+
+  {% include partials/head.html %}
+
+  <body class="long_menu">
+
+    {% include svg.html %}
+
+    {%- capture cat -%}{{ category }} post{%- endcapture -%}
+
+    <div class="bungkus group {% if post.data.role == "index" %}index{% endif %} {% if post.data.layout == "post" %}{{ category }} post{% endif %}">
+
+      <div class="container" role="main">
+
+        {% include partials/header.html %}
+
+        {{ content }}
+
+      </div>
+
+    </div>
+
+    {% include partials/footer.html %}
+
+    {% include scripts/script_ext_link.html %}
+
+    {% include scripts/script_append_to_copy_action.html %}
+
+    {% include scripts/script_google_analytics.html %}
+
+  </body>
+
+</html>

@@ -40,3 +40,13 @@
     border-width: 15px 30px 15px 0;
   }
 }
+
+.speech_bubble_inside {
+  padding: $space;
+  text-align: left;
+  @include media("screen", ">minWidth") {
+    padding: inherit;
+    text-align: center;
+  }
+
+}

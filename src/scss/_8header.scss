@@ -1,3 +1,39 @@
+// //this should be as big as the whole sceen at all times on mobiles
+// //this way it will represent the
+// so we use the css class="largest_contentful_paint"
+// and make sure that this block contains fast loading stuff!
+// SPEED BY DESIGN
+
+// FCP (First Contentful Paint)
+// 995 ms
+//
+// 100
+// 15%
+// SI (Speed Index)
+// 995 ms
+//
+// 100
+// 15%
+// LCP (Largest Contentful Paint)
+// 2,430 ms
+//
+// 91
+// 25%
+// TTI (Time to Interactive)
+// 1,988 ms
+//
+// 99
+// 15%
+// TBT (Total Blocking Time)
+// 13 ms
+//
+// 100
+// 25%
+// CLS (Cumulative Layout Shift)
+// 0.10
+// 90
+// 5%
+
 .header {
   -webkit-box-shadow: $bottom_shadow;
   box-shadow: $bottom_shadow;

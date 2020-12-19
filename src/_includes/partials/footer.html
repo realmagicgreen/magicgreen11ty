@@ -17,13 +17,13 @@
 
         {% for item in featured_posts reversed %}
           {% if page.url contains item.url %}
-            {% unless item.data.publish=="notyet" %}
+            {% unless item.data.published=="notyet" %}
             <a class="menu_item active" role="menuitem" title="{{ item.data.title }}" href="{{ item.url | url }}">
               <span class="">{{ item.data.title }}</span>
             </a>
             {% endunless %}
           {% else %}
-            {% unless item.data.publish=="notyet" %}
+            {% unless item.data.published=="notyet" %}
             <a class="menu_item " role="menuitem" title="{{ item.data.title }}" href="{{ item.url | url }}">
               <span class="page_title">{{ item.data.title }}</span>
             </a>

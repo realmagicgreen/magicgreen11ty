@@ -6,10 +6,10 @@ All photos are © by the photographers, all rights are reserved.
 
 Thanks, the [Junglestar](https://junglestar.org) team.
 
-## Features:
 
 
 ## 2DOs:
+
 - [ ] Add Patreon
 - [ ] TEST: gsheet is shared with iam.gservice user (magicgreen-admin@magicgreen-205703.iam.gserviceaccount.com) and given EDIT permissions, maybe need only read, test later, when it's working!
 - [ ] build ADD YOURSELF FORM > gform > gsheet
@@ -34,6 +34,7 @@ Thanks, the [Junglestar](https://junglestar.org) team.
 - [ ] - [X] address use [microformat](https://schema.org/Organization). [See test](https://search.google.com/structured-data/testing-tool#url=http%3A%2F%2Fbinocle.it%2F)
 
 ## @ BE EVALUATED
+
 - [ ] when took-off, refactor w/ hugo+netlify using https://github.com/netlify/victor-hugo, tut here: https://www.sarasoueidan.com/blog/jekyll-ghpages-to-hugo-netlify/
 - [ ] standalone web-app (after "add to home screen" on android).
 
@@ -45,7 +46,9 @@ Thanks, the [Junglestar](https://junglestar.org) team.
 ## Dev Troublshooting
 
 ```npm run debug``` DEBUG=* eleventy
+
 ```npm update``` update npm packages
+
 ```npm outdated``` list npm packages
 
 
@@ -53,21 +56,86 @@ Thanks, the [Junglestar](https://junglestar.org) team.
 
 Boot up a Browsersync web server to apply changes and refresh automatically. We’ll also --watch for you:
 
-```npm run start``` which runs ```npx @11ty/eleventy --serve```
+```terminal
+npm run start
+```
+
+which runs ```npx @11ty/eleventy --serve```
 
 or serve like this:
 
-```npm run serve``` which runs ```eleventy --serve```
+```terminal
+npm run serve
+```
+
+which runs ```eleventy --serve```
 
 build only:
 
-```npm run build``` which runs ```rm -rf _site && npx @11ty/eleventy```
+```terminal
+npm run build
+```
+
+which runs ```rm -rf _site && npx @11ty/eleventy```
 
 or Automatically run when input template files change.
 Useful if you have your own web server:
 
-```npm run watch``` which runs ```eleventy --watch```
+```terminalterminal
+npm run watch
+```
+
+which runs ```eleventy --watch```
 
 or Change the web server’s port. Here how to use ```localhost:8081``` :
 
-```npx @11ty/eleventy --serve --port=8081```
+```terminal
+npx @11ty/eleventy --serve --port=8081
+```
+
+
+```terminal
+npm run watch start:clean
+
+```
+
+## New posts
+
+use this in from matter:
+
+```frontmatter
+eleventyExcludeFromCollections: true #turn off to publish it!
+```
+
+
+
+## MG 11TY ☑ ☐ 2DO:
+
+☐ tagcloud everywhere, not just tag pages
+☐ dark on mobiles, light on dkt
+☐ web share instead of current share block
+☐ hack mediumzoon > image 100vh
+
+MAYBE:
+☐ https://github.com/quasibit/eleventy-plugin-schema
+☐ use: https://github.com/11ty/eleventy-img
+
+DONE:
+☑ og metas
+☑ fix mediumzoom
+☑ put resp-img in tag.njk
+☑ improve resources as mgsome
+☑ switch to new SVG sys
+☑ resources
+☑ underline current cat page in menu
+☑ rid of categories now use tags
+☑ home pagination
+☑ home pagination navigation
+☑ quick fix heading-link in posts
+☑ filtered article tag
+☑ solved menu w/ hardcoding
+☑ solved slugify problem
+☑ inner post images
+☑ made article.json
+☑ add tag: article to each post
+☑ image.html update tu njk

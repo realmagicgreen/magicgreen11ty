@@ -8,7 +8,8 @@
     "sass": "sass --style=compressed src/scss/main.scss src/_includes/css/main.css",
     "watch:eleventy": "eleventy --serve",
     "watch:sass": "npm run sass -- --watch",
-    "start": "npm-run-all sass --parallel watch:*"
+    "start": "npm-run-all sass --parallel watch:*",
+    "start:clean": "rm -rf _site/ && npm run start"
   },
   "repository": {
     "type": "git",

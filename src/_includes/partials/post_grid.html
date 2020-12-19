@@ -1,31 +1,32 @@
 <!--partials/post_grid-->
 <div class="post_grid">
 
-{% for post in site.posts %}
-{% unless post.publish=='notyet' %}
-    <a class="card {{ post.category }}" title="{{ post.title }}" href="/{{ post.category }}/{{ post.title | slug }}/">
+{% for article in collection.articles %}
+
+  {% if article.published %}
+
+    <a class="card {{ article.category }}" title="{{ article.title }}" href="/{{ article.category }}/{{ article.title | slug }}/">
 
       <div class="card_post_image">
         <figure class="">
-          <img  class="post_thumb" src="/assets/p/posts/{{ post.category }}/{{ post.title | slug }}.jpg" alt="{{ post.title }}" title="{{ post.title }}">
-          <figcaption class="figcaption {% if post.tag %}{{ post.tag | slug }}{% else %}{% if post.publish=="notyet" %}coming-soon{% endif %}{% endif %}">
-            {% if post.tag %}{{ post.tag }}
-            {% else %}{% if post.publish=="notyet" %}coming soon{% endif %}
-            {% endif %}
+          <img  class="post_thumb" src="/assets/p/posts/{{ article.category }}/{{ article.title | slug }}.jpg" alt="{{ article.title }}" title="{{ article.title }}">
+          <figcaption class="figcaption {{ article.tag[1] | slug }}
           </figcaption>
         </figure>
-        <div class="category {{ post.category | slug }}">
-          {{ post.category }}
+        <div class="category {{ article.category | slug }}">
+          {{ article.category }}
         </div>
       </div>
 
       <div class="card_post_text">
-        <h2>{{ post.name }}</h2>
-        <h4>{{ post.subtitle }}</h4>
+        <h2 class="h2">{{ article.name }}</h2>
+        <h3 class="h4">{{ article.subtitle }}</h3>
       </div>
 
     </a>
-{% endunless%}
+
+  {% endif %}
+
 {% endfor %}
 
 </div>

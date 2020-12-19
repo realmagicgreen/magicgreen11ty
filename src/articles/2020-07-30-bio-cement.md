@@ -24,7 +24,6 @@ sticky: true # 'true' or empty
 show_in_home_slideshow: true # 'true' or empty
 home_slideshow_caption: bio cement # lowercase, max 12 digits, including spaces
 photography: # put here photographer name
-lang: id
 ---
 <div class="tldr">
 

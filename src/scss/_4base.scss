@@ -47,6 +47,12 @@ body {
   margin: 0;
   padding: 0;
   background-color: $badass;
+
+  //height: 100vh;
+  margin: 0;
+  background: radial-gradient($brand_color, $badass);
+  background-repeat: no-repeat;
+
   /* Sticky Footer - if needed (when pages are quite empty and footer too) */
   // display: flex;
   // min-height: 100vh;
@@ -170,16 +176,4 @@ blockquote p {
 .uppercase,
 .uppercased {
   text-transform: uppercase;
-}
-
-.index .post_page_title {
-  margin-top: $space--small;
-  margin-bottom: $space--small;
-
-  h1 {
-    width: 65vw;
-    max-width: 850px;
-    margin-left: auto;
-    margin-right: auto;
-  }
 }

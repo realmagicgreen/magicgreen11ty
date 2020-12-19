@@ -18,11 +18,12 @@
 
 {% for post in page.posts %}
 
-    {% unless post.publish=='notyet' %}
+    {% unless post.published=='notyet' %}
 
       {% include post_card.html %}
 
     {% endunless %}
 
 {% endfor %}
+
 </div>
