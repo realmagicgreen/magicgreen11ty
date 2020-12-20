@@ -9,7 +9,8 @@ tags:
   - article
   - health
   - know
-  - CO2, bedroom-plants
+  - CO2
+  - bedroom-plants
   - air-cleaning
   - horticulture
   - plants

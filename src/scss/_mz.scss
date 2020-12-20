@@ -1,0 +1,32 @@
+.medium-zoom--opened {
+  position: relative;
+  background-color: red;
+  max-height: 100vh!important;
+  width: auto!important;
+  overflow-y: hidden!important;
+  overflow-x: scroll!important;
+
+  img[data-zoomable="true"] {
+    background-color: red;
+    min-height: 100vh!important;
+    width: auto!important;
+    transform: scale(1)!important;
+    transform-origin: center center!important;
+    top: 0!important;
+    left: -100%!important;
+    bottom: 0!important;
+    overflow-x: scroll!important;
+    z-index: 15!important;
+  }
+
+  .medium-zoom-overlay {
+    display: none;
+    position: relative;
+    height: 100%;
+    width: auto!important;
+    min-height: 100vh !important;
+    max-height: 100vh !important;
+    z-index: 13 !important;
+    overflow-x: scroll!important;
+  }
+}

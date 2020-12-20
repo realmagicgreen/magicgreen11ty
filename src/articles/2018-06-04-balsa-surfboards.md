@@ -14,7 +14,7 @@ tags:
   - eco-friendly
   - environment-friendly
   - responsible-sources
-  - sustainable-contruction
+  - sustainable-construction
   - wood
 cover_image: /assets/p/products/balsa-wood-surfboards/balsa-wood-surfboards.jpg
 description: "Surfing equipment is not eco-friendly, lots of plastic, foam and resin. Vince Tierny is changing that, manufactoring greener wooden Surfboards." # max 160 digits cos dunno how to trim it, yet......

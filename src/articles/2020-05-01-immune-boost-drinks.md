@@ -50,6 +50,8 @@ Iris is Greek-German. She works with high-quality, invigorating ingredients to d
 
 > My intention is to share with you all what I have learned, and all that has brought me happiness and fulfilment, in the hope this will help you on your own journey. _Iris from Live Essences_
 
+
+
 Her goal is to keep products, brand and experiences, pure and honest. A mindful business, aiming to be fully organic and 100% self-sustainable.
 
 {% assign name = '-02' %}

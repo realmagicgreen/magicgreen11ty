@@ -54,7 +54,8 @@ The sisters were recently recognised by CNN as one of the world’s Young Wonder
 {% assign name = '-03' %}
 {% include partials/image.html, name: name, caption: 'Bio degradable plastic made from cassava' %}
 
->"It is our hope that all levels of society will be able to provide smart ideas as a substitute for plastic bags... Aprindo Bali’s support was very much appreciated." IGN Jaya Negara, Deputy Mayor of Denpasar.
+>"It is our hope that all levels of society will be able to provide smart ideas as a substitute for plastic bags... Aprindo Bali’s support was very much appreciated."
+> --- IGN Jaya Negara, Deputy Mayor of Denpasar.
 
 
 Coming up on March 6th the [Ogoh-Ogoh parades](https://fumes.junglestar.org/photo-journalism/ogoh-ogoh/), will the effigies, traditionally constructed from bamboo and paper, but in recent years build with foam, be plastic and Styrofoam free in 2019?

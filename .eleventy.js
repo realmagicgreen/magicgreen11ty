@@ -5,7 +5,6 @@ const slugify = require("@sindresorhus/slugify");
 const readingTime = require('./src/_11ty/reading-time');
 const CaptureTag = require('./src/_11ty/nunjucks-capture');
 
-
 let Nunjucks = require("nunjucks");
 
 module.exports = function(eleventyConfig) {
@@ -36,6 +35,16 @@ module.exports = function(eleventyConfig) {
 
 
   // FILTERS
+
+  // Universal Shortcodes (Adds to Liquid, Nunjucks, Handlebars)
+  // Usage #
+  // {% catslogan "solution", "Small..." %}
+  eleventyConfig.addShortcode("catslogan", function(cat, slogan) {
+    return `<div class="catslogan">
+<div class="catslogan--cat">${cat}</div>
+<div class="catslogan--slogan">@${slogan}</div>
+</div>`;
+   });
 
   //LiquidFilters
   eleventyConfig.addLiquidFilter('readingTime', readingTime);
