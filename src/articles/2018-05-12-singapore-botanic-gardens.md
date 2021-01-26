@@ -26,7 +26,7 @@ flag: # new or other...
 ad: # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: # 'true' or empty
-photography: # put here photographer name
+photography: Rokma # put here photographer name
 ---
 
 With 4 millions visitors per year, 150 years of connecting plant and people, free entrance and his own subway stop, the Singapore Botanic Gardens are an outstanding example of educational facility.
@@ -62,8 +62,8 @@ With more than 50% of its species representing plants that are rare in Singapore
 
 The Healing Garden showcases over 400 varieties of plants used medicinally. It' i's laid out thematically relating to component parts of the body such as head, respiratory and reproductive systems.
 
-{% assign name = '-02' %}
-{% include partials/image.html, name: name, caption: 'Artemisia, the ancient cure for Malaria.' %}
+{% assign name = '-04' %}
+{% include partials/image.html, name: name, caption: 'Artemisia, the ancient, and still the best, cure for Malaria.' %}
 
 
 
@@ -145,10 +145,8 @@ A stroll on the boardwalk in the garden also offers a brilliant view of aquatic 
 The varying colours of the leaves in the foliage garden is one thing that will be hard to miss. This is known as variegation and it is attributed to many factors such as genetics or pigmentation.
 
 
-![Singapore botanic gardens](/assets/p/solutions/singapore-botanic-gardens/singapore-botanic-gardens-08.jpg)
-{% assign name = '-02' %}
-{% include partials/image.html, name: name, caption: '' %}
-
+{% assign name = '-08' %}
+{% include partials/image.html, name: name, caption: 'Singapore botanic gardens' %}
 
 
 For instance, plants bearing genetic leaf variegation, chimeras, lack chlorophyll in some tissues, causing their leaves to appear yellow or white in some areas.
@@ -165,12 +163,8 @@ The foliage garden also presents an eye-opening range of various leaf shapes and
 
 Leaves come in many forms such as  heart (cordate) or palm (palmate) shaped.
 
-
-![Singapore botanic gardens](/assets/p/solutions/singapore-botanic-gardens/singapore-botanic-gardens-07.jpg)
-{% assign name = '-02' %}
-{% include partials/image.html, name: name, caption: '' %}
-
-
+{% assign name = '-07' %}
+{% include partials/image.html, name: name, caption: 'Singapore botanic gardens' %}
 
 Leathery or thin leaves are adaptive modifications to hot and humid tropical weather.  Hairy leaves, whilst often pleasant to the touch, act as a form of self defence mechanism to deter herbivores.
 
@@ -181,10 +175,8 @@ Founded in 1875, the Singapore Botanic Gardens is one of the oldest specialized 
 
 The Library holds over 30,000 accessioned items, a rare and irreplaceable resource that supports the work of the Gardens staff, students, and researchers across the globe in a diverse range of science and horticulture disciplines.
 
-![Singapore botanic gardens](/assets/p/solutions/singapore-botanic-gardens/singapore-botanic-gardens-06.jpg)
-{% assign name = '-02' %}
-{% include partials/image.html, name: name, caption: '' %}
-
+{% assign name = '-06' %}
+{% include partials/image.html, name: name, caption: 'Singapore botanic gardens' %}
 
 
 The collection contains books, periodicals, field books, botanical artwork, historical maps of the Gardens and various other print and digital media.
@@ -255,7 +247,8 @@ Open from 8.30am to 7.00pm daily, it's the only section with an Admission Fee: 5
 
 Near the bamboo area you will find the reflexology path, a joint community service project by the [Rotary Club of Changi](http://www.rotarychangi.com/), the [Rotary Club of Singapore](http://rotarysingaporefoundation.org/) East, Rotary Club of Kaohsiung East and the Rotary Club of Sanchung East.
 
-![Singapore botanic gardens](/assets/p/solutions/singapore-botanic-gardens/singapore-botanic-gardens-05.jpg)
+{% assign name = '-05' %}
+{% include partials/image.html, name: name, caption: 'Singapore botanic gardens' %}
 
 **_Visitor informations:_**
 
