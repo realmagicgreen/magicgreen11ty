@@ -7,14 +7,8 @@
   color: $light_text_color;
 
   .container {
-    -webkit-box-shadow: none;
     box-shadow: none;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
     flex-direction: column;
     max-width: 90%;
     margin-left: 5%;
@@ -46,28 +40,16 @@
 
 .menu_footer {
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   @include media("screen", ">bp1Width") {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
     flex-direction: row;
     max-width: 700px;
   }
 
   .menu_item {
     min-height: 42px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
 
     &.active {
@@ -88,15 +70,8 @@
 
 .menu_contacts,
 .menu_posts {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
   align-items: flex-start;
   @include media("screen", ">bp1Width") {
     max-width: 47%;

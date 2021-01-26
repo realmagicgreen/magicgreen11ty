@@ -26,7 +26,6 @@
   color: $black;
   padding: 0 10px;
   opacity: .9;
-  -webkit-box-shadow: $card_shadow;
   box-shadow: $card_shadow;
   background-color: $badass;
 
@@ -38,7 +37,6 @@
 
   &:active {
     background-color: $button_focus_bg;
-    -webkit-transform: translateY(0.25em);
     transform: translateY(0.25em);
   }
 
@@ -60,7 +58,6 @@
   color: $black;
   padding: 0 10px;
   opacity: .9;
-  -webkit-box-shadow: $card_shadow;
   box-shadow: $card_shadow;
   background-color: white;
 }
@@ -77,7 +74,6 @@
   color: $black;
   padding: 0 10px;
   opacity: .9;
-  -webkit-box-shadow: $card_shadow;
   box-shadow: $card_shadow;
 
   &:focus,

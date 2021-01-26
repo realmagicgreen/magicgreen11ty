@@ -1,6 +1,5 @@
 .slideshow {
   position: relative;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   overflow: hidden;
 
@@ -85,11 +84,7 @@
 // INDICATORS
 .slideshow-indicators {
   width: 80%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
   position: absolute;
   bottom: 0;
@@ -324,12 +319,10 @@
   &.slideshow-next,
   &.slideshow-prev {
     &::before {
-      -webkit-transform: rotate(-40deg);
       transform: rotate(-40deg);
     }
 
     &::after {
-      -webkit-transform: rotate(40deg);
       transform: rotate(40deg);
     }
   }

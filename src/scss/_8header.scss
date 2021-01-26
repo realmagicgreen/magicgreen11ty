@@ -35,32 +35,19 @@
 // 5%
 
 .header {
-  -webkit-box-shadow: $bottom_shadow;
   box-shadow: $bottom_shadow;
   background-color: $black;
   position: relative;
   z-index: 10;
 
   .container {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
     flex-direction: column;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
     justify-content: space-between;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
     padding: $space/2;
 
     @include media("screen", ">bp1Width") {
-      -webkit-box-orient: horizontal;
-      -webkit-box-direction: normal;
-      -ms-flex-direction: row;
       flex-direction: row;
       padding-top: $space/2;
       padding-bottom: $space/2;
@@ -68,16 +55,10 @@
   }
   //when site has a short menu
   .short_menu & {
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
 
     nav {
-      display: -webkit-box;
-      display: -ms-flexbox;
       display: flex;
-      -webkit-box-pack: center;
-      -ms-flex-pack: center;
       justify-content: center;
     }
   }
@@ -192,14 +173,8 @@
 .header_block {
   @include media("screen", "<minWidth") {
     width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
     justify-content: space-between;
   }
 }
@@ -210,8 +185,6 @@
     font-size: .9rem;
     margin-right: $space--small/4;
     margin-left: $space--small/4;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
     text-transform: uppercase;
 
@@ -226,8 +199,6 @@
       }
     }
     @include media("screen", ">minWidth") {
-      -webkit-box-pack: start;
-      -ms-flex-pack: start;
       justify-content: flex-start;
 
       &.active {

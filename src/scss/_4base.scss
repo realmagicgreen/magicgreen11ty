@@ -1,11 +1,11 @@
 html {
   background-color: $brand_color_bg;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   overflow-x: hidden!important;
   font-size: 100%;
-  -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   font-family: $font-family;
@@ -26,7 +26,6 @@ html {
 *,
 *:after,
 *:before {
-  -webkit-box-sizing: inherit;
   box-sizing: inherit;
 }
 
@@ -86,8 +85,11 @@ svg {
   height: 100%;
   position: relative;
   z-index: 8;
-  -webkit-box-shadow: $bottom_shadow;
   box-shadow: $bottom_shadow;
+
+  &.resources {
+    background-color: $bg_color;
+  }
 }
 //// Predefined Break-points
 // $mediaMinWidth: 640px;

@@ -22,7 +22,6 @@ nav[aria-label="Secondary"] {
   }
 }
 
-
 .nav__link {
   display: block;
   width: 5vw;
@@ -39,18 +38,17 @@ nav[aria-label="Secondary"] {
     height: 60px;
     fill: $grey--light;
   }
+
   &:hover svg {
     fill: $grey;
   }
 }
 
-
 .nav__posttitle {
-  -webkit-transition: opacity 0.3s ease-out;
-  transition: opacity 0.3s ease-out;
+  transition: opacity .3s ease-out;
   position: absolute;
   font-size: 130%;
-  @include media( "screen", ">maxWidth") {
+  @include media("screen", ">maxWidth") {
     position: fixed;
     top: 50%;
   }
@@ -68,15 +66,13 @@ nav[aria-label="Secondary"] {
   opacity: 0;
 }
 
-
 //BEM MODIFIERS
 .nav__link--left {
   left: 1rem;
 
   &:hover + .nav__posttitle--left {
     opacity: 1;
-    -webkit-transition-delay: 0.1s;
-    transition-delay: 0.1s;
+    transition-delay: .1s;
   }
 }
 
@@ -85,7 +81,6 @@ nav[aria-label="Secondary"] {
 
   &:hover + .nav__posttitle--right {
     opacity: 1;
-    -webkit-transition-delay: 0.1s;
-    transition-delay: 0.1s;
+    transition-delay: .1s;
   }
 }
