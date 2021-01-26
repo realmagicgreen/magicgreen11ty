@@ -42,8 +42,8 @@ The ban is expected to cover the whole island coming into effect in June 2019.
 
 The raising concern about **plastic pollution** has got a lot of press attention. In the last few years that South East Asia in general, and Bali in particular, is in the news for its ocean and land plastic pollution levels.
 
-![Indonesian contemporary artist Handiwirman Saputra born in West Sumatra and living in Jogja, has taken on the responsibility to raise the plastic bag problem. In -Tak Berakar Tak Berpucuk- made in 2011, he highlights the activities of discarding things or objects that are no longer needed to river streams by putting them into plastic bags. Two plastic bags in gigantic size in two colours, black and white. Exhibited at Art Bali - Beyond the Myth](/assets/p/solutions/bali-plastic-bags-ban/bali-plastic-bags-ban-02.jpg)
-
+{% assign name = '-02' %}
+{% include partials/image.html, name: name, caption: 'Indonesian contemporary artist Handiwirman Saputra born in West Sumatra and living in Jogja, has taken on the responsibility to raise the plastic bag problem. In -Tak Berakar Tak Berpucuk- made in 2011, he highlights the activities of discarding things or objects that are no longer needed to river streams by putting them into plastic bags. Two plastic bags in gigantic size in two colours, black and white. Exhibited at Art Bali - Beyond the Myth' %}
 
 The **Bye-Bye Plastic Bag** campaign in Bali, created by Melati and Isabel Wijsen, in Bali, which has gained attention after former Governor Pastika signed a Memorandum of Understanding banning plastic bags in 2014, is now active in 18 countries.
 

@@ -50,7 +50,9 @@ Look for the symbol. It indicated what type of plastic it is. Avoid buying the h
 
 ## The plastic types
 
-![Look at least for BPA-free on the label of products](/assets/p/know/food-safe-plastic/food-safe-plastic-02.jpg)
+
+{% assign name = '-02' %}
+{% include partials/image.html, name: name, caption: 'Look for BPA-free on the label of products' %}
 
 
 ## **1. PET: polyethylene terephthalate.**

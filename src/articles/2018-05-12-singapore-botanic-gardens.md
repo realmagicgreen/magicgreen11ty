@@ -35,10 +35,13 @@ Awarded the [UNESCO world heritage site](https://whc.unesco.org/en/list/1483) ti
 
 The Singapore Botanic Gardens, protected through the Planning Act of Singapore, which regulates conservation and development, is situated at the heart of the city of Singapore.
 
+
+>Take nothing but photographs, leave nothing but footprints
+
 It demonstrates the evolution of a British tropical colonial botanic garden from a ‘Pleasure Garden’ in the English Landscape Style, to a colonial Economic Garden with facilities for horticultural and botanical research, to a modern and world-class botanic garden, scientific institution and place of conservation, recreation and education.
 
 {% assign name = '-02' %}
-{% include partials/image.html, name: name, caption: 'Take nothing but photographs, leave nothing but footprints' %}
+{% include partials/image.html, name: name, caption: 'Victoria Amazonica - Giant water lilies' %}
 
 
 
@@ -89,7 +92,7 @@ The Learning Forest features a network of boardwalks and elevated walkways that 
 
 
 {% assign name = '-03' %}
-{% include partials/image.html, name: name, caption: 'Singapore botanic gardens' %}
+{% include partials/image.html, name: name, caption: 'Ficus Kerkhovenii at Singapore botanic gardens' %}
 
 
 
