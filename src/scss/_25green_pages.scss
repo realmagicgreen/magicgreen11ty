@@ -7,6 +7,8 @@
   width: 100%;
   border-collapse: separate;
   border-spacing: 0 20px;
+  background-color: $bg_color;
+  border-radius: $radius;
 
   tbody td,
   thead td {
@@ -69,10 +71,7 @@
 
   td:last-child {
     text-align: right;
-
-    a {
-      padding-right: 20px;
-    }
+    padding-right: 10px;
 
     a:after {
       display: none;
