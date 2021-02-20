@@ -87,12 +87,12 @@ You can buy it through: Whatsapp: +628118692424 and email: [info@evoware.id](inf
 
 [Straitstimes Evoware review](https://www.straitstimes.com/asia/se-asia/indonesian-startup-wages-war-on-plastic-with-edible-seaweed-cups)
 
-[worldpressonline - review ](http://www.worldpressonline.com/PressRelease/asian-summit-tackles-sustainable-packaging-and-ingredients-62310.html)
+[Worldpressonline - review ](http://www.worldpressonline.com/PressRelease/asian-summit-tackles-sustainable-packaging-and-ingredients-62310.html)
 
-[mediapost - review](https://www.mediapost.com/publications/article/319918/packaging-our-future-4-product-packaging-designs.html)
+[Mediapost - review](https://www.mediapost.com/publications/article/319918/packaging-our-future-4-product-packaging-designs.html)
 
-[iflscience - review](http://www.iflscience.com/environment/this-seaweedbased-edible-packaging-could-help-save-our-seas/)
+[Iflscience - review](http://www.iflscience.com/environment/this-seaweedbased-edible-packaging-could-help-save-our-seas/)
 
-[fastcompany - review](https://www.fastcompany.com/40477587/instead-of-throwing-out-this-plastic-wrapper-you-eat-it)
+[Fastcompany - review](https://www.fastcompany.com/40477587/instead-of-throwing-out-this-plastic-wrapper-you-eat-it)
 
-[or just google it and check out the latest news...](https://www.google.co.id/search?q=evoware+world&oq=EVOWARE+WORLD)
+[Bioplastics - An alternative for sustainable living](https://advancebioplast.com/)

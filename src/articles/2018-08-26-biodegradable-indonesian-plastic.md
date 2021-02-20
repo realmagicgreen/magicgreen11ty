@@ -128,3 +128,5 @@ Phone: +62 21 3048 5599
 [Evoware seaweed plastics](http://www.evoware.id/)
 
 [Oxium Indonesian biodegradable plastic](http://www.oxium.net/page/)
+
+[Bioplastics - An alternative for sustainable living](https://advancebioplast.com/)

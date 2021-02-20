@@ -190,3 +190,5 @@ Khan feels _"Coral Reef"_ is an exciting challenge:
 [Biomason - Twitter](https://twitter.com/biomason)
 
 [Bricks grown from bacteria - archdaily](https://www.archdaily.com/472905/bricks-grown-from-bacteria)
+
+[Bioplastics - An alternative for sustainable living](https://advancebioplast.com/)

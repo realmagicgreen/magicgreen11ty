@@ -105,3 +105,5 @@ Any plastic item not made from the above six plastics is lumped together as a #7
 [Phthalates in plastic products containing PVC](https://www.cdc.gov/biomonitoring/Phthalates_FactSheet.html)
 
 [Manufacturing of plastic - toxic chemicals released - carcinogenic or neurotoxic](https://ecologycenter.org/plastics/ptf/report3/)
+
+[Bioplastics - An alternative for sustainable living](https://advancebioplast.com/)

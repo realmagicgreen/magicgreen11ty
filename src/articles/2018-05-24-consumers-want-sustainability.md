@@ -67,3 +67,5 @@ Commenting on the study, [PackWorld.com](https://www.packworld.com/article/susta
 [Eco-Friendly Packaging: What Consumers Really Want](http://www.pkgbranding.com/blog/eco-friendly-packaging-what-consumers-really-want)
 
 [Welcome To The Nordics' Largest Brand Study On Sustainability](https://www.sb-index.com/news-2018)
+
+[Bioplastics - An alternative for sustainable living](https://advancebioplast.com/)

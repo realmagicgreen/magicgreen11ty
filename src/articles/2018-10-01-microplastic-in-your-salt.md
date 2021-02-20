@@ -104,3 +104,5 @@ Using prior salt studies, this new effort is the first of its scale to look at t
 [Global Pattern of Microplastics (MPs) in Commercial Food-Grade Salts: Sea Salt as an Indicator of Seawater MP Pollution](https://pubs.acs.org/doi/10.1021/acs.est.8b04180)
 
 [Plastic waste inputs from land into the ocean](https://jambeck.engr.uga.edu/landplasticinput)
+
+[Bioplastics - An alternative for sustainable living](https://advancebioplast.com/)
