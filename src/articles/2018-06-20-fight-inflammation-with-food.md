@@ -127,3 +127,5 @@ However, in the case of excessive or chronic inflammation, supplements can often
 [Turmeric for inflammation - Lyfebotanicals](https://lyfebotanicals.com/health/turmeric-for-inflammation/)
 
 [Turmeric for your mood - Lyfebotanicals](https://lyfebotanicals.com/health/turmeric-for-depression/)
+
+[Health effects of turmeric and curcumin](https://manyeats.com/health-effects-of-turmeric-and-curcumin/)
