@@ -35,8 +35,8 @@
 // 5%
 
 .header {
-  box-shadow: $bottom_shadow;
-  background-color: $black;
+  //box-shadow: $bottom_shadow;
+  //background-color: $black;
   position: relative;
   z-index: 10;
 
@@ -47,7 +47,7 @@
     align-items: center;
     padding: $space/2;
 
-    @include media("screen", ">bp1Width") {
+    @include media("screen", ">maxWidth") {
       flex-direction: row;
       padding-top: $space/2;
       padding-bottom: $space/2;
@@ -176,6 +176,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    height: 14vw;
   }
 }
 
@@ -187,6 +188,7 @@
     margin-left: $space--small/4;
     justify-content: center;
     text-transform: uppercase;
+
 
     &.active {
       .long_menu & {
@@ -203,6 +205,13 @@
 
       &.active {
         background-color: transparent;
+      }
+
+      border-bottom: 1px solid transparent;
+
+      &:hover,
+      &:focus {
+        border-bottom: 1px solid $brand_color;
       }
     }
   }

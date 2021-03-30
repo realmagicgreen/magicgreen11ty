@@ -1,3 +1,12 @@
+.pagination {
+  margin-top:  $space;
+  border-top: 1px solid $light_text_color;
+  border-bottom: 1px solid $light_text_color;
+  .pagination_title {
+    color: $light_text_color;
+  }
+}
+
 //BEM__BLOCKS
 
 nav[aria-label="Secondary"] {

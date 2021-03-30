@@ -18,6 +18,12 @@
 
 .logo {
   //svg
-  height: 60px;
-  margin-right: $space--small;
+  width: 80vw;
+  margin-left: -10px;
+  @include media("screen", ">minWidth") {
+    margin-left: 0;
+  }
+  @include media("screen", ">maxWidth") {
+    width: 540px;
+  }
 }

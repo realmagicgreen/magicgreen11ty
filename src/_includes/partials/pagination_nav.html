@@ -1,5 +1,5 @@
-<nav aria-labelledby="articles-archive-pagination">
-  <h2 class="center" id="articles-archive-pagination">See more articles</h2>
+<nav class="pagination" aria-labelledby="articles-archive-pagination">
+  <h2 class="center pagination_title" id="articles-archive-pagination">See more articles</h2>
   <ul class="paginator not_ul">
     <li><a class="button" href="{{ pagination.href.first }}">Newest</a></li>
     <li>{% if pagination.href.previous %}<a class="button" href="{{ pagination.href.previous }}"><</a>{% else %}{% endif %}</li>
