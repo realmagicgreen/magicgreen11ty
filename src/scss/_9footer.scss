@@ -1,7 +1,7 @@
 .footer {
   //box-shadow: $top_shadow;
   display: block;
-  padding: $space 0;
+  padding: $space 0 0 0;
   width: 100%;
   background-color: $brand_color_bg;
   color: $light_text_color;
@@ -83,11 +83,19 @@
     min-height: 22px;
     margin-bottom: $space/4;
   }
-
   .name {
     color: black;
   }
 }
+
+
+.title {
+  .menu_contacts &,
+  .menu_posts & {
+    color: white;
+  }
+}
+
 
 .footer_company_name {
   text-transform: uppercase;
@@ -96,7 +104,6 @@
   margin-bottom: $space;
   text-align: center;
   @include media("screen", ">minWidth") {
-    // width: 24%;
     text-align: left;
   }
 }
@@ -105,6 +112,22 @@
   font-size: 12px;
   padding-top: $space;
   margin-top: $space;
+  background-color: black;
+  a {
+    display: inline;
+  }
+}
+
+.footer_container .container {
+  @include media("screen", ">bp1Width") {
+    flex-direction: row;
+  }
+
+  margin: 0 auto;
+  justify-content: center;
+  > * {
+    padding: $space--small;
+  }
 }
 
 .menu.menu_footer .menu_item {

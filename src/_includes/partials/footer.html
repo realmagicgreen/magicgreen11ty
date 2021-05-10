@@ -1,6 +1,6 @@
 <footer class="footer group" role="contentinfo">
 
-  <div class="container">
+  <div class="container footer_container">
 
     <a class="logo_block group" href="/" title="{{ site.title }} home">
       <svg class="logo">
@@ -16,19 +16,19 @@
         {%- assign featured_posts = collections.article  -%}
 
         {% for item in featured_posts reversed %}
-          {% if page.url contains item.url %}
-            {% unless item.data.published=="notyet" %}
-            <a class="menu_item active" role="menuitem" title="{{ item.data.title }}" href="{{ item.url | url }}">
-              <span class="">{{ item.data.title }}</span>
-            </a>
-            {% endunless %}
-          {% else %}
-            {% unless item.data.published=="notyet" %}
-            <a class="menu_item " role="menuitem" title="{{ item.data.title }}" href="{{ item.url | url }}">
-              <span class="page_title">{{ item.data.title }}</span>
-            </a>
-            {% endunless %}
-          {% endif %}
+        {% if page.url contains item.url %}
+        {% unless item.data.published=="notyet" %}
+        <a class="menu_item active" role="menuitem" title="{{ item.data.title }}" href="{{ item.url | url }}">
+          <span class="">{{ item.data.title }}</span>
+        </a>
+        {% endunless %}
+        {% else %}
+        {% unless item.data.published=="notyet" %}
+        <a class="menu_item " role="menuitem" title="{{ item.data.title }}" href="{{ item.url | url }}">
+          <span class="page_title">{{ item.data.title }}</span>
+        </a>
+        {% endunless %}
+        {% endif %}
         {% endfor %}
 
       </div>
@@ -74,7 +74,7 @@
               </svg>
             </span>
 
-            <span>IG: {{site.company.instagram  | downcase | replace: "https://www.instagram.com/", "" }}</span>
+            <span>IG: {{site.company.instagram | downcase | replace: "https://www.instagram.com/", "" }}</span>
 
           </a>
 
@@ -113,9 +113,9 @@
             <div class="address_text">
 
               {% if site.company.legal_name %}
-                <div class="name">{{site.company.legal_name}}</div>
+              <div class="name">{{site.company.legal_name}}</div>
               {% else %}
-                <div class="name">{{site.company.name}}</div>
+              <div class="name">{{site.company.name}}</div>
               {% endif %}
 
               <div>{{site.company.address}}</div>
@@ -169,8 +169,19 @@
 
     </div>
 
-    <div class="copyright">Copyright © 2018-{{ "now" | date: "%Y" }} {{site.company.legal_name}}. <br class="show_on_phones">Released under <a id="magicgreen-to-creativecommons" title="This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials." href="https://creativecommons.org/licenses/by/4.0/">CC_BY license</a>. <br class="show_on_phones"> Powered by <a id="magicgreen-to-junglestar" href="https://junglestar.org">Junglestar</a></div>
+  </div>
 
+  <div class="copyright footer_container">
+    <div class="container">
+      <span>Copyright © 2018-{{ "now" | date: "%Y" }} {{site.company.legal_name}}.
+        <br class="show_on_phones">Released under <a id="magicgreen-to-creativecommons" title="This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials." href="https://creativecommons.org/licenses/by/4.0/">CC_BY license</a>.
+      </span>
+
+      <span>
+        <br class="show_on_phones"> Powered by <a id="magicgreen-to-junglestar" href="https://junglestar.org">Junglestar</a>
+      </span>
+
+    </div>
   </div>
 
 </footer>
