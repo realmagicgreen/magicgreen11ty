@@ -56,8 +56,18 @@ In any living or working space, though, the three plants—Areca palm, Mother-in
 
 [Areca palm - wikipedia](https://en.wikipedia.org/wiki/Dypsis_lutescens)
 
+[American Plant Exchange Areca Palm Indoor/Outdoor Air Purifier Live Plant, 6" Pot](https://amzn.to/3wwc6Vs)
+
 [Air purifiers plants](http://air-purifier-reviewsite.com/blog/15-house-plants-you-can-use-as-air-purifiers/)
+
+[Areca Palm Seeds (Dypsis lutescens) Packet of 10 Seeds](https://amzn.to/348w7Fn)
+
+[AMERICAN PLANT EXCHANGE Areca Palm Real Live Houseplant](https://amzn.to/3bRBoW6)
 
 [NASA Clean Air Study](https://en.wikipedia.org/wiki/NASA_Clean_Air_Study)
 
 [Air freshener? Try plants - NY Times](https://www.nytimes.com/1994/02/13/nyregion/cuttings-need-an-air-freshener-try-plants.html)
+
+[Areca Palm - Live Plant in an 10 Inch Growers Pot - Dypsis Lutescens - Beautiful Clean Air Indoor Houseplant](https://amzn.to/3fBsIUK)
+
+[Areca Palm Tree - The Most Popular Indoor Palm Tree (1-2 ft.)](https://amzn.to/3bP7gdE)

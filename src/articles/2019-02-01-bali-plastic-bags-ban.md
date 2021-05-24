@@ -134,3 +134,7 @@ Other steps will need to include helping establishing the newly born biodegradab
 [Our campaign to ban plastic in Bali - Ted video](https://youtu.be/P8GCjrDWWUM)
 
 [Bioplastics - An alternative for sustainable living](https://advancebioplast.com/)
+
+[Biotechnology for Beginners](https://amzn.to/3wuzL8x)
+
+[Soil Degradable Bioplastics for a Sustainable Modern Agriculture (Green Chemistry and Sustainable Technology)](https://amzn.to/3yy7akp)

@@ -181,6 +181,8 @@ Khan feels _"Coral Reef"_ is an exciting challenge:
 
 [Biomason - website](https://www.biomason.com)
 
+[Handbook of Bioplastics and Biocomposites Engineering Applications](https://amzn.to/3hN44mG)
+
 [Growing bricks, not another brick in the wall - TEDxWWF](https://youtu.be/OcZl2rRoccU)
 
 [Growing bricks with bacteria - bioMASON- Youtube](https://youtu.be/6BqoM4am8kw)
@@ -192,3 +194,9 @@ Khan feels _"Coral Reef"_ is an exciting challenge:
 [Bricks grown from bacteria - archdaily](https://www.archdaily.com/472905/bricks-grown-from-bacteria)
 
 [Bioplastics - An alternative for sustainable living](https://advancebioplast.com/)
+
+[Production of Biodegradable Plastics and Bioplastics Technology](https://amzn.to/2RyvVwx)
+
+[Sustainable Economic Development (World Sustainability Series)](https://amzn.to/3hPYsbA)
+
+[Advances in Carbon Capture: Methods, Technologies and Applications](https://amzn.to/2SpoJCD)

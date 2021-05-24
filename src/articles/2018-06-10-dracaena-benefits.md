@@ -1,6 +1,6 @@
 ---
 title: Dracaena Benefits
-subtitle: T"his plant removes many pollutants. It's perfect for an healthy home."
+subtitle: "This plant removes many pollutants. It's perfect for an healthy home."
 description: People use Dracaena for the health benefits they offer. Dracaena, which name comes from ancient greek, meaning female dragon, is a genus of about 120 species.  # max 160 digits
 category: health
 date: 2018-06-10
@@ -50,6 +50,8 @@ A study conducted in the University of Agriculture in Norway concluded that hous
 
 ## Know More Links
 
+[Dracaena: How to grow and care](https://amzn.to/3bMSFzq)
+
 [Dracaena uses](http://www.westcoastnurseries.com/dracaena-why-use-dracaena/)
 
 [Effectiveness of Houseplants in Reducing the Indoor Air Pollutant](http://horttech.ashspublications.org/cgi/content/abstract/19/2/286)
@@ -61,3 +63,9 @@ A study conducted in the University of Agriculture in Norway concluded that hous
 [NASA Clean Air Study](https://en.wikipedia.org/wiki/NASA_Clean_Air_Study)"
 
 [Aphrodisiac potentials of Dracaena Arborea](https://www.sciencedirect.com/science/article/pii/S1995764514601036)
+
+[3 Different Dracaenas Variety Pack - Live House Plant - FREE Care Guide - 4" Pot - HARD TO KILL](https://amzn.to/34b7Kqv)
+
+[Hawthorn Witches: Demons & Dracaena, Sorcerers & Sumac, Werewolves & Wisteria (Hawthorn Witches Omnibus Book 1)](https://amzn.to/3fAiBj2)
+
+[Dracaena Warneckii - Live Plant in an 4 Inch Growers Pot - Dracaena Warneckii - Beautiful Indoor Air Purifying Houseplant](https://amzn.to/3fDVqEB)
