@@ -162,6 +162,14 @@ It's time for a change, where we re-educate our taste buds with foods that actua
 
 [Live Essences - Youtube](https://www.youtube.com/channel/UC-CrtGFNj_L4-7vbRtXzQQw/featured?disable_polymer=1)
 
+[Pureboost Immune Clean Energy Drink Mix - DIY](https://amzn.to/3jSYHSs)
+
+[Zipfizz Immune Health Drink Mix with Zinc & Vitamin C](https://amzn.to/37EQdIP)
+
+[Pureboost Clean Energy Drink Mix + Immune System Support](https://amzn.to/3ABRg8W)
+
+[Organic Baobab Powder Supplement for Raw Antioxidant Energy Immune Boost](https://amzn.to/3CKaeMx)
+
 [Ways to improve your gut health - Medical News today](https://www.medicalnewstoday.com/articles/325293)
 
 [How Your Gut Health Affects Your Whole Body - WebMD](https://www.webmd.com/digestive-disorders/ss/slideshow-how-gut-health-affects-whole-body)"

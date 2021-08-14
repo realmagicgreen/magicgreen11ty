@@ -56,7 +56,7 @@ A patio spray can also be made. You can also mix it with natural aromatic oils t
 
 In addition to growing the plants or herbs mentioned above, you can also practice good mosquito control in your backyard so that the bugs don’t get out of hand.
 
-The best thing you can do is - prevent water from collecting as the mosquitoes can lay a number of eggs here. Prevention is always better than cure.
+The best thing you can do is - prevent water from collecting as the mosquitoes can lay a number of eggs here. Prevention is always better than cure. Get [garlic extract](https://amzn.to/3xNpGng) here, you can also [get odorless ones](https://amzn.to/3m8hwE9).
 
 ## Peppermint - (Mentha × piperita)
 
@@ -68,7 +68,7 @@ Most bugs despise the smell and taste of [peppermint](https://en.wikipedia.org/w
 
 Plus, if you do happen to get bitten, peppermint leaves rubbed directly onto the skin make a great bite relief treatment.
 
-An added bonus is the wonderful minty smell that makes a delicious addition to food and beverages.
+An added bonus is the wonderful minty smell that makes a delicious addition to food and beverages. Get [peppermint seeds here](https://amzn.to/3iKA6zM) and [here](https://amzn.to/2VR2WFZ).
 
 
 
@@ -89,7 +89,7 @@ If looking to buy citronella, be careful when choosing the plants.
 
 There are a few varieties of scented geraniums that go by the name mosquito plant or even citronella plant, and they are not what you’re looking for.
 
-True citronella looks a lot like thick grass, and does not have wide rippled leaves.
+True citronella looks a lot like thick grass, and does not have wide rippled leaves. Citronella [seeds are available here](https://amzn.to/3jS9Fb0) and [here](https://amzn.to/3xGVCK1).
 
 
 ## Lavender - (Lavandula)
@@ -99,7 +99,7 @@ True citronella looks a lot like thick grass, and does not have wide rippled lea
 
 [Lavender](https://en.wikipedia.org/wiki/Lavandula) is an excellent mosquito repellent. Much more common as an outdoor plant, you can keep a few small pots of it inside to help with the bugs.
 
-It can be finicky, liking as much sun as you can find as well as a spot with good airflow. A nearby window with a frequent breeze is what you need.
+It can be finicky, liking as much sun as you can find as well as a spot with good airflow. A nearby window with a frequent breeze is what you need. Get [non GMO Citronella seeds here](https://amzn.to/3iGDk7v) and [here](https://amzn.to/3yMDqQJ).
 
 ## Catnip - (Nepeta Cataria)
 
@@ -108,7 +108,7 @@ It can be finicky, liking as much sun as you can find as well as a spot with goo
 
 [Catnip](https://en.wikipedia.org/wiki/Catnip) is also an effective mosquito repellent. Nepetalactone is one of the main active ingredients in Catnip, which was found to be 10 times stronger than even DEET, according to a recent study.
 
-Catnip is also a good non-toxic substitute to traditional chemical sprays.
+Catnip is also a good non-toxic substitute to traditional chemical sprays. Catnip [spray available here](https://amzn.to/37Ia2iw) and here you can [buy Catnip seeds](https://amzn.to/3sen0hz) and make your own plants.
 
 ## Basil - (Ocimum basilicum)
 
@@ -117,13 +117,13 @@ Catnip is also a good non-toxic substitute to traditional chemical sprays.
 
 [Basil](https://en.wikipedia.org/wiki/Basil) is already a great herb to have fresh in the kitchen, and now you can consider a pest repellent too. As usual, plan on keeping your potted basil in a very sunny window as it needs a lot of light, and be diligent about watering it.
 
-In folk medicine practices, such as those of _Ayurveda_ or traditional Chinese medicine, basil is thought to have therapeutic properties.
+In folk medicine practices, such as those of _Ayurveda_ or traditional Chinese medicine, basil is thought to have therapeutic properties. Get [Ayurveda Idiot's Guide](https://amzn.to/3iLETBb) here, its a ctually a good book!
 
 Basil doesn’t handle dry conditions very well, but you also don’t want to drown the roots. Damp, well-draining soil is the key.
 
 They prefer a warm environment, so they may not be the best indoor houseplant if you have a cold house during the winters.
 
-Otherwise, they should thrive just fine. Feel free to harvest a few leaves now and again for cooking too.
+Otherwise, they should thrive just fine. Feel free to harvest a few leaves now and again for cooking too. Oragic [Basil seeds here](https://amzn.to/3iJ6T8l).
 
 
 ## Rosemary - (Salvia Rosmarinus)
@@ -131,7 +131,7 @@ Otherwise, they should thrive just fine. Feel free to harvest a few leaves now a
 {% assign name = '-08' %}
 {% include partials/image.html, name: name, caption: 'Rosemary plant' %}
 
-Another seasoning herb that has mosquito-repelling qualities is [rosemary.](https://en.wikipedia.org/wiki/Rosemary)
+Another seasoning herb that has mosquito-repelling qualities is [rosemary](https://en.wikipedia.org/wiki/Rosemary).
 
 Maybe not the best choice for a novice gardener, but it would be worth giving a try.
 
@@ -139,7 +139,7 @@ You need a place with as much sunlight as possible, even a grow light occasional
 
 Use a well-draining potting soil mix, watering when the surface is dry to the touch. It can be sensitive to either too much or too little water.
 
-Rosemary is also prone to powdery mildew so you have to have a lot of air movement around the plant to prevent that from settling in.
+Rosemary is also prone to powdery mildew so you have to have a lot of air movement around the plant to prevent that from settling in. Seeds [available here](https://amzn.to/2VSauZa).
 
 Like with lavender, try to find a breezy location, or even set up a small fan around your plants to keep the air moving.
 
@@ -199,7 +199,6 @@ So with a few of these aromatic plants, and some simple changes around the house
 
 [Catnip](https://en.wikipedia.org/wiki/Catnip)
 
-
 [Basil](https://en.wikipedia.org/wiki/Basil)
 
 [Rosemary](https://en.wikipedia.org/wiki/Rosemary)
@@ -209,3 +208,7 @@ So with a few of these aromatic plants, and some simple changes around the house
 [Grow mosquito repellent plants](https://krishijagran.com/health-lifestyle/easy-to-grow-mosquito-repellent-plants-at-home/)
 
 [Plants that repel mosquitoes](https://www.proflowers.com/blog/plants-that-repel-mosquitoes)
+
+[Ayurvedic Herbs supplements](https://amzn.to/3iR0WXn)
+
+[Living Ayurveda: Nourishing Body and Mind through Seasonal Recipes, Rituals, and Yoga](https://amzn.to/2VT2zuN)
