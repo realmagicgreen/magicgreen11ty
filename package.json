@@ -1,6 +1,6 @@
 {
   "name": "magicgreen11ty",
-  "version": "3.1.7",
+  "version": "3.2.0",
   "description": "Magic Green 11ty",
   "scripts": {
     "build": "npm run sass && eleventy",
@@ -23,27 +23,21 @@
     "environment-friendly-web-solution"
   ],
   "author": "toybreaker",
-  "license": "CC0",
+  "license": "CC-BY-4.0",
   "bugs": {
     "url": "https://github.com/realmagicgreen/magicgreen11ty/issues"
   },
   "homepage": "https://github.com/realmagicgreen/magicgreen11ty#readme",
-  "dependencies": {
-    "npm-run-all": "^4.1.5",
+  "dependencies": {},
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1",
     "@sindresorhus/slugify": "^0.10.0",
-    "nunjucks-capture": "^1.0.4",
-    "sass": "^1.29.0",
-    "ini": ">=1.3.6",
     "eleventy-plugin-date": "^1.0.0",
     "eleventy-plugin-reading-time": "0.0.1",
-    "eleventy-plugin-respimg": "^0.1.2",
-    "markdown-it": "^10.0.0",
-    "markdown-it-anchor": "^5.2.5",
-    "socket.io": ">=2.4.0",
-    "axios": ">=0.21.1",
-    "pug": ">=3.0.1"
-  },
-  "devDependencies": {
-    "@11ty/eleventy": "^0.12.1"
+    "markdown-it": "^12.1.0",
+    "markdown-it-anchor": "^8.1.2",
+    "npm-run-all": "^4.1.5",
+    "nunjucks-capture": "^1.0.4",
+    "sass": "^1.38.0"
   }
 }

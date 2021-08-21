@@ -118,9 +118,9 @@ eleventyExcludeFromCollections: true #turn off to publish it!
 
 MAYBE:
 ☐ https://github.com/quasibit/eleventy-plugin-schema
-☐ use: https://github.com/11ty/eleventy-img
 
 DONE:
+☐ https://github.com/11ty/eleventy-img
 ☑ og metas
 ☑ fix mediumzoom
 ☑ put resp-img in tag.njk
