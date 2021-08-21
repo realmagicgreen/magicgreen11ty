@@ -3,18 +3,6 @@ const markdownItAnchor = require("markdown-it-anchor");
 const pluginDate = require("eleventy-plugin-date");
 const slugify = require("@sindresorhus/slugify");
 const readingTime = require('./src/_11ty/reading-time');
-const CaptureTag = require('./src/_11ty/nunjucks-capture');
-
-//let Nunjucks = require("nunjucks");
-
-// module.exports = function(eleventyConfig) {
-//   let nunjucksEnvironment = new Nunjucks.Environment(
-//     new Nunjucks.FileSystemLoader("_includes"),
-//     new Nunjucks.addExtension('CaptureTag', new CaptureTag())
-//   );
-//
-//   eleventyConfig.setLibrary("njk", nunjucksEnvironment);
-// };
 
 
 module.exports = function(eleventyConfig) {
