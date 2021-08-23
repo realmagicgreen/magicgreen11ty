@@ -1,15 +1,7 @@
-## Warning:
-
-Despite this repo being public, it doesn't mean that all these assets are open-source and/or copyright free, or even that you may use any of them. Please, ask for permission first by contacting us: info@junglestar.org
-
-All photos are © by the photographers, all rights are reserved.
-
-Thanks, the [Junglestar](https://junglestar.org) team.
-
 
 
 ## 2DOs:
-
+- [ ] check unused dependencies: slugify?, eduardoboucas stuff,
 - [ ] Add Patreon
 - [ ] TEST: gsheet is shared with iam.gservice user (magicgreen-admin@magicgreen-205703.iam.gserviceaccount.com) and given EDIT permissions, maybe need only read, test later, when it's working!
 - [ ] build ADD YOURSELF FORM > gform > gsheet
@@ -118,9 +110,9 @@ eleventyExcludeFromCollections: true #turn off to publish it!
 
 MAYBE:
 ☐ https://github.com/quasibit/eleventy-plugin-schema
-☐ use: https://github.com/11ty/eleventy-img
 
 DONE:
+☐ https://github.com/11ty/eleventy-img
 ☑ og metas
 ☑ fix mediumzoom
 ☑ put resp-img in tag.njk
