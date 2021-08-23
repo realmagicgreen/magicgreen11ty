@@ -3,12 +3,12 @@ eleventyExcludeFromCollections:  #turn off to publish it!
 title: Vegetable Block Printing
 subtitle: "Block printing is the process of printing onto fabric or paper using a hand-cut block, usually made of wood. Carve the block, apply ink, then print fun begins."
 description: "" # max 160 digits
-category: solutions
+category: techniques
 date: 2021-08-08
 published: # notyet or empty
 tags:
   - article
-  - solutions
+  - techniques
   - design
   - eco-friendly
   - fun
