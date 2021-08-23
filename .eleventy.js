@@ -3,9 +3,36 @@ const markdownItAnchor = require("markdown-it-anchor");
 const pluginDate = require("eleventy-plugin-date");
 const slugify = require("@sindresorhus/slugify");
 const readingTime = require('./src/_11ty/reading-time');
+const Image = require("@11ty/eleventy-img");
 
+async function imageShortcode(src, alt, sizes) {
+  let metadata = await Image(src, {
+    widths: [640, 880, 1024, 1920],
+    //formats: ["avif", "jpeg"], // OFF for the moment...
+    formats: ["jpeg"]
+  });
+
+  let imageAttributes = {
+    alt,
+    sizes,
+    loading: "lazy",
+    decoding: "async",
+  };
+
+  // You bet we throw an error on missing alt in `imageAttributes` (alt="" works okay)
+  return Image.generateHTML(metadata, imageAttributes, {
+    //use the whitespaceMode option to strip the whitespace from the output of the <picture> element (a must-have for use in markdown files).
+    whitespaceMode: "inline"
+  });
+}
 
 module.exports = function(eleventyConfig) {
+
+  // 11ty image
+
+  eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);
+  eleventyConfig.addLiquidShortcode("image", imageShortcode);
+  eleventyConfig.addJavaScriptFunction("image", imageShortcode);
 
   // PLUGINS
 
@@ -27,12 +54,14 @@ module.exports = function(eleventyConfig) {
   // Universal Shortcodes (Adds to Liquid, Nunjucks, Handlebars)
   // Usage #
   // {% catslogan "solution", "Small..." %}
-  eleventyConfig.addShortcode("catslogan", function(cat, slogan) {
-    return `<div class="catslogan">
-<div class="catslogan--cat">${cat}</div>
-<div class="catslogan--slogan">@${slogan}</div>
-</div>`;
-   });
+  // notyetUSED
+
+//   eleventyConfig.addShortcode("catslogan", function(cat, slogan) {
+//     return `<div class="catslogan">
+// <div class="catslogan--cat">${cat}</div>
+// <div class="catslogan--slogan">@${slogan}</div>
+// </div>`;
+//    });
 
   //LiquidFilters
   eleventyConfig.addLiquidFilter('readingTime', readingTime);
@@ -41,7 +70,8 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addNunjucksFilter('readingTime', readingTime);
 
   //Full-width massive, from https://github.com/eduardoboucas/buildtimes
-  //not used yet
+  //notyetUSED
+
   // eleventyConfig.addLiquidFilter("feature_title", title => {
   //   const MIN_LENGTH = 10;
   //   const MAX_LENGTH = 20;
