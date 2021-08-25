@@ -18,10 +18,9 @@ async function imageShortcode(src, alt, sizes) {
     sizes,
     loading: "lazy",
     decoding: "async",
-    zoom: "true",
+    zoom: "true", // added to handle medium-like zoom via script
   };
 
-  // You bet we throw an error on missing alt in `imageAttributes` (alt="" works okay)
   return Image.generateHTML(metadata, imageAttributes, {
     //use the whitespaceMode option to strip the whitespace from the output of the <picture> element (a must-have for use in markdown files).
     whitespaceMode: "inline"
