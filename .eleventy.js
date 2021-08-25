@@ -8,8 +8,9 @@ const Image = require("@11ty/eleventy-img");
 async function imageShortcode(src, alt, sizes) {
   let metadata = await Image(src, {
     widths: [640, 880, 1024, 1920],
-    //formats: ["avif", "jpeg"], // OFF for the moment...
-    formats: ["jpeg"]
+    formats: ["avif", "jpeg"],
+    outputDir: "./src/assets/p/11ty_image_output/",
+    urlPath: "/assets/p/11ty_image_output/"
   });
 
   let imageAttributes = {
@@ -17,6 +18,7 @@ async function imageShortcode(src, alt, sizes) {
     sizes,
     loading: "lazy",
     decoding: "async",
+    zoom: "true",
   };
 
   // You bet we throw an error on missing alt in `imageAttributes` (alt="" works okay)
