@@ -29,7 +29,6 @@ async function imageShortcode(src, alt, sizes) {
 module.exports = function(eleventyConfig) {
 
   // 11ty image
-
   eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);
   eleventyConfig.addLiquidShortcode("image", imageShortcode);
   eleventyConfig.addJavaScriptFunction("image", imageShortcode);
