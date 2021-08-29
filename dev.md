@@ -1,5 +1,4 @@
 ## 11ty image 2DOs:
-- find way to pass the image name (now img are named incomprensible)
 - find way to pass the image path and output to article based path, cleaner image archive
 - find why medium-zoom use jpgs and not avifs
 

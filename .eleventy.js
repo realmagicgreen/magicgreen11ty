@@ -3,23 +3,10 @@ const markdownItAnchor = require("markdown-it-anchor");
 const pluginDate = require("eleventy-plugin-date");
 const slugify = require("@sindresorhus/slugify");
 const readingTime = require('./src/_11ty/reading-time');
+
 const path = require("path");
 const Image = require("@11ty/eleventy-img");
 
-// await Image(src, {
-//   widths: [640, 880, 1024, 1920],
-//   formats: ["avif", "jpeg"],
-//   filenameFormat: function (id, src, width, format, options) {
-//     const extension = path.extname(src);
-//     const name = path.basename(src, extension);
-//
-//     return `${name}-${width}w.${format}`;
-//   }
-// });
-
-// Writes: "test/img/bio-2017-300w.jpeg"
-
-//OLD WORKING CODE which generates random filenames
 async function imageShortcode(src, alt, sizes) {
   let metadata = await Image(src, {
     widths: [640, 880, 1024, 1920],
@@ -33,10 +20,6 @@ async function imageShortcode(src, alt, sizes) {
 
       return `${name}-${width}.${format}`;
     }
-
-    // //old
-    // outputDir: "./src/assets/p/11ty_image_output/",
-    // urlPath: "/assets/p/11ty_image_output/"
   });
 
   let imageAttributes = {
