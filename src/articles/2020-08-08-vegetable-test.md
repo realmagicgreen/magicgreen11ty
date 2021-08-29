@@ -26,6 +26,11 @@ photography: # put here photographer name
 # What's block printing?
 
 Block printing is the process of printing onto fabric or paper using a hand-cut block, usually made of wood.
-<div>{% assign img = "http://localhost:8080/assets/p/techniques/vegetable-block-printing/vegetable-block-printing.jpg" %}{% image img, "veg", "100vw" %}</div>
 
-<div>{% assign img = "http://localhost:8080/assets/p/techniques/vegetable-block-printing/vegetable-block-printing-03.jpg" %}{% image img, "gev", "100vw" %}</div>
+<div>
+{% assign img = "http://localhost:8080/assets/p/techniques/vegetable-block-printing/vegetable-block-printing.jpg" %}{% image img, "veg", "100vw" %}
+</div>
+
+<div>
+{% assign img = "http://localhost:8080/assets/p/techniques/vegetable-block-printing/vegetable-block-printing-03.jpg" %}{% image img, "gev", "100vw" %}
+s</div>
