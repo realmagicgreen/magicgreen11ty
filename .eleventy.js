@@ -11,9 +11,9 @@ async function imageShortcode(src, alt, sizes) {
   let metadata = await Image(src, {
     widths: [640, 880, 1024, 1920],
     formats: ["avif", "jpeg"],
-    outputDir: "./src/assets/p/11ty_image_output/",
-    urlPath: "/assets/p/11ty_image_output/",
-    //test
+    outputDir: "./src/assets/p/11ty_image_output/", // used to write images to disk
+    urlPath: "/assets/p/11ty_image_output/", // used to write html
+
     filenameFormat: function (id, src, width, format, options) {
       const extension = path.extname(src);
       const name = path.basename(src, extension);
