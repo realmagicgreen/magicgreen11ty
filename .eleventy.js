@@ -7,7 +7,7 @@ const readingTime = require('./src/_11ty/reading-time');
 const path = require("path");
 const Image = require("@11ty/eleventy-img");
 
-async function imageShortcode(src, alt, sizes) {
+async function imageShortcode(src, cls, alt, sizes) {
   let metadata = await Image(src, {
     widths: [640, 880, 1024, 1920],
     formats: ["avif", "jpeg"],
@@ -23,11 +23,12 @@ async function imageShortcode(src, alt, sizes) {
   });
 
   let imageAttributes = {
+    class: cls,
     alt,
     sizes,
     loading: "lazy",
     decoding: "async",
-    zoom: "true", // added to handle medium-like zoom via script
+    //zoom: "true", // formerly 4 medium-like zoom via script, now via class=zoom...
   };
 
   return Image.generateHTML(metadata, imageAttributes, {

@@ -1,0 +1,39 @@
+{% comment %}
+https://github.com/11ty/eleventy-img/issues/73
+{% endcomment %}
+
+<div class="post_image_group new">
+
+  <div class="slideshow_wrap">
+    <div class="slideshow">
+      <div class="slideshow-slide-list slideshow-float">
+
+      {% comment %}
+      notworking
+        {% assign urlprefix = "http://localhost:8080" %}{% capture img %}{{ urlprefix }}{{ post.cover_image }}{% endcapture %}{% image img, "nozoom", "fun", "100vw" %}
+      {% endcomment %}
+
+
+      <div>
+      {% assign img = "http://localhost:8080/assets/p/techniques/vegtest/vegetable-block-printing.jpg" %}{% image img, "nozoom", "Potato block printing, easy and fun.", "100vw" %}
+      </div>
+
+
+      </div>
+    </div>
+  </div>
+
+  {% if post.data.flag %}
+    <span class="figcaption {{ post.data.flag | replace: "", "-"  }}">{{ post.data.flag }}</span>
+  {% endif %}
+  {% if post.data.publish == "notyet" %}
+    <span class="figcaption coming-soon">coming soon</span>
+  {% endif %}
+
+  {% if post.data.title != 'About us' %}
+    <div class="category {{ category }}">
+      {{ category }}
+    </div>
+  {% endif %}
+
+</div>

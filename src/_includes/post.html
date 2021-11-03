@@ -3,7 +3,11 @@ layout: default
 ---
 <div class="bungkus group {{ category }} post">
 
-  {% include partials/post_image_group.html %}
+  {% if new %}
+    {% include partials/post_image_group_new.html %}
+  {% else %}
+    {% include partials/post_image_group.html %}
+  {% endif %}
 
   <div class="container small" role="main">
 
