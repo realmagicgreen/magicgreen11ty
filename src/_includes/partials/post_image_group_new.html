@@ -8,16 +8,11 @@ https://github.com/11ty/eleventy-img/issues/73
     <div class="slideshow">
       <div class="slideshow-slide-list slideshow-float">
 
-      {% comment %}
-      notworking
-        {% assign urlprefix = "http://localhost:8080" %}{% capture img %}{{ urlprefix }}{{ post.cover_image }}{% endcapture %}{% image img, "nozoom", "fun", "100vw" %}
-      {% endcomment %}
+        <div class="eleventy_image">
 
+          {% capture img %}http://localhost:8080{{cover_image}}{% endcapture %}{% image img, "nozoom", "fun", "100vw" %}
 
-      <div>
-      {% assign img = "http://localhost:8080/assets/p/techniques/vegetable-test/vegetable-block-printing.jpg" %}{% image img, "nozoom", "Potato block printing, easy and fun.", "100vw" %}
-      </div>
-
+        </div>
 
       </div>
     </div>
