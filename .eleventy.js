@@ -1,7 +1,7 @@
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
 const pluginDate = require("eleventy-plugin-date");
-const slugify = require("@sindresorhus/slugify");
+const slugify = import("@sindresorhus/slugify");
 const readingTime = require('./src/_11ty/reading-time');
 
 const path = require("path");
@@ -38,6 +38,11 @@ async function imageShortcode(src, cls, alt, sizes) {
 }
 
 module.exports = function(eleventyConfig) {
+
+  //new sass: https://jkc.codes/blog/using-sass-with-eleventy/
+  eleventyConfig.setBrowserSyncConfig({
+		files: './src/_includes/css/*.css'
+	});
 
   // 11ty image
   eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);
