@@ -3,3 +3,4 @@ _site
 __lab
 .DS_Store
 .workinprogress
+.cache

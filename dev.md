@@ -1,9 +1,12 @@
-
+## 11ty image 2DOs:
+- find way to pass the image path and output to article based path, cleaner image archive
+- find why medium-zoom use jpgs and not avifs
 
 ## 2DOs:
-- [ ] check unused dependencies: slugify?, eduardoboucas stuff,
+- [ ] check notyetUSED stuff in eleventy.js: eduardoboucas stuff, addShortcode catslogan,
 - [ ] Add Patreon
-- [ ] TEST: gsheet is shared with iam.gservice user (magicgreen-admin@magicgreen-205703.iam.gserviceaccount.com) and given EDIT permissions, maybe need only read, test later, when it's working!
+- [ ] TEST: yo
+- [ ] gsheet is shared with iam.gservice user (magicgreen-admin@magicgreen-205703.iam.gserviceaccount.com) and given EDIT permissions, maybe need only read, test later, when it's working!
 - [ ] build ADD YOURSELF FORM > gform > gsheet
 - [ ] css ovelay ala VEGAS, via frontmatter true false, for crappy jpgs
 - [ ] i18n + make indo posts (using G translate
