@@ -1,14 +1,9 @@
 ## 11ty image 2DOs:
-- find way to pass the image path and output to article based path, cleaner image archive
 - find why medium-zoom use jpgs and not avifs
 
 ## 2DOs:
-<<<<<<< Updated upstream
-- [ ] check notyetUSED stuff in eleventy.js: eduardoboucas stuff, addShortcode catslogan,
-=======
 - [ ] build failing due2 eleventy_image, solution: compile locally>copy netlify,
 - [ ] check unused dependencies: eduardoboucas stuff,
->>>>>>> Stashed changes
 - [ ] Add Patreon
 - [ ] TEST: yo
 - [ ] gsheet is shared with iam.gservice user (magicgreen-admin@magicgreen-205703.iam.gserviceaccount.com) and given EDIT permissions, maybe need only read, test later, when it's working!
