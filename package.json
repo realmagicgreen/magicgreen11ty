@@ -1,14 +1,14 @@
 {
   "name": "magicgreen11ty",
-  "version": "3.2.7",
+  "version": "3.2.8",
   "description": "Magic Green 11ty",
   "scripts": {
     "build": "npm run sass && eleventy",
     "debug": "DEBUG=* eleventy",
     "sass": "sass --style=compressed src/scss/main.scss src/_includes/css/main.css",
-    "watch:eleventy": "eleventy --serve",
-    "watch:sass": "npx sass sass:src/_includes/css --watch",
-	  "start": "npm run watch:eleventy & npm run watch:sass",
+    "watch:eleventy": "npx @11ty/eleventy --serve",
+    "watch:sass": "npm run sass -- --watch",
+    "start": "npm-run-all sass --parallel watch:*",
     "start:clean": "rm -rf _site/ && npm run start"
   },
   "repository": {

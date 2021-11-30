@@ -165,6 +165,13 @@ blockquote p {
   border-left: 2px solid black;
 }
 
+.title {
+  font-weight: $semibold_font_weight;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  color: white;
+}
+
 .nowrap {
   white-space: nowrap;
 }

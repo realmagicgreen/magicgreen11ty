@@ -39,11 +39,6 @@ async function imageShortcode(src, cls, alt, sizes) {
 
 module.exports = function(eleventyConfig) {
 
-  //new sass: https://jkc.codes/blog/using-sass-with-eleventy/
-  eleventyConfig.setBrowserSyncConfig({
-		files: './src/_includes/css/*.css'
-	});
-
   // 11ty image
   eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);
   eleventyConfig.addLiquidShortcode("image", imageShortcode);

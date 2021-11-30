@@ -17,14 +17,11 @@
   }
 
   .title {
-    font-weight: $semibold_font_weight;
-    font-size: 1rem;
     padding-top: $space;
     padding-bottom: $space/6;
     margin-bottom: $space/6;
     border-bottom: 1px solid $light_text_color;
     width: 100%;
-    text-transform: uppercase;
     @include media("screen", ">bp1Width") {
       border-bottom: 0 none;
       width: auto;
@@ -89,12 +86,13 @@
 }
 
 
-.title {
-  .menu_contacts &,
-  .menu_posts & {
-    color: white;
-  }
-}
+// 
+// .title {
+//   .menu_contacts &,
+//   .menu_posts & {
+//     color: white;
+//   }
+// }
 
 
 .footer_company_name {
