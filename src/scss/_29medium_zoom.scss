@@ -36,9 +36,12 @@
 }
 
 .medium-zoom-image--opened {
-  position: relative;
-  cursor: pointer;
-  cursor: zoom-out;
-  will-change: transform;
-  z-index: 10!important;
+
+    visibility: visible;
+    position: relative;
+    cursor: pointer;
+    cursor: zoom-out;
+    will-change: transform;
+    z-index: 10!important;
+
 }

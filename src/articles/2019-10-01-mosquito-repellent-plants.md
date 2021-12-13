@@ -209,6 +209,8 @@ So with a few of these aromatic plants, and some simple changes around the house
 
 [Plants that repel mosquitoes](https://www.proflowers.com/blog/plants-that-repel-mosquitoes)
 
+[Peppermint oil for rats - howigetridof.com](https://howigetridof.com/peppermint-oil-for-rats/)
+
 [Ayurvedic Herbs supplements](https://amzn.to/3iR0WXn)
 
 [Living Ayurveda: Nourishing Body and Mind through Seasonal Recipes, Rituals, and Yoga](https://amzn.to/2VT2zuN)

@@ -38,7 +38,7 @@ Wood blocks are longer lasting so that can be printed again and again. But if yo
 </div>
 
 <div>
-{% assign img = "http://localhost:8080/assets/p/techniques/vegetable-block-printing/vegetable-block-printing-02.jpg" %}{% image img, "zoom", "printing using veggie block", "100vw" %}
+{% assign img = "http://localhost:8080/assets/p/techniques/vegetable-block-printing/vegetable-block-printing-002.jpg" %}{% image img, "zoom", "printing using veggie block", "100vw" %}
 </div>
 
 
@@ -47,14 +47,14 @@ Wood blocks are longer lasting so that can be printed again and again. But if yo
 Block printing is the process of printing onto fabric or paper using a hand-cut block, usually made of wood.
 
 <div>
-{% assign img = "http://localhost:8080/assets/p/techniques/vegetable-block-printing/vegetable-block-printing-03.jpg" %}{% image img, "zoom", "printing using an hand-cut block", "100vw" %}
+{% assign img = "http://localhost:8080/assets/p/techniques/vegetable-block-printing/vegetable-block-printing-003.jpg" %}{% image img, "zoom", "printing using an hand-cut block", "100vw" %}
 </div>
 
 
 After carving the block, applying ink, then printing begins. Hence, the name block printing.
 
 <div>
-{% assign img = "http://localhost:8080/assets/p/techniques/vegetable-block-printing/vegetable-block-printing-04.jpg" %}{% image img, "zoom", "block printing begins", "100vw" %}
+{% assign img = "http://localhost:8080/assets/p/techniques/vegetable-block-printing/vegetable-block-printing-004.jpg" %}{% image img, "zoom", "block printing begins", "100vw" %}
 </div>
 
 
@@ -62,7 +62,7 @@ A two thousand years technique probably originated in China, where it remained t
 
 
 <div>
-{% assign img = "http://localhost:8080/assets/p/techniques/vegetable-block-printing/vegetable-block-printing-05.jpg" %}{% image img, "zoom", "gev", "100vw" %}
+{% assign img = "http://localhost:8080/assets/p/techniques/vegetable-block-printing/vegetable-block-printing-005.jpg" %}{% image img, "zoom", "gev", "100vw" %}
 </div>
 
 Long time ago, block printing fabric was common, most often onto silk cloths.
