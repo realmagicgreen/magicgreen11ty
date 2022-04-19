@@ -1,6 +1,6 @@
 {
   "name": "magicgreen11ty",
-  "version": "3.2.8",
+  "version": "3.2.9",
   "description": "Magic Green 11ty",
   "scripts": {
     "build": "npm run sass && eleventy",
@@ -28,9 +28,8 @@
     "url": "https://github.com/realmagicgreen/magicgreen11ty/issues"
   },
   "homepage": "https://github.com/realmagicgreen/magicgreen11ty#readme",
-  "dependencies": {},
   "devDependencies": {
-    "@11ty/eleventy": "^0.12.1",
+    "@11ty/eleventy": "^1.0.1",
     "@11ty/eleventy-img": "^1.0.0",
     "@sindresorhus/slugify": "^2.1.0",
     "eleventy-plugin-date": "^1.0.0",
