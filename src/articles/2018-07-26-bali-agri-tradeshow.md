@@ -33,14 +33,14 @@ From 26 July to 29, 2018 at [Taman Bajra Sandhi Monument](https://goo.gl/maps/Am
 Among beautiful green booths there are many useful infos and products to discover, like a coconut climber tool called **Ponkod**, "Alat bantui panjat kelapa" that has been reviewed on [Bisnis website](http://entrepreneur.bisnis.com/read/20180204/263/734055/peluang-usaha-berkat-inovasi-produk-ini-panjat-kelapa-selihai-tupai-), [check out this videos](https://youtu.be/K-RCTw9p6DU) or [this one](https://youtu.be/dcWB8dHKIak).
 
 {% assign name = '-05' %}
-{% include partials/image.html, name: name, caption: 'Bali agribusiness trade show' %}
+{% include 'partials/image.html', name: 'name', caption: 'Bali agribusiness trade show' %}
 
 
 
 With free entrance, you will be able to see, meet and buy plants, trees and organic products.
 
 {% assign name = '-02' %}
-{% include partials/image.html, name: name, caption: 'Bali agribusiness trade show' %}
+{% include 'partials/image.html', name: 'name', caption: 'Bali agribusiness trade show' %}
 
 
 
@@ -49,7 +49,7 @@ You can buy coffee trees, salak trees, or [hydroponic systems](http://hidroponik
 
 
 {% assign name = '-03' %}
-{% include partials/image.html, name: name, caption: 'Bali agribusiness trade show' %}
+{% include 'partials/image.html', name: 'name', caption: 'Bali agribusiness trade show' %}
 
 
 
@@ -59,7 +59,7 @@ You can find beautiful orchids and organic food producers like **Dewata Organik*
 
 
 {% assign name = '-04' %}
-{% include partials/image.html, name: name, caption: 'Bali agribusiness trade show' %}
+{% include 'partials/image.html', name: 'name', caption: 'Bali agribusiness trade show' %}
 
 
 

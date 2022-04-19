@@ -31,7 +31,7 @@ It was invented of two young women, Melati and Isabel Wijtsen.
 They have a vision of a plastic bag free world where the young generation takes care and take action. They want to ban the use, sale and production of plastic bags.
 
 {% assign name = '-02' %}
-{% include partials/image.html, name: name, caption: 'Melati and Isabel in a typical Bali small shop' %}
+{% include 'partials/image.html', name: 'name', caption: 'Melati and Isabel in a typical Bali small shop' %}
 
 
 
@@ -47,7 +47,7 @@ Hopefully the girls find some good new solutions to get there vision come true.
 
 
 {% assign name = '-03' %}
-{% include partials/image.html, name: name, caption: 'These young people just cleaned the beach' %}
+{% include 'partials/image.html', name: 'name', caption: 'These young people just cleaned the beach' %}
 
 
 
@@ -89,7 +89,7 @@ For every one bag sold, one bag will be donated to a local community member.
 In 2014, BBPB completed version 1 of their educational booklet for primary aged students to learn about the harms of plastic.
 
 {% assign name = '-04' %}
-{% include partials/image.html, name: name, caption: 'The plastic problem in numbers' %}
+{% include 'partials/image.html', name: 'name', caption: 'The plastic problem in numbers' %}
 
 
 

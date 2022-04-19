@@ -63,7 +63,7 @@ Underlying the concept of Gardens by the Bay are the principles of environmental
 Much effort was made to plan and design for sustainable cycles in energy and water throughout Bay South Garden.
 
 {% assign name = '-02' %}
-{% include partials/image.html, name: name, caption: 'Garden by the bay. Photo by Rocco Marosi' %}
+{% include 'partials/image.html', name: 'name', caption: 'Garden by the bay. Photo by Rocco Marosi' %}
 
 
 **Energetics of the conservatories**
@@ -101,7 +101,7 @@ To reduce the amount of energy required in the cooling process, the air in Flowe
 This desiccant is recycled using the waste heat from the burning of the biomass.
 
 {% assign name = '-03' %}
-{% include partials/image.html, name: name, caption: 'Garden by the bay. Photo by Rocco Marosi' %}
+{% include 'partials/image.html', name: 'name', caption: 'Garden by the bay. Photo by Rocco Marosi' %}
 
 
 
@@ -164,7 +164,7 @@ In this realm of lush greenery you can learn all about the spectacular myriad of
 Find out how plants disperse their seeds, how mushrooms benefit rainforest communities and how plants adapt to adverse environments.
 
 {% assign name = '-04' %}
-{% include partials/image.html, name: name, caption: 'Garden by the bay. Photo by Rocco Marosi' %}
+{% include 'partials/image.html', name: 'name', caption: 'Garden by the bay. Photo by Rocco Marosi' %}
 
 
 

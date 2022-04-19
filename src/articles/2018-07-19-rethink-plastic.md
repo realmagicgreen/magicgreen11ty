@@ -35,7 +35,7 @@ Some wise people are creating a global movement that encourages all to #RethinkP
 A Plastic Ocean’s message raises the awareness of plastic pollution and the existing solutions. We continue to bring this message around the world to national legislatures, city councils, schools, universities and environmental organizations. It is creating policy and social change around the world.
 
 {% assign name = '-02' %}
-{% include partials/image.html, name: name, caption: '#RethinkPlastic' %}
+{% include 'partials/image.html', name: 'name', caption: '#RethinkPlastic' %}
 
 
 
@@ -66,7 +66,7 @@ Engage your school with the 22-minute version of our award-winning documentary, 
 We are focused on finding solutions to plastic pollution and believe that young entrepreneurs can be guided to develop new businesses that can play a meaningful role.
 
 {% assign name = '-03' %}
-{% include partials/image.html, name: name, caption: 'focused on finding solutions to plastic pollution' %}
+{% include 'partials/image.html', name: 'name', caption: 'focused on finding solutions to plastic pollution' %}
 
 
 

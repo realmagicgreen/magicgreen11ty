@@ -29,7 +29,7 @@ Plastic pollution is a global problem in our modern society, a worldwide threat 
 
 
 {% assign name = '-02' %}
-{% include partials/image.html, name: name, caption: 'Evoware use seaweed' %}
+{% include 'partials/image.html', name: 'name', caption: 'Evoware use seaweed' %}
 
 
 That's where Evoware comes in the equation, with the brilliant idea of using natural materials, namely seaweed, that are biodegradable as well as edible.
@@ -53,7 +53,7 @@ Evoware products are edible food wraps, water-resistant soap wraps, edible sache
 
 
 {% assign name = '-03' %}
-{% include partials/image.html, name: name, caption: 'Evoware turn seaweed into different kinds of packaging' %}
+{% include 'partials/image.html', name: 'name', caption: 'Evoware turn seaweed into different kinds of packaging' %}
 
 
 
@@ -62,14 +62,14 @@ By using seaweed, Evoware is also greatly helping thousands of farmers living a 
 ### Seaweed-Based Packaging
 
 {% assign name = '-04' %}
-{% include partials/image.html, name: name, caption: 'seaweed farming is spread all over Indonesia, a country of more than 18.000 islands' %}
+{% include 'partials/image.html', name: 'name', caption: 'seaweed farming is spread all over Indonesia, a country of more than 18.000 islands' %}
 
 
 
 Evo-ware collaborate with local seaweed farmers to provide best quality seaweed to bring you many benefits. Our seaweed-based packaging's patent has been granted, and we have received halal and safety guarantee certificate.
 
 {% assign name = '-05' %}
-{% include partials/image.html, name: name, caption: 'Seaweed farming is the practice of cultivating and harvesting seaweed' %}
+{% include 'partials/image.html', name: 'name', caption: 'Seaweed farming is the practice of cultivating and harvesting seaweed' %}
 
 
 

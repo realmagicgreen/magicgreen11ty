@@ -55,7 +55,7 @@ Iris is Greek-German. She works with high-quality, invigorating ingredients to d
 Her goal is to keep products, brand and experiences, pure and honest. A mindful business, aiming to be fully organic and 100% self-sustainable.
 
 {% assign name = '-02' %}
-{% include partials/image.html, name: name, caption: 'Live Essences complete offer of wellness shot drinks' %}
+{% include 'partials/image.html', name: 'name', caption: 'Live Essences complete offer of wellness shot drinks' %}
 
 ## Wellness shots
 
@@ -64,7 +64,7 @@ Live Essences Wellness shots are processed with care with essential probiotics a
 Live Essences Wellness shots are carefully prepared, never overheated and minimally processed, to preserve their abundant nutrients, vitamins and their pure, unadulterated life force energy.
 
 {% assign name = '-03' %}
-{% include partials/image.html, name: name, caption: 'Live Essences lab in Bali' %}
+{% include 'partials/image.html', name: 'name', caption: 'Live Essences lab in Bali' %}
 
 
 Crafted from nature’s most powerful plants, LE drinks are currently produced using organic, fair-trade premium ingredients, devoid of any pesticides or harmful chemicals, sourced from the foothills of Mount Batur in Bali, Indonesia.
@@ -83,7 +83,7 @@ Live Essences is inspired by the purity and power of the natural world, unlockin
 
 
 {% assign name = '-04' %}
-{% include partials/image.html, name: name, caption: 'Live Essences healthy stomach drink' %}
+{% include 'partials/image.html', name: 'name', caption: 'Live Essences healthy stomach drink' %}
 
 
 Magicgreen asked Iris to share her story:
@@ -99,7 +99,7 @@ Supplying the restaurant of my friends surf resort here in Canggu.
 My main motivation is to bring ancient knowledge back paying attention to recent/modern research and applying techniques in the way we process the plants into the products, engineering unadulterated natural products.
 
 {% assign name = '-07' %}
-{% include partials/image.html, name: name, caption: 'Live Essences processes  plants into drinks' %}
+{% include 'partials/image.html', name: 'name', caption: 'Live Essences processes  plants into drinks' %}
 
 Finding natural ways to preserve them. Creating foods that love you back.
 
@@ -109,7 +109,7 @@ We are also working on a new idea to modularise the company and streamline it fo
 
 
 {% assign name = '-05' %}
-{% include partials/image.html, name: name, caption: 'Live Essences and some of the ingredients used' %}
+{% include 'partials/image.html', name: 'name', caption: 'Live Essences and some of the ingredients used' %}
 
 ## What is the message that your brand is pushing?
 
@@ -130,7 +130,7 @@ Bali is one of the Mecca's of health and self development! We are supported by a
 This helps very much with developing innovative products.
 
 {% assign name = '-06' %}
-{% include partials/image.html, name: name, caption: 'Live Essences source locally from organic faming facilities' %}
+{% include 'partials/image.html', name: 'name', caption: 'Live Essences source locally from organic faming facilities' %}
 
 
 ## What we need to know about your products?
@@ -144,7 +144,7 @@ We found a natural way to preserve it and, in its essence form, it has no expiry
 The focus is to nourish and replenish both the stomach and gut flora. Drinks the body will appreciate to the fullest. Food that loves you back.
 
 {% assign name = '-08' %}
-{% include partials/image.html, name: name, caption: 'Live Essences skin oils' %}
+{% include 'partials/image.html', name: 'name', caption: 'Live Essences skin oils' %}
 
 ## Message or things you want to say to the world...
 

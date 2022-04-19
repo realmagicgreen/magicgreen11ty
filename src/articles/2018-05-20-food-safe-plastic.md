@@ -52,7 +52,7 @@ Look for the symbol. It indicated what type of plastic it is. Avoid buying the h
 
 
 {% assign name = '-02' %}
-{% include partials/image.html, name: name, caption: 'Look for BPA-free on the label of products' %}
+{% include 'partials/image.html', name: 'name', caption: 'Look for BPA-free on the label of products' %}
 
 
 ## **1. PET: polyethylene terephthalate.**

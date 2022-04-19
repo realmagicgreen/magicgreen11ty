@@ -34,7 +34,7 @@ It is also called [Aspidosperma polyneuron]((https://en.wikipedia.org/wiki/Aspid
 
 
 {% assign name = '-05' %}
-{% include partials/image.html, name: name, caption: 'X7 Woods works in the demolitions field.' %}
+{% include 'partials/image.html', name: 'name', caption: 'X7 Woods works in the demolitions field.' %}
 
 
 
@@ -43,12 +43,12 @@ X7 Madeiras is Brazilian company who works with Peroba Rosa demolitions. They su
 They provide rough unpainted Peroba boards and boards with inks and Peroba beams and boards for table production.
 
 {% assign name = '-04' %}
-{% include partials/image.html, name: name, caption: 'Re-cycled boards' %}
+{% include 'partials/image.html', name: 'name', caption: 'Re-cycled boards' %}
 
 
 
 {% assign name = '-07' %}
-{% include partials/image.html, name: name, caption: 'Re-cycled beams' %}
+{% include 'partials/image.html', name: 'name', caption: 'Re-cycled beams' %}
 
 
 
@@ -56,19 +56,19 @@ They provide rough unpainted Peroba boards and boards with inks and Peroba beams
 In addition to the Peroba, X7 Madeiras also works with Guarantã wood that can be used to base tables, chandeliers, benches, or whatever your imagination suggests.
 
 {% assign name = '-02' %}
-{% include partials/image.html, name: name, caption: 'Guarantã wood' %}
+{% include 'partials/image.html', name: 'name', caption: 'Guarantã wood' %}
 
 
 
 {% assign name = '-08' %}
-{% include partials/image.html, name: name, caption: 'Guarantã wood' %}
+{% include 'partials/image.html', name: 'name', caption: 'Guarantã wood' %}
 
 
 
 They can send samples. Their strong point is that they are located exactly where the demolition of the old wooden houses is done, in the south of the Brasil and we have great quantity.
 
 {% assign name = '-06' %}
-{% include partials/image.html, name: name, caption: 'They can send samples.' %}
+{% include 'partials/image.html', name: 'name', caption: 'They can send samples.' %}
 
 
 

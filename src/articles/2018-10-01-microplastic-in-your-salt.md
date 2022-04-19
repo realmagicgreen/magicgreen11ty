@@ -51,7 +51,7 @@ Of 39 salt brands tested, 36 had microplastics in them, according to a new analy
 Using prior salt studies, this new effort is the first of its scale to look at the geographical spread of microplastics in table salt and their correlation to where plastic pollution is found in the environment.
 
 {% assign name = '-02' %}
-{% include partials/image.html, name: name, caption: 'Salt brands tested.' %}
+{% include 'partials/image.html', name: 'name', caption: 'Salt brands tested.' %}
 
 
 
@@ -68,7 +68,7 @@ Using prior salt studies, this new effort is the first of its scale to look at t
 
 
 {% assign name = '-03' %}
-{% include partials/image.html, name: name, caption: 'Assessing the impact of microplastics' %}
+{% include 'partials/image.html', name: 'name', caption: 'Assessing the impact of microplastics' %}
 
 
 

@@ -32,7 +32,7 @@ Bamboo is a very strong material which grows fast naturally. It has properties c
 
 
 {% assign name = '-02' %}
-{% include partials/image.html, name: name, caption: 'Mountain bamboo bike for women' %}
+{% include 'partials/image.html', name: 'name', caption: 'Mountain bamboo bike for women' %}
 
 
 
@@ -41,7 +41,7 @@ East Bali bamboo bikes is a social enterprise and makes everything locally. They
 East Bali bamboo bikes project started in 1998.  Then 19 isolated mountain hamlets of Desa Ban were living in absolute poverty without water, sanitation, roads, schools, health facilities or electricity.
 
 {% assign name = '-03' %}
-{% include partials/image.html, name: name, caption: 'City bamboo bike for women' %}
+{% include 'partials/image.html', name: 'name', caption: 'City bamboo bike for women' %}
 
 
 They asked [East Bali Poverty Project](https://www.eastbalipovertyproject.org/) to help by educating  children so to lead to a better future with growth and prosperity.
@@ -49,7 +49,7 @@ They asked [East Bali Poverty Project](https://www.eastbalipovertyproject.org/) 
 Since 1999, EBPP have educated more than 1,500 children in 6 remote community schools. They are taught academic subjects and bamboo clump management. These craft skills empower them to create sustainable bamboo businesses.
 
 {% assign name = '-04' %}
-{% include partials/image.html, name: name, caption: 'East Bali bamboo City bikes' %}
+{% include 'partials/image.html', name: 'name', caption: 'East Bali bamboo City bikes' %}
 
 
 This is not only about bamboo bikes. They are helping people to help themselves towards a self-sustaining future.

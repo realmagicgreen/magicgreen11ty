@@ -37,7 +37,7 @@ In the last few years in Indonesia and specially in Bali, we have seen a big boo
 A quick search on google can reveal you how many companies are offering a wide variety of furniture and designs all made using wood has been reclaimed or salvaged.
 
 {% assign name = '-02' %}
-{% include partials/image.html, name: name, caption: 'Reclaimed timber is trendy now!' %}
+{% include 'partials/image.html', name: 'name', caption: 'Reclaimed timber is trendy now!' %}
 
 
 
@@ -49,7 +49,7 @@ This ‘full circle’ production, reduce waste and utilize woods to the max. Af
 Some companies, like [Recycle teak](http://www.recycleteak.com/about-us/) are conscious enough to get certified by FSC, to show customers their effort and care about our environment.
 
 {% assign name = '-02' %}
-{% include partials/image.html, name: name, caption: 'Reclaimed timber is trendy now!' %}
+{% include 'partials/image.html', name: 'name', caption: 'Reclaimed timber is trendy now!' %}
 
 
 

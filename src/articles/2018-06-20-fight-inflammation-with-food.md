@@ -33,7 +33,7 @@ Anti-inflammatory foods, exercise, good sleep and stress management can help.
 
 
 {% assign name = '' %}
-{% include partials/image.html, name: name, caption: 'Curcumin or Turmeric provides several impressive health benefits.' %}
+{% include 'partials/image.html', name: 'name', caption: 'Curcumin or Turmeric provides several impressive health benefits.' %}
 
 
 
@@ -64,7 +64,7 @@ DHA, in particular, has been shown to have anti-inflammatory effects that reduce
 ### Ginger
 
 {% assign name = '-02' %}
-{% include partials/image.html, name: name, caption: 'Ginger root has been shown to reduce inflammation.' %}
+{% include 'partials/image.html', name: 'name', caption: 'Ginger root has been shown to reduce inflammation.' %}
 
 
 [Ginger](https://en.wikipedia.org/wiki/Ginger) has been shown to reduce inflammation, as well as muscle pain and soreness after exercise.

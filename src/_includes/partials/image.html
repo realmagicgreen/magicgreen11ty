@@ -20,7 +20,8 @@
 {% endcomment %}
 
 <figure class="post_content_image">
-  {% comment %}assign the page image and split at the extension dot{% endcomment %}{% capture image_name %}{{ cover_image | replace: ".jpg", "" }}{% endcapture %}{% assign f = image_name %}<img
+  {% comment %}assign the page image and split at the extension dot{% endcomment %}
+  {% capture image_name %}{{ cover_image | replace: ".jpg", "" }}{% endcapture %}{% assign f = image_name %}<img
   data-zoomable="true"
   loading="lazy"
   src="{{ f }}{{ name }}-640.jpg"

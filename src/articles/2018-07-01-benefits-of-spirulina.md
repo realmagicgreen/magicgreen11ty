@@ -28,7 +28,7 @@ photography:  # put here photographer name
 Spirulina was consumed by the Aztecs back in the day, but became popular again when NASA proposed that it could be grown in space and [used by astronauts](http://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19890016190.pdf).
 
 {% assign name = '-03' %}
-{% include partials/image.html, name: name, caption: 'Spirulina grows in both fresh and salt water. Just like plants, cyanobacteria can produce energy out of sunlight, via the process called photosynthesis' %}
+{% include 'partials/image.html', name: 'name', caption: 'Spirulina grows in both fresh and salt water. Just like plants, cyanobacteria can produce energy out of sunlight, via the process called photosynthesis' %}
 
 
 Often used as a supplement to the diets due to the well-researched and diverse health benefits, Spirulina is a fantastic source of antioxidants, which can protect against oxidative damage.
@@ -46,7 +46,7 @@ One study shows that it may be effective against anemia in the elderly. It can e
 Spirulina may also have other beneficial effects, such as helping to "detoxify" the heavy metal arsenic from the body.
 
 {% assign name = '-02' %}
-{% include partials/image.html, name: name, caption: 'It is actually quite amazing how nutritious Spirulina is.' %}
+{% include 'partials/image.html', name: 'name', caption: 'It is actually quite amazing how nutritious Spirulina is.' %}
 
 
 A single tablespoon (7 grams) of dried Spirulina powder contains (2):

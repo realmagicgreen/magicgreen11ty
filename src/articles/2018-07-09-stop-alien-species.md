@@ -44,7 +44,7 @@ The [Golden Apple Snail (Ampullariidae)](https://en.wikipedia.org/wiki/Ampullari
 
 
 {% assign name = '-02' %}
-{% include partials/image.html, name: name, caption: 'Golden Apple Snails' %}
+{% include 'partials/image.html', name: 'name', caption: 'Golden Apple Snails' %}
 
 
 Dr. Gono Semiadi stated that other well-established species, particularly in Viet Nam, include mimosa trees, water hyacinth, and caterpillars.
@@ -70,14 +70,14 @@ Vital ecosystem functions, such as pollination, soil regeneration, and nutrient 
 For example, a [common Myna](https://en.wikipedia.org/wiki/Myna), a bird of the starling family, can drive away native birds by occupying their nesting areas.
 
 {% assign name = '-03' %}
-{% include partials/image.html, name: name, caption: 'Mynas' %}
+{% include 'partials/image.html', name: 'name', caption: 'Mynas' %}
 
 
 
 [Mimosa pigra](https://en.wikipedia.org/wiki/Mimosa_pigra), a thorny shrub with buoyant seeds that grow abundantly in mudflats, can drive away migratory birds feeding and nesting in these areas.
 
 {% assign name = '' %}
-{% include partials/image.html, name: name, caption: 'Mimosa pigra' %}
+{% include 'partials/image.html', name: 'name', caption: 'Mimosa pigra' %}
 
 
 

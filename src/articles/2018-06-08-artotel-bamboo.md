@@ -30,20 +30,20 @@ photography: Rokma # put here photographer name
 With a state of the art brand new bamboo construction, Artotel Beach Club in Sanur, Bali brings vibrancy and color to the island's south east.
 
 {% assign name = '-02' %}
-{% include partials/image.html, name: name, caption: 'Artotel, State of the art brand new bamboo construction' %}
+{% include 'partials/image.html', name: 'name', caption: 'Artotel, State of the art brand new bamboo construction' %}
 
 They plan to satisfy the needs of travelers who are looking for a refreshingly arty Bali experience.
 
 {% assign name = '-03' %}
-{% include partials/image.html, name: name, caption: 'They plan to satisfy the needs of travelers who are looking for a refreshingly arty Bali experience.' %}
+{% include 'partials/image.html', name: 'name', caption: 'They plan to satisfy the needs of travelers who are looking for a refreshingly arty Bali experience.' %}
 
 This boutique hotel want to be a canvas showcasing thought-provoking artworks by some of the most relevant Bali-based contemporary artists of today.
 
 {% assign name = '-04' %}
-{% include partials/image.html, name: name, caption: 'This boutique hotel want to be a canvas showcasing thought-provoking artworks' %}
+{% include 'partials/image.html', name: 'name', caption: 'This boutique hotel want to be a canvas showcasing thought-provoking artworks' %}
 
 {% assign name = '-05' %}
-{% include partials/image.html, name: name, caption: 'Artotel Beach Club in Sanur, Bali' %}
+{% include 'partials/image.html', name: 'name', caption: 'Artotel Beach Club in Sanur, Bali' %}
 
 
 

@@ -29,7 +29,7 @@ Bamboo, technically a grass, has been used in building for centuries due to its 
 Bamboo provides excellent carbon sequestration, seventeen times as much carbon as a typical tree forest. [1]
 
 {% assign name = '-03' %}
-{% include partials/image.html, name: name, caption: 'Bamboo Structure' %}
+{% include 'partials/image.html', name: 'name', caption: 'Bamboo Structure' %}
 
 
 
@@ -50,7 +50,7 @@ Studies show construction is one of the world's least sustainable industries, ea
 >"In China, eucalyptus can grow at three to four meters a year, which is very impressive for timber. But building-quality bamboo will grow between six and 10 meters in that time,"_Terry Sunderland, scientist at the Centre for International Forestry Research in Indonesia_
 
 {% assign name = '-04' %}
-{% include partials/image.html, name: name, caption: 'Madrid Barajas Airport' %}
+{% include 'partials/image.html', name: 'name', caption: 'Madrid Barajas Airport' %}
 
 
 
@@ -65,7 +65,7 @@ Studies show remarkable differences with untreated bamboo, when harvested at spe
 Bamboo is harvested before sunrise, when most of the starch is still in the roots. To further reduce starch sometimes bamboo is also soaked for 90 days before further treatments.
 
 {% assign name = '-02' %}
-{% include partials/image.html, name: name, caption: 'Bamboo Forest in Japan' %}
+{% include 'partials/image.html', name: 'name', caption: 'Bamboo Forest in Japan' %}
 
 
 

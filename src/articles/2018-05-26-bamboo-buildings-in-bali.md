@@ -35,7 +35,7 @@ Bamboo is not seen as the poor man's timber anymore. Not far from smoggy Denpasa
 
 
 {% assign name = '-05' %}
-{% include partials/image.html, name: name, caption: 'The entrance bridge at Green Village, Bali' %}
+{% include 'partials/image.html', name: 'name', caption: 'The entrance bridge at Green Village, Bali' %}
 
 
 
@@ -44,7 +44,7 @@ Bamboo is not seen as the poor man's timber anymore. Not far from smoggy Denpasa
 Resorts, schools, villas and even a chocolate factory in the Indonesian island are putting bamboo to work. These structures show excellent examples of a sustainable way to build.
 
 {% assign name = '-02' %}
-{% include partials/image.html, name: name, caption: 'Sharma Springs at Ibuku, Bali' %}
+{% include 'partials/image.html', name: 'name', caption: 'Sharma Springs at Ibuku, Bali' %}
 
 
 
@@ -52,7 +52,7 @@ Studies show construction is one of the world's least sustainable industries. It
 
 
 {% assign name = '-02' %}
-{% include partials/image.html, name: name, caption: 'Green School Bali' %}
+{% include 'partials/image.html', name: 'name', caption: 'Green School Bali' %}
 
 
 
@@ -63,7 +63,7 @@ Around 200 farmers across the island are paid to grow bamboo on areas of their l
 >"Many people still think bamboo is cheap and only for small buildings, but we're showing it can be used to make high houses and really redefine how the material is used."_Terry Sunderland_
 
 {% assign name = '-02' %}
-{% include partials/image.html, name: name, caption: 'Bamboo interiors and floors at John Hardy Jewelry Factory, Bali' %}
+{% include 'partials/image.html', name: 'name', caption: 'Bamboo interiors and floors at John Hardy Jewelry Factory, Bali' %}
 
 
 

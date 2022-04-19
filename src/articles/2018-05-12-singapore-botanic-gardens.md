@@ -41,7 +41,7 @@ The Singapore Botanic Gardens, protected through the Planning Act of Singapore, 
 It demonstrates the evolution of a British tropical colonial botanic garden from a ‘Pleasure Garden’ in the English Landscape Style, to a colonial Economic Garden with facilities for horticultural and botanical research, to a modern and world-class botanic garden, scientific institution and place of conservation, recreation and education.
 
 {% assign name = '-02' %}
-{% include partials/image.html, name: name, caption: 'Victoria Amazonica - Giant water lilies' %}
+{% include 'partials/image.html', name: 'name', caption: 'Victoria Amazonica - Giant water lilies' %}
 
 
 
@@ -66,7 +66,7 @@ With more than 50% of its species representing plants that are rare in Singapore
 The Healing Garden showcases over 400 varieties of plants used medicinally. It' i's laid out thematically relating to component parts of the body such as head, respiratory and reproductive systems.
 
 {% assign name = '-04' %}
-{% include partials/image.html, name: name, caption: 'Artemisia, the ancient, and still the best, cure for Malaria.' %}
+{% include 'partials/image.html', name: 'name', caption: 'Artemisia, the ancient, and still the best, cure for Malaria.' %}
 
 
 
@@ -92,7 +92,7 @@ The Learning Forest features a network of boardwalks and elevated walkways that 
 
 
 {% assign name = '-03' %}
-{% include partials/image.html, name: name, caption: 'Ficus Kerkhovenii at Singapore botanic gardens' %}
+{% include 'partials/image.html', name: 'name', caption: 'Ficus Kerkhovenii at Singapore botanic gardens' %}
 
 
 
@@ -132,7 +132,7 @@ Conveniently located next to the car park at Cluny Park Gate and opposite The Ga
 It showcases a wide array of ornamental plants with colourful foliage of varying shapes and textures and demonstrates that the beauty and diversity of plants does not lie in their flowers alone.
 
 {% assign name = '' %}
-{% include partials/image.html, name: name, caption: 'Singapore botanic gardens' %}
+{% include 'partials/image.html', name: 'name', caption: 'Singapore botanic gardens' %}
 
 
 Visitors can expect to spot interesting carnivorous plants such as Nepenthes or pitcher plants.
@@ -149,7 +149,7 @@ The varying colours of the leaves in the foliage garden is one thing that will b
 
 
 {% assign name = '-08' %}
-{% include partials/image.html, name: name, caption: 'Singapore botanic gardens' %}
+{% include 'partials/image.html', name: 'name', caption: 'Singapore botanic gardens' %}
 
 
 For instance, plants bearing genetic leaf variegation, chimeras, lack chlorophyll in some tissues, causing their leaves to appear yellow or white in some areas.
@@ -167,7 +167,7 @@ The foliage garden also presents an eye-opening range of various leaf shapes and
 Leaves come in many forms such as  heart (cordate) or palm (palmate) shaped.
 
 {% assign name = '-07' %}
-{% include partials/image.html, name: name, caption: 'Singapore botanic gardens' %}
+{% include 'partials/image.html', name: 'name', caption: 'Singapore botanic gardens' %}
 
 Leathery or thin leaves are adaptive modifications to hot and humid tropical weather.  Hairy leaves, whilst often pleasant to the touch, act as a form of self defence mechanism to deter herbivores.
 
@@ -179,7 +179,7 @@ Founded in 1875, the Singapore Botanic Gardens is one of the oldest specialized 
 The Library holds over 30,000 accessioned items, a rare and irreplaceable resource that supports the work of the Gardens staff, students, and researchers across the globe in a diverse range of science and horticulture disciplines.
 
 {% assign name = '-06' %}
-{% include partials/image.html, name: name, caption: 'Singapore botanic gardens' %}
+{% include 'partials/image.html', name: 'name', caption: 'Singapore botanic gardens' %}
 
 
 The collection contains books, periodicals, field books, botanical artwork, historical maps of the Gardens and various other print and digital media.
@@ -251,7 +251,7 @@ Open from 8.30am to 7.00pm daily, it's the only section with an Admission Fee: 5
 Near the bamboo area you will find the reflexology path, a joint community service project by the [Rotary Club of Changi](http://www.rotarychangi.com/), the [Rotary Club of Singapore](http://rotarysingaporefoundation.org/) East, Rotary Club of Kaohsiung East and the Rotary Club of Sanchung East.
 
 {% assign name = '-05' %}
-{% include partials/image.html, name: name, caption: 'Singapore botanic gardens' %}
+{% include 'partials/image.html', name: 'name', caption: 'Singapore botanic gardens' %}
 
 **_Visitor informations:_**
 
